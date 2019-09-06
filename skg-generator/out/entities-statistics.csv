@@ -1,0 +1,356 @@
+,entity,sw-count,cs-count,gd-count,sw&cs,sw&gd
+0,web 3.0,301,1,1,301.0,301.0
+1,disambiguating,26,5,0,5.2,41.0
+2,wiki content,22,0,0,32.0,37.0
+3,minor-fareast,8,6,6,1.3333333333333333,1.3333333333333333
+4,exploratory and descriptive approach,1,0,0,11.0,16.0
+5,lod ontologies,4,0,0,14.0,19.0
+6,multilingual web portal,1,0,0,11.0,16.0
+7,human queries,1,0,0,11.0,16.0
+8,qualitative movement,1,0,0,11.0,16.0
+9,a*star event campaign management,2,0,0,12.0,17.0
+10,management environments,5,0,0,15.0,20.0
+11,information enrichment process,1,0,0,11.0,16.0
+12,web-service,105,5,0,21.0,120.0
+13,plant biology domain,1,0,0,11.0,16.0
+14,semantic web-based instruction,1,0,0,11.0,16.0
+15,html-based web,2,0,0,12.0,17.0
+16,cl,23882,33576,38723,0.711281868000953,0.6167394055212664
+17,ad-hoc information retrieval,1,0,0,11.0,16.0
+18,course development,3,5,0,0.6,18.0
+19,interactive mapping of competencies,3,0,0,13.0,18.0
+20,dbpedia entities,2,1,0,2.0,17.0
+21,metadata.an enterprise metadata description model,1,0,0,11.0,16.0
+22,background information,28,14,12,2.0,2.3333333333333335
+23,graph-based centrality algorithm,1,0,0,11.0,16.0
+24,server,846,2714,192,0.31171702284450997,4.40625
+25,formal framework,35,14,2,2.5,17.5
+26,user world,1,0,0,11.0,16.0
+27,matching process,157,15,3,10.466666666666667,52.333333333333336
+28,epub publication,1,0,0,11.0,16.0
+29,e-health knowledge-base,1,0,0,11.0,16.0
+30,semantically annotated data,26,0,0,36.0,41.0
+31,unified architecture,7,3,0,2.3333333333333335,22.0
+32,semantic web approaches,52,0,0,62.0,67.0
+33,management studies,3,1,0,3.0,18.0
+34,un,42276,44741,59099,0.9449051205829105,0.7153420531650282
+35,semantic enrichment of data,2,0,0,12.0,17.0
+36,development of boundary objects,1,0,0,11.0,16.0
+37,biosecurity portal,1,0,0,11.0,16.0
+38,guided and non-guided semantic web-based learning environments,1,0,0,11.0,16.0
+39,ner tools,3,1,0,3.0,18.0
+40,questionnaire based qualitative methodology,1,0,0,11.0,16.0
+41,fddl,4,0,0,14.0,19.0
+42,news sources,3,2,4,1.5,0.75
+43,gis interoperability,3,0,0,13.0,18.0
+44,tool beliefowl,1,0,0,11.0,16.0
+45,approach,16237,7544,2707,2.152306468716861,5.99815293683044
+46,prr,2,5,37,0.4,0.05405405405405406
+47,locating desired content,1,0,0,11.0,16.0
+48,ner,14009,14250,14234,0.9830877192982456,0.9841927778558381
+49,similarity matrix,28,6,3,4.666666666666667,9.333333333333334
+50,internet search engines,12,1,0,12.0,27.0
+51,heterogeneous schema,13,0,0,23.0,28.0
+52,stored pipeline,1,0,0,11.0,16.0
+53,semantic open data,2,0,0,12.0,17.0
+54,structural and logical matching of ontologies,1,0,0,11.0,16.0
+55,semantic-web approaches,1,0,0,11.0,16.0
+56,loopy belief propagation ( lbp ) algorithm,1,0,0,11.0,16.0
+57,management staff function,2,0,0,12.0,17.0
+58,graph summarization,4,2,0,2.0,19.0
+59,gerber evaluation method,1,0,0,11.0,16.0
+60,domain-specific ontologies,36,1,0,36.0,51.0
+61,network-centric environment,1,0,0,11.0,16.0
+62,inference procedures,14,0,3,24.0,4.666666666666667
+63,lompt system,1,0,0,11.0,16.0
+64,probabilistic soft logic,2,0,0,12.0,17.0
+65,solution,4247,3742,2957,1.1349545697487975,1.4362529590801487
+66,epub generators,1,0,0,11.0,16.0
+67,kaon2,12,0,0,22.0,27.0
+68,user-generated tags,4,0,0,14.0,19.0
+69,public relations,2,7,25,0.2857142857142857,0.08
+70,multilingual aspects,6,0,0,16.0,21.0
+71,classification features,7,2,0,3.5,22.0
+72,specialisation,10,3,4,3.3333333333333335,2.5
+73,scientific and commercial drivers,1,0,0,11.0,16.0
+74,web function,10,0,0,20.0,25.0
+75,rdf-to-epub generator,1,0,0,11.0,16.0
+76,sub-levels,1,0,0,11.0,16.0
+77,graph summarization heuristics,1,0,0,11.0,16.0
+78,ontology creation assistance,1,0,0,11.0,16.0
+79,structure matching,7,0,0,17.0,22.0
+80,co-evolution,9,17,4,0.5294117647058824,2.25
+81,opensearch,5,0,0,15.0,20.0
+82,clique potentials,1,3,0,0.3333333333333333,16.0
+83,epub ebooks,1,0,0,11.0,16.0
+84,ict solution,7,2,2,3.5,3.5
+85,entity name server,1,0,0,11.0,16.0
+86,intelligent campaign management system,2,0,0,12.0,17.0
+87,geography information,11,0,0,21.0,26.0
+88,rule-based programming,10,0,0,20.0,25.0
+89,similarity-based matching methods,1,0,0,11.0,16.0
+90,mediator-based matching methods,1,0,0,11.0,16.0
+91,epub ebook,5,0,0,15.0,20.0
+92,annotation graphs,2,0,0,12.0,17.0
+93,boundary objects,9,0,2,19.0,4.5
+94,inferential pipelines,1,0,0,11.0,16.0
+95,post-test scores,2,2,0,1.0,17.0
+96,semantic service applying system,1,0,0,11.0,16.0
+97,learning personalization,3,0,0,13.0,18.0
+98,automated search engines,1,0,0,11.0,16.0
+99,linked data resources,56,0,0,66.0,71.0
+100,context dependency operators,1,0,0,11.0,16.0
+101,pre-aacr2 and marc era,1,0,0,11.0,16.0
+102,aos,69,86,80,0.8023255813953488,0.8625
+103,ontology matching architecture,2,0,0,12.0,17.0
+104,` component,2,0,0,12.0,17.0
+105,web 3.0 technologies,14,0,0,24.0,29.0
+106,semantic service-oriented approach,3,0,0,13.0,18.0
+107,web 2.0,754,30,7,25.133333333333333,107.71428571428571
+108,mso-pagination,8,13,13,0.6153846153846154,0.6153846153846154
+109,extension,1631,716,426,2.2779329608938546,3.828638497652582
+110,use-case,100,16,0,6.25,115.0
+111,context dependencies,4,1,0,4.0,19.0
+112,named entities,131,16,0,8.1875,146.0
+113,sparse vector learning algorithm,2,0,0,12.0,17.0
+114,xml converter,1,0,0,11.0,16.0
+115,hybrid solutions,1,0,0,11.0,16.0
+116,epub specification,1,0,0,11.0,16.0
+117,abstract ontology matching,2,0,0,12.0,17.0
+118,markov network,6,1,2,6.0,3.0
+119,wiki contents,6,0,0,16.0,21.0
+120,gis semantic interoperability,2,0,0,12.0,17.0
+121,subject directories,1,0,0,11.0,16.0
+122,deep mining functions,2,0,0,12.0,17.0
+123,belief masses,1,0,0,11.0,16.0
+124,campaign management system,4,0,0,14.0,19.0
+125,automatic text classification,2,0,0,12.0,17.0
+126,ontology matching techniques,69,0,0,79.0,84.0
+127,constrains,23,17,13,1.3529411764705883,1.7692307692307692
+128,articulation,23,24,35,0.9583333333333334,0.6571428571428571
+129,organizing and searching information,1,0,0,11.0,16.0
+130,they,4184,2870,2955,1.4578397212543555,1.4159052453468697
+131,no guidance,2,0,0,12.0,17.0
+132,knowledge boundary problem,1,0,0,11.0,16.0
+133,web and object technology,1,0,0,11.0,16.0
+134,structured collection of information,1,0,0,11.0,16.0
+135,quonto,3,0,0,13.0,18.0
+136,semantic level,229,11,0,20.818181818181817,244.0
+137,knowledge soup problem,1,0,0,11.0,16.0
+138,ontology matching process,27,0,0,37.0,42.0
+139,university application,1,0,0,11.0,16.0
+140,external web ontologies,1,0,0,11.0,16.0
+141,tech-literate set,1,0,0,11.0,16.0
+142,interorganisational competency ontology engineering,1,0,0,11.0,16.0
+143,consuming time,2,1,0,2.0,17.0
+144,dmn,1,4,22,0.25,0.045454545454545456
+145,converging and diverging interrelationships,1,0,0,11.0,16.0
+146,monolithic nature,4,0,0,14.0,19.0
+147,news articles,34,12,1,2.8333333333333335,34.0
+148,algorithm implementation,6,6,2,1.0,3.0
+149,tag recommendation algorithm,1,0,0,11.0,16.0
+150,digital age,26,6,7,4.333333333333333,3.7142857142857144
+151,dynamic wealth of knowledge,1,0,0,11.0,16.0
+152,domain experts,307,26,2,11.807692307692308,153.5
+153,atomic entities,3,0,0,13.0,18.0
+154,digital content repository,1,0,0,11.0,16.0
+155,modeling uncertainty,11,1,1,11.0,11.0
+156,compiler program,2,0,0,12.0,17.0
+157,name entity recognition,2,0,0,12.0,17.0
+158,semantic web expert system shell,1,0,0,11.0,16.0
+159,personal health records,8,1,0,8.0,23.0
+160,resource uris,4,0,0,14.0,19.0
+161,agreementmaker ontology matching system,3,0,0,13.0,18.0
+162,light weight string matcher si-sub,1,0,0,11.0,16.0
+163,schemata,65,16,1,4.0625,65.0
+164,publication requirements,1,0,0,11.0,16.0
+165,intelligent machine communication,1,0,0,11.0,16.0
+166,content publication,1,0,0,11.0,16.0
+167,uncertainty inference,2,0,0,12.0,17.0
+168,data elements,114,78,0,1.4615384615384615,129.0
+169,well-defined meaning,87,0,0,97.0,102.0
+170,ontomatch,2,0,0,12.0,17.0
+171,library metadata,29,0,0,39.0,44.0
+172,picard-opial process,1,0,0,11.0,16.0
+173,geography information ontology,1,0,0,11.0,16.0
+174,multi-actor environment,1,0,0,11.0,16.0
+175,industry problems,3,0,0,13.0,18.0
+176,evidential approach,3,0,0,13.0,18.0
+177,partition pairs,6,0,0,16.0,21.0
+178,dempster-shafer theory of uncertainty,1,0,0,11.0,16.0
+179,knowletracker,6,0,0,16.0,21.0
+180,architectural solutions,2,2,0,1.0,17.0
+181,this,41558,29237,21803,1.4214180661490576,1.9060679722973903
+182,service interaction problems,1,0,0,11.0,16.0
+183,logic programming rule engines,2,0,0,12.0,17.0
+184,simdag,1,0,0,11.0,16.0
+185,ontology-based semantic services,3,0,0,13.0,18.0
+186,semiautomatic extension,1,0,0,11.0,16.0
+187,remote courses,9,0,0,19.0,24.0
+188,epub ebook composer,1,0,0,11.0,16.0
+189,complex context dependencies,1,0,0,11.0,16.0
+190,widow-orphan,8,13,13,0.6153846153846154,0.6153846153846154
+191,concept similarity measures,9,0,0,19.0,24.0
+192,mso-style-name,8,13,13,0.6153846153846154,0.6153846153846154
+193,rest architecture,4,0,0,14.0,19.0
+194,reading,253,968,350,0.26136363636363635,0.7228571428571429
+195,context-driven ontology engineering processes,1,0,0,11.0,16.0
+196,media information retrieval,13,5,0,2.6,28.0
+197,structure stability constraint rules,1,0,0,11.0,16.0
+198,dlp,53,10,14,5.3,3.7857142857142856
+199,domain of discourse,20,1,0,20.0,35.0
+200,graph of linked data entities,1,0,0,11.0,16.0
+201,weighting significant ontological entities,1,0,0,11.0,16.0
+202,entity relationships,6,0,0,16.0,21.0
+203,nerso,3,0,0,13.0,18.0
+204,semantic service pipeline provider,1,0,0,11.0,16.0
+205,subclass mappings,4,0,0,14.0,19.0
+206,dbpedia endpoint,2,0,0,12.0,17.0
+207,phr,217,372,560,0.5833333333333334,0.3875
+208,directed graph theory,1,0,0,11.0,16.0
+209,cel,658,3820,11853,0.17225130890052356,0.05551337214207374
+210,accelerated first-order technology,1,0,0,11.0,16.0
+211,publicity tracking,2,0,0,12.0,17.0
+212,collaborative communities,4,0,0,14.0,19.0
+213,heuristic toolset,1,0,0,11.0,16.0
+214,kmp,12,0,1,22.0,12.0
+215,rule standards,3,0,0,13.0,18.0
+216,semantic service pipeline,11,0,0,21.0,26.0
+217,plant science,13,0,1,23.0,13.0
+218,semantic service server,1,0,0,11.0,16.0
+219,problem statement,14,10,1,1.4,14.0
+220,increment of users interaction,1,0,0,11.0,16.0
+221,abstract concepts,20,5,1,4.0,20.0
+222,theoretical and actionable knowledge,1,0,0,11.0,16.0
+223,global database,12,3,0,4.0,27.0
+224,ontology engineering methodology,36,0,0,46.0,51.0
+225,design research methodologies,1,0,0,11.0,16.0
+226,disjoint coherence constraint rule,1,0,0,11.0,16.0
+227,semantic technology stack,6,0,0,16.0,21.0
+228,record keeping,2,2,4,1.0,0.5
+229,design framework,23,10,1,2.3,23.0
+230,semantic web-based learning environment,6,0,0,16.0,21.0
+231,searching technique,14,15,1,0.9333333333333333,14.0
+232,reference tool,2,3,1,0.6666666666666666,2.0
+233,structure-based bottom up partitioning algorithm,1,0,0,11.0,16.0
+234,graph summaries,2,0,0,12.0,17.0
+235,page object model,1,0,0,11.0,16.0
+236,semantic web studies,2,0,0,12.0,17.0
+237,f-measure,113,14,0,8.071428571428571,128.0
+238,sensor fusion algorithms,1,0,0,11.0,16.0
+239,key notions,2,1,1,2.0,2.0
+240,generative dance,1,0,0,11.0,16.0
+241,kmp experimentation,2,0,0,12.0,17.0
+242,news item,17,9,0,1.8888888888888888,32.0
+243,large-scale ontology matching,3,0,0,13.0,18.0
+244,qualitative analysis approach,1,0,0,11.0,16.0
+245,compound concept names,1,0,0,11.0,16.0
+246,semantic web systems,40,1,0,40.0,55.0
+247,shared meaning,16,0,0,26.0,31.0
+248,e- learning system,6,0,0,16.0,21.0
+249,semantic web reasoners,20,0,0,30.0,35.0
+250,them,4722,3071,2097,1.5376098990556821,2.251788268955651
+251,similarity-based and mediator-based ontology matching methods,1,0,0,11.0,16.0
+252,lompt,3,0,0,13.0,18.0
+253,rules of inferences,1,0,0,11.0,16.0
+254,ontological elements,6,0,0,16.0,21.0
+255,semantic web constraint language,7,0,0,17.0,22.0
+256,business rules engines/business rules management systems,1,0,0,11.0,16.0
+257,linguistic grounding,1,0,0,11.0,16.0
+258,p artitioning t echnique,1,0,0,11.0,16.0
+259,dynamic description logic ddl,7,0,0,17.0,22.0
+260,scalable ontology engineering,3,0,0,13.0,18.0
+261,structural translation rules,4,0,0,14.0,19.0
+262,web content rendering issues,1,0,0,11.0,16.0
+263,retention,15,87,223,0.1724137931034483,0.06726457399103139
+264,recall rate,57,9,0,6.333333333333333,72.0
+265,real-world data,89,45,2,1.9777777777777779,44.5
+266,meaning of information,28,2,0,14.0,43.0
+267,epub ebook reader,1,0,0,11.0,16.0
+268,swexsys,1,0,0,11.0,16.0
+269,directed label graph,2,0,0,12.0,17.0
+270,probabilistic theory,2,0,0,12.0,17.0
+271,matching rules,9,1,0,9.0,24.0
+272,mspass,1,0,0,11.0,16.0
+273,web mining tools,1,0,0,11.0,16.0
+274,anchor distribution,2,0,0,12.0,17.0
+275,similarity propagation rule,1,0,0,11.0,16.0
+276,polysemic lexical annotations of ontology concepts,1,0,0,11.0,16.0
+277,anchor,91,81,156,1.123456790123457,0.5833333333333334
+278,linked data initiative,52,0,0,62.0,67.0
+279,design architecture,9,4,1,2.25,9.0
+280,syntactic level,40,0,0,50.0,55.0
+281,self-descriptive thorough semantic technology,1,0,0,11.0,16.0
+282,compound ontology matching architecture,1,0,0,11.0,16.0
+283,development framework,40,9,0,4.444444444444445,55.0
+284,real-world scenario,32,8,0,4.0,47.0
+285,automated chinese ontology learning technology,1,0,0,11.0,16.0
+286,real world domain ontologies,1,0,0,11.0,16.0
+287,alpes-maritimes,3,0,0,13.0,18.0
+288,reasoning models,4,1,0,4.0,19.0
+289,linked data entities,6,0,0,16.0,21.0
+290,transformation rules,51,12,0,4.25,66.0
+291,linguistic matcher v-doc,1,0,0,11.0,16.0
+292,rule-based event processing languages,2,0,0,12.0,17.0
+293,wiki and rdf ) rendering,1,0,0,11.0,16.0
+294,dogma framework,2,0,0,12.0,17.0
+295,ansa news archive,2,0,0,12.0,17.0
+296,retention test scores,1,0,0,11.0,16.0
+297,e-learning objectives,4,0,0,14.0,19.0
+298,accelerated first-order tricks,1,0,0,11.0,16.0
+299,linked open data ( lod ) paradigm,5,0,0,15.0,20.0
+300,bibliographical technical procedures,1,0,0,11.0,16.0
+301,dialectical method,1,0,0,11.0,16.0
+302,shopping agent,13,0,0,23.0,28.0
+303,internet shopper 's decision making problem,2,0,0,12.0,17.0
+304,campaign management,8,0,0,18.0,23.0
+305,regen,22,68,251,0.3235294117647059,0.08764940239043825
+306,actionable and theoretical knowledge,1,0,0,11.0,16.0
+307,collaborative authoring platform,1,0,0,11.0,16.0
+308,modules,417,558,159,0.7473118279569892,2.6226415094339623
+309,psl,26,14,34,1.8571428571428572,0.7647058823529411
+310,high quality,190,124,63,1.532258064516129,3.015873015873016
+311,epub generator,4,0,0,14.0,19.0
+312,computational science,4,10,1,0.4,4.0
+313,wiki-to-epub generator,1,0,0,11.0,16.0
+314,real-world objects,13,1,0,13.0,28.0
+315,agreementmaker,37,0,0,47.0,52.0
+316,hermit,14,10,33,1.4,0.42424242424242425
+317,tangible knowledge,1,0,0,11.0,16.0
+318,semi-automatically supported ontology evolvement,1,0,0,11.0,16.0
+319,e-health applications,8,0,0,18.0,23.0
+320,web demo,5,0,0,15.0,20.0
+321,rule technologies,2,0,0,12.0,17.0
+322,semantic web society,4,0,0,14.0,19.0
+323,disambiguation method,14,0,0,24.0,29.0
+324,layers,418,502,655,0.8326693227091634,0.6381679389312978
+325,revision dependencies,1,0,0,11.0,16.0
+326,extendable layered ontology modelling approach,1,0,0,11.0,16.0
+327,ontology mapping problem,28,0,0,38.0,43.0
+328,ontology similarity measure,27,0,0,37.0,42.0
+329,multilingual domain ontology,1,0,0,11.0,16.0
+330,machine learning framework,2,4,0,0.5,17.0
+331,semantic service pipelines,3,0,0,13.0,18.0
+332,linked data approach,77,0,0,87.0,92.0
+333,directed evidential network,1,0,0,11.0,16.0
+334,imatch ontology matching system,1,0,0,11.0,16.0
+335,mathematical foundation,10,5,0,2.0,25.0
+336,context dependency management processes,1,0,0,11.0,16.0
+337,backing technologies,1,0,0,11.0,16.0
+338,ontology matching algorithm,35,0,0,45.0,50.0
+339,knowledge base models,1,0,0,11.0,16.0
+340,collective information,2,2,0,1.0,17.0
+341,clique rules,1,0,0,11.0,16.0
+342,large ontology,33,1,0,33.0,48.0
+343,library metadata schemas,1,0,0,11.0,16.0
+344,rule-based systems,29,3,0,9.666666666666666,44.0
+345,mso-hansi-font-family,8,9,9,0.8888888888888888,0.8888888888888888
+346,semantic service pipeline manager,1,0,0,11.0,16.0
+347,rdf-based web,3,0,0,13.0,18.0
+348,sensor fusion tasks,1,0,0,11.0,16.0
+349,ict tools building,1,0,0,11.0,16.0
+350,lod approach,2,0,0,12.0,17.0
+351,production rules systems,2,0,0,12.0,17.0
+352,mobile and ubiquitous web,2,0,0,12.0,17.0
+353,prox- imity operator computation,1,0,0,11.0,16.0
+354,fuzzy dynamic description logic fddl,1,0,0,11.0,16.0
