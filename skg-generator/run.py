@@ -229,33 +229,6 @@ class GraphBuilder:
 
 		return triples
 
-
-
-	def build2(self):
-		idGenerator = 1
-
-		for paper_number in range(len(self.entitiesCleaned)):
-			for sentence_number in range(len(self.entitiesCleaned[paper_number])):
-
-				entities = self.entitiesCleaned[paper_number][sentence_number]
-				relations = self.relationsCleaned[paper_number][sentence_number]
-
-				for e in entities:
-					self.g.add_node(idGenerator, label=e)
-					self.node2label[idGenerator] = e
-					self.label2node[e] = idGenerator
-					idGenerator += 1
-
-		#DANILO: DA QUI solo dopo aver definito l'approccio della valutazione delle triple
-
-
-
-		rel2bestLabel, rel2weight, rel2source = self.makeRelations()
-		for r in rel2bestLabel:
-			idA = self.label2node[r[0]]
-			idB = self.label2node[r[1]]
-			self.g.add_edge(idB, idA, label=' - '.join(rel2bestLabel[r]), weight=rel2weight[r], source=rel2source[r])
-
 		
 	def removeNoConnectedNodes(self):
 		isolated_nodes = [n for n,d in self.g.degree() if d == 0]
@@ -301,6 +274,30 @@ class GraphBuilder:
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
 
 
+	def build_g(self, selected_triples):
+
+		id_gen = 0
+		entity2id = {}
+		id2entity = {}
+		#a single id to each entity
+		for (s,p,o, source, support) in selected_triples:
+			if s not in entity2id:
+				entity2id[s] = id_gen
+				id2entity[id_gen] = s
+				self.g.add_node(id_gen, label=s)
+				id_gen += 1
+			if o not in entity2id:
+				entity2id[o] = id_gen
+				id2entity[id_gen] = o
+				self.g.add_node(id_gen, label=o)
+				id_gen += 1
+
+		#graph generation
+		for (s,p,o, source, support) in selected_triples:
+			idS = entity2id[s]
+			idO = entity2id[o]
+			self.g.add_edge(idS, idO, label=p, support=support, source=source)
+
 		
 	def pipeline(self):
 
@@ -332,6 +329,7 @@ class GraphBuilder:
 		print('Number of triples:', len(triples))
 
 		print('# TRIPLES MAPPING')
+		print(str(datetime.datetime.now()))
 		m = Mapper(triples)
 		m.run()
 		triples = m.get_triples()
@@ -345,6 +343,7 @@ class GraphBuilder:
 
 
 		print('# TRIPLES SELECTION')
+		print(str(datetime.datetime.now()))
 		s = Selector(triples)
 		s.run()
 		selected_triples = s.get_selected_triples()
@@ -355,6 +354,13 @@ class GraphBuilder:
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
 		df.to_csv('out/selected_triples.csv')
+
+
+		print('GRAPH BUILDING')
+		print(str(datetime.datetime.now()))
+		self.build_g(selected_triples)
+		print('Saved Knowledge Graph with nodes:', len(self.g.nodes()), 'and edges:', len(self.g.edges()))
+		nx.write_graphml(self.g, 'kg.graphml')
 
 		
 

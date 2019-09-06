@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="source" attr.type="string" for="edge" id="d3" />
+  <key attr.name="support" attr.type="long" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="edge" id="d1" />
+  <key attr.name="label" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="0">
+      <data key="d0">semantic web reasoner</data>
+    </node>
+    <node id="1">
+      <data key="d0">semantic web technologies</data>
+    </node>
+    <node id="2">
+      <data key="d0">mediator - based matching method</data>
+    </node>
+    <node id="3">
+      <data key="d0">subclass mapping</data>
+    </node>
+    <node id="4">
+      <data key="d0">semantic web mining</data>
+    </node>
+    <node id="5">
+      <data key="d0">web-mining</data>
+    </node>
+    <node id="6">
+      <data key="d0">language</data>
+    </node>
+    <node id="7">
+      <data key="d0">paradigm</data>
+    </node>
+    <node id="8">
+      <data key="d0">constraint</data>
+    </node>
+    <node id="9">
+      <data key="d0">ontology-based</data>
+    </node>
+    <node id="10">
+      <data key="d0">e - learning</data>
+    </node>
+    <node id="11">
+      <data key="d0">application</data>
+    </node>
+    <node id="12">
+      <data key="d0">xform</data>
+    </node>
+    <node id="13">
+      <data key="d0">service interaction problem</data>
+    </node>
+    <node id="14">
+      <data key="d0">it</data>
+    </node>
+    <node id="15">
+      <data key="d0">semantic tag</data>
+    </node>
+    <node id="16">
+      <data key="d0">ontology creation assistance</data>
+    </node>
+    <node id="17">
+      <data key="d0">wiki</data>
+    </node>
+    <node id="18">
+      <data key="d0">content publication</data>
+    </node>
+    <node id="19">
+      <data key="d0">geography information</data>
+    </node>
+    <node id="20">
+      <data key="d0">semantic web constraint language</data>
+    </node>
+    <node id="21">
+      <data key="d0">internet shopper 's decision making problem</data>
+    </node>
+    <node id="22">
+      <data key="d0">domain-specific ontologies</data>
+    </node>
+    <node id="23">
+      <data key="d0">agreementmaker</data>
+    </node>
+    <node id="24">
+      <data key="d0">precision</data>
+    </node>
+    <node id="25">
+      <data key="d0">gis semantic interoperability</data>
+    </node>
+    <node id="26">
+      <data key="d0">ontology matching technique</data>
+    </node>
+    <node id="27">
+      <data key="d0">linked data</data>
+    </node>
+    <node id="28">
+      <data key="d0">data resource</data>
+    </node>
+    <node id="29">
+      <data key="d0">lompt</data>
+    </node>
+    <node id="30">
+      <data key="d0">structure - based bottom up partitioning algorithm</data>
+    </node>
+    <node id="31">
+      <data key="d0">data</data>
+    </node>
+    <node id="32">
+      <data key="d0">ontology engineering methodology</data>
+    </node>
+    <node id="33">
+      <data key="d0">domain expert</data>
+    </node>
+    <node id="34">
+      <data key="d0">domain of discourse</data>
+    </node>
+    <node id="35">
+      <data key="d0">recall</data>
+    </node>
+    <node id="36">
+      <data key="d0">owl ontology</data>
+    </node>
+    <node id="37">
+      <data key="d0">epub ebook</data>
+    </node>
+    <node id="38">
+      <data key="d0">interoperability</data>
+    </node>
+    <node id="39">
+      <data key="d0">web ontology language</data>
+    </node>
+    <node id="40">
+      <data key="d0">well - defined meaning</data>
+    </node>
+    <node id="41">
+      <data key="d0">ontological feature</data>
+    </node>
+    <node id="42">
+      <data key="d0">similarity - based matching method</data>
+    </node>
+    <node id="43">
+      <data key="d0">statistical metric</data>
+    </node>
+    <node id="44">
+      <data key="d0">clique rule</data>
+    </node>
+    <node id="45">
+      <data key="d0">wiki content</data>
+    </node>
+    <node id="46">
+      <data key="d0">reusability</data>
+    </node>
+    <node id="47">
+      <data key="d0">inference mechanism</data>
+    </node>
+    <node id="48">
+      <data key="d0">swcl</data>
+    </node>
+    <node id="49">
+      <data key="d0">distributed information</data>
+    </node>
+    <node id="50">
+      <data key="d0">semantic web environment</data>
+    </node>
+    <node id="51">
+      <data key="d0">dbpedia endpoint</data>
+    </node>
+    <node id="52">
+      <data key="d0">collaborative authoring platform</data>
+    </node>
+    <node id="53">
+      <data key="d0">world wide web</data>
+    </node>
+    <node id="54">
+      <data key="d0">lod approach</data>
+    </node>
+    <node id="55">
+      <data key="d0">data integration</data>
+    </node>
+    <node id="56">
+      <data key="d0">reasoning algorithms</data>
+    </node>
+    <node id="57">
+      <data key="d0">logic</data>
+    </node>
+    <node id="58">
+      <data key="d0">semiautomatic extension</data>
+    </node>
+    <node id="59">
+      <data key="d0">heuristic toolset</data>
+    </node>
+    <node id="60">
+      <data key="d0">semantic</data>
+    </node>
+    <node id="61">
+      <data key="d0">internet of thing</data>
+    </node>
+    <edge source="0" target="1">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="19">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="22">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="25">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="7">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="31">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="40">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="47">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="49">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="55">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="14">
+      <data key="d1">is</data>
+      <data key="d2">12</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="1" target="61">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="2" target="3">
+      <data key="d1">selects</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="d1">combines</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="4" target="1">
+      <data key="d1">combines</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="6" target="1">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="6" target="9">
+      <data key="d1">represents</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="7" target="1">
+      <data key="d1">combines</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="8" target="9">
+      <data key="d1">represents</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="9" target="34">
+      <data key="d1">represents</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="10" target="11">
+      <data key="d1">represents</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="12" target="13">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="14" target="15">
+      <data key="d1">recommends</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="14" target="36">
+      <data key="d1">converts</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="14" target="41">
+      <data key="d1">uses</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="14" target="43">
+      <data key="d1">uses</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="16" target="1">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="17" target="18">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="17" target="52">
+      <data key="d1">is</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="20" target="21">
+      <data key="d1">represents</data>
+      <data key="d2">10</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="20" target="48">
+      <data key="d1">represents</data>
+      <data key="d2">4</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="23" target="24">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="23" target="35">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="26" target="24">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="26" target="35">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="27" target="28">
+      <data key="d1">is</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="27" target="53">
+      <data key="d1">produces</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="d1">represents</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="32" target="33">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="37" target="38">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="37" target="46">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="39" target="21">
+      <data key="d1">represents</data>
+      <data key="d2">8</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="39" target="48">
+      <data key="d1">represents</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="42" target="3">
+      <data key="d1">selects</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="44" target="24">
+      <data key="d1">improves</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="45" target="46">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="45" target="38">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="48" target="21">
+      <data key="d1">represents</data>
+      <data key="d2">16</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="50" target="34">
+      <data key="d1">represents</data>
+      <data key="d2">2</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="51" target="38">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="51" target="46">
+      <data key="d1">proposes</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="54" target="35">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="54" target="24">
+      <data key="d1">provides</data>
+      <data key="d2">1</data>
+      <data key="d3">heuristic</data>
+    </edge>
+    <edge source="56" target="57">
+      <data key="d1">supports</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="58" target="59">
+      <data key="d1">uses</data>
+      <data key="d2">1</data>
+      <data key="d3">openie</data>
+    </edge>
+    <edge source="60" target="25">
+      <data key="d1">is</data>
+      <data key="d2">3</data>
+      <data key="d3">heuristic</data>
+    </edge>
+  </graph>
+</graphml>
