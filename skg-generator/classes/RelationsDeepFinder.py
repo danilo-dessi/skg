@@ -32,7 +32,9 @@ class RelationsDeepFinder:
 		self.corenlp = StanfordCoreNLP(self.stanford_path, memory='4g')
 		print(str(datetime.datetime.now()) + ' Stanford Core NLP connection up')
 
-		
+	def restart_corenlp(self):
+		self.corenlp.close()
+		self.corenlp = StanfordCoreNLP(self.stanford_path, memory='8g')
 
 		
 	def findSubList(self, sl,l):
