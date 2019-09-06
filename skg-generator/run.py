@@ -21,9 +21,8 @@ import collections
 
 class GraphBuilder:
 
-	def __init__(self, inputFile, outputFile):
+	def __init__(self, inputFile):
 		self.inputFile = inputFile
-		self.outputFile = outputFile
 		self.inputDataFrame = None
 		self.inputEntities = None
 		self.inputRelations = None
@@ -156,9 +155,8 @@ class GraphBuilder:
 
 
 	def make_triples(self):
-		model = KeyedVectors.load_word2vec_format('../resources/9M[100-5].bin', binary=True)
+		model = KeyedVectors.load_word2vec_format('resources/9M[100-5].bin', binary=True)
 		so2verbs = {}
-		so2other = {}
 		so2openie_verbs = {}
 
 		so2luanyi = {}
@@ -174,7 +172,7 @@ class GraphBuilder:
 			for sentence_number in range(len(self.relationsCleaned[paper_number])):
 				relations = self.relationsCleaned[paper_number][sentence_number]
 
-				for (s,p,o, sDep, oDep, sc) in relations:
+				for (s,p,o) in relations:
 					if p.startswith('v-'):
 						if (s,o) not in so2openie_verbs:
 							so2openie_verbs[(s,o)] = []
@@ -198,13 +196,11 @@ class GraphBuilder:
 					else:
 						if (s,o) not in so2verbs:
 							so2verbs[(s,o)] = []
-							so2other[(s,o)] = []
 
 						if (s,p,o) not in spo2sentences:
 							spo2sentences[(s,p,o)] = []
 
 						so2verbs[(s,o)] += [p]
-						so2other[(s,o)] += [(sDep, oDep, sc)] 
 						spo2sentences[(s,p,o)] += [self.inputTexts[paper_number][sentence_number]]
 
 		for (s,o) in so2verbs:
@@ -331,8 +327,6 @@ class GraphBuilder:
 		self.cleanEntities()
 		print()
 
-		
-
 		print('# TRIPLES GENERATION')
 		triples = self.make_triples()
 		print('Number of triples:', len(triples))
@@ -347,7 +341,7 @@ class GraphBuilder:
 		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in triples]
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
-		df.to_csv('../out/all_triples.csv')
+		df.to_csv('out/all_triples.csv')
 
 
 		print('# TRIPLES SELECTION')
@@ -360,13 +354,13 @@ class GraphBuilder:
 		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in selected_triples]
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
-		df.to_csv('../out/selected_triples.csv')
+		df.to_csv('out/selected_triples.csv')
 
 		
 
 
 if __name__ == '__main__':
-	builder = GraphBuilder(sys.argv[1], sys.argv[2])
+	builder = GraphBuilder('csv_e_r_full.csv')
 	builder.pipeline()
 
 

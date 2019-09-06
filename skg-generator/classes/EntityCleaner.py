@@ -44,10 +44,6 @@ class EntityCleaner:
 			relationLabel = r[1]
 			B = r[2]
 
-			Adep = r[3]
-			Bdep = r[4]
-			sc = r[5]
-
 			newA = None
 			newB = None
 			if A in entitiesMap: 
@@ -57,10 +53,10 @@ class EntityCleaner:
 				newB = entitiesMap[B]
 
 			if newA is not None and newB is not None:
-				relations += [(newA, relationLabel, newB, Adep, Bdep, sc)]
+				relations += [(newA, relationLabel, newB)]
 
 				if r in self.rel2sent:
-					self.rel2sent[(newA, relationLabel, newB, Adep, Bdep, sc)] = self.rel2sent[r]
+					self.rel2sent[(newA, relationLabel, newB)] = self.rel2sent[r]
 					
 		return relations
 

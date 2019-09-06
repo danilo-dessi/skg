@@ -8,7 +8,7 @@ class Mapper:
 		self.hold_relations = ['used-for', 'hyponym-of', 'part-of', 'feature-of', 'conjuction', 'RELATE', 'evaluate-for']
 
 	def verb_mapper(self):
-		verb_taxonomy = pd.read_csv('../resources/SKG_predicates.csv', sep=';')
+		verb_taxonomy = pd.read_csv('resources/SKG_predicates.csv', sep=';')
 		#print(verb_taxonomy.head(5))
 		vMap = {}
 		vCount = {}
@@ -43,7 +43,7 @@ class Mapper:
 		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in lost_triples]
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
-		df.to_csv('../out/lost_triples.csv')
+		df.to_csv('out/lost_triples.csv')
 
 		# used-for management
 		triples_tmp = []
@@ -78,7 +78,7 @@ class Mapper:
 
 	def load_cso_triples(self):
 		triples = []
-		with open('../resources/CSO.3.1.csv', 'r', encoding="utf-8") as f:
+		with open('resources/CSO.3.1.csv', 'r', encoding="utf-8") as f:
 			lines = f.readlines()
 			for line in lines:
 
@@ -245,7 +245,7 @@ class Mapper:
 		print('Number after entities mapping:', len(self.triples))
 
 		self.triples = set(self.triples)
-		self.save('../out/full_entities_mapped_test.csv')
+		self.save('out/full_entities_mapped_test.csv')
 
 
 

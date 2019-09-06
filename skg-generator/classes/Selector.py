@@ -7,6 +7,7 @@ import numpy as np
 from scipy import spatial
 from nltk.corpus import wordnet as wn
 import nltk
+import os
 
 
 class Selector:
@@ -14,7 +15,7 @@ class Selector:
 	def __init__(self, triples):
 		self.input_triples = triples
 		self.out_triples = None
-		self.vectors_model = '../resources/300model.bin'
+		self.vectors_model = 'resources/300model.bin'
 		self.trust_th = 9
 
 
@@ -91,7 +92,7 @@ class Selector:
 
 	def build_embeddings(self, keys, emb_size):
 		text = None
-		with open('../resources/semantic_web_28k_abstracts.txt', 'r') as f:
+		with open('resources/semantic_web_28k_abstracts.txt', 'r') as f:
 			text = f.read().lower()
 			text = clean_for_embeddings(text)
 		keys = sorted(set(keys), key=len, reverse=True) 
@@ -104,8 +105,33 @@ class Selector:
 		sentences = nltk.sent_tokenize(text)
 		sentences = [nltk.word_tokenize(s) for s in sentences]
 		model = Word2Vec(sentences=sentences, min_count=1, size=emb_size)
-		model.wv.save_word2vec_format('../resources/' + str(emb_size) + 'model.bin', binary=True)
+		model.wv.save_word2vec_format('resources/' + str(emb_size) + 'model.bin', binary=True)
 	
+
+	# Subject and object can have at most 3 predicates coming from the three different methods.
+	# This method chooses pnly one predicate following this order: 1. Luanyi, 2. openie, 3. heuristic
+	def unique(self, triples):
+
+		unique_triples = set()
+		seen = set()
+
+		for (s,p,o,source,support) in triples:
+			if (s,o) not in seen and source == 'luanyi':
+				unique_triples.add((s,p,o,source,support))
+				seen.add((s,o))
+
+		for (s,p,o,source,support) in triples:
+			if (s,o) not in seen and source == 'openie':
+				unique_triples.add((s,p,o,source,support))
+				seen.add((s,o))
+
+		for (s,p,o,source,support) in triples:
+			if (s,o) not in seen and source == 'heuristic':
+				unique_triples.add((s,p,o,source,support))
+				seen.add((s,o))
+		return list(unique_triples)
+		
+
 
 
 	def get_selected_triples(self):
@@ -116,7 +142,7 @@ class Selector:
 		trusted_triples = []
 		untrusted_triples = []
 
-		if not os.exists('../resources/300model.bin'):
+		if not os.path.isfile(self.vectors_model):
 			print('300model.bin does not exist -> Generation of new embeddings')
 			entities = set()
 			for (s,p,o,source,support)  in self.input_triples:
@@ -132,6 +158,7 @@ class Selector:
 
 		clf = self.get_classifier(trusted_triples)
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
+		consistent_triples = self.unique(consistent_triples)
 		self.out_triples = set(trusted_triples + consistent_triples)
 
 

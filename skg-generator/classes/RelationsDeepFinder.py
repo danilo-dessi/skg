@@ -29,7 +29,7 @@ class RelationsDeepFinder:
 		self.lemmatizer = spacy.lemmatizer.Lemmatizer(LEMMA_INDEX, LEMMA_EXC, LEMMA_RULES)
 
 		self.stanford_path = r'../stanford-corenlp-full-2018-10-05'  
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.corenlp = StanfordCoreNLP(self.stanford_path, memory='4g')
 		print(str(datetime.datetime.now()) + ' Stanford Core NLP connection up')
 
 		
