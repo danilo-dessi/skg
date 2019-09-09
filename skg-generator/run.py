@@ -31,24 +31,16 @@ class GraphBuilder:
 		self.relationsRefined = None
 		self.entitiesCleaned = None
 		self.relationsCleaned = None
-		self.verbsMap = None
 		self.entitiesEmbeddingsMap = {}
 		self.entity2embedding = {}
 		self.g = nx.DiGraph()
-		self.node2label = {}
-		self.label2node = {}
-		self.edge2label = {}
-		self.edge2weight = {}
 		self.validEntities = set()
 		self.rel2sent = {}
-		self.so2bestRelation = {}
 		self.id2sent = None
-		self.entitiesInGraph = []
-		self.relationsInGraph = []
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile).head(50)
+		self.inputDataFrame = pd.read_csv(self.inputFile)#.head(50)
 
 
 	def parse(self):
@@ -87,34 +79,6 @@ class GraphBuilder:
 			newInputRelations += [newRList]
 		self.inputRelations = newInputRelations
 
-		
-
-	def manageRelations(self):
-		relationsManager = RelationsManager()
-		relationsManager.run()
-		self.verbsMap = relationsManager.getVerbsMap()
-
-	def manageRelations_old(self):
-		relationsManager = RelationsManager(self.relationsCleaned)
-		relationsManager.run_old()
-		self.verbsMap = relationsManager.getVerbsMap()
-
-
-	def simWithEmbeddings(self, e1, e2):
-		e1Tokens = nltk.word_tokenize(e1)
-		e2Tokens = nltk.word_tokenize(e2)
-
-		if e1 == e2:
-			return 1.0
-		e1emb = self.entity2embedding[e1]
-		e2emb = self.entity2embedding[e2]
-
-		if e1emb.shape == e2emb.shape and e1emb.size != 0:
-			return 1 - spatial.distance.cosine(e1emb, e2emb)
-		
-		return 0.0
-
-			
 
 	def flatWordsOnAverage(self, wordList, model):
 		X = []
@@ -155,7 +119,7 @@ class GraphBuilder:
 
 
 	def make_triples(self):
-		model = KeyedVectors.load_word2vec_format('resources/9M[100-5].bin', binary=True)
+		model = KeyedVectors.load_word2vec_format('resources/9M[300-5]_skip_gram.bin', binary=True)
 		so2verbs = {}
 		so2openie_verbs = {}
 
@@ -237,15 +201,6 @@ class GraphBuilder:
 	def removeSelfEdges(self):
 		self.g.remove_edges_from(self.g.selfloop_edges())
 
-	def save(self):
-		print('Nodes:', len(self.g.nodes()), 'Edges:', len(self.g.edges()))
-		nx.write_graphml(self.g, self.outputFile)
-
-	def addRelations(self):
-		r = RelationsBuilder(self.g)
-		r.run()
-
-
 	def validate(self):
 		allEntities = [] 
 		for i in range(len(self.inputEntities)):
@@ -260,9 +215,7 @@ class GraphBuilder:
 
 	def relationsRefinement(self):
 		refiner = RelationsDeepFinder(self.inputTexts, self.inputEntities, self.inputRelations, self.rel2sent)
-		#print('Relations before refinement:', sum([len(relation) for relation in self.inputRelations]))
-		self.relationsRefined = refiner.run() #, self.rel2sent, self.id2sent
-		#print('Relations after refinement:', sum([len(relation) for relation in self.relationsRefined]))
+		self.relationsRefined = refiner.run() 
 
 
 	def cleanEntities(self):
@@ -279,6 +232,7 @@ class GraphBuilder:
 		id_gen = 0
 		entity2id = {}
 		id2entity = {}
+
 		#a single id to each entity
 		for (s,p,o, source, support) in selected_triples:
 			if s not in entity2id:

@@ -74,10 +74,16 @@ python3 run.py
 
 
 ### Toward the SKG
+This code generates heristic based relations through the window of verbs, and validates entities based on CSO topics, Semantic Web Keywords and statistics. Finally it maps all relations following the taxonomy "SKG_predicates" we defined. 
 
 1. Go to skg-generator
-2. Copy the *csv_e_r_full.csv* in this directory
-3. Run
+2. Download and unzip this [archive]() in this directory.
+3. Copy the *csv_e_r_full.csv* in this directory
+4. Run
+```
+python3 run.py
+```
+5. At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).
 
 
 

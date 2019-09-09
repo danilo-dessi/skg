@@ -21,7 +21,7 @@ class EntityCleaner:
 		self.id2sent = id2sent
 
 		self.blackList = ['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
-		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'application']
+		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'application', 'it']
 
 		self.nlp = spacy.load('en_core_web_sm')
 		self.lemmatizer = spacy.lemmatizer.Lemmatizer(LEMMA_INDEX, LEMMA_EXC, LEMMA_RULES)

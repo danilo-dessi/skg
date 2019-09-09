@@ -17,7 +17,7 @@ class StatisticsRefiner:
 		self.inputRelations = inputRelations
 
 		self.csoResourcePath = 'resources/CSO.3.1.csv'
-		self.keywordsPath  = 'resources/allKeywordsSemanticWeb.txt'
+		self.keywordsPath  = 'resources/semantic_web_keywords.txt'
 		self.semanticWebAbstractsPath = 'resources/semantic_web_28k_abstracts.txt'
 		self.computerScienceAbstractsPath = 'resources/computer_science_28k_abstracts.txt'
 		self.generalDomainAbstractsPath = 'resources/general_domain_28k_abstracts.txt'

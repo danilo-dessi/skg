@@ -34,6 +34,13 @@ class Analyzer:
 		self.cso = CSO_wrapper()
 		self.openie = OPENIE_wrapper()
 
+	def restart(self):
+		self.openie.restart_corenlp()
+
+
+	def close(self):
+		self.openie.close()
+
 	def __find_str(self, s, char):
 		index = 0
 		if char in s:
@@ -98,20 +105,18 @@ if __name__ == '__main__':
 
 	file_out = 'csv_e_r_full.csv'
 	r_data = []
-	#files = [x for x in sorted(os.listdir('../input/')) if x[-3:] == 'csv']
-	#c = 0
-	#for file in files:
 
 	file = 'luanyi_output.csv'
 	print('start processing', file,  str(datetime.datetime.now()))
 	data = pd.read_csv(file)
+	print(data.describe())
 
 	sentences_list = [ast.literal_eval(x) for x in data['sentences'].tolist()]
 	sentences_entities_list = [ast.literal_eval(x) for x in data['entities'].tolist()]
 	sentences_relations_list = [ast.literal_eval(x) for x in data['relations'].tolist()]
 
 	for n_abstract in range(len(sentences_list)):
-		print('\n# Analyzing abstract', n_abstract)
+		print('\n# Analyzing abstract', n_abstract, '/', len(sentences_list))
 		sentences = sentences_list[n_abstract]
 		entities_list = sentences_entities_list[n_abstract]
 		relations_list = sentences_relations_list[n_abstract]
@@ -130,7 +135,7 @@ if __name__ == '__main__':
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
 		if len(r_data) % 1000 == 0:
-			analyzer = Analyzer()
+			analyzer.restart()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
 

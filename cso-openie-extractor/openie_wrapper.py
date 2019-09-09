@@ -14,6 +14,13 @@ class OPENIE_wrapper:
 		print(str(datetime.datetime.now()) + ' Openie connection up')
 
 
+	def restart_corenlp(self):
+		self.nlp.close()
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+
+	def close(self):
+		self.nlp.close()
+
 	def __build_pos_map(self, tokens):
 		word2pos = {}
 		for token in tokens:
