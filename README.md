@@ -1,4 +1,4 @@
-# Scientific Knowledge Graph
+# Scientific Knowledge Graph Generator
 
 
 ## Intro
@@ -9,6 +9,10 @@ If you use our work please cite us with:
 ```
 Buscaldi D., Dessì D., Motta E., Osborne F., Reforgiato Recupero D. BLA BLA BLA
 ```
+
+
+![Scientific Knowledge Graph Generator Schema](https://github.com/danilo-dessi/skg/skg_schema.png "Scientific Knowledge Graph Generator Schema")
+**Figure 1**: Scientific Knowledge Graph Generator Schema
 
 ## Repository Description
 
