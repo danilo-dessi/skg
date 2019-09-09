@@ -1,0 +1,1022 @@
+,s,p,o,source,support
+0,semantic web technologies,combines,web ontology language,openie,1
+1,linked data,includes,semantic data,openie,1
+2,ontology technology,includes,web ontology language,openie,2
+3,semantic web services,includes,digital libraries,openie,1
+4,resource description framework (rdf),includes,semantic relationships,openie,2
+5,visualization,includes,linked data,openie,1
+6,web ontology language,is,ontology language,openie,7
+7,zig-bee,includes,web ontology language,openie,1
+8,semantic search engine,includes,fuzzy ontology,openie,1
+9,semantic web technologies,includes,semantic description,openie,2
+10,affective computing,includes,semantic web services,openie,1
+11,artificial intelligence,includes,semantic search engines,openie,3
+12,ontology alignment,includes,semantic web technologies,openie,3
+13,evolutionary algorithms,includes,semantic web services,openie,1
+14,web ontology language,represents,ontology-based,openie,5
+15,ontology alignment,includes,data integration,openie,5
+16,matching algorithm,includes,semantic web services,openie,3
+17,semantic relationships,includes,ontology alignment,openie,1
+18,spatial databases,includes,semantic description,openie,1
+19,web services discovery,includes,semantic description,openie,1
+20,semantic web technologies,includes,semantic descriptions,openie,1
+21,resource description framework (rdf),includes,graphical representations,openie,1
+22,linked data,requires,ontology-based,openie,2
+23,grid services,includes,semantic web services,openie,1
+24,web contents,includes,semantic search engine,openie,1
+25,image processing,includes,semantic web services,openie,1
+26,resource description framework (rdf),includes,domain-specific ontologies,openie,1
+27,planning algorithms,includes,semantic web services,openie,1
+28,semantic search engines,includes,user profiling,openie,1
+29,linked data,includes,knowledge representation,openie,2
+30,service execution,includes,semantic web services,openie,1
+31,linked data,includes,knowledge transfer,openie,1
+32,semantic search engines,includes,user navigation,openie,1
+33,user profiling,includes,semantic search engines,openie,1
+34,semantic description,includes,semantic similarity measures,openie,1
+35,linked data,includes,logic programming,openie,1
+36,index structure,includes,semantic search engines,openie,1
+37,libraries,uses,resource description framework (rdf),openie,2
+38,linked data,produces,world wide web,openie,1
+39,semantic search engines,includes,question answering systems,openie,5
+40,semantic web services,includes,p2p computing,openie,1
+41,search engines,provides,semantic search engines,openie,2
+42,text clustering,includes,semantic web services,openie,1
+43,linked data,includes,software development life cycle,openie,1
+44,agent technology,includes,semantic web services,openie,2
+45,fuzzy clustering techniques,includes,semantic web services,openie,1
+46,data mining,includes,semantic search engines,openie,1
+47,ontology-based,includes,linked data,openie,16
+48,conditional probabilities,includes,web ontology language,openie,1
+49,web ontology language,includes,ontology language,openie,36
+50,blogs,includes,ontology alignment,openie,1
+51,semantic web services,includes,distributed applications,openie,1
+52,wordnet,includes,web ontology language,openie,2
+53,knowledge-sharing,includes,semantic search engines,openie,1
+54,linked data,includes,web contents,openie,1
+55,resource description framework (rdf),includes,social networks,openie,1
+56,web ontology language,includes,web ontology language,openie,45
+57,natural languages,includes,ontology alignment,openie,1
+58,semantic description,includes,information filtering,openie,1
+59,linked data,includes,recommender systems,openie,1
+60,ontology building,includes,ontology alignment,openie,2
+61,resource description framework (rdf),includes,dbpedia,openie,2
+62,linked data,includes,resource description framework (rdf),openie,2
+63,concept lattices,includes,linked data,openie,1
+64,linked data,includes,natural languages,openie,1
+65,semantic relationships,includes,semantic web services,openie,4
+66,semantic web service discovery,includes,semantic search engines,openie,1
+67,ontology alignment,includes,data cleaning,openie,1
+68,information extraction,includes,semantic search engines,openie,5
+69,semantic web technologies,includes,ontology alignment,openie,1
+70,semantic description,includes,distributed applications,openie,1
+71,spatial data infrastructure,includes,semantic search engines,openie,1
+72,semantic web services,includes,relational database systems,openie,1
+73,component-based software engineering,is,ontology alignment,openie,1
+74,web ontology language,includes,ontology-based,openie,27
+75,linked data,includes,parsing algorithm,openie,1
+76,linked data,includes,information retrieval,openie,2
+77,resource description framework (rdf),is,database systems,openie,1
+78,semantic search engines,is,component-based software engineering,openie,1
+79,web ontology language,is,ontology language,openie,1
+80,web ontology language,includes,description logics,openie,7
+81,ontology alignment,includes,ontology merging,openie,4
+82,web ontology language,includes,xml schemas,openie,1
+83,semantic search engine,combines,ontology technology,openie,1
+84,linked open data,includes,semantic web services,openie,3
+85,dbpedia,includes,linked data,openie,1
+86,representational state transfer,includes,web ontology language,openie,1
+87,web ontology language,includes,semantic web services,openie,7
+88,dublin core,includes,web ontology language,openie,2
+89,linked data,includes,natural language processing systems,openie,4
+90,linked data,includes,libraries,openie,3
+91,electronic commerce,includes,semantic web services,openie,4
+92,linked data,includes,software architecture patterns,openie,2
+93,semantic web technologies,includes,semantic descriptions,openie,3
+94,semantic search engines,includes,speech recognition,openie,5
+95,ontology alignment,includes,intelligent agents,openie,1
+96,clone detection,includes,ontology alignment,openie,1
+97,posterior probability,includes,ontology alignment,openie,1
+98,keyword search,includes,semantic search engines,openie,3
+99,ontology construction,includes,ontology alignment,openie,2
+100,ontology-based,includes,semantic web services,openie,39
+101,linked data,provides,background knowledge,openie,1
+102,social networks,includes,ontology alignment,openie,1
+103,semantic search engines,includes,knowledge management,openie,2
+104,semantic search engines,includes,document classification,openie,1
+105,semantic search engines,includes,information fusion,openie,1
+106,ontology alignment,provides,semantic interoperability,openie,4
+107,ontology-based,uses,web ontology language,openie,9
+108,distributed applications,includes,semantic web services,openie,1
+109,ontology merging,includes,ontology alignment,openie,1
+110,query optimization,includes,resource description framework (rdf),openie,1
+111,libraries,includes,linked data,openie,2
+112,linked data,includes,reusability,openie,1
+113,community detection,includes,semantic search engines,openie,2
+114,semantic search engine,includes,user query,openie,1
+115,ontology alignment,includes,schema mappings,openie,2
+116,database systems,includes,semantic search engine,openie,2
+117,data integration,includes,semantic search engines,openie,2
+118,linked data,uses,semantic web technologies,openie,1
+119,domain-specific ontologies,uses,web ontology language,openie,1
+120,visualization,includes,semantic search engines,openie,1
+121,index structure,includes,resource description framework (rdf),openie,1
+122,semantic description,includes,grid resources,openie,1
+123,semantic web services,includes,semantic search engine,openie,1
+124,resource description framework (rdf),includes,information exchanges,openie,1
+125,ontology-based,includes,ontology alignment,openie,11
+126,schema integration,includes,ontology alignment,openie,3
+127,resource description framework (rdf),includes,semantic web technologies,openie,17
+128,ontology alignment,includes,information integration,openie,1
+129,mashup,selects,semantic web services,openie,1
+130,ontology alignment,includes,knowledge-sharing,openie,1
+131,semantic search engine,includes,knowledge bases,openie,2
+132,knowledge bases,includes,semantic search engines,openie,4
+133,semantic web services,includes,collaborative tagging,openie,1
+134,semantic web services,includes,web service selection,openie,1
+135,semantic web services,includes,semantic relationships,openie,5
+136,linked data,includes,education,openie,1
+137,database systems,is,linked data,openie,1
+138,semantic wikis,includes,ontology alignment,openie,1
+139,linked data,includes,dbpedia,openie,4
+140,relational database systems,includes,ontology alignment,openie,1
+141,social search,includes,semantic search engines,openie,2
+142,ontology alignment,includes,ontology-based,openie,1
+143,semantic search engines,includes,information retrieval,openie,2
+144,extensible markup language,includes,resource description framework (rdf),openie,2
+145,natural language understanding,includes,semantic search engines,openie,2
+146,semantic description,includes,database systems,openie,3
+147,question answering systems,includes,semantic search engines,openie,5
+148,data security,includes,semantic description,openie,2
+149,user interfaces,includes,linked data,openie,2
+150,machine learning techniques,includes,ontology alignment,openie,1
+151,semantic web services,includes,network management,openie,1
+152,database systems,includes,semantic search engines,openie,5
+153,semantic web services,supports,automated reasoning,openie,2
+154,web ontology language,includes,web contents,openie,1
+155,ontology alignment,includes,answering queries,openie,2
+156,semantic search engines,includes,vector space models,openie,1
+157,web ontology language,includes,semantic web services,openie,5
+158,logic programming,includes,resource description framework (rdf),openie,1
+159,enterprise architecture,uses,resource description framework (rdf),openie,1
+160,relational database systems,includes,web ontology language,openie,1
+161,grid environments,includes,ontology alignment,openie,2
+162,semantic search engines,includes,recommender systems,openie,1
+163,resource description framework (rdf),includes,semantic web rule languages,openie,7
+164,semantic search engines,includes,search engines,openie,2
+165,orthography,includes,semantic search engines,openie,1
+166,ontology technology,includes,ontology alignment,openie,1
+167,text summarization,includes,semantic search engines,openie,1
+168,resource description framework (rdf),includes,bipartite graphs,openie,1
+169,product design,includes,semantic search engines,openie,1
+170,ontology alignment,includes,question answering systems,openie,3
+171,semantic data,includes,resource description framework (rdf),openie,1
+172,semantic search engine,includes,semantic relationships,openie,1
+173,resource description framework (rdf),includes,linked open data,openie,4
+174,information integration,includes,semantic search engines,openie,2
+175,ontology construction,includes,web ontology language,openie,1
+176,semantic descriptions,includes,semantic descriptions,openie,5
+177,resource description framework (rdf),includes,linked data,openie,3
+178,semantic web services,requires,privacy,openie,1
+179,distributed environments,includes,ontology alignment,openie,1
+180,web ontology language,includes,knowledge exchange,openie,1
+181,web services discovery,includes,ontology alignment,openie,1
+182,semantic web technologies,includes,semantic web services,openie,1
+183,semantic search engine,includes,social networks,openie,2
+184,resource description framework (rdf),includes,ontology language,openie,1
+185,web ontology language,includes,semantic description,openie,2
+186,semantic web services,includes,blogging,openie,2
+187,semantic web services,includes,text mining,openie,1
+188,linked data,uses,resource description framework (rdf),openie,2
+189,semantic descriptions,includes,intelligent agents,openie,4
+190,web ontology language,includes,ontology language,openie,4
+191,reasoning algorithms,includes,semantic search engines,openie,1
+192,semantic search engines,improves,web searches,openie,1
+193,ontology alignment,includes,natural language generation,openie,1
+194,natural language processing systems,includes,resource description framework (rdf),openie,1
+195,semantic web technologies,includes,linked data,openie,29
+196,ontology alignment,includes,automated systems,openie,1
+197,semantic search engine,includes,semantic web technologies,openie,4
+198,linked data,includes,automated reasoning,openie,1
+199,semantic web services,includes,web services discovery,openie,1
+200,sparql,queries,resource description framework (rdf),openie,2
+201,semantic web services,includes,service-oriented computing,openie,2
+202,cloud computing,includes,semantic search engine,openie,1
+203,semantic relationships,includes,semantic description,openie,1
+204,natural languages,includes,linked data,openie,1
+205,linked data,includes,data streams,openie,1
+206,ontology alignment,includes,ontology alignment,openie,7
+207,ontology alignment,includes,information retrieval,openie,2
+208,semantic descriptions,includes,semantic web technologies,openie,1
+209,web ontology language,is,recommendation,openie,1
+210,resource description framework (rdf),supports,reasoning algorithms,openie,1
+211,web ontology language,includes,world wide web,openie,1
+212,semantic search engines,includes,social relationships,openie,1
+213,search engines,includes,semantic search engine,openie,3
+214,semantic concept,includes,semantic web services,openie,1
+215,web ontology language,includes,semantic web technologies,openie,10
+216,search engines,includes,resource description framework (rdf),openie,1
+217,data warehousing,includes,ontology alignment,openie,1
+218,linked data,includes,ontology-based,openie,18
+219,ontology alignment,includes,ontology-based,openie,3
+220,natural language processing systems,includes,semantic search engines,openie,2
+221,fuzzy logics,includes,ontology alignment,openie,1
+222,semantic web services,uses,semantic web technologies,openie,1
+223,web ontology language,includes,knowledge representation,openie,4
+224,xml schemas,includes,web ontology language,openie,2
+225,ontology alignment,includes,social networks,openie,1
+226,domain-specific ontologies,includes,semantic description,openie,1
+227,semantic web technologies,includes,semantic search engine,openie,3
+228,linked data,includes,data mining,openie,2
+229,semantic interoperability,includes,ontology alignment,openie,1
+230,web ontology language,includes,pervasive computing environments,openie,1
+231,semantic web services,includes,data integration,openie,1
+232,semantic search engines,includes,keyword search,openie,3
+233,linked data,includes,knowledge management systems,openie,3
+234,semantic search engines,includes,recommendation systems,openie,1
+235,semantic web services,includes,grid services,openie,2
+236,digital libraries,includes,semantic description,openie,1
+237,ontology alignment,includes,web applications,openie,3
+238,description logics,includes,semantic search engines,openie,1
+239,grid environments,includes,semantic description,openie,1
+240,semantic web services,includes,reasoning algorithms,openie,2
+241,ontology alignment,includes,semantic interoperability,openie,5
+242,linked data,includes,data integration,openie,6
+243,linked data,includes,data publishing,openie,2
+244,semantic description,includes,computer vision,openie,2
+245,ontology integration,includes,semantic web services,openie,3
+246,ontology alignment,includes,question answering systems,openie,1
+247,wiki,provides,semantic search engines,openie,1
+248,resource description framework (rdf),includes,web applications,openie,8
+249,modeling languages,includes,semantic web services,openie,2
+250,semantic search engine,includes,component-based software engineering,openie,1
+251,business process execution language,includes,semantic web services,openie,5
+252,ontology alignment,includes,document clustering,openie,1
+253,semantic web services,includes,automated reasoning,openie,1
+254,linked data,includes,user interface designs,openie,1
+255,linked data,includes,learning object metadata,openie,1
+256,java,includes,web ontology language,openie,1
+257,web ontology language,includes,ontology-based,openie,20
+258,ontology alignment,supports,knowledge exchange,openie,1
+259,machine translation systems,includes,semantic search engines,openie,1
+260,manets,includes,semantic descriptions,openie,2
+261,web searches,includes,semantic search engine,openie,1
+262,resource description framework (rdf),includes,distributed systems,openie,1
+263,semantic web services,includes,semantic descriptions,openie,1
+264,resource description framework (rdf),includes,semantic web services,openie,1
+265,uml models,includes,web ontology language,openie,1
+266,resource description framework (rdf),includes,software agents,openie,2
+267,ontology alignment,includes,data integration,openie,2
+268,resource description framework (rdf),includes,web searches,openie,1
+269,ontology alignment,includes,sensor networks,openie,1
+270,linked data,includes,user navigation,openie,1
+271,web ontology language,includes,domain knowledge,openie,2
+272,ontology alignment,includes,sentence similarity,openie,2
+273,semantic search engines,includes,semantic web technologies,openie,12
+274,resource description framework (rdf),includes,ontology-based,openie,51
+275,ontology alignment,includes,ontology evolution,openie,3
+276,web ontology language,includes,information retrieval,openie,1
+277,ontology alignment,includes,semantic similarity measures,openie,4
+278,ontology alignment,includes,domain-specific ontologies,openie,1
+279,semantic search engine,includes,search engines,openie,5
+280,linked data,includes,semantic web technologies,openie,24
+281,ontology-based,includes,web ontology language,openie,4
+282,resource description framework (rdf),defines,ontology-based,openie,5
+283,intelligent software agent,includes,semantic web services,openie,1
+284,resource description framework (rdf),includes,knowledge exchange,openie,1
+285,relational data models,includes,web ontology language,openie,1
+286,ontology alignment,includes,information retrieval,openie,4
+287,semantic web services,includes,semantic relationships,openie,1
+288,semantic description,includes,software agents,openie,1
+289,semantic search engines,includes,domain knowledge,openie,1
+290,semantic web technologies,uses,resource description framework (rdf),openie,3
+291,knowledge bases,includes,web ontology language,openie,1
+292,semantic similarity measures,includes,ontology alignment,openie,1
+293,web ontology language,includes,semantic web technologies,openie,44
+294,web ontology language,includes,web applications,openie,1
+295,clustering algorithms,includes,ontology alignment,openie,1
+296,link prediction,includes,semantic search engines,openie,1
+297,ontology alignment,includes,virtual spaces,openie,1
+298,sparql,includes,semantic search engines,openie,3
+299,web ontology language,includes,search engines,openie,1
+300,domain-specific ontologies,includes,linked data,openie,1
+301,resource description framework (rdf),includes,context information,openie,1
+302,semantic web services,includes,semantic web service discovery,openie,4
+303,linked data,includes,reasoning algorithms,openie,2
+304,semantic web services,includes,knowledge engineering,openie,2
+305,ontology alignment,includes,product design,openie,1
+306,web service composition,includes,semantic web services,openie,3
+307,semantic search engine,includes,relation extraction,openie,1
+308,resource description framework (rdf),includes,content management,openie,1
+309,web ontology language,includes,sparql,openie,35
+310,ajax,includes,linked data,openie,1
+311,linked data,includes,linked data,openie,7
+312,knowledge discovery,includes,linked data,openie,1
+313,semantic description,includes,service compositions,openie,1
+314,search engines,includes,ontology alignment,openie,1
+315,semantic web services,automates,web services discovery,openie,1
+316,trust management,includes,semantic web services,openie,1
+317,query expansion,includes,ontology alignment,openie,2
+318,knowledge representation,includes,ontology alignment,openie,1
+319,web ontology language,includes,web ontology language,openie,18
+320,linked data,includes,computer science,openie,1
+321,schema matching,includes,ontology alignment,openie,4
+322,web ontology language,includes,access control mechanism,openie,1
+323,semantic search engine,includes,biomedical imaging,openie,1
+324,semantic search engines,includes,ontology-based,openie,4
+325,semantic search engines,includes,agent technology,openie,1
+326,ontology-based,includes,resource description framework (rdf),openie,7
+327,web ontology language,includes,semantic web technologies,openie,5
+328,semantic search engines,includes,reasoning algorithms,openie,1
+329,adaptive hypermedia,includes,semantic search engines,openie,1
+330,semantic web technologies,includes,ontology alignment,openie,10
+331,linked data,includes,mobile devices,openie,1
+332,web ontology language,includes,distributed environments,openie,1
+333,resource description framework (rdf),includes,linked data,openie,7
+334,information retrieval,includes,ontology alignment,openie,1
+335,linked data,provides,sparql,openie,1
+336,semantic search engine,includes,image compression,openie,1
+337,semantic web technologies,includes,semantic search engines,openie,4
+338,semantic web technologies,includes,web ontology language,openie,1
+339,resource description framework (rdf),includes,digital libraries,openie,2
+340,semantic search engines,includes,semantic web services,openie,1
+341,resource description framework (rdf),includes,ontology-based,openie,9
+342,ontology alignment,includes,answering queries,openie,1
+343,web ontology language,defines,ontology-based,openie,3
+344,resource description framework (rdf),includes,semantic web technologies,openie,67
+345,ontology alignment,includes,query expansion,openie,1
+346,linked data,uses,natural languages,openie,1
+347,ontology evolution,includes,semantic search engines,openie,1
+348,email,includes,semantic search engines,openie,2
+349,recommendation,includes,linked data,openie,1
+350,ontology alignment,includes,ontology evolution,openie,1
+351,rule engine,includes,semantic web services,openie,2
+352,semantic relationships,includes,semantic search engines,openie,14
+353,spam filtering,includes,ontology alignment,openie,1
+354,visualization,includes,semantic search engine,openie,1
+355,semantic search engines,includes,cloud computing,openie,1
+356,web ontology language,includes,web ontology language,openie,1
+357,web ontology language,includes,domain-specific ontologies,openie,3
+358,ontology alignment,includes,text mining,openie,2
+359,context modeling,includes,ontology alignment,openie,1
+360,wordnet,includes,resource description framework (rdf),openie,1
+361,ontology-based,includes,semantic search engine,openie,7
+362,semantic web services,includes,matching algorithm,openie,1
+363,semantic web technologies,includes,resource description framework (rdf),openie,3
+364,semantic search engines,requires,search engines,openie,4
+365,cognitive science,includes,ontology alignment,openie,1
+366,argumentation,includes,ontology alignment,openie,1
+367,concept lattices,includes,ontology alignment,openie,1
+368,semantic description,supports,automation,openie,1
+369,semantic description,supports,reasoning algorithms,openie,1
+370,web ontology language,includes,social networks,openie,2
+371,semantic search engines,includes,adaptive hypermedia,openie,1
+372,web ontology language,includes,modeling languages,openie,4
+373,business logic,includes,semantic web services,openie,1
+374,ontology language,includes,semantic description,openie,2
+375,resource description framework (rdf),includes,ajax,openie,2
+376,web servers,provides,resource description framework (rdf),openie,1
+377,knowledge bases,includes,semantic description,openie,2
+378,resource description framework (rdf),includes,data integration,openie,1
+379,resource description framework (rdf),includes,web ontology language,openie,8
+380,semantic description,includes,semantic web services,openie,7
+381,ontology alignment,includes,semantic web service discovery,openie,2
+382,text mining,includes,semantic search engines,openie,1
+383,semantic search engine,includes,text clustering,openie,1
+384,linked data,includes,source codes,openie,1
+385,sparql,includes,semantic descriptions,openie,1
+386,semantic descriptions,uses,semantic web technologies,openie,1
+387,domain-specific ontologies,includes,semantic web services,openie,6
+388,semantic web services,includes,information retrieval,openie,1
+389,sparql,includes,resource description framework (rdf),openie,13
+390,e - learnings,includes,semantic web services,openie,1
+391,ontology alignment,includes,evaluation system,openie,1
+392,semantic search engines,includes,visualization,openie,1
+393,semantic search engines,includes,semantic web technologies,openie,1
+394,web ontology language,includes,linked data,openie,1
+395,web ontology language,provides,web ontology language,openie,4
+396,web ontology language,includes,ontology development,openie,2
+397,access control,includes,semantic web services,openie,4
+398,natural language processing systems,includes,semantic web services,openie,2
+399,ontology-based,supports,semantic search engines,openie,3
+400,web ontology language,includes,context reasoning,openie,1
+401,linked data,includes,inference,openie,1
+402,mobile devices,includes,semantic web services,openie,1
+403,mutual informations,includes,ontology alignment,openie,1
+404,description logics,includes,semantic search engine,openie,1
+405,linked data,includes,pattern,openie,1
+406,semantic search engines,includes,personalizations,openie,2
+407,web ontology language,includes,reasoning algorithms,openie,2
+408,xml schemas,includes,resource description framework (rdf),openie,2
+409,web ontology language,includes,knowledge-sharing,openie,1
+410,linked data,includes,hierarchical models,openie,1
+411,semantic web services,uses,ontology-based,openie,1
+412,semantic web services,combines,semantic web technologies,openie,1
+413,semantic search engines,includes,machine learning techniques,openie,1
+414,linked open data,includes,linked data,openie,1
+415,linked data,is,component-based software engineering,openie,1
+416,semantic search engines,includes,user query,openie,1
+417,programming languages,includes,resource description framework (rdf),openie,1
+418,web ontology language,includes,grid services,openie,1
+419,semantic web technologies,includes,semantic description,openie,1
+420,clustering algorithms,includes,linked data,openie,1
+421,semantic data,includes,linked data,openie,1
+422,web ontology language,uses,pattern,openie,1
+423,question answering systems,includes,ontology alignment,openie,2
+424,user query,includes,semantic web services,openie,1
+425,semantic search engines,includes,ontology evolution,openie,1
+426,linked data,includes,ontology alignment,openie,1
+427,ontology evolution,includes,ontology alignment,openie,1
+428,vector space models,includes,semantic search engines,openie,1
+429,ontology-based,includes,ontology alignment,openie,3
+430,resource description framework (rdf),is,standard model,openie,1
+431,ontology evolution,includes,semantic descriptions,openie,2
+432,web ontology language,includes,resource description framework (rdf),openie,37
+433,testing and debugging,includes,web ontology language,openie,1
+434,recommendation,includes,semantic web services,openie,1
+435,resource description framework (rdf),includes,version management,openie,1
+436,linked data,includes,controlled vocabulary,openie,7
+437,semantic description,includes,mass customization,openie,1
+438,semantic search engines,requires,verification,openie,1
+439,semantic web services,includes,information sharing,openie,1
+440,semantic web technologies,includes,resource description framework (rdf),openie,1
+441,parallelism,includes,semantic search engines,openie,1
+442,data publishing,uses,resource description framework (rdf),openie,1
+443,semantic web services,includes,web service description,openie,8
+444,ontology alignment,includes,ontology-based,openie,9
+445,sparql,includes,web ontology language,openie,7
+446,cloud computing,includes,resource description framework (rdf),openie,1
+447,knowledge acquisition,includes,ontology alignment,openie,1
+448,distributed ledgers,includes,linked data,openie,1
+449,web ontology language,produces,domain-specific ontologies,openie,1
+450,linked data,includes,text mining,openie,1
+451,ontology learning,includes,ontology alignment,openie,2
+452,ontology alignment,includes,ontology construction,openie,1
+453,domain-specific ontologies,includes,ontology alignment,openie,2
+454,semantic search engines,includes,data integration,openie,1
+455,semantic search engines,includes,knowledge construction,openie,1
+456,web ontology language,includes,ontology technology,openie,1
+457,web ontology language,includes,semantic interoperability,openie,1
+458,web contents,includes,web ontology language,openie,1
+459,ontology alignment,includes,ontology evaluation,openie,1
+460,semantic web services,includes,social networks,openie,6
+461,ontology alignment,includes,inference,openie,1
+462,resource description framework (rdf),includes,process modelling,openie,1
+463,semantic search engines,includes,multimedia contents,openie,2
+464,resource description framework (rdf),includes,semantic web technologies,openie,8
+465,semantic search engine,includes,natural languages,openie,1
+466,semantic search engines,uses,recommendation,openie,1
+467,semantic web services,includes,information technology,openie,1
+468,ontology alignment,includes,knowledge exchange,openie,1
+469,linked data,includes,semantic search engines,openie,2
+470,linked open data,includes,ontology alignment,openie,1
+471,semantic web services,includes,communication,openie,3
+472,verification,includes,semantic descriptions,openie,1
+473,hierarchical structures,includes,semantic search engines,openie,1
+474,ontology alignment,includes,concept lattices,openie,1
+475,semantic descriptions,includes,ontology-based,openie,2
+476,formal specifications,includes,web ontology language,openie,3
+477,semantic web services,includes,supply chain coordination,openie,2
+478,linked data,includes,software engineering,openie,1
+479,ontology alignment,includes,machine learning techniques,openie,1
+480,ontology alignment,includes,semantic heterogeneity,openie,4
+481,resource description framework (rdf),includes,web applications,openie,2
+482,internet,includes,semantic web services,openie,1
+483,ontology alignment,includes,user query,openie,1
+484,semantic relationships,includes,semantic descriptions,openie,2
+485,resource description framework (rdf),includes,extensible markup language,openie,3
+486,ontology alignment,includes,web service composition,openie,1
+487,linked data,includes,semantic metadata,openie,1
+488,software architectures,includes,semantic search engines,openie,1
+489,linked data,includes,digital preservation,openie,1
+490,resource description framework (rdf),includes,data mining,openie,1
+491,semantic search engine,includes,information retrieval,openie,3
+492,semantic search engines,analyzes,information needs,openie,1
+493,web ontology language,includes,semantic similarity measures,openie,1
+494,semantic web technologies,includes,web ontology language,openie,5
+495,ontology alignment,includes,model transformations,openie,1
+496,description logics,includes,semantic description,openie,1
+497,ontology alignment,includes,semantic web technologies,openie,2
+498,semantic web technologies,uses,linked data,openie,1
+499,semantic distance,includes,semantic web services,openie,2
+500,semantic search engines,includes,web-searching,openie,1
+501,ontology alignment,includes,learning,openie,2
+502,web ontology language,includes,resource description framework (rdf),openie,7
+503,resource description framework (rdf),represents,web information,openie,1
+504,word sense disambiguation,includes,semantic search engines,openie,2
+505,semantic search engines,includes,ontology alignment,openie,1
+506,python,includes,linked data,openie,1
+507,ontology alignment,includes,semantic search engines,openie,1
+508,semantic web services,includes,intelligent agents,openie,2
+509,ontology alignment,includes,concept similarity,openie,1
+510,linked data,includes,semantic search engine,openie,1
+511,ontology alignment,includes,ontology integration,openie,1
+512,resource description framework (rdf),includes,web ontology language,openie,264
+513,ontology alignment,includes,semantic interoperability,openie,2
+514,semantic search engines,produces,ontology-based,openie,1
+515,information retrieval technology,includes,semantic search engine,openie,1
+516,semantic heterogeneity,includes,ontology alignment,openie,1
+517,natural language interfaces,includes,ontology alignment,openie,1
+518,linked data,includes,semantic relationships,openie,2
+519,knowledge-sharing,includes,ontology alignment,openie,1
+520,ontology alignment,includes,artificial intelligence,openie,1
+521,resource description framework (rdf),includes,named entity recognition,openie,1
+522,shortest paths,includes,semantic web services,openie,1
+523,ontology building,includes,semantic search engines,openie,2
+524,information fusion,includes,semantic search engines,openie,1
+525,resource description framework (rdf),includes,information retrieval,openie,1
+526,linked data,includes,database systems,openie,4
+527,web ontology language,includes,semantic web rule languages,openie,50
+528,semantic descriptions,includes,verification,openie,2
+529,wordnet,includes,ontology alignment,openie,1
+530,user query,includes,semantic search engines,openie,1
+531,formal models,includes,semantic search engines,openie,1
+532,inference,includes,semantic search engines,openie,1
+533,linked data,includes,data visualization,openie,1
+534,ontology evaluation,includes,ontology alignment,openie,1
+535,graphical models,includes,semantic descriptions,openie,2
+536,system architectures,includes,semantic web services,openie,1
+537,digital libraries,includes,resource description framework (rdf),openie,1
+538,linked data,includes,information needs,openie,1
+539,linked data,supports,dialogue,openie,1
+540,web ontology language,includes,security policies,openie,1
+541,web crawlers,includes,semantic search engine,openie,1
+542,web ontology language,includes,knowledge acquisition,openie,1
+543,web ontology language,includes,semantic descriptions,openie,1
+544,semantic web rule languages,includes,web ontology language,openie,5
+545,linked data,includes,web 2.0,openie,1
+546,wordnet,includes,web ontology language,openie,1
+547,linked data,includes,answering queries,openie,1
+548,semantic search engine,includes,recommendation systems,openie,1
+549,semantic search engine,includes,semantic search engines,openie,2
+550,semantic web services,includes,semantic web technologies,openie,2
+551,semantic web services,includes,information systems,openie,1
+552,semantic web services,includes,enterprise information systems,openie,1
+553,semantic search engines,includes,ontology design,openie,1
+554,dbpedia,includes,semantic search engine,openie,2
+555,linked data,includes,web browsing,openie,1
+556,ontology alignment,reuses,ontology-based,openie,2
+557,voicexml,includes,web ontology language,openie,4
+558,extensible markup language,includes,resource description framework (rdf),openie,15
+559,linked data,includes,question answering systems,openie,2
+560,question answering systems,uses,linked data,openie,1
+561,resource description framework (rdf),includes,data exchange,openie,5
+562,ontology alignment,includes,engineering,openie,2
+563,image annotation,includes,semantic web services,openie,1
+564,context models,includes,linked data,openie,1
+565,artificial intelligence,includes,semantic search engine,openie,1
+566,semantic descriptions,includes,semantic relationships,openie,1
+567,web ontology language,includes,description logics,openie,4
+568,text classification,includes,semantic search engines,openie,1
+569,semantic description,includes,semantic relationships,openie,1
+570,linked data,includes,visualization,openie,1
+571,semantic description,uses,ontology-based,openie,1
+572,natural language processing systems,includes,web ontology language,openie,2
+573,service compositions,includes,semantic web services,openie,2
+574,linked data,includes,user interfaces,openie,1
+575,semantic web services,includes,knowledge representation,openie,1
+576,ontology alignment,includes,computer science,openie,1
+577,web ontology language,includes,ontology modeling,openie,1
+578,semantic web services,includes,ontology technology,openie,1
+579,authentication mechanisms,includes,semantic search engines,openie,1
+580,resource description framework (rdf),includes,microdata,openie,1
+581,logic programming,includes,web ontology language,openie,1
+582,linked data,includes,keyword search,openie,2
+583,information fusion,includes,ontology alignment,openie,1
+584,semantic web services,includes,ontology alignment,openie,2
+585,semantic search engines,includes,knowledge-sharing,openie,1
+586,artificial intelligence,includes,semantic web services,openie,1
+587,web ontology language,includes,knowledge engineering,openie,2
+588,wordnet,includes,semantic search engines,openie,1
+589,semantic search engines,includes,smart phones,openie,1
+590,web ontology language,includes,star schema,openie,1
+591,probabilistic models,includes,resource description framework (rdf),openie,1
+592,ontology alignment,includes,information systems,openie,1
+593,service compositions,includes,ontology alignment,openie,3
+594,semantic search engines,includes,data mining,openie,2
+595,description logics,includes,semantic web services,openie,6
+596,ontology alignment,includes,knowledge acquisition,openie,2
+597,linked data,includes,query processing,openie,2
+598,linked open data,includes,semantic search engines,openie,3
+599,description logics,includes,web ontology language,openie,10
+600,ontology alignment,includes,semantic descriptions,openie,2
+601,web ontology language,includes,software design patterns,openie,1
+602,semantic description,includes,web services discovery,openie,1
+603,web ontology language,includes,knowledge management,openie,2
+604,resource description framework (rdf),includes,inference,openie,2
+605,data integration,includes,ontology alignment,openie,3
+606,ontology learning,includes,semantic descriptions,openie,1
+607,resource description framework (rdf),includes,policy specification,openie,1
+608,user interfaces,includes,semantic search engine,openie,1
+609,ontology alignment,includes,ontology alignment,openie,28
+610,semantic interoperability,includes,semantic web services,openie,3
+611,ontology development,includes,ontology alignment,openie,2
+612,semantic web services,includes,ontology-based,openie,4
+613,knowledge representation,includes,semantic web services,openie,1
+614,ontology-based,uses,web ontology language,openie,7
+615,ontology language,includes,web ontology language,openie,1
+616,web 2.0,includes,linked data,openie,5
+617,semantic web technologies,includes,ontology alignment,openie,2
+618,ontology alignment,includes,change detection,openie,1
+619,resource description framework (rdf),includes,knowledge acquisition,openie,1
+620,intelligent agents,includes,semantic web services,openie,3
+621,semantic description,uses,web ontology language,openie,1
+622,semantic description,includes,cloud services,openie,1
+623,database systems,includes,linked data,openie,1
+624,knowledge bases,includes,semantic web services,openie,1
+625,automatic image annotation,includes,semantic search engines,openie,1
+626,enterprise information systems,includes,semantic web services,openie,1
+627,linked open data,includes,semantic search engine,openie,1
+628,web ontology language,includes,object constraint language,openie,1
+629,resource description framework (rdf),includes,query processing,openie,1
+630,semantic metadata,includes,semantic search engine,openie,1
+631,interactive visualizations,includes,ontology alignment,openie,2
+632,knowledge bases,includes,linked data,openie,1
+633,semantic web services,includes,virtual organizations,openie,1
+634,linked data,includes,digital contents,openie,1
+635,semantic interoperability,includes,ontology alignment,openie,2
+636,semantic web services,provides,automation,openie,4
+637,semantic search engine,includes,semantic web services,openie,1
+638,data exchange,includes,ontology alignment,openie,1
+639,semantic web services,includes,user profiles,openie,1
+640,ontology construction,includes,ontology alignment,openie,1
+641,knowledge representation,uses,web ontology language,openie,1
+642,semantic web services,includes,mobile computing,openie,1
+643,linked data,includes,semantic web technologies,openie,10
+644,software agents,includes,semantic web services,openie,5
+645,ontology-based,includes,web ontology language,openie,22
+646,reasoning algorithms,uses,web ontology language,openie,1
+647,semantic search engines,includes,knowledge discovery,openie,3
+648,ontology alignment,includes,ontology learning,openie,2
+649,semantic web services,includes,ontology construction,openie,1
+650,information integration,includes,ontology alignment,openie,1
+651,linked data,includes,knowledge discovery,openie,4
+652,semantic relationships,includes,semantic web services,openie,8
+653,virtual organizations,includes,semantic web services,openie,1
+654,data integration,includes,semantic web services,openie,2
+655,semantic metadata,includes,semantic search engines,openie,1
+656,semantic web services,includes,semantic web services,openie,19
+657,linked open data,includes,resource description framework (rdf),openie,1
+658,data mining,includes,ontology alignment,openie,2
+659,semantic web services,includes,web searches,openie,1
+660,information retrieval,includes,ontology alignment,openie,4
+661,reference architectures,includes,semantic web services,openie,1
+662,caching,includes,web ontology language,openie,1
+663,data management,includes,semantic search engines,openie,1
+664,content management,includes,resource description framework (rdf),openie,1
+665,resource description framework (rdf),includes,web information,openie,1
+666,grid computing,includes,semantic web services,openie,1
+667,resource description framework (rdf),includes,semantic search engines,openie,1
+668,ontology alignment,includes,information management,openie,1
+669,semantic description,includes,ontology-based,openie,2
+670,information retrieval,includes,semantic search engines,openie,6
+671,semantic web technologies,includes,linked data,openie,2
+672,sparql,includes,resource description framework (rdf),openie,5
+673,inference,includes,semantic search engine,openie,1
+674,verification,includes,ontology alignment,openie,1
+675,data integration,includes,ontology alignment,openie,1
+676,linked data,includes,information integration,openie,1
+677,semantic search engines,includes,information contents,openie,1
+678,semantic web services,includes,semantic description,openie,2
+679,ontology technology,includes,semantic web services,openie,2
+680,semantic web services,produces,automatic composition,openie,1
+681,digital libraries,includes,linked data,openie,2
+682,ontology alignment,includes,natural language processing systems,openie,1
+683,ontology alignment,includes,information retrieval,openie,1
+684,semantic search engines,includes,web applications,openie,3
+685,semantic web technologies,includes,resource description framework (rdf),openie,6
+686,web ontology language,includes,vocabulary,openie,2
+687,graph theory,includes,semantic web services,openie,1
+688,resource description framework (rdf),includes,data exchange,openie,1
+689,linked data,includes,background knowledge,openie,3
+690,semantic web technologies,includes,semantic web services,openie,19
+691,ontology alignment,includes,word sense disambiguation,openie,1
+692,semantic description,includes,grid services,openie,1
+693,semantic web services,requires,authentication,openie,1
+694,web 2.0,includes,semantic web services,openie,4
+695,distributed systems,includes,semantic web services,openie,1
+696,semantic web technologies,includes,semantic search engine,openie,2
+697,natural language processing systems,uses,linked data,openie,1
+698,relational database systems,includes,linked data,openie,3
+699,semantic web services,includes,intelligent software agent,openie,1
+700,on-line communities,includes,semantic web services,openie,1
+701,resource description framework (rdf),includes,semantic web technologies,openie,1
+702,semantic web services,includes,business process modelling,openie,1
+703,semantic descriptions,includes,manets,openie,2
+704,machine translation systems,includes,ontology alignment,openie,1
+705,automated reasoning,includes,ontology alignment,openie,1
+706,relational database systems,includes,resource description framework (rdf),openie,6
+707,knowledge bases,includes,resource description framework (rdf),openie,1
+708,knowledge representation,includes,ontology alignment,openie,2
+709,semantic wikis,includes,semantic search engines,openie,1
+710,semantic web technologies,supports,resource description framework (rdf),openie,1
+711,resource description framework (rdf),includes,social sciences,openie,1
+712,schema matching,includes,ontology alignment,openie,1
+713,ontology alignment,includes,query processing,openie,1
+714,web ontology language,supports,inference,openie,1
+715,information integration,includes,linked data,openie,1
+716,semantic web services,includes,search engines,openie,4
+717,ontology alignment,includes,electronic commerce,openie,1
+718,semantic data,includes,semantic search engine,openie,2
+719,ontology alignment,includes,semantic heterogeneity,openie,3
+720,resource description framework (rdf),includes,sparql,openie,78
+721,web ontology language,includes,controlled natural language,openie,1
+722,electronic commerce,requires,ontology alignment,openie,1
+723,semantic web services,includes,business processes,openie,2
+724,services selection,includes,semantic web services,openie,3
+725,validation,includes,ontology alignment,openie,1
+726,linked data,includes,semantic distance,openie,1
+727,semantic web technologies,includes,semantic web services,openie,36
+728,semantic search engines,includes,semantic metadata,openie,1
+729,clustering algorithms,includes,semantic search engines,openie,1
+730,semantic descriptions,is,component-based software engineering,openie,1
+731,web services discovery,includes,semantic web services,openie,2
+732,network management,includes,semantic web services,openie,1
+733,description logics,includes,web ontology language,openie,14
+734,resource description framework (rdf),includes,programming languages,openie,1
+735,web 2.0,includes,semantic descriptions,openie,1
+736,linked data,includes,world wide web,openie,3
+737,natural language interfaces,includes,semantic search engine,openie,4
+738,ontology alignment,includes,information integration,openie,2
+739,database systems,includes,ontology alignment,openie,1
+740,speech recognition,includes,semantic search engines,openie,1
+741,ontology integration,includes,ontology alignment,openie,3
+742,semantic search engines,includes,ontology learning,openie,3
+743,semantic web services,includes,web applications,openie,5
+744,semantic search engine,includes,web service composition,openie,1
+745,heterogeneous databases,includes,semantic descriptions,openie,1
+746,semantic description,includes,intelligent agents,openie,2
+747,ontology alignment,includes,software maintenance,openie,1
+748,linked data,includes,mobile services,openie,1
+749,particle swarm optimization algorithms,includes,ontology alignment,openie,1
+750,linked data,includes,linked open data,openie,2
+751,semantic search engines,includes,semantic search engines,openie,4
+752,web-mining,includes,ontology alignment,openie,1
+753,web ontology language,includes,semantic search engines,openie,1
+754,knowledge representation,includes,semantic search engines,openie,1
+755,web ontology language,includes,semantic web technologies,openie,9
+756,linked data,includes,artificial intelligence,openie,1
+757,web contents,uses,resource description framework (rdf),openie,2
+758,semantic search engines,includes,web contents,openie,1
+759,ontology alignment,includes,automatic classification,openie,1
+760,web ontology language,supports,reasoning algorithms,openie,1
+761,ontology alignment,includes,semantic concept,openie,2
+762,semantic search engines,includes,text mining,openie,1
+763,collaborative filtering algorithms,includes,semantic web services,openie,1
+764,augmented reality,includes,linked data,openie,1
+765,ontology alignment,includes,semantic relationships,openie,3
+766,natural languages,includes,semantic descriptions,openie,1
+767,ontology modeling,includes,ontology alignment,openie,1
+768,graph matchings,includes,semantic search engines,openie,1
+769,semantic web technologies,uses,web ontology language,openie,2
+770,resource description framework (rdf),includes,web contents,openie,1
+771,web ontology language,includes,data integration,openie,1
+772,web ontology language,includes,web contents,openie,2
+773,ontology alignment,includes,semantic web technologies,openie,10
+774,resource description framework (rdf),includes,knowledge representation and reasoning,openie,1
+775,semantic search engines,includes,recommendation,openie,1
+776,personalizations,includes,semantic search engines,openie,1
+777,ontology alignment,supports,semantic interoperability,openie,1
+778,service orchestration,includes,ontology alignment,openie,1
+779,knowledge representation,includes,web ontology language,openie,1
+780,ontology language,includes,semantic web services,openie,1
+781,social software,includes,semantic search engines,openie,1
+782,web ontology language,includes,ontology development,openie,1
+783,extreme programming,defines,web ontology language,openie,1
+784,web ontology language,includes,relational database systems,openie,3
+785,ontology alignment,includes,semantic interoperability,openie,10
+786,linked data,includes,information systems,openie,3
+787,domain-specific ontologies,includes,semantic search engines,openie,4
+788,mobile phones,includes,semantic search engines,openie,2
+789,web ontology language,supports,search engines,openie,1
+790,linked data,includes,information fusion,openie,1
+791,semantic search engines,includes,education,openie,1
+792,controlled natural language,includes,ontology alignment,openie,1
+793,web ontology language,includes,coloured petri nets,openie,1
+794,resource description framework (rdf),includes,authentication,openie,1
+795,semantic web services,includes,service matching,openie,4
+796,rdf graph,includes,semantic search engines,openie,1
+797,resource description framework (rdf),includes,ontology language,openie,12
+798,information retrieval,includes,semantic web services,openie,4
+799,automatic image annotation,supports,semantic search engines,openie,1
+800,semantic relationships,includes,web ontology language,openie,1
+801,web ontology language,includes,knowledge bases,openie,1
+802,feature space,includes,semantic search engines,openie,1
+803,semantic web technologies,includes,web ontology language,openie,2
+804,knowledge acquisition,includes,semantic web services,openie,1
+805,linked data,uses,resource description framework (rdf),openie,1
+806,uml profiles,includes,semantic web services,openie,3
+807,knowledge management,includes,semantic web services,openie,1
+808,data integration,includes,ontology alignment,openie,5
+809,answer set programming,includes,web ontology language,openie,1
+810,resource description framework (rdf),includes,data management,openie,1
+811,ontology alignment,includes,web 2.0,openie,1
+812,linked data,includes,semantic similarity measures,openie,4
+813,ontology integration,includes,ontology alignment,openie,1
+814,semantic web services,includes,web services discovery,openie,6
+815,ontology-based,includes,semantic descriptions,openie,4
+816,semantic web services,includes,software architectures,openie,2
+817,semantic web services,includes,knowledge management,openie,1
+818,web-mining,includes,semantic search engines,openie,1
+819,ontology alignment,includes,schema matching,openie,1
+820,semantic search engines,includes,mobile computing,openie,1
+821,semantic web services,includes,dialogue,openie,1
+822,artificial intelligence,includes,linked data,openie,1
+823,ontology alignment,includes,ontology alignment,openie,2
+824,relational data models,includes,semantic search engines,openie,1
+825,word sense disambiguation,includes,ontology alignment,openie,1
+826,resource description framework (rdf),includes,world wide web,openie,1
+827,mashup,includes,semantic web services,openie,1
+828,linked data,includes,ontology construction,openie,1
+829,ontology alignment,includes,text mining,openie,1
+830,semantic web technologies,includes,resource description framework (rdf),openie,2
+831,linked data,includes,data sparsity,openie,1
+832,web ontology language,includes,semantic web technologies,openie,23
+833,resource description framework (rdf),includes,intelligent agents,openie,1
+834,semantic web services,includes,recommender systems,openie,1
+835,semantic web services,includes,semantic wikis,openie,1
+836,semantic search engines,uses,resource description framework (rdf),openie,1
+837,semantic web services,includes,process modelling,openie,1
+838,document classification,includes,semantic search engines,openie,2
+839,kernel functions,includes,ontology alignment,openie,1
+840,linked data,includes,schema mappings,openie,1
+841,coloured petri nets,includes,semantic web services,openie,2
+842,ontology alignment,includes,modeling languages,openie,1
+843,semantic search engines,includes,image search,openie,1
+844,ontology alignment,includes,semantic data,openie,1
+845,resource description framework (rdf),includes,description logics,openie,6
+846,ontology alignment,includes,semantic relationships,openie,1
+847,resource description framework (rdf),includes,knowledge representation,openie,6
+848,domain knowledge,includes,web ontology language,openie,1
+849,linked data,includes,social sciences,openie,1
+850,semantic search engines,includes,machine translation systems,openie,1
+851,background knowledge,includes,ontology alignment,openie,1
+852,ontology-based,proposes,ontology alignment,openie,1
+853,pervasive computing environments,includes,ontology alignment,openie,1
+854,web ontology language,includes,context information,openie,3
+855,semantic web services,includes,service compositions,openie,1
+856,sparql,includes,semantic web services,openie,1
+857,semantic description,includes,systems integration,openie,1
+858,sparql,includes,linked data,openie,3
+859,information sharing,includes,ontology alignment,openie,1
+860,web ontology language,includes,semantic relationships,openie,2
+861,linked data,includes,information exchanges,openie,2
+862,distributed architectures,includes,semantic web services,openie,1
+863,ontology technology,includes,semantic description,openie,1
+864,ontology alignment,includes,web services discovery,openie,1
+865,z,includes,web ontology language,openie,1
+866,web ontology language,includes,collaborative designs,openie,1
+867,linked data,includes,knowledge engineering,openie,1
+868,web ontology language,includes,context reasoning,openie,2
+869,ontology alignment,includes,clustering algorithms,openie,3
+870,semantic web services,includes,domain knowledge,openie,1
+871,natural language processing systems,includes,ontology alignment,openie,4
+872,linked data,improves,web contents,openie,1
+873,relational data models,includes,resource description framework (rdf),openie,1
+874,voicexml,includes,resource description framework (rdf),openie,4
+875,search engines,includes,semantic web services,openie,1
+876,document clustering,includes,semantic search engines,openie,1
+877,automated reasoning,includes,web ontology language,openie,1
+878,information retrieval,includes,ontology alignment,openie,2
+879,linked data,supports,parsing algorithm,openie,1
+880,ontology-based,includes,semantic search engines,openie,22
+881,semantic web services,includes,computer science,openie,1
+882,ontology alignment,includes,ontology merging,openie,2
+883,semantic web technologies,includes,semantic search engines,openie,5
+884,linked data,includes,machine learning techniques,openie,1
+885,semantic web services,includes,software development life cycle,openie,1
+886,web ontology language,is,resource description framework (rdf),openie,1
+887,resource description framework (rdf),includes,enterprise architecture,openie,1
+888,semantic web services,includes,automation,openie,1
+889,ontology alignment,includes,data integration,openie,1
+890,resource description framework (rdf),includes,semantic web technologies,openie,64
+891,semantic web services,includes,web contents,openie,1
+892,extensible markup language,includes,web ontology language,openie,4
+893,semantic description,includes,computer systems,openie,1
+894,ontology alignment,includes,semantic web services,openie,2
+895,rule engine,includes,linked data,openie,1
+896,ontology alignment,includes,query rewritings,openie,1
+897,ontology alignment,includes,ontology integration,openie,4
+898,search engines,includes,semantic search engines,openie,5
+899,web ontology language,includes,java,openie,1
+900,communication,includes,semantic web services,openie,1
+901,knowledge bases,includes,semantic search engine,openie,1
+902,software agents,includes,semantic description,openie,1
+903,web ontology language,includes,inference,openie,3
+904,web information,includes,semantic description,openie,1
+905,ontology learning,includes,ontology alignment,openie,1
+906,linked data,includes,relational database systems,openie,1
+907,domain-specific ontologies,includes,ontology alignment,openie,1
+908,web ontology language,includes,computer systems,openie,1
+909,software design patterns,includes,linked data,openie,1
+910,web ontology language,includes,resource discovery,openie,1
+911,ontology-based,uses,resource description framework (rdf),openie,1
+912,cloud computing,includes,semantic search engines,openie,1
+913,semantic web services,includes,web engineering,openie,1
+914,web ontology language,includes,knowledge representation,openie,3
+915,question answering systems,includes,linked data,openie,1
+916,resource description framework (rdf),includes,web ontology language,openie,35
+917,personalized services,includes,semantic web services,openie,1
+918,ontology-based,includes,semantic description,openie,4
+919,back propagation neural networks,includes,semantic web services,openie,1
+920,database management,includes,semantic web services,openie,1
+921,facebook,includes,semantic search engines,openie,1
+922,semantic search engine,includes,semantic wikis,openie,1
+923,ontology alignment,includes,testing and debugging,openie,1
+924,semantic web services,includes,semantic heterogeneity,openie,1
+925,ontology alignment,includes,information extraction,openie,1
+926,service-oriented computing,includes,semantic web services,openie,1
+927,bayesian networks,includes,ontology alignment,openie,1
+928,web ontology language,includes,ontology construction,openie,1
+929,cloud storages,includes,semantic search engines,openie,1
+930,rough sets theory,includes,ontology alignment,openie,1
+931,semantic search engines,includes,semantic web technologies,openie,2
+932,linked data,includes,information extraction,openie,1
+933,semantic web services,includes,knowledge-sharing,openie,1
+934,semantic web services,includes,shape optimization,openie,1
+935,petri nets,includes,semantic web services,openie,4
+936,hierarchical models,includes,semantic search engines,openie,2
+937,semantic web services,includes,software agents,openie,3
+938,anomaly detection,includes,semantic search engines,openie,1
+939,web contents,includes,semantic search engines,openie,1
+940,linked data,includes,digital libraries,openie,8
+941,ontology alignment,includes,semantic heterogeneity,openie,5
+942,resource description framework (rdf),includes,web engineering,openie,2
+943,mobile devices,includes,semantic search engines,openie,2
+944,xml schemas,includes,resource description framework (rdf),openie,1
+945,resource description framework (rdf),includes,knowledge management,openie,1
+946,semantic web services,includes,telecommunications industry,openie,2
+947,resource description framework (rdf),includes,knowledge management systems,openie,1
+948,automatic composition,includes,semantic web services,openie,3
+949,linked data,includes,data management,openie,1
+950,web ontology language,provides,access control,openie,1
+951,web ontology language,includes,dynamic service composition,openie,1
+952,fuzzy extension,includes,web ontology language,openie,1
+953,semantic relationships,includes,semantic search engine,openie,1
+954,semantic search engine,includes,web contents,openie,2
+955,linked data,includes,cloud computing,openie,2
+956,semantic description,includes,web contents,openie,1
+957,energy conservation,includes,semantic web services,openie,1
+958,semantic search engines,includes,interactive visualizations,openie,1
+959,semantic web technologies,includes,semantic search engines,openie,7
+960,xml schemas,includes,web ontology language,openie,10
+961,phonology,includes,semantic search engines,openie,1
+962,knowledge bases,uses,web ontology language,openie,1
+963,ontology alignment,includes,semantic web technologies,openie,1
+964,linked data,includes,web applications,openie,4
+965,resource description framework (rdf),includes,natural language processing systems,openie,1
+966,resource description framework (rdf),includes,relational database systems,openie,1
+967,intelligent agents,includes,semantic descriptions,openie,2
+968,web ontology language,includes,ontology design,openie,1
+969,information integration,includes,semantic web services,openie,4
+970,business processes,includes,semantic web services,openie,1
+971,vocabulary,includes,linked data,openie,1
+972,intranets,includes,semantic web services,openie,1
+973,linked data,includes,social networks,openie,2
+974,ontology alignment,includes,semantic similarity measures,openie,1
+975,cloud computing,includes,semantic web services,openie,1
+976,ontology alignment,includes,data exchange,openie,1
+977,linked data,includes,vocabulary,openie,1
+978,ontology alignment,includes,reasoning algorithms,openie,3
+979,pervasive computing,includes,semantic search engines,openie,1
+980,fuzzy logics,includes,web ontology language,openie,1
+981,knowledge management,includes,semantic search engines,openie,1
+982,ontology alignment,includes,ontology alignment,openie,42
+983,linked data,includes,semantic relationships,openie,1
+984,semantic search engines,includes,social software,openie,1
+985,semantic search engines,uses,mobile phones,openie,1
+986,web ontology language,is,web ontology language,openie,1
+987,extreme programming,includes,linked data,openie,1
+988,web ontology language,includes,modeling languages,openie,1
+989,semantic description,includes,search engines,openie,1
+990,linked data,includes,knowledge bases,openie,1
+991,ontology-based,supports,linked data,openie,1
+992,database systems,includes,web ontology language,openie,1
+993,fuzzy sets theory,includes,ontology alignment,openie,1
+994,web ontology language,includes,programming languages,openie,1
+995,fuzzy c-means clustering algorithms,includes,ontology alignment,openie,1
+996,semantic description,includes,domain knowledge,openie,1
+997,semantic descriptions,includes,content management systems,openie,1
+998,bayesian classification,includes,semantic web services,openie,1
+999,resource description framework (rdf),includes,semantic web technologies,openie,9
+1000,programming models,includes,semantic web services,openie,1
+1001,semantic description,includes,affective computing,openie,1
+1002,social networks,includes,linked data,openie,2
+1003,sentence similarity,includes,ontology alignment,openie,2
+1004,resource description framework (rdf),includes,computer science,openie,1
+1005,ontology alignment,includes,anomaly detection,openie,1
+1006,resource description framework (rdf),supports,data exchange,openie,1
+1007,open source software,includes,semantic web services,openie,1
+1008,query processing,includes,semantic search engine,openie,1
+1009,linked data,includes,semantic web technologies,openie,44
+1010,database systems,includes,resource description framework (rdf),openie,2
+1011,semantic web services,includes,multi-agents,openie,1
+1012,digital libraries,includes,semantic web services,openie,2
+1013,testing and debugging,includes,ontology alignment,openie,1
+1014,information extraction,includes,ontology alignment,openie,1
+1015,semantic web services,includes,semantic web technologies,openie,3
+1016,linked data,includes,cloud services,openie,1
+1017,semantic search engines,includes,ontology construction,openie,1
+1018,semantic web services,includes,adaptive systems,openie,1
+1019,linked data,includes,geographic information system,openie,1
+1020,web ontology language,includes,reasoning algorithms,openie,1

@@ -1,0 +1,1711 @@
+,s,p,o,source,support
+0,linked data,produces,parsing algorithm,heuristic,5
+1,resource description framework (rdf),is,linked data,heuristic,13
+2,semantic description,publishes,semantic similarity measures,heuristic,2
+3,linked data,supports,answering queries,heuristic,1
+4,linked data,supports,web contents,heuristic,1
+5,automated reasoning,is,web ontology language,heuristic,2
+6,automatic classification,conjunction,ontology alignment,heuristic,1
+7,semantic web services,improves,automation,heuristic,26
+8,semantic relationships,represents,semantic web services,heuristic,2
+9,ontology alignment,defines,wordnet,heuristic,5
+10,resource description framework (rdf),conjunction,fuzzy ontology,heuristic,1
+11,data management,requires,linked data,heuristic,2
+12,data integration,is,ontology alignment,heuristic,5
+13,web ontology language,uses,pattern,heuristic,1
+14,web ontology language,uses,pervasive computing environments,heuristic,1
+15,semantic descriptions,is,semantic web technologies,heuristic,1
+16,ontology alignment,proposes,relational database systems,heuristic,3
+17,semantic web rule languages,represents,web ontology language,heuristic,74
+18,resource description framework (rdf),represents,logic programming,heuristic,2
+19,agent-based,conjunction,semantic web services,heuristic,1
+20,text mining,conjunction,ontology alignment,heuristic,1
+21,semantic web services,is,pervasive computing,heuristic,1
+22,ontology technology,conjunction,semantic web services,heuristic,2
+23,semantic search engines,combines,grid computing,heuristic,2
+24,ontology alignment,is,semantic web technologies,heuristic,8
+25,ontology language,defines,web ontology language,heuristic,41
+26,web ontology language,acquires,linked data,heuristic,2
+27,semantic description,uses,web ontology language,heuristic,5
+28,linked data,produces,dbpedia,heuristic,19
+29,ontology alignment,uses,semantic web services,heuristic,1
+30,rdf graph,proposes,resource description framework (rdf),heuristic,10
+31,pattern,supports,semantic descriptions,heuristic,4
+32,resource description framework (rdf),conjunction,relational data models,heuristic,1
+33,cloud computing,conjunction,semantic search engines,heuristic,1
+34,web ontology language,supports,sharing knowledge,heuristic,3
+35,semantic web services,matches,electronic data interchange,heuristic,1
+36,shortest paths,produces,resource description framework (rdf),heuristic,1
+37,linked data,conjunction,ontology construction,heuristic,1
+38,recommendation,is,resource description framework (rdf),heuristic,8
+39,ontology alignment,improves,web usage,heuristic,1
+40,user interfaces,uses,semantic descriptions,heuristic,1
+41,ontology construction,conjunction,ontology alignment,heuristic,2
+42,semantic web service discovery,base,semantic web services,heuristic,9
+43,semantic descriptions,is,component-based software engineering,heuristic,1
+44,web ontology language,provides,data warehouses,heuristic,1
+45,programming languages,uses,web ontology language,heuristic,3
+46,resource description framework (rdf),supports,query processing,heuristic,1
+47,semantic web technologies,includes,semantic search engines,heuristic,6
+48,user profiling,conjunction,semantic search engines,heuristic,1
+49,resource description framework (rdf),provides,semantic web technologies,heuristic,282
+50,information retrieval,uses,semantic description,heuristic,1
+51,faculty,proposes,resource description framework (rdf),heuristic,1
+52,verification,is,ontology alignment,heuristic,1
+53,web ontology language,acquires,conditional probabilities,heuristic,1
+54,semantic desktop,base,resource description framework (rdf),heuristic,1
+55,semantic web technologies,conjunction,ontology alignment,heuristic,1
+56,ontology alignment,conjunction,information retrieval,heuristic,2
+57,resource description framework (rdf),supports,semantic search engines,heuristic,1
+58,semantic web services,is,ubiquitous computing,heuristic,1
+59,ontology alignment,is,ontology merging,heuristic,4
+60,data mining,conjunction,semantic search engines,heuristic,1
+61,semantic search engine,uses,biomedical literature,heuristic,1
+62,grid computing,provides,semantic web services,heuristic,3
+63,mashup,selects,semantic web services,heuristic,2
+64,web ontology language,includes,context reasoning,heuristic,4
+65,semantic similarity measures,proposes,semantic description,heuristic,2
+66,knowledge management,provides,semantic web services,heuristic,2
+67,resource description framework (rdf),analyzes,semantic web technologies,heuristic,3
+68,ontology alignment,selects,semantic similarity measures,heuristic,1
+69,learning,uses,semantic search engine,heuristic,1
+70,ontology alignment,conjunction,search engines,heuristic,1
+71,ontology alignment,uses,image retrieval,heuristic,1
+72,linked data,provides,data integration,heuristic,20
+73,resource description framework (rdf),proposes,web contents,heuristic,4
+74,ontology alignment,selects,ontology-based,heuristic,260
+75,ontology language,proposes,semantic description,heuristic,1
+76,ontology alignment,supports,knowledge exchange,heuristic,1
+77,component-based software engineering,selects,semantic web services,heuristic,4
+78,resource description framework (rdf),produces,geology,heuristic,1
+79,resource description framework (rdf),provides,reasoning algorithms,heuristic,22
+80,world wide web,proposes,semantic web services,heuristic,2
+81,web services discovery,proposes,semantic web services,heuristic,16
+82,web ontology language,proposes,vocabulary,heuristic,7
+83,semantic web services,is,service matching,heuristic,10
+84,saam,publishes,linked data,heuristic,1
+85,learning,is,linked data,heuristic,3
+86,ontology alignment,limits,semantic heterogeneity,heuristic,8
+87,linked data,links,cycle,heuristic,2
+88,semantic search engines,conjunction,machine learning techniques,heuristic,1
+89,semantic search engines,analyzes,information needs,heuristic,10
+90,resource description framework (rdf),conjunction,content management,heuristic,1
+91,web ontology language,represents,t s fuzzy system,heuristic,2
+92,web ontology language,produces,web applications,heuristic,3
+93,ontology alignment,is,data exchange,heuristic,1
+94,resource description framework (rdf),represents,t s fuzzy system,heuristic,1
+95,boosting algorithm,proposes,semantic web services,heuristic,2
+96,ontology alignment,uses,query expansion,heuristic,2
+97,multi-agents,conjunction,semantic web services,heuristic,1
+98,web ontology language,improves,service matching,heuristic,1
+99,semantic web services,produces,web applications,heuristic,6
+100,internet,proposes,resource description framework (rdf),heuristic,6
+101,semantic web services,produces,ontology-based,heuristic,130
+102,ontology evolution,conjunction,ontology alignment,heuristic,1
+103,linked data,provides,libraries,heuristic,83
+104,information fusion,conjunction,semantic search engines,heuristic,1
+105,resource description framework (rdf),produces,semantic web technologies,heuristic,3
+106,dbpedia,base,semantic description,heuristic,1
+107,semantic web technologies,provides,web ontology language,heuristic,24
+108,libraries,provides,linked data,heuristic,95
+109,information integration,conjunction,semantic search engines,heuristic,2
+110,linked data,uses,domain-specific ontologies,heuristic,1
+111,ontology-based,defines,web ontology language,heuristic,225
+112,web ontology language,conjunction,pattern recognition,heuristic,1
+113,resource description framework (rdf),matches,matching algorithm,heuristic,1
+114,testing and debugging,conjunction,ontology alignment,heuristic,1
+115,security policies,base,web ontology language,heuristic,2
+116,ontology alignment,uses,linked data,heuristic,1
+117,universities,supports,semantic web services,heuristic,1
+118,text document,selects,resource description framework (rdf),heuristic,2
+119,knowledge management systems,base,linked data,heuristic,1
+120,education,uses,linked data,heuristic,1
+121,web ontology language,is,dynamic service composition,heuristic,1
+122,resource description framework (rdf),supports,display,heuristic,4
+123,natural language interfaces,selects,semantic description,heuristic,1
+124,ontology alignment,acquires,posterior probability,heuristic,1
+125,ontology alignment,conjunction,ontology merging,heuristic,2
+126,web ontology language,represents,undirected graph,heuristic,1
+127,linked data,is,keyword search,heuristic,1
+128,semantic description,supports,software agents,heuristic,1
+129,ontology alignment,conjunction,ontology construction,heuristic,2
+130,semantic web technologies,combines,web ontology language,heuristic,102
+131,web ontology language,provides,computability,heuristic,2
+132,web ontology language,converts,xml schemas,heuristic,12
+133,ontology alignment,selects,learning,heuristic,6
+134,rule engine,conjunction,resource description framework (rdf),heuristic,1
+135,semantic web services,is,engineering,heuristic,1
+136,ontology alignment,represents,information integration,heuristic,4
+137,web ontology language,produces,domain knowledge,heuristic,12
+138,communication protocols,produces,web ontology language,heuristic,3
+139,architecture viewpoints,uses,ontology alignment,heuristic,1
+140,data integration,is,web ontology language,heuristic,2
+141,semantic description,uses,ontology-based,heuristic,22
+142,grid services,publishes,web ontology language,heuristic,1
+143,ontology alignment,conjunction,clustering algorithms,heuristic,3
+144,resource description framework (rdf),represents,knowledge management systems,heuristic,2
+145,semantic description,acquires,database systems,heuristic,3
+146,linked data,uses,personalizations,heuristic,1
+147,semantic web services,base,description logics,heuristic,8
+148,electrical discharge machining,provides,linked data,heuristic,1
+149,xpath,conjunction,resource description framework (rdf),heuristic,1
+150,social networks,provides,linked data,heuristic,7
+151,semantic description,improves,image retrieval,heuristic,1
+152,semantic relationships,provides,semantic description,heuristic,1
+153,ontology alignment,combines,ontology construction,heuristic,1
+154,semantic web services,provides,information sharing,heuristic,2
+155,semantic data,produces,resource description framework (rdf),heuristic,1
+156,description logics,provides,web ontology language,heuristic,26
+157,linked data,conjunction,explicit knowledge,heuristic,1
+158,semantic search engine,extends,text mining,heuristic,1
+159,evolutionary algorithms,supports,ontology alignment,heuristic,2
+160,resource description framework (rdf),produces,semantic web services,heuristic,10
+161,natural language processing systems,publishes,linked data,heuristic,6
+162,verification,represents,semantic description,heuristic,3
+163,linked data,base,fuzzy sets theory,heuristic,1
+164,reasoning algorithms,produces,semantic description,heuristic,5
+165,semantic web technologies,provides,semantic web services,heuristic,103
+166,resource description framework (rdf),represents,enterprise architecture,heuristic,1
+167,semantic web services,automates,service compositions,heuristic,1
+168,word sense disambiguation,conjunction,ontology alignment,heuristic,1
+169,semantic search engines,uses,semantic similarity measures,heuristic,7
+170,web ontology language,provides,web ontology language,heuristic,36
+171,semantic search engines,produces,description logics,heuristic,1
+172,semantic wikis,conjunction,semantic web services,heuristic,2
+173,quality of information,limits,semantic search engines,heuristic,2
+174,semantic web services,conjunction,image annotation,heuristic,1
+175,intelligent agents,queries,semantic description,heuristic,1
+176,web ontology language,provides,validation,heuristic,2
+177,resource description framework (rdf),represents,web engineering,heuristic,1
+178,dbpedia,produces,resource description framework (rdf),heuristic,13
+179,web ontology language,provides,testing and debugging,heuristic,1
+180,supervised machine learning,uses,web ontology language,heuristic,1
+181,web ontology language,lacks,cooperative works,heuristic,1
+182,linked data,supports,mashup,heuristic,9
+183,web contents,selects,semantic description,heuristic,2
+184,natural language processing systems,converts,web ontology language,heuristic,1
+185,web ontology language,is,resource description framework (rdf),heuristic,4
+186,dbpedia,uses,ontology alignment,heuristic,1
+187,semantic web services,provides,automatic composition,heuristic,6
+188,ontology alignment,is,semantic concept,heuristic,2
+189,probability,converts,web ontology language,heuristic,1
+190,semantic web services,automates,verification,heuristic,1
+191,data mining process,proposes,semantic web services,heuristic,2
+192,semantic descriptions,is,content management systems,heuristic,2
+193,database systems,affects,resource description framework (rdf),heuristic,4
+194,linked data,provides,python,heuristic,4
+195,ontology alignment,matches,communication,heuristic,3
+196,resource description framework (rdf),is,community of practice,heuristic,1
+197,universities,is,resource description framework (rdf),heuristic,4
+198,domain-specific ontologies,proposes,ontology alignment,heuristic,3
+199,resource description framework (rdf),base,vocabulary,heuristic,1
+200,routing algorithms,uses,semantic web services,heuristic,1
+201,information exchanges,is,resource description framework (rdf),heuristic,3
+202,linked data,provides,javascript,heuristic,8
+203,ontology alignment,conjunction,information systems,heuristic,1
+204,web ontology language,improves,information retrieval,heuristic,2
+205,web applications,base,resource description framework (rdf),heuristic,9
+206,resource description framework (rdf),produces,information contents,heuristic,2
+207,ontology learning,conjunction,ontology alignment,heuristic,1
+208,web ontology language,defines,autonomous agents,heuristic,2
+209,question answering systems,links,linked data,heuristic,8
+210,resource description framework (rdf),uses,mobile devices,heuristic,1
+211,linked data,includes,web ontology language,heuristic,3
+212,resource description framework (rdf),base,ubiquitous environments,heuristic,2
+213,semantic relationships,converts,resource description framework (rdf),heuristic,2
+214,description logics,uses,resource description framework (rdf),heuristic,4
+215,semantic description,base,semantic descriptions,heuristic,1
+216,linked data,conjunction,knowledge-sharing,heuristic,1
+217,database systems,selects,linked data,heuristic,9
+218,resource description framework (rdf),base,product design,heuristic,1
+219,ontology alignment,uses,decision tables,heuristic,1
+220,pattern,includes,semantic description,heuristic,3
+221,semantic search engines,conjunction,user profiling,heuristic,1
+222,mediawiki,supports,semantic web services,heuristic,1
+223,process modelling,conjunction,linked data,heuristic,1
+224,semantic web services,provides,web service composition,heuristic,11
+225,linked data,base,routing algorithms,heuristic,1
+226,linked data,affects,query processing,heuristic,3
+227,linked data,provides,question answering systems,heuristic,10
+228,ontology alignment,conjunction,linked data,heuristic,1
+229,search engines,selects,resource description framework (rdf),heuristic,2
+230,semantic web services,supports,ambient intelligence,heuristic,1
+231,semantic search engines,conjunction,information fusion,heuristic,1
+232,semantic web rule languages,automates,semantic search engine,heuristic,2
+233,resource description framework (rdf),represents,ontology-based,heuristic,36
+234,geometry,matches,web ontology language,heuristic,3
+235,linked data,provides,resource description framework (rdf),heuristic,63
+236,web ontology language,provides,rdf graph,heuristic,1
+237,ontology-based,acquires,ontology alignment,heuristic,81
+238,semantic search engines,uses,ontology-based,heuristic,53
+239,semantic web services,provides,user experience,heuristic,3
+240,ontology alignment,uses,domain-specific ontologies,heuristic,7
+241,semantic descriptions,links,dbpedia,heuristic,1
+242,ontology alignment,supports,student performance,heuristic,1
+243,access control mechanism,uses,web ontology language,heuristic,1
+244,son,links,linked data,heuristic,2
+245,business process modelling,base,semantic web services,heuristic,1
+246,web ontology language,is,extensible markup language,heuristic,1
+247,resource description framework (rdf),queries,semantic metadata,heuristic,2
+248,ontology alignment,conjunction,information extraction,heuristic,2
+249,semantic web services,provides,hash,heuristic,1
+250,web servers,links,linked data,heuristic,1
+251,web ontology language,provides,reasoning algorithms,heuristic,80
+252,semantic web services,is,intelligibility,heuristic,3
+253,libraries,uses,resource description framework (rdf),heuristic,4
+254,semantic search engine,provides,user experience,heuristic,2
+255,resource description framework (rdf),represents,user profiles,heuristic,4
+256,linked open data,conjunction,semantic search engines,heuristic,2
+257,clustering algorithms,proposes,semantic web services,heuristic,4
+258,formal modelling,is,resource description framework (rdf),heuristic,2
+259,semantic web services,uses,pattern,heuristic,1
+260,clustering algorithms,conjunction,linked data,heuristic,1
+261,web ontology language,acquires,product families,heuristic,2
+262,semantic web services,conjunction,semantic wikis,heuristic,2
+263,resource description framework (rdf),provides,recommendation,heuristic,5
+264,semantic description,produces,mobile applications,heuristic,1
+265,communication,provides,web ontology language,heuristic,3
+266,resource description framework (rdf),supports,wordnet,heuristic,3
+267,knowledge representation,provides,semantic description,heuristic,7
+268,uml profiles,base,resource description framework (rdf),heuristic,2
+269,engineering,converts,linked data,heuristic,4
+270,pervasive,guides,semantic description,heuristic,1
+271,web ontology language,uses,communication,heuristic,6
+272,description logics,improves,semantic search engine,heuristic,1
+273,web ontology language,provides,resource description framework (rdf),heuristic,245
+274,semantic search engines,improves,user navigation,heuristic,1
+275,linked data,analyzes,user-generated content,heuristic,3
+276,web ontology language,supports,inference,heuristic,10
+277,ontology modeling,conjunction,ontology alignment,heuristic,1
+278,cache,links,linked data,heuristic,1
+279,semantic web services,requires,authentication,heuristic,1
+280,multi-threaded,queries,resource description framework (rdf),heuristic,2
+281,semantic web services,uses,answering queries,heuristic,1
+282,recommendation,conjunction,semantic web services,heuristic,1
+283,resource description framework (rdf),guides,undirected graph,heuristic,1
+284,document classification,conjunction,semantic search engines,heuristic,1
+285,semantic description,learns,e-learning environment,heuristic,4
+286,semantic search engines,conjunction,question answering systems,heuristic,7
+287,recommendation,conjunction,semantic search engines,heuristic,3
+288,semantic web services,includes,efficient algorithm,heuristic,3
+289,web ontology language,is,mass customization,heuristic,2
+290,linked data,is,education,heuristic,4
+291,semantic web services,analyzes,resource description framework (rdf),heuristic,12
+292,user experience,converts,semantic web services,heuristic,1
+293,knowledge acquisition,links,linked data,heuristic,1
+294,ontology alignment,is,knowledge-sharing,heuristic,2
+295,linked data,improves,mobile services,heuristic,2
+296,semantic web services,proposes,web ontology language,heuristic,7
+297,semantic web technologies,conjunction,semantic descriptions,heuristic,2
+298,ontology alignment,conjunction,ontology development,heuristic,1
+299,domain-specific ontologies,proposes,semantic web services,heuristic,11
+300,semantic search engines,acquires,multimedia contents,heuristic,3
+301,semantic search engines,is,semantic search engine,heuristic,2
+302,description logics,uses,ontology alignment,heuristic,2
+303,privacy,is,semantic web services,heuristic,1
+304,internet,provides,web ontology language,heuristic,4
+305,parsing algorithm,produces,resource description framework (rdf),heuristic,2
+306,semantic web services,conjunction,cloud computing,heuristic,1
+307,data visualization,conjunction,linked data,heuristic,1
+308,ontology alignment,base,argumentation,heuristic,1
+309,semantic search engines,analyzes,mobile agents,heuristic,1
+310,ontology alignment,selects,ontology-based,heuristic,205
+311,semantic search engines,supports,information contents,heuristic,1
+312,resource description framework (rdf),links,linked data,heuristic,74
+313,extreme programming,proposes,resource description framework (rdf),heuristic,1
+314,ontology-based,represents,resource description framework (rdf),heuristic,175
+315,linked data,improves,semantic search engine,heuristic,3
+316,internet,represents,resource description framework (rdf),heuristic,1
+317,resource description framework (rdf),includes,web ontology language,heuristic,9
+318,linked data,is,engineering,heuristic,8
+319,semantic web services,uses,electronic commerce,heuristic,3
+320,data management,base,web ontology language,heuristic,1
+321,web ontology language,provides,semantic heterogeneity,heuristic,1
+322,resource description framework (rdf),supports,tool support,heuristic,1
+323,semantic search engines,conjunction,ontology construction,heuristic,1
+324,shortest paths,produces,web ontology language,heuristic,1
+325,ontology alignment,conjunction,ontology integration,heuristic,1
+326,semantic web services,automates,formal verifications,heuristic,1
+327,digital libraries,links,resource description framework (rdf),heuristic,1
+328,web ontology language,provides,natural language processing systems,heuristic,4
+329,semantic search engines,selects,domain-specific ontologies,heuristic,4
+330,optimization,is,resource description framework (rdf),heuristic,2
+331,semantic web technologies,includes,ontology alignment,heuristic,3
+332,conceptual design,matches,web ontology language,heuristic,3
+333,ontology alignment,provides,ontology integration,heuristic,14
+334,communication,conjunction,semantic search engines,heuristic,1
+335,uml profiles,guides,semantic web services,heuristic,4
+336,linked data,provides,rdf graph,heuristic,1
+337,semantic web service discovery,conjunction,semantic search engines,heuristic,1
+338,semantic desktop,uses,linked data,heuristic,1
+339,sparql,proposes,ontology alignment,heuristic,2
+340,semantic web service discovery,selects,semantic description,heuristic,2
+341,display,affects,resource description framework (rdf),heuristic,1
+342,semantic concept,is,semantic search engines,heuristic,7
+343,linked data,conjunction,html5,heuristic,1
+344,semantic web services,is,component-based software engineering,heuristic,13
+345,ontology alignment,base,semantic desktop,heuristic,1
+346,ontology alignment,conjunction,schema integration,heuristic,1
+347,semantic description,links,dbpedia,heuristic,1
+348,ontology-based,uses,resource description framework (rdf),heuristic,44
+349,linked data,uses,recommender systems,heuristic,5
+350,semantic search engines,improves,information acquisitions,heuristic,3
+351,intelligent agents,conjunction,semantic descriptions,heuristic,4
+352,visualization,uses,resource description framework (rdf),heuristic,2
+353,semantic descriptions,supports,prototyping,heuristic,2
+354,ontology alignment,is,semantic data,heuristic,1
+355,web ontology language,provides,context information,heuristic,2
+356,reasoning algorithms,uses,web ontology language,heuristic,35
+357,web information extraction,is,ontology alignment,heuristic,1
+358,privacy policies,combines,semantic web services,heuristic,1
+359,linked data,provides,background knowledge,heuristic,3
+360,ontology alignment,provides,semantic description,heuristic,1
+361,business processes,converts,resource description framework (rdf),heuristic,2
+362,user navigation,supports,semantic search engines,heuristic,1
+363,linked data,uses,computer hardware,heuristic,1
+364,building model,provides,web ontology language,heuristic,4
+365,radio,represents,web ontology language,heuristic,1
+366,reasoning algorithms,uses,web ontology language,heuristic,10
+367,semantic descriptions,uses,semantic description,heuristic,1
+368,java,uses,resource description framework (rdf),heuristic,1
+369,semantic web services,combines,semantic web technologies,heuristic,31
+370,expert systems,conjunction,web ontology language,heuristic,1
+371,ontology-based,selects,ontology alignment,heuristic,194
+372,mobile,base,semantic web services,heuristic,2
+373,resource description framework (rdf),acquires,semantic relationships,heuristic,2
+374,dynamic environments,produces,resource description framework (rdf),heuristic,2
+375,semantic description,provides,semantic web services,heuristic,3
+376,multimedia contents,uses,web ontology language,heuristic,1
+377,information systems,proposes,resource description framework (rdf),heuristic,2
+378,standard model,proposes,web ontology language,heuristic,3
+379,semantic web services,extends,decryption,heuristic,1
+380,jxta,produces,semantic web services,heuristic,2
+381,sparql,links,linked data,heuristic,18
+382,ontology alignment,conjunction,ontology modeling,heuristic,1
+383,world wide web,acquires,resource description framework (rdf),heuristic,18
+384,electronic commerce,conjunction,semantic web services,heuristic,1
+385,image databases,includes,semantic description,heuristic,2
+386,dublin core,represents,resource description framework (rdf),heuristic,2
+387,web engineering,base,semantic web services,heuristic,1
+388,linked data,improves,information retrieval,heuristic,3
+389,semantic search engines,represents,semantic concept,heuristic,2
+390,resource description framework (rdf),provides,linked open data,heuristic,3
+391,web ontology language,represents,decision models,heuristic,2
+392,linked data,includes,sensor networks,heuristic,3
+393,description logics,supports,resource description framework (rdf),heuristic,1
+394,ontology alignment,selects,libraries,heuristic,2
+395,semantic web services,acquires,petri nets,heuristic,15
+396,semantic web services,supports,learning objects,heuristic,5
+397,semantic description,automates,service compositions,heuristic,1
+398,re-engineering,uses,linked data,heuristic,4
+399,distributed computing,supports,linked data,heuristic,1
+400,web ontology language,combines,reasoning algorithms,heuristic,5
+401,ontology alignment,conjunction,change detection,heuristic,1
+402,linked data,includes,reasoning algorithms,heuristic,2
+403,linked open data,conjunction,semantic search engine,heuristic,1
+404,resource description framework (rdf),uses,formal models,heuristic,1
+405,document classification,uses,ontology alignment,heuristic,2
+406,cloud services,improves,semantic description,heuristic,1
+407,resource description framework (rdf),conjunction,xpath,heuristic,1
+408,enterprise architecture,uses,resource description framework (rdf),heuristic,1
+409,resource description framework (rdf),provides,data integration,heuristic,7
+410,web ontology language,provides,web contents,heuristic,1
+411,web ontology language,uses,ontology alignment,heuristic,1
+412,search engines,includes,semantic search engine,heuristic,9
+413,system architectures,proposes,resource description framework (rdf),heuristic,1
+414,parameterizations,proposes,resource description framework (rdf),heuristic,1
+415,semantic search engines,is,web-mining,heuristic,2
+416,ontology alignment,base,rough sets theory,heuristic,1
+417,linked data,improves,information exchanges,heuristic,4
+418,ontology construction,supports,web ontology language,heuristic,3
+419,inference,represents,web ontology language,heuristic,3
+420,agent-based,includes,web ontology language,heuristic,1
+421,database systems,produces,resource description framework (rdf),heuristic,23
+422,semantic web services,extends,web development,heuristic,1
+423,ontology integration,acquires,ontology alignment,heuristic,2
+424,semantic web services,provides,software architectures,heuristic,1
+425,resource description framework (rdf),selects,social networks,heuristic,6
+426,distributed storage,queries,resource description framework (rdf),heuristic,2
+427,semantic search engines,is,information retrieval,heuristic,9
+428,ontology alignment,produces,model transformations,heuristic,1
+429,data warehouses,uses,web ontology language,heuristic,1
+430,ontology alignment,proposes,user interfaces,heuristic,1
+431,linked data,produces,internet,heuristic,19
+432,semantic description,improves,digital libraries,heuristic,6
+433,information retrieval,includes,ontology alignment,heuristic,6
+434,learning,uses,resource description framework (rdf),heuristic,3
+435,resource description framework (rdf),analyzes,change detection,heuristic,5
+436,mashup,is,semantic search engines,heuristic,1
+437,sensors,improves,semantic description,heuristic,1
+438,ontology alignment,uses,sensors,heuristic,1
+439,ontology alignment,analyzes,service compositions,heuristic,1
+440,semantic web services,is,temporal properties,heuristic,2
+441,cloud computing,proposes,semantic search engine,heuristic,3
+442,shape optimization,conjunction,semantic web services,heuristic,1
+443,web ontology language,uses,data exchange,heuristic,1
+444,data caches,selects,linked data,heuristic,3
+445,software agents,interacts,semantic description,heuristic,2
+446,information systems,conjunction,ontology alignment,heuristic,1
+447,linked data,uses,resource description framework (rdf),heuristic,13
+448,extreme programming,defines,web ontology language,heuristic,8
+449,semantic web services,analyzes,semantic data,heuristic,2
+450,semantic search engine,produces,fuzzy ontology,heuristic,1
+451,resource description framework (rdf),is,knowledge-sharing,heuristic,2
+452,ontology alignment,uses,answering queries,heuristic,6
+453,resource description framework (rdf),provides,ontology-based,heuristic,186
+454,question answering systems,produces,semantic search engine,heuristic,2
+455,supervised machine learning,uses,resource description framework (rdf),heuristic,1
+456,linked data,provides,user experience,heuristic,3
+457,semantic web services,maintains,graphical models,heuristic,1
+458,linked data,analyzes,linked open data,heuristic,8
+459,ontology alignment,combines,inference,heuristic,1
+460,reconstruction,supports,semantic search engines,heuristic,2
+461,web ontology language,produces,vocabulary,heuristic,1
+462,adaptive hypermedia,conjunction,linked data,heuristic,1
+463,semantic web services,requires,knowledge discovery,heuristic,1
+464,semantic search engine,acquires,ontology technology,heuristic,5
+465,resource description framework (rdf),improves,libraries,heuristic,5
+466,contracts,processes,semantic description,heuristic,1
+467,semantic heterogeneity,proposes,ontology alignment,heuristic,4
+468,semantic web services,produces,intelligent agents,heuristic,7
+469,linked data,produces,java,heuristic,1
+470,knowledge discovery,uses,linked data,heuristic,5
+471,semantic web services,conjunction,knowledge bases,heuristic,1
+472,vocabulary,uses,semantic search engines,heuristic,1
+473,web ontology language,is,extreme programming,heuristic,4
+474,linked data,conjunction,mobile web,heuristic,1
+475,ontology construction,conjunction,semantic search engines,heuristic,1
+476,wiki,provides,semantic search engines,heuristic,2
+477,linked data,produces,recommendation,heuristic,3
+478,grid environments,produces,resource description framework (rdf),heuristic,2
+479,semantic search engines,selects,natural language processing systems,heuristic,4
+480,web contents,is,semantic description,heuristic,1
+481,data security,conjunction,semantic description,heuristic,2
+482,ontology alignment,analyzes,concept similarity,heuristic,15
+483,programming languages,uses,semantic description,heuristic,1
+484,source language,base,semantic description,heuristic,1
+485,semantic metadata,selects,semantic search engine,heuristic,1
+486,semantic web services,base,access control,heuristic,3
+487,cloud services,proposes,linked data,heuristic,2
+488,semantic search engines,is,semantic web technologies,heuristic,30
+489,efficient algorithm,selects,semantic web services,heuristic,2
+490,image search,conjunction,semantic search engines,heuristic,1
+491,communication protocols,base,resource description framework (rdf),heuristic,1
+492,web contents,uses,linked data,heuristic,1
+493,resource description framework (rdf),provides,ontology language,heuristic,15
+494,resource description framework (rdf),produces,database systems,heuristic,16
+495,semantic search engines,conjunction,ontology building,heuristic,1
+496,testing and debugging,base,ontology alignment,heuristic,1
+497,linked open data,links,linked data,heuristic,15
+498,linked data,proposes,computer science,heuristic,3
+499,semantic search engines,conjunction,document classification,heuristic,1
+500,natural languages,converts,web ontology language,heuristic,2
+501,web ontology language,improves,data management,heuristic,3
+502,resource description framework (rdf),is,resource discovery,heuristic,3
+503,resource description framework (rdf),conjunction,testing and debugging,heuristic,1
+504,web ontology language,provides,data integration,heuristic,4
+505,caching,uses,resource description framework (rdf),heuristic,1
+506,embedded,uses,resource description framework (rdf),heuristic,1
+507,centrality measures,selects,resource description framework (rdf),heuristic,2
+508,knowledge bases,represents,resource description framework (rdf),heuristic,16
+509,semantic data,improves,semantic search engine,heuristic,2
+510,semantic search engines,uses,web ontology language,heuristic,4
+511,resource description framework (rdf),provides,internet,heuristic,15
+512,ontology alignment,is,ontology learning,heuristic,4
+513,semantic web services,base,graph theory,heuristic,1
+514,knowledge-sharing,conjunction,linked data,heuristic,1
+515,resource description framework (rdf),supports,computer graphics equipment,heuristic,2
+516,semantic description,provides,intelligent agents,heuristic,2
+517,web ontology language,defines,continuous queries,heuristic,1
+518,knowledge representation,uses,semantic search engines,heuristic,7
+519,linked data,proposes,user query,heuristic,4
+520,ontology language,is,web ontology language,heuristic,3
+521,resource description framework (rdf),base,extensible markup language,heuristic,5
+522,semantic search engines,base,wordnet,heuristic,1
+523,resource description framework (rdf),includes,web contents,heuristic,10
+524,semantic description,improves,multimedia contents,heuristic,2
+525,web ontology language,uses,bayesian networks,heuristic,2
+526,semantic search engines,base,semantic relationships,heuristic,7
+527,web contents,produces,resource description framework (rdf),heuristic,5
+528,business process execution language,supports,semantic web services,heuristic,1
+529,ontology alignment,conjunction,web-mining,heuristic,1
+530,semantic search engine,provides,dbpedia,heuristic,2
+531,resource description framework (rdf),uses,embedded,heuristic,3
+532,information systems,matches,ontology alignment,heuristic,6
+533,universities,extends,web ontology language,heuristic,2
+534,semantic search engines,conjunction,data mining,heuristic,1
+535,linked data,selects,learning objects,heuristic,2
+536,resource description framework (rdf),provides,inference,heuristic,6
+537,resource description framework (rdf),uses,gear,heuristic,1
+538,web ontology language,is,context reasoning,heuristic,2
+539,web ontology language,uses,relational database systems,heuristic,2
+540,ontology alignment,conjunction,semantic web technologies,heuristic,1
+541,semantic search engine,acquires,database systems,heuristic,3
+542,web ontology language,includes,intelligent agents,heuristic,2
+543,reasoning algorithms,is,ontology alignment,heuristic,3
+544,web ontology language,supports,software agents,heuristic,1
+545,semantic memory,is,semantic web services,heuristic,1
+546,web ontology language,is,z,heuristic,1
+547,linked data,uses,facebook,heuristic,1
+548,semantic search engines,conjunction,vector space models,heuristic,1
+549,microblogging,uses,resource description framework (rdf),heuristic,1
+550,activity recognition,uses,web ontology language,heuristic,1
+551,semantic description,supports,model-driven architectures,heuristic,2
+552,distributed ledgers,conjunction,linked data,heuristic,1
+553,java,converts,web ontology language,heuristic,6
+554,resource description framework (rdf),produces,programming languages,heuristic,2
+555,semantic search engines,base,hierarchical models,heuristic,2
+556,semantic descriptions,uses,web 2.0,heuristic,2
+557,linked data,annotates,social networks,heuristic,3
+558,resource description framework (rdf),uses,web ontology language,heuristic,237
+559,data integration,is,resource description framework (rdf),heuristic,7
+560,semantic search engines,supports,learning,heuristic,2
+561,web contents,uses,semantic search engine,heuristic,1
+562,index structure,proposes,semantic search engines,heuristic,3
+563,semantic web services,uses,business logic,heuristic,4
+564,web ontology language,uses,information exchanges,heuristic,4
+565,semantic description,acquires,knowledge bases,heuristic,2
+566,linked data,provides,spamming,heuristic,2
+567,fuzzy ontology,includes,web ontology language,heuristic,2
+568,user query,proposes,resource description framework (rdf),heuristic,1
+569,recommendation,uses,web ontology language,heuristic,6
+570,resource description framework (rdf),produces,data exchange,heuristic,10
+571,web ontology language,provides,web contents,heuristic,2
+572,information retrieval,conjunction,ontology alignment,heuristic,1
+573,image features,matches,semantic description,heuristic,1
+574,ontology alignment,is,semantic web technologies,heuristic,30
+575,ontology modeling,uses,web ontology language,heuristic,1
+576,knowledge representation,produces,web ontology language,heuristic,14
+577,web ontology language,uses,reasoning algorithms,heuristic,5
+578,web ontology language,provides,description logics,heuristic,57
+579,web ontology language,uses,computer science,heuristic,1
+580,semantic description,supports,knowledge discovery,heuristic,1
+581,resource description framework (rdf),supports,software agents,heuristic,2
+582,resource description framework (rdf),provides,sparql,heuristic,140
+583,ontology alignment,extends,model-checking,heuristic,3
+584,semantic web services,supports,automated reasoning,heuristic,6
+585,distributed systems,is,web ontology language,heuristic,4
+586,semantic search engine,improves,semantic relationships,heuristic,3
+587,embedded,provides,ontology alignment,heuristic,1
+588,linked data,includes,isi,heuristic,1
+589,coloured petri nets,converts,web ontology language,heuristic,1
+590,software agents,uses,semantic web services,heuristic,12
+591,network management,uses,semantic web services,heuristic,1
+592,linked data,improves,knowledge transfer,heuristic,1
+593,resource description framework (rdf),selects,web-mining,heuristic,1
+594,semantic web services,lacks,reusability,heuristic,1
+595,web ontology language,uses,fuzzy logics,heuristic,1
+596,inference,base,web ontology language,heuristic,2
+597,web ontology language,produces,model-checking,heuristic,2
+598,ontology alignment,selects,smart phones,heuristic,4
+599,ontology alignment,is,ontology alignment,heuristic,7
+600,storage systems,matches,semantic web services,heuristic,1
+601,linked data,is,component-based software engineering,heuristic,3
+602,undirected graph,represents,resource description framework (rdf),heuristic,5
+603,semantic interoperability,defines,resource description framework (rdf),heuristic,1
+604,vocabulary,uses,semantic description,heuristic,1
+605,web engineering,uses,resource description framework (rdf),heuristic,1
+606,semantic search engines,requires,verification,heuristic,2
+607,link prediction,is,semantic search engines,heuristic,2
+608,web ontology language,supports,expert systems,heuristic,3
+609,linked data,provides,digital preservation,heuristic,1
+610,web ontology language,is,software design patterns,heuristic,2
+611,web ontology language,recommends,learning,heuristic,4
+612,ontology alignment,provides,embedded,heuristic,2
+613,semantic descriptions,produces,transcoding,heuristic,1
+614,service architecture,produces,ontology alignment,heuristic,1
+615,web ontology language,conjunction,ontology technology,heuristic,2
+616,semantic search engine,requires,semantic metadata,heuristic,1
+617,hierarchical structures,provides,semantic search engines,heuristic,1
+618,system architectures,supports,semantic search engines,heuristic,1
+619,semantic metadata,base,semantic web services,heuristic,1
+620,semantic web technologies,is,semantic search engines,heuristic,8
+621,semantic search engines,uses,semantic web technologies,heuristic,2
+622,semantic web services,proposes,process modelling,heuristic,2
+623,resource discovery,combines,ontology alignment,heuristic,2
+624,resource description framework (rdf),requires,information fusion,heuristic,3
+625,ontology learning,conjunction,ontology alignment,heuristic,3
+626,linked data,provides,knowledge discovery,heuristic,6
+627,resource description framework (rdf),provides,retrieval performance,heuristic,1
+628,ontology alignment,represents,faculty,heuristic,3
+629,communication,produces,semantic web services,heuristic,5
+630,social networks,conjunction,ontology alignment,heuristic,1
+631,resource description framework (rdf),is,component-based software engineering,heuristic,2
+632,web ontology language,represents,product configuration,heuristic,2
+633,database management,produces,semantic web services,heuristic,1
+634,linked data,is,user interfaces,heuristic,7
+635,semantic search engines,uses,inference,heuristic,3
+636,web ontology language,supports,interpretability,heuristic,1
+637,semantic relationships,represents,semantic search engines,heuristic,15
+638,resource description framework (rdf),is,semantic web technologies,heuristic,87
+639,semantic search engines,selects,digital libraries,heuristic,2
+640,semantic web services,conjunction,recommendation,heuristic,1
+641,virtual reality,base,resource description framework (rdf),heuristic,1
+642,semantic search engines,conjunction,information integration,heuristic,2
+643,ontology alignment,conjunction,ontology alignment,heuristic,4
+644,semantic descriptions,includes,service ontology,heuristic,5
+645,semantic search engine,provides,ontology-based,heuristic,19
+646,web ontology language,selects,web contents,heuristic,3
+647,re-engineering,provides,web ontology language,heuristic,4
+648,html5,conjunction,linked data,heuristic,1
+649,semantic description,uses,knowledge acquisition,heuristic,1
+650,linked data,conjunction,twitter,heuristic,1
+651,inference,conjunction,semantic search engines,heuristic,1
+652,user profiles,defines,resource description framework (rdf),heuristic,1
+653,web applications,produces,linked data,heuristic,8
+654,electronic documents,represents,resource description framework (rdf),heuristic,1
+655,semantic web services,proposes,robots,heuristic,5
+656,sparql,is,resource description framework (rdf),heuristic,151
+657,semantic search engines,uses,resource description framework (rdf),heuristic,3
+658,ontology building,conjunction,semantic search engines,heuristic,1
+659,keyword search,produces,semantic search engines,heuristic,6
+660,verification,uses,web ontology language,heuristic,2
+661,ontology construction,includes,ontology alignment,heuristic,1
+662,ontology integration,conjunction,ontology alignment,heuristic,1
+663,personalizations,conjunction,semantic search engines,heuristic,1
+664,vocabulary,represents,resource description framework (rdf),heuristic,15
+665,web ontology language,proposes,universities,heuristic,2
+666,collaborative designs,uses,semantic web services,heuristic,2
+667,ontology alignment,converts,web service composition,heuristic,2
+668,on-line communities,produces,web ontology language,heuristic,4
+669,web ontology language,uses,relational database systems,heuristic,10
+670,semantic search engines,improves,keyword search,heuristic,9
+671,linked data,is,relational database systems,heuristic,8
+672,education,base,resource description framework (rdf),heuristic,3
+673,spatial databases,acquires,semantic description,heuristic,2
+674,semantic web services,proposes,digital libraries,heuristic,1
+675,ontology alignment,uses,knowledge bases,heuristic,1
+676,architecture reconstruction,uses,resource description framework (rdf),heuristic,1
+677,ontology alignment,uses,software agents,heuristic,1
+678,data cleaning,produces,semantic descriptions,heuristic,2
+679,semantic description,supports,personalizations,heuristic,1
+680,agent technology,uses,semantic web services,heuristic,7
+681,semantic description,matches,data warehouses,heuristic,1
+682,web ontology language,uses,semantic web technologies,heuristic,19
+683,resource description framework (rdf),supports,semantic wikis,heuristic,2
+684,semantic web services,requires,privacy,heuristic,1
+685,web ontology language,represents,information systems,heuristic,4
+686,resource description framework (rdf),improves,distributed environments,heuristic,1
+687,semantic web services,conjunction,information integration,heuristic,2
+688,semantic web services,provides,web services discovery,heuristic,22
+689,web ontology language,produces,semantic web services,heuristic,8
+690,ontology alignment,analyzes,semantic similarity measures,heuristic,6
+691,smart phones,proposes,semantic search engines,heuristic,1
+692,linked data,defines,data warehousing,heuristic,2
+693,deterministic,includes,resource description framework (rdf),heuristic,1
+694,ontology alignment,is,information exchanges,heuristic,1
+695,linked data,proposes,cloud services,heuristic,3
+696,petri nets,supports,resource description framework (rdf),heuristic,2
+697,ontology alignment,conjunction,sentence similarity,heuristic,2
+698,web ontology language,includes,uml profiles,heuristic,6
+699,web ontology language,proposes,distributed query processing,heuristic,2
+700,collaborative designs,produces,web ontology language,heuristic,3
+701,semantic web services,conjunction,search engines,heuristic,1
+702,ontology alignment,is,spatial data infrastructure,heuristic,2
+703,resource description framework (rdf),selects,parsing algorithm,heuristic,3
+704,semantic web services,provides,service compositions,heuristic,12
+705,linked data,conjunction,controlled vocabulary,heuristic,7
+706,semantic similarity measures,is,ontology alignment,heuristic,6
+707,resource description framework (rdf),uses,semantic web technologies,heuristic,6
+708,resource description framework (rdf),produces,learning,heuristic,1
+709,knowledge acquisition,conjunction,ontology alignment,heuristic,1
+710,linked data,produces,semantic metadata,heuristic,2
+711,testing and debugging,conjunction,resource description framework (rdf),heuristic,1
+712,linked data,links,semantic web services,heuristic,1
+713,semantic web technologies,produces,ontology alignment,heuristic,3
+714,data integration,proposes,ontology alignment,heuristic,14
+715,modeling languages,selects,resource description framework (rdf),heuristic,2
+716,semantic description,analyzes,semantic distance,heuristic,6
+717,ontology alignment,selects,inference,heuristic,3
+718,semantic web services,maintains,fuzzy synthetic evaluation,heuristic,1
+719,web ontology language,defines,dynamic logic,heuristic,2
+720,linked data,supports,visualization,heuristic,1
+721,services selection,is,semantic web services,heuristic,1
+722,type systems,provides,linked data,heuristic,5
+723,ontology alignment,combines,semantic similarity measures,heuristic,7
+724,component-based software engineering,produces,semantic search engine,heuristic,3
+725,semantic description,defines,formal models,heuristic,3
+726,linked data,supports,information needs,heuristic,2
+727,semantic web technologies,provides,resource description framework (rdf),heuristic,72
+728,target language,base,semantic description,heuristic,1
+729,semantic description,uses,ontology alignment,heuristic,1
+730,image search,uses,semantic description,heuristic,1
+731,resource description framework (rdf),supports,digital libraries,heuristic,9
+732,resource description framework (rdf),provides,dbpedia,heuristic,14
+733,linked data,extends,data mining,heuristic,3
+734,semantic search engines,produces,web-searching,heuristic,4
+735,ontology alignment,provides,background knowledge,heuristic,10
+736,semantic web services,base,trust management,heuristic,1
+737,ontology alignment,is,distributed environments,heuristic,1
+738,resource description framework (rdf),queries,display,heuristic,2
+739,semantic search engines,conjunction,wiki,heuristic,1
+740,semantic search engine,uses,domain-specific ontologies,heuristic,1
+741,description logics,proposes,semantic web services,heuristic,8
+742,web ontology language,is,ontology construction,heuristic,1
+743,ontology alignment,conjunction,social networks,heuristic,1
+744,semantic search engines,conjunction,agent technology,heuristic,1
+745,semantic relationships,proposes,web ontology language,heuristic,4
+746,semantic web services,provides,automatic service composition,heuristic,2
+747,web ontology language,improves,resource description framework (rdf),heuristic,6
+748,web ontology language,includes,component-based software engineering,heuristic,1
+749,linked data,acquires,semantic relationships,heuristic,1
+750,linked data,combines,data warehouses,heuristic,2
+751,ontology alignment,is,semantic interoperability,heuristic,18
+752,broadcast,base,semantic search engines,heuristic,1
+753,web ontology language,provides,context modeling,heuristic,4
+754,linked data,is,image processing,heuristic,2
+755,business process modelling,represents,ontology alignment,heuristic,1
+756,resource description framework (rdf),supports,reasoning algorithms,heuristic,3
+757,ontology alignment,is,data integration,heuristic,6
+758,linked data,contributes,learning,heuristic,5
+759,ontology alignment,proposes,ontology merging,heuristic,20
+760,web ontology language,represents,ontology-based,heuristic,78
+761,semantic relationships,defines,resource description framework (rdf),heuristic,5
+762,web ontology language,converts,description logics,heuristic,21
+763,linked data,conjunction,natural language processing systems,heuristic,4
+764,semantic web services,analyzes,learning,heuristic,1
+765,semantic search engines,improves,semantic metadata,heuristic,3
+766,clustering algorithms,represents,web ontology language,heuristic,2
+767,web ontology language,uses,modeling languages,heuristic,4
+768,hashing,supports,semantic search engines,heuristic,1
+769,broker pattern,provides,semantic web services,heuristic,12
+770,intelligent agents,conjunction,resource description framework (rdf),heuristic,1
+771,information retrieval,uses,semantic search engines,heuristic,15
+772,relational database systems,produces,semantic web services,heuristic,1
+773,semantic interoperability,guides,ontology alignment,heuristic,8
+774,trade,combines,semantic web services,heuristic,1
+775,web ontology language,supports,web ontology language,heuristic,27
+776,display,is,linked data,heuristic,1
+777,knowledge representation,selects,linked data,heuristic,2
+778,web ontology language,is,haptics,heuristic,1
+779,wordnet,base,web ontology language,heuristic,1
+780,knowledge bases,uses,semantic search engine,heuristic,3
+781,knowledge management systems,uses,web ontology language,heuristic,1
+782,resource description framework (rdf),guides,knowledge representation,heuristic,27
+783,semantic search engines,is,reasoning algorithms,heuristic,11
+784,semantic search engines,conjunction,text mining,heuristic,1
+785,semantic web services,produces,customer services,heuristic,3
+786,resource description framework (rdf),proposes,semantic desktop,heuristic,1
+787,web ontology language,produces,fuzzy ontology,heuristic,1
+788,web-mining,conjunction,ontology alignment,heuristic,1
+789,decision trees,improves,ontology alignment,heuristic,1
+790,semantic web services,supports,services selection,heuristic,2
+791,semantic search engine,uses,knowledge bases,heuristic,4
+792,resource description framework (rdf),base,education,heuristic,1
+793,semantic web service discovery,proposes,ontology alignment,heuristic,6
+794,ubiquitous computing environment,uses,web ontology language,heuristic,5
+795,sensor networks,limits,ontology alignment,heuristic,1
+796,semantic web services,uses,ontology technology,heuristic,3
+797,information extraction,conjunction,ontology alignment,heuristic,2
+798,semantic search engines,conjunction,personalizations,heuristic,1
+799,web ontology language,supports,automation,heuristic,3
+800,ontology-based,provides,linked data,heuristic,72
+801,semantic descriptions,is,resource description framework (rdf),heuristic,3
+802,constraint language,uses,resource description framework (rdf),heuristic,3
+803,web ontology language,conjunction,ontology technology,heuristic,1
+804,linked data,guides,domain knowledge,heuristic,4
+805,resource description framework (rdf),provides,world wide web,heuristic,22
+806,context modeling,conjunction,ontology alignment,heuristic,1
+807,software product lines,includes,semantic description,heuristic,3
+808,ontology alignment,proposes,dynamic environments,heuristic,2
+809,resource description framework (rdf),supports,knowledge management,heuristic,6
+810,semantic web technologies,improves,semantic description,heuristic,21
+811,resource description framework (rdf),produces,cloud services,heuristic,3
+812,tool support,automates,resource description framework (rdf),heuristic,2
+813,intelligent tutoring systems,uses,web ontology language,heuristic,1
+814,semantic description,produces,user interfaces,heuristic,2
+815,semantic web services,extends,supply chain coordination,heuristic,3
+816,user interfaces,supports,resource description framework (rdf),heuristic,3
+817,ontology alignment,conjunction,knowledge acquisition,heuristic,1
+818,web browsing,links,linked data,heuristic,1
+819,database systems,represents,semantic search engines,heuristic,3
+820,semantic web services,is,component-based software engineering,heuristic,3
+821,ontology alignment,is,semantic interoperability,heuristic,9
+822,web ontology language,provides,distributed environments,heuristic,1
+823,semantic web technologies,limits,semantic search engine,heuristic,5
+824,resource description framework (rdf),proposes,extensible markup language,heuristic,10
+825,wiki,provides,linked data,heuristic,7
+826,semantic web services,produces,clustering algorithms,heuristic,2
+827,background knowledge,provides,ontology alignment,heuristic,1
+828,fuzzy extension,produces,web ontology language,heuristic,3
+829,visualization,base,resource description framework (rdf),heuristic,1
+830,linked data,provides,web applications,heuristic,3
+831,fuzzy logics,uses,semantic description,heuristic,3
+832,wiki,represents,resource description framework (rdf),heuristic,5
+833,resource description framework (rdf),improves,document representation,heuristic,1
+834,virtual machines,is,resource description framework (rdf),heuristic,2
+835,data management,uses,resource description framework (rdf),heuristic,2
+836,reasoning algorithms,uses,resource description framework (rdf),heuristic,13
+837,web ontology language,provides,semantic interoperability,heuristic,3
+838,resource description framework (rdf),requires,ontology modeling,heuristic,2
+839,semantic interoperability,converts,linked data,heuristic,1
+840,information needs,proposes,web ontology language,heuristic,2
+841,semantic web services,provides,dynamic composition,heuristic,9
+842,web ontology language,represents,enterprise architecture,heuristic,1
+843,schema integration,conjunction,ontology alignment,heuristic,1
+844,semantic web services,matches,semantic distance,heuristic,9
+845,web ontology language,uses,collaborative designs,heuristic,3
+846,resource description framework (rdf),provides,vocabulary,heuristic,9
+847,bayesian networks,base,resource description framework (rdf),heuristic,2
+848,semantic description,uses,knowledge representation,heuristic,1
+849,descriptors,includes,semantic description,heuristic,2
+850,semantic search engines,uses,user query,heuristic,8
+851,semantic web services,automates,social networks,heuristic,4
+852,web ontology language,provides,reasoning algorithms,heuristic,24
+853,semantic web services,conjunction,semantic search engine,heuristic,1
+854,resource description framework (rdf),improves,visualization,heuristic,1
+855,resource description framework (rdf),represents,web information,heuristic,3
+856,semantic web services,improves,web service description,heuristic,7
+857,answering queries,maintains,linked data,heuristic,1
+858,semantic description,improves,cache,heuristic,2
+859,semantic search engine,acquires,web contents,heuristic,4
+860,web applications,is,semantic description,heuristic,2
+861,web ontology language,produces,search engines,heuristic,3
+862,semantic relationships,proposes,linked data,heuristic,1
+863,linked data,produces,distributed database,heuristic,2
+864,linked data,uses,natural languages,heuristic,7
+865,engine,uses,resource description framework (rdf),heuristic,1
+866,pattern,uses,web ontology language,heuristic,1
+867,distributed architectures,proposes,semantic web services,heuristic,4
+868,information extraction,provides,semantic search engines,heuristic,6
+869,geology,base,resource description framework (rdf),heuristic,1
+870,web ontology language,provides,question answering systems,heuristic,2
+871,contracts,proposes,web ontology language,heuristic,2
+872,semantic description,provides,automation,heuristic,4
+873,component-based software engineering,defines,web ontology language,heuristic,7
+874,linked data,conjunction,data visualization,heuristic,1
+875,semantic web services,extends,context information,heuristic,7
+876,product design,is,semantic search engines,heuristic,2
+877,semantic web services,analyzes,value function approximation,heuristic,2
+878,data warehouses,uses,ontology alignment,heuristic,3
+879,web ontology language,provides,data integration,heuristic,2
+880,resource description framework (rdf),queries,optimization,heuristic,1
+881,semantic search engine,provides,semantic web technologies,heuristic,9
+882,web 2.0,selects,resource description framework (rdf),heuristic,2
+883,linked data,requires,information fusion,heuristic,5
+884,semantic descriptions,conjunction,intelligent agents,heuristic,4
+885,linked data,conjunction,multilingualism,heuristic,1
+886,ontology-based,provides,semantic search engines,heuristic,48
+887,ontology alignment,conjunction,word sense disambiguation,heuristic,1
+888,linked data,produces,hierarchical models,heuristic,1
+889,web ontology language,includes,uml profiles,heuristic,3
+890,information management,base,ontology alignment,heuristic,1
+891,user interfaces,supports,web ontology language,heuristic,1
+892,semantic web technologies,provides,resource description framework (rdf),heuristic,329
+893,resource description framework (rdf),produces,data exchange,heuristic,1
+894,pattern,represents,linked data,heuristic,8
+895,web ontology language,produces,domain-specific ontologies,heuristic,3
+896,email,links,linked data,heuristic,1
+897,linked data,extends,web searches,heuristic,1
+898,information retrieval,base,web ontology language,heuristic,1
+899,linked data,analyzes,semantic distance,heuristic,1
+900,clone detection,provides,ontology alignment,heuristic,2
+901,semantic description,defines,grid services,heuristic,2
+902,libraries,produces,semantic search engine,heuristic,1
+903,mobile devices,defines,web ontology language,heuristic,1
+904,world wide web,publishes,resource description framework (rdf),heuristic,9
+905,semantic search engines,produces,purchase,heuristic,3
+906,linked open data,includes,web ontology language,heuristic,1
+907,sensors,proposes,linked data,heuristic,5
+908,linked data,proposes,data exchange,heuristic,6
+909,semantic web services,proposes,services discovery,heuristic,3
+910,programming languages,conjunction,resource description framework (rdf),heuristic,1
+911,semantic descriptions,conjunction,semantic search engine,heuristic,1
+912,resource description framework (rdf),provides,formal approach,heuristic,1
+913,semantic description,uses,natural language processing systems,heuristic,1
+914,engineering,links,ontology alignment,heuristic,3
+915,resource description framework (rdf),supports,graphical representations,heuristic,2
+916,semantic web services,supports,grid services,heuristic,3
+917,semantic search engines,analyzes,user profiles,heuristic,1
+918,ontology alignment,defines,folksonomies,heuristic,1
+919,web ontology language,produces,grid services,heuristic,3
+920,ontology evolution,extends,resource description framework (rdf),heuristic,1
+921,domain knowledge,converts,web ontology language,heuristic,7
+922,sparql,is,resource description framework (rdf),heuristic,23
+923,vocabulary,proposes,resource description framework (rdf),heuristic,4
+924,relational database systems,uses,resource description framework (rdf),heuristic,3
+925,semantic web services,base,shortest paths,heuristic,1
+926,linked data,conjunction,spatial data infrastructure,heuristic,1
+927,matching algorithm,base,semantic web services,heuristic,1
+928,data mining,maintains,ontology alignment,heuristic,1
+929,web ontology language,produces,internet,heuristic,7
+930,semantic web services,improves,service delivery,heuristic,1
+931,knowledge representation,conjunction,ontology alignment,heuristic,1
+932,petri nets,proposes,semantic web services,heuristic,15
+933,word sense disambiguation,is,ontology alignment,heuristic,1
+934,data mining,uses,linked data,heuristic,4
+935,ontology alignment,conjunction,ontology learning,heuristic,1
+936,cognitive science,supports,ontology alignment,heuristic,1
+937,semantic wikis,represents,resource description framework (rdf),heuristic,3
+938,ontology learning,uses,resource description framework (rdf),heuristic,1
+939,semantic search engines,uses,semantic web technologies,heuristic,7
+940,semantic descriptions,is,semantic web technologies,heuristic,5
+941,web ontology language,uses,linked data,heuristic,6
+942,semantic search engines,provides,knowledge bases,heuristic,7
+943,web ontology language,proposes,social networks,heuristic,2
+944,semantic web services,produces,information needs,heuristic,2
+945,ontology language,supports,resource description framework (rdf),heuristic,13
+946,semantic search engines,base,database systems,heuristic,1
+947,relational database systems,uses,resource description framework (rdf),heuristic,33
+948,semantic description,provides,business process execution language,heuristic,2
+949,ontology alignment,matches,matching algorithm,heuristic,1
+950,linked open data,includes,resource description framework (rdf),heuristic,3
+951,ontology alignment,conjunction,schema matching,heuristic,1
+952,web ontology language,is,world wide web,heuristic,15
+953,information retrieval technology,guides,semantic search engine,heuristic,2
+954,natural languages,supports,semantic descriptions,heuristic,3
+955,semantic search engines,uses,recommendation,heuristic,4
+956,multilingualism,conjunction,linked data,heuristic,1
+957,semantic search engines,uses,education,heuristic,1
+958,semantic web services,automates,ontology alignment,heuristic,1
+959,semantic search engines,conjunction,link prediction,heuristic,1
+960,web ontology language,is,programming languages,heuristic,1
+961,blogs,publishes,linked data,heuristic,2
+962,semantic web services,proposes,planning algorithms,heuristic,4
+963,web ontology language,provides,automated reasoning,heuristic,7
+964,world wide web,recommends,web ontology language,heuristic,6
+965,semantic web services,automates,web services discovery,heuristic,2
+966,web development,requires,semantic web services,heuristic,3
+967,investments,base,linked data,heuristic,3
+968,background knowledge,uses,linked data,heuristic,5
+969,semantic web services,provides,tool support,heuristic,1
+970,web ontology language,provides,visualization,heuristic,1
+971,semantic web services,analyzes,visualization,heuristic,3
+972,service ontology,supports,semantic descriptions,heuristic,3
+973,undirected graph,represents,web ontology language,heuristic,1
+974,ontology alignment,is,information retrieval,heuristic,9
+975,resource description framework (rdf),uses,process modelling,heuristic,2
+976,semantic web services,standardizes,knowledge-sharing,heuristic,1
+977,web ontology language,provides,inference,heuristic,1
+978,web ontology language,uses,services discovery,heuristic,1
+979,data mining,produces,web ontology language,heuristic,2
+980,resource description framework (rdf),is,information retrieval,heuristic,1
+981,ontology alignment,analyzes,description logics,heuristic,4
+982,linked data,is,reasoning algorithms,heuristic,7
+983,resource description framework (rdf),analyzes,semantic descriptions,heuristic,1
+984,knowledge-sharing,represents,ontology alignment,heuristic,2
+985,knowledge representation,uses,web ontology language,heuristic,16
+986,ontology alignment,is,information systems,heuristic,5
+987,semantic search engines,acquires,background knowledge,heuristic,3
+988,semantic search engine,conjunction,world wide web,heuristic,1
+989,ontology merging,automates,web ontology language,heuristic,2
+990,schema matching,conjunction,ontology alignment,heuristic,1
+991,grid environments,maintains,ontology alignment,heuristic,1
+992,web ontology language,uses,resource discovery,heuristic,3
+993,ontology alignment,matches,query rewritings,heuristic,1
+994,web ontology language,uses,recommendation,heuristic,3
+995,learning,proposes,ontology alignment,heuristic,2
+996,resource description framework (rdf),supports,information needs,heuristic,3
+997,dbpedia,evaluates,semantic search engines,heuristic,1
+998,semantic description,acquires,wordnet,heuristic,1
+999,semantic search engines,matches,rdf graph,heuristic,1
+1000,web ontology language,base,sparql,heuristic,22
+1001,resource description framework (rdf),selects,engine,heuristic,2
+1002,semantic relationships,supports,semantic web services,heuristic,19
+1003,knowledge bases,proposes,resource description framework (rdf),heuristic,2
+1004,topology,matches,resource description framework (rdf),heuristic,1
+1005,dbpedia,produces,resource description framework (rdf),heuristic,2
+1006,resource description framework (rdf),proposes,fuzzy extension,heuristic,1
+1007,social webs,supports,linked data,heuristic,1
+1008,verification,supports,semantic web services,heuristic,3
+1009,linked data,provides,question answering systems,heuristic,6
+1010,grid services,provides,semantic web services,heuristic,2
+1011,semantic web services,represents,computer science,heuristic,2
+1012,semantic search engines,uses,mobile phones,heuristic,2
+1013,semantic search engines,is,component-based software engineering,heuristic,1
+1014,curriculum,represents,ontology alignment,heuristic,1
+1015,ontology-based,produces,ontology alignment,heuristic,35
+1016,semantic search engine,selects,internet,heuristic,3
+1017,information management,evaluates,ontology alignment,heuristic,1
+1018,mobile robotics,produces,semantic description,heuristic,2
+1019,web ontology language,represents,knowledge engineering,heuristic,1
+1020,dbpedia,publishes,linked data,heuristic,21
+1021,web searches,proposes,resource description framework (rdf),heuristic,3
+1022,spatial data infrastructure,uses,semantic search engines,heuristic,2
+1023,information systems,proposes,resource description framework (rdf),heuristic,3
+1024,semantic description,base,domain knowledge,heuristic,1
+1025,web ontology language,uses,component repository,heuristic,3
+1026,semantic search engine,acquires,component-based software engineering,heuristic,1
+1027,geoprocessing,base,web ontology language,heuristic,2
+1028,ontology alignment,uses,domain-specific ontologies,heuristic,3
+1029,radio frequency identification technology,combines,semantic web services,heuristic,1
+1030,linked data,produces,database systems,heuristic,8
+1031,inference,is,linked data,heuristic,2
+1032,ontology alignment,defines,undirected graph,heuristic,2
+1033,ontology alignment,base,wordnet,heuristic,8
+1034,storage systems,base,resource description framework (rdf),heuristic,1
+1035,ontology alignment,automates,query rewritings,heuristic,2
+1036,information retrieval,maintains,ontology alignment,heuristic,3
+1037,relational database systems,acquires,web ontology language,heuristic,9
+1038,sparql,uses,semantic web services,heuristic,2
+1039,semantic web technologies,publishes,linked data,heuristic,38
+1040,web ontology language,proposes,agent technology,heuristic,2
+1041,ontology alignment,uses,query processing,heuristic,1
+1042,ontology alignment,uses,dbpedia,heuristic,1
+1043,linked data,produces,semantic relationships,heuristic,4
+1044,ontology technology,uses,web ontology language,heuristic,4
+1045,resource description framework (rdf),produces,inference,heuristic,14
+1046,service matching,uses,semantic web services,heuristic,7
+1047,world wide web,conjunction,semantic search engine,heuristic,1
+1048,ontology alignment,conjunction,context modeling,heuristic,1
+1049,resource description framework (rdf),maintains,quality of softwares,heuristic,1
+1050,augmented reality,improves,linked data,heuristic,3
+1051,service architecture,produces,semantic descriptions,heuristic,1
+1052,ontology alignment,produces,information systems,heuristic,3
+1053,ontology alignment,selects,libraries,heuristic,3
+1054,resource description framework (rdf),visualizes,hyperlinks,heuristic,1
+1055,semantic description,represents,semantic web technologies,heuristic,2
+1056,semantic web services,queries,information retrieval,heuristic,2
+1057,digital libraries,produces,semantic web services,heuristic,1
+1058,insert,improves,semantic web services,heuristic,1
+1059,semantic similarity measures,conjunction,linked data,heuristic,1
+1060,authorization,base,semantic web services,heuristic,3
+1061,web contents,provides,semantic search engines,heuristic,10
+1062,semantic search engines,selects,hier-archical clustering,heuristic,3
+1063,web ontology language,defines,ontology-based,heuristic,183
+1064,resource description framework (rdf),includes,web contents,heuristic,3
+1065,automated reasoning,converts,linked data,heuristic,3
+1066,web ontology language,combines,defeasible logic,heuristic,1
+1067,web ontology language,improves,web applications,heuristic,1
+1068,ontology alignment,is,architectural tactics,heuristic,1
+1069,agent technology,proposes,semantic description,heuristic,3
+1070,information retrieval,uses,semantic web services,heuristic,2
+1071,ontology alignment,provides,ontology-based,heuristic,124
+1072,ontology alignment,uses,clone detection,heuristic,1
+1073,domain-specific ontologies,uses,resource description framework (rdf),heuristic,3
+1074,linked data,uses,sparql,heuristic,15
+1075,semantic web services,conjunction,user profiles,heuristic,1
+1076,language acquisition,uses,linked data,heuristic,1
+1077,linked data,provides,search engines,heuristic,4
+1078,pattern recognition,conjunction,web ontology language,heuristic,1
+1079,vocabulary,converts,web ontology language,heuristic,5
+1080,web ontology language,uses,knowledge representation,heuristic,6
+1081,linked data,improves,sensors,heuristic,1
+1082,semantic web rule languages,uses,linked data,heuristic,2
+1083,service orchestration,conjunction,ontology alignment,heuristic,1
+1084,vector space models,conjunction,semantic search engines,heuristic,1
+1085,resource description framework (rdf),supports,wiki,heuristic,2
+1086,visualization,uses,semantic search engine,heuristic,1
+1087,semantic search engines,improves,knowledge-sharing,heuristic,2
+1088,semantic web technologies,provides,semantic description,heuristic,3
+1089,semantic search engines,conjunction,communication,heuristic,1
+1090,semantic web services,matches,user query,heuristic,7
+1091,semantic similarity measures,is,semantic web services,heuristic,4
+1092,semantic search engines,conjunction,semantic web service discovery,heuristic,1
+1093,semantic web technologies,proposes,semantic search engine,heuristic,1
+1094,formal specifications,base,web ontology language,heuristic,1
+1095,resource description framework (rdf),acquires,semantic relationships,heuristic,16
+1096,web ontology language,produces,knowledge bases,heuristic,5
+1097,natural languages,includes,semantic search engines,heuristic,4
+1098,web ontology language,guides,access control,heuristic,4
+1099,web ontology language,is,abstract syntax,heuristic,2
+1100,resource description framework (rdf),conjunction,programming languages,heuristic,1
+1101,knowledge bases,uses,web ontology language,heuristic,9
+1102,semantic description,supports,web service composition,heuristic,2
+1103,ontology development,uses,web ontology language,heuristic,2
+1104,java,selects,semantic web services,heuristic,4
+1105,semantic web technologies,provides,semantic descriptions,heuristic,7
+1106,ontology alignment,conjunction,service orchestration,heuristic,1
+1107,natural language understanding,conjunction,semantic search engines,heuristic,2
+1108,automation,is,semantic description,heuristic,3
+1109,resource description framework (rdf),uses,cloud computing,heuristic,7
+1110,web ontology language,produces,security policies,heuristic,2
+1111,web ontology language,supports,information integration,heuristic,1
+1112,ontology alignment,proposes,clustering algorithms,heuristic,3
+1113,resource description framework (rdf),improves,query execution,heuristic,2
+1114,stock exchange,base,linked data,heuristic,3
+1115,resource description framework (rdf),supports,access control,heuristic,3
+1116,mobile terminals,links,linked data,heuristic,1
+1117,dublin core,learns,web ontology language,heuristic,3
+1118,ontology building,conjunction,ontology alignment,heuristic,2
+1119,semantic web services,conjunction,shape optimization,heuristic,1
+1120,web ontology language,analyzes,bayesian approaches,heuristic,1
+1121,linked data,represents,sharing knowledge,heuristic,3
+1122,user experience,proposes,resource description framework (rdf),heuristic,2
+1123,digital contents,provides,semantic search engines,heuristic,1
+1124,resource description framework (rdf),uses,web applications,heuristic,9
+1125,web ontology language,is,ontology modeling,heuristic,1
+1126,web ontology language,defines,verification,heuristic,1
+1127,linked data,acquires,points of interest,heuristic,1
+1128,semantic relationships,selects,ontology alignment,heuristic,5
+1129,ontology alignment,uses,semantic relationships,heuristic,1
+1130,computer science,links,linked data,heuristic,1
+1131,linked data,provides,probability,heuristic,2
+1132,component-based software engineering,is,web ontology language,heuristic,3
+1133,ontology alignment,is,semantic web technologies,heuristic,32
+1134,semantic description,supports,mass customization,heuristic,2
+1135,semantic web services,conjunction,multi-agents,heuristic,1
+1136,content management systems,uses,semantic web services,heuristic,2
+1137,ontology construction,conjunction,ontology alignment,heuristic,1
+1138,semantic descriptions,provides,ontology-based,heuristic,3
+1139,electronic commerce,requires,ontology alignment,heuristic,5
+1140,component-based software engineering,produces,linked data,heuristic,8
+1141,bayesian classification,classify,semantic web services,heuristic,1
+1142,semantic search engines,conjunction,ontology learning,heuristic,2
+1143,wordnet,matches,ontology alignment,heuristic,5
+1144,semantic web services,conjunction,semantic search engines,heuristic,1
+1145,web ontology language,proposes,knowledge-sharing,heuristic,4
+1146,web ontology language,supports,search engines,heuristic,1
+1147,curriculum,converts,ontology alignment,heuristic,1
+1148,reference architectures,improves,semantic description,heuristic,3
+1149,internet,uses,semantic descriptions,heuristic,1
+1150,semantic search engines,uses,relational data models,heuristic,1
+1151,semantic descriptions,uses,semantic web technologies,heuristic,3
+1152,automatic image annotation,supports,semantic search engines,heuristic,1
+1153,linked data,provides,natural language interfaces,heuristic,2
+1154,web ontology language,includes,online courses,heuristic,2
+1155,web ontology language,uses,collaborative designs,heuristic,4
+1156,resource description framework (rdf),conjunction,xml schemas,heuristic,1
+1157,faculty,proposes,resource description framework (rdf),heuristic,2
+1158,linked data,produces,query rewritings,heuristic,4
+1159,semantic web rule languages,automates,semantic web services,heuristic,2
+1160,semantic web services,provides,software agents,heuristic,17
+1161,ontology alignment,proposes,semantic web technologies,heuristic,4
+1162,semantic web services,uses,ontology language,heuristic,5
+1163,ontology technology,analyzes,semantic description,heuristic,1
+1164,resource description framework (rdf),supports,data integration,heuristic,2
+1165,semantic web services,proposes,semantic web service discovery,heuristic,12
+1166,semantic search engines,base,linked open data,heuristic,3
+1167,ontology merging,conjunction,ontology alignment,heuristic,1
+1168,resource description framework (rdf),provides,linked open data,heuristic,10
+1169,semantic search engines,uses,map-reduce,heuristic,1
+1170,spatial data infrastructure,conjunction,linked data,heuristic,1
+1171,data integration,proposes,semantic search engines,heuristic,2
+1172,linked data,analyzes,semantic data,heuristic,5
+1173,resource description framework (rdf),supports,social webs,heuristic,1
+1174,information integration,conjunction,ontology alignment,heuristic,1
+1175,semantic web services,base,programming languages,heuristic,1
+1176,web applications,base,semantic search engines,heuristic,3
+1177,ontology alignment,uses,argumentation,heuristic,1
+1178,communication networks,uses,ontology alignment,heuristic,2
+1179,computer science,is,semantic search engines,heuristic,1
+1180,linked data,selects,web contents,heuristic,3
+1181,web ontology language,provides,semantic web technologies,heuristic,114
+1182,resource description framework (rdf),converts,relational database systems,heuristic,2
+1183,web ontology language,uses,knowledge acquisition,heuristic,2
+1184,knowledge discovery,supports,ontology alignment,heuristic,3
+1185,resource description framework (rdf),improves,libraries,heuristic,9
+1186,web ontology language,limits,product design,heuristic,2
+1187,linked data,conjunction,clustering algorithms,heuristic,1
+1188,ontology alignment,improves,web services discovery,heuristic,3
+1189,ontology alignment,provides,collaborative designs,heuristic,1
+1190,resource description framework (rdf),uses,business process execution language,heuristic,1
+1191,linked data,provides,digital contents,heuristic,2
+1192,semantic web services,uses,semantic web technologies,heuristic,3
+1193,semantic web services,extends,information technology,heuristic,4
+1194,ontology alignment,is,equivalence relations,heuristic,2
+1195,semantic search engine,proposes,search engines,heuristic,16
+1196,semantic search engines,conjunction,semantic web services,heuristic,1
+1197,java,provides,resource description framework (rdf),heuristic,4
+1198,ontology alignment,matches,libraries,heuristic,1
+1199,knowledge management,uses,web ontology language,heuristic,1
+1200,recommender systems,produces,semantic web services,heuristic,1
+1201,description logics,provides,web ontology language,heuristic,22
+1202,web contents,conjunction,web ontology language,heuristic,1
+1203,distributed applications,is,semantic description,heuristic,4
+1204,semantic description,conjunction,data security,heuristic,2
+1205,resource description framework (rdf),acquires,domain knowledge,heuristic,10
+1206,semantic similarity measures,is,ontology alignment,heuristic,4
+1207,semantic relationships,includes,semantic search engine,heuristic,1
+1208,index structure,provides,resource description framework (rdf),heuristic,3
+1209,hierarchical structures,uses,resource description framework (rdf),heuristic,1
+1210,semantic search engines,combines,ontology evolution,heuristic,1
+1211,ontology alignment,matches,ontology evolution,heuristic,6
+1212,service ontology,analyzes,web ontology language,heuristic,2
+1213,semantic search engines,conjunction,image search,heuristic,1
+1214,sensors,uses,web ontology language,heuristic,4
+1215,resource description framework (rdf),uses,investments,heuristic,1
+1216,ontology alignment,acquires,database systems,heuristic,3
+1217,web ontology language,is,authorization,heuristic,3
+1218,web ontology language,conjunction,web contents,heuristic,1
+1219,ontology construction,supports,resource description framework (rdf),heuristic,4
+1220,ontology alignment,produces,product design,heuristic,4
+1221,resource description framework (rdf),is,world wide web,heuristic,11
+1222,semantic relationships,conjunction,semantic descriptions,heuristic,1
+1223,web ontology language,represents,ontology construction,heuristic,6
+1224,business processes,uses,semantic web services,heuristic,7
+1225,argumentation,produces,semantic description,heuristic,1
+1226,semantic description,proposes,linked data,heuristic,4
+1227,semantic search engine,conjunction,linked open data,heuristic,1
+1228,semantic web technologies,includes,web ontology language,heuristic,4
+1229,xquery,provides,resource description framework (rdf),heuristic,2
+1230,web 2.0,conjunction,ontology alignment,heuristic,1
+1231,ontology alignment,conjunction,ontology construction,heuristic,1
+1232,semantic search engines,selects,mining association rules,heuristic,3
+1233,image annotation,conjunction,semantic web services,heuristic,1
+1234,ontology integration,provides,semantic web services,heuristic,3
+1235,ontology alignment,matches,information retrieval,heuristic,4
+1236,linked data,proposes,extreme programming,heuristic,2
+1237,semantic description,conjunction,automatic composition,heuristic,1
+1238,cloud computing,conjunction,semantic web services,heuristic,1
+1239,web contents,affects,resource description framework (rdf),heuristic,12
+1240,ontology alignment,is,knowledge representation,heuristic,1
+1241,web ontology language,uses,ontology development,heuristic,1
+1242,data exchange,provides,resource description framework (rdf),heuristic,4
+1243,semantic web services,provides,reasoning algorithms,heuristic,17
+1244,web ontology language,supports,probability,heuristic,2
+1245,ontology evaluation,conjunction,ontology alignment,heuristic,1
+1246,product design,produces,resource description framework (rdf),heuristic,1
+1247,classification performances,uses,resource description framework (rdf),heuristic,1
+1248,natural languages,conjunction,resource description framework (rdf),heuristic,1
+1249,semantic description,analyzes,engine,heuristic,3
+1250,resource description framework (rdf),base,java,heuristic,6
+1251,search engines,base,resource description framework (rdf),heuristic,3
+1252,recommender systems,links,linked data,heuristic,5
+1253,ontology alignment,provides,ontology building,heuristic,3
+1254,web information,is,semantic description,heuristic,1
+1255,fuzzy description logic,extends,web ontology language,heuristic,6
+1256,natural languages,requires,linked data,heuristic,1
+1257,domain-specific ontologies,supports,linked data,heuristic,8
+1258,linked data,conjunction,semantic similarity measures,heuristic,1
+1259,vocabulary,converts,web ontology language,heuristic,8
+1260,component-based software engineering,proposes,resource description framework (rdf),heuristic,1
+1261,semantic description,uses,knowledge-sharing,heuristic,1
+1262,data exchange,queries,web ontology language,heuristic,3
+1263,ontology alignment,uses,domain knowledge,heuristic,5
+1264,resource description framework (rdf),visualizes,user interfaces,heuristic,1
+1265,semantic web services,uses,collaborative filtering algorithms,heuristic,1
+1266,information retrieval,is,semantic search engine,heuristic,6
+1267,semantic web technologies,provides,linked data,heuristic,136
+1268,linked data,uses,software design patterns,heuristic,1
+1269,semantic web services,conjunction,agent-based,heuristic,1
+1270,interactive visualizations,supports,ontology alignment,heuristic,2
+1271,data exchange,provides,linked data,heuristic,1
+1272,ontology alignment,analyzes,document similarity,heuristic,2
+1273,linked data,conjunction,text mining,heuristic,1
+1274,web ontology language,base,modeling languages,heuristic,1
+1275,resource description framework (rdf),provides,semantic interoperability,heuristic,2
+1276,visualization,supports,ontology alignment,heuristic,4
+1277,resource description framework (rdf),selects,web data mining,heuristic,2
+1278,fuzzy ontology,converts,web ontology language,heuristic,2
+1279,parallelism,limits,linked data,heuristic,2
+1280,linked data,proposes,knowledge management systems,heuristic,3
+1281,web ontology language,limits,answering queries,heuristic,2
+1282,ontology alignment,conjunction,service compositions,heuristic,3
+1283,web ontology language,improves,query processing,heuristic,2
+1284,resource description framework (rdf),defines,distributed systems,heuristic,3
+1285,vocabulary,proposes,linked data,heuristic,23
+1286,web ontology language,proposes,semantic relationships,heuristic,2
+1287,social networks,is,semantic search engines,heuristic,1
+1288,resource description framework (rdf),analyzes,distributed query processing,heuristic,2
+1289,semantic web services,maintains,data mining,heuristic,1
+1290,mobile applications,uses,semantic description,heuristic,1
+1291,logistics,represents,semantic web services,heuristic,2
+1292,clustering algorithms,analyzes,ontology alignment,heuristic,2
+1293,semantic web services,proposes,ontology alignment,heuristic,10
+1294,resource description framework (rdf),conjunction,intelligent agents,heuristic,1
+1295,semantic web services,requires,domain-specific ontologies,heuristic,4
+1296,libraries,produces,web ontology language,heuristic,2
+1297,social networks,publishes,resource description framework (rdf),heuristic,2
+1298,resource description framework (rdf),represents,user query,heuristic,2
+1299,facebook,publishes,resource description framework (rdf),heuristic,1
+1300,virtual laboratories,uses,semantic web services,heuristic,1
+1301,machine learning techniques,conjunction,semantic search engines,heuristic,1
+1302,knowledge management,conjunction,semantic search engines,heuristic,1
+1303,ajax,conjunction,resource description framework (rdf),heuristic,2
+1304,web ontology language,uses,wordnet,heuristic,4
+1305,embedded,uses,semantic search engine,heuristic,1
+1306,linked data,conjunction,on-line learning,heuristic,1
+1307,semantic web services,analyzes,formal ontology,heuristic,1
+1308,matching algorithm,base,semantic description,heuristic,2
+1309,web ontology language,proposes,reusability,heuristic,2
+1310,collaborative designs,uses,web ontology language,heuristic,1
+1311,speech recognition,base,semantic search engines,heuristic,12
+1312,database systems,proposes,web ontology language,heuristic,2
+1313,user profiles,conjunction,semantic web services,heuristic,1
+1314,resource description framework (rdf),represents,web information,heuristic,1
+1315,ontology alignment,conjunction,information fusion,heuristic,1
+1316,semantic web technologies,includes,resource description framework (rdf),heuristic,7
+1317,semantic search engine,acquires,component-based software engineering,heuristic,4
+1318,semantic search engines,produces,sparql,heuristic,2
+1319,semantic web technologies,supports,linked data,heuristic,14
+1320,web crawlers,is,semantic search engine,heuristic,1
+1321,web applications,produces,semantic web services,heuristic,8
+1322,resource description framework (rdf),defines,xml schemas,heuristic,13
+1323,linked data,conjunction,dialogue,heuristic,1
+1324,linked data,guides,on-line analytical processing,heuristic,2
+1325,resource description framework (rdf),conjunction,ajax,heuristic,2
+1326,ontology alignment,is,communication,heuristic,7
+1327,ontology alignment,is,web applications,heuristic,6
+1328,resource description framework (rdf),converts,relational database systems,heuristic,36
+1329,ontology merging,conjunction,ontology alignment,heuristic,2
+1330,xml schemas,provides,web ontology language,heuristic,9
+1331,recommendation,uses,ontology alignment,heuristic,3
+1332,ontology alignment,conjunction,automatic classification,heuristic,1
+1333,controlled vocabulary,conjunction,linked data,heuristic,7
+1334,linked data,conjunction,data mining process,heuristic,1
+1335,web ontology language,represents,knowledge management,heuristic,4
+1336,automatic composition,proposes,semantic web services,heuristic,8
+1337,resource description framework (rdf),supports,information integration,heuristic,1
+1338,resource description framework (rdf),provides,semantic data,heuristic,5
+1339,ontology-based,defines,semantic web services,heuristic,119
+1340,linked data,conjunction,web 2.0,heuristic,3
+1341,mashup,requires,linked data,heuristic,3
+1342,resource description framework (rdf),improves,knowledge exchange,heuristic,1
+1343,services discovery,is,semantic web services,heuristic,1
+1344,web contents,is,semantic search engine,heuristic,1
+1345,libraries,base,ontology alignment,heuristic,1
+1346,web ontology language,proposes,machining,heuristic,1
+1347,machine vision systems,is,semantic web services,heuristic,1
+1348,artificial intelligence,conjunction,semantic search engines,heuristic,2
+1349,semantic web technologies,uses,web ontology language,heuristic,7
+1350,resource description framework (rdf),is,dublin core,heuristic,1
+1351,ontology alignment,provides,data integration,heuristic,5
+1352,search engines,provides,semantic search engines,heuristic,19
+1353,semantic description,produces,formal specifications,heuristic,1
+1354,semantic search engines,improves,semantic search engines,heuristic,2
+1355,web contents,provides,semantic search engines,heuristic,1
+1356,ontology language,base,resource description framework (rdf),heuristic,3
+1357,web ontology language,combines,semantic web rule languages,heuristic,7
+1358,domain-specific ontologies,supports,semantic search engines,heuristic,5
+1359,linked data,selects,clustering algorithms,heuristic,2
+1360,automatic composition,conjunction,semantic description,heuristic,1
+1361,on-line learning,conjunction,linked data,heuristic,1
+1362,ontology alignment,maintains,evaluation system,heuristic,1
+1363,resource description framework (rdf),produces,knowledge bases,heuristic,15
+1364,semantic relationships,selects,semantic description,heuristic,1
+1365,resource description framework (rdf),acquires,domain knowledge,heuristic,9
+1366,storage systems,produces,linked data,heuristic,1
+1367,semantic description,proposes,distributed applications,heuristic,2
+1368,web ontology language,includes,fuzzy logics,heuristic,2
+1369,linked data,provides,semantic web technologies,heuristic,136
+1370,knowledge acquisition,conjunction,ontology alignment,heuristic,2
+1371,resource description framework (rdf),represents,location information,heuristic,1
+1372,web contents,provides,semantic descriptions,heuristic,2
+1373,web ontology language,recommends,semantic relationships,heuristic,2
+1374,semantic web services,converts,semantic web services,heuristic,19
+1375,dialogue,conjunction,linked data,heuristic,1
+1376,knowledge bases,conjunction,semantic web services,heuristic,1
+1377,context information,acquires,resource description framework (rdf),heuristic,1
+1378,activity recognition,uses,resource description framework (rdf),heuristic,1
+1379,resource description framework (rdf),produces,mobile,heuristic,4
+1380,linked data,requires,web development,heuristic,1
+1381,semantic web services,requires,distributed computing environment,heuristic,1
+1382,domain-specific ontologies,acquires,ontology alignment,heuristic,4
+1383,resource description framework (rdf),classify,pattern,heuristic,2
+1384,resource description framework (rdf),supports,routing algorithms,heuristic,1
+1385,services selection,is,semantic web services,heuristic,2
+1386,semantic search engines,conjunction,natural language understanding,heuristic,2
+1387,linked data,uses,knowledge representation,heuristic,2
+1388,linked data,supports,inference,heuristic,1
+1389,linked data,supports,information systems,heuristic,2
+1390,web ontology language,proposes,cloud services,heuristic,3
+1391,ontology alignment,conjunction,web 2.0,heuristic,1
+1392,knowledge discovery,conjunction,semantic search engines,heuristic,2
+1393,knowledge bases,contributes,semantic search engines,heuristic,6
+1394,semantic search engines,is,internet,heuristic,4
+1395,web servers,provides,resource description framework (rdf),heuristic,1
+1396,web ontology language,proposes,uml models,heuristic,3
+1397,semantic search engines,conjunction,visualization,heuristic,1
+1398,ontology alignment,improves,ajax,heuristic,1
+1399,linked data,produces,named entity recognition,heuristic,3
+1400,uml models,visualizes,web ontology language,heuristic,9
+1401,semantic web services,base,text clustering,heuristic,1
+1402,ontology construction,proposes,ontology alignment,heuristic,2
+1403,web ontology language,represents,knowledge bases,heuristic,6
+1404,semantic description,provides,web ontology language,heuristic,3
+1405,web ontology language,provides,ontology alignment,heuristic,5
+1406,semantic web technologies,includes,semantic web services,heuristic,2
+1407,query expansion,acquires,linked data,heuristic,1
+1408,knowledge-sharing,proposes,web ontology language,heuristic,2
+1409,data mining process,conjunction,linked data,heuristic,1
+1410,semantic web services,base,resource description framework (rdf),heuristic,1
+1411,semantic search engines,is,natural language processing systems,heuristic,3
+1412,ontology alignment,uses,reasoning algorithms,heuristic,6
+1413,web ontology language,matches,relational data models,heuristic,3
+1414,engineering,includes,ontology alignment,heuristic,1
+1415,semantic web technologies,provides,semantic search engines,heuristic,18
+1416,resource description framework (rdf),represents,index structure,heuristic,4
+1417,open source software,converts,linked data,heuristic,3
+1418,ontology alignment,analyzes,regularization,heuristic,2
+1419,ontology alignment,conjunction,schema matching,heuristic,3
+1420,information visualization,provides,ontology alignment,heuristic,1
+1421,resource description framework (rdf),uses,computer science,heuristic,1
+1422,formal models,uses,semantic web services,heuristic,6
+1423,sentence similarity,conjunction,ontology alignment,heuristic,2
+1424,ontology alignment,conjunction,text mining,heuristic,1
+1425,knowledge bases,proposes,web ontology language,heuristic,4
+1426,linked data,improves,distributed query processing,heuristic,1
+1427,semantic description,base,description logics,heuristic,3
+1428,soccer video,base,semantic search engines,heuristic,1
+1429,on-line analytical processing,proposes,linked data,heuristic,2
+1430,linked data,represents,ternary content addressable memories,heuristic,1
+1431,semantic search engines,selects,undirected graph,heuristic,3
+1432,linked data,analyzes,semantic web technologies,heuristic,10
+1433,semantic web services,is,world wide web,heuristic,1
+1434,java,produces,ontology alignment,heuristic,1
+1435,linked data,converts,vocabulary,heuristic,9
+1436,resource description framework (rdf),provides,abstract syntax,heuristic,1
+1437,reasoning algorithms,improves,linked data,heuristic,6
+1438,mobile learning,extends,semantic web services,heuristic,2
+1439,semantic web services,supports,services selection,heuristic,1
+1440,query processing,is,resource description framework (rdf),heuristic,2
+1441,resource description framework (rdf),uses,document classification,heuristic,1
+1442,natural languages,produces,ontology alignment,heuristic,2
+1443,domain knowledge,base,resource description framework (rdf),heuristic,1
+1444,semantic search engines,uses,automatic image annotation,heuristic,1
+1445,relational database systems,is,linked data,heuristic,2
+1446,learning objects,interacts,resource description framework (rdf),heuristic,2
+1447,fuzzy description logic,provides,semantic web services,heuristic,1
+1448,formal modelling,is,web ontology language,heuristic,2
+1449,resource description framework (rdf),supports,engineering,heuristic,3
+1450,resource description framework (rdf),combines,natural language processing systems,heuristic,1
+1451,web contents,acquires,web ontology language,heuristic,2
+1452,ontology alignment,conjunction,knowledge acquisition,heuristic,2
+1453,resource description framework (rdf),selects,knowledge acquisition,heuristic,3
+1454,pattern,represents,web ontology language,heuristic,4
+1455,web ontology language,is,ontology language,heuristic,29
+1456,automation,recommends,semantic web services,heuristic,9
+1457,resource description framework (rdf),is,constraint language,heuristic,1
+1458,text mining,uses,semantic web services,heuristic,1
+1459,web ontology language,represents,web engineering,heuristic,1
+1460,ontology alignment,uses,heterogeneous databases,heuristic,1
+1461,web services discovery,proposes,ontology alignment,heuristic,6
+1462,semantic description,supports,reasoning algorithms,heuristic,3
+1463,resource description framework (rdf),base,policy language,heuristic,1
+1464,web ontology language,is,display,heuristic,1
+1465,semantic descriptions,requires,linked data,heuristic,3
+1466,relational data models,affects,resource description framework (rdf),heuristic,1
+1467,semantic web technologies,provides,resource description framework (rdf),heuristic,42
+1468,uml models,improves,semantic web services,heuristic,2
+1469,linked open data,includes,resource description framework (rdf),heuristic,10
+1470,resource description framework (rdf),proposes,web contents,heuristic,2
+1471,linked data,conjunction,machine learning techniques,heuristic,1
+1472,ontology-based,provides,semantic description,heuristic,40
+1473,ontology development,conjunction,ontology alignment,heuristic,1
+1474,ontology alignment,is,data warehousing,heuristic,1
+1475,knowledge representation and reasoning,is,web ontology language,heuristic,3
+1476,world wide web,converts,web ontology language,heuristic,12
+1477,ontology alignment,conjunction,knowledge representation,heuristic,1
+1478,semantic relationships,uses,ontology alignment,heuristic,3
+1479,graphical models,selects,semantic description,heuristic,3
+1480,ontology learning,conjunction,semantic search engines,heuristic,2
+1481,service compositions,conjunction,ontology alignment,heuristic,3
+1482,semantic web services,represents,programming models,heuristic,1
+1483,component-based software engineering,produces,linked data,heuristic,2
+1484,named entity recognition,is,linked data,heuristic,2
+1485,domain knowledge,classify,semantic description,heuristic,1
+1486,web ontology language,includes,security frameworks,heuristic,2
+1487,learning objects,learns,semantic web services,heuristic,4
+1488,knowledge representation,analyzes,resource description framework (rdf),heuristic,5
+1489,semantic web services,queries,natural languages,heuristic,1
+1490,artificial intelligence,produces,semantic description,heuristic,3
+1491,resource description framework (rdf),provides,data streams,heuristic,1
+1492,model-driven engineering,analyzes,web ontology language,heuristic,2
+1493,web ontology language,provides,information retrieval,heuristic,1
+1494,data exchange,produces,ontology alignment,heuristic,1
+1495,ontology alignment,produces,engineering,heuristic,4
+1496,ontology-based,provides,semantic descriptions,heuristic,12
+1497,ontology alignment,is,information integration,heuristic,2
+1498,semantic data,uses,linked data,heuristic,3
+1499,semantic web technologies,provides,web ontology language,heuristic,30
+1500,linked data,conjunction,automated reasoning,heuristic,1
+1501,linked data,provides,ontology-based,heuristic,83
+1502,linked data,produces,universities,heuristic,13
+1503,ontology merging,conjunction,ontology alignment,heuristic,7
+1504,linked data,provides,computability,heuristic,1
+1505,web service composition,uses,semantic web services,heuristic,8
+1506,distributed hash table,supports,semantic search engines,heuristic,1
+1507,semantic web services,produces,business process modelling,heuristic,3
+1508,attributes reduction,is,ontology alignment,heuristic,1
+1509,semantic web services,is,service ontology,heuristic,2
+1510,distributed hash table,base,resource description framework (rdf),heuristic,1
+1511,semantic search engines,is,speech recognition,heuristic,10
+1512,relational data models,uses,web ontology language,heuristic,2
+1513,extensible markup language,converts,web ontology language,heuristic,2
+1514,question answering systems,reuses,semantic search engines,heuristic,8
+1515,concept lattices,proposes,ontology alignment,heuristic,2
+1516,web ontology language,provides,knowledge representation,heuristic,13
+1517,semantic web services,uses,semantic web technologies,heuristic,96
+1518,resource description framework (rdf),uses,knowledge acquisition,heuristic,2
+1519,ontology alignment,represents,ontology integration,heuristic,4
+1520,ontology alignment,combines,document clustering,heuristic,1
+1521,user interfaces,represents,linked data,heuristic,9
+1522,linked data,conjunction,distributed ledgers,heuristic,1
+1523,rdf graph,base,web ontology language,heuristic,2
+1524,heterogeneous databases,includes,semantic search engines,heuristic,3
+1525,semantic web services,conjunction,intelligent software agent,heuristic,1
+1526,equivalence relations,defines,resource description framework (rdf),heuristic,2
+1527,semantic web services,automates,blogs,heuristic,1
+1528,fuzzy logics,represents,resource description framework (rdf),heuristic,2
+1529,semantic web technologies,represents,web ontology language,heuristic,3
+1530,ontology alignment,uses,relation extraction,heuristic,1
+1531,resource description framework (rdf),is,standard model,heuristic,1
+1532,web ontology language,proposes,semantic web services,heuristic,6
+1533,knowledge representation,analyzes,resource description framework (rdf),heuristic,14
+1534,linked data,provides,embedded,heuristic,4
+1535,web ontology language,is,ontology language,heuristic,8
+1536,web ontology language,uses,logistics,heuristic,2
+1537,semantic descriptions,is,manets,heuristic,2
+1538,linked data,supports,validation,heuristic,1
+1539,linked data,provides,semantic web technologies,heuristic,29
+1540,ontology alignment,is,data integration,heuristic,15
+1541,text mining,uses,semantic search engines,heuristic,4
+1542,data integration,uses,semantic web services,heuristic,2
+1543,ontology alignment,converts,xml schemas,heuristic,2
+1544,grid resources,base,semantic description,heuristic,1
+1545,semantic description,links,engineering,heuristic,3
+1546,resource description framework (rdf),includes,video surveillance systems,heuristic,1
+1547,legacy systems,acquires,resource description framework (rdf),heuristic,5
+1548,semantic web services,provides,extreme programming,heuristic,1
+1549,ontology alignment,base,ontology technology,heuristic,1
+1550,semantic interoperability,converts,semantic web services,heuristic,3
+1551,domain knowledge,defines,web ontology language,heuristic,3
+1552,semantic web technologies,is,ontology alignment,heuristic,19
+1553,undirected graph,represents,resource description framework (rdf),heuristic,1
+1554,machine learning techniques,conjunction,linked data,heuristic,1
+1555,resource description framework (rdf),is,rule engine,heuristic,3
+1556,semantic web services,supports,virtual organizations,heuristic,1
+1557,microdata,is,resource description framework (rdf),heuristic,1
+1558,search engines,proposes,semantic web services,heuristic,10
+1559,schema matching,is,ontology alignment,heuristic,5
+1560,semantic web services,represents,data integration,heuristic,2
+1561,ontology alignment,analyzes,kernel functions,heuristic,1
+1562,ontology construction,is,semantic descriptions,heuristic,5
+1563,knowledge discovery in databases,uses,resource description framework (rdf),heuristic,1
+1564,semantic web services,base,semantic similarity measures,heuristic,6
+1565,semantic search engine,extends,recommendation systems,heuristic,1
+1566,domain knowledge,acquires,semantic search engines,heuristic,2
+1567,web ontology language,provides,semantic web technologies,heuristic,56
+1568,semantic data,produces,resource description framework (rdf),heuristic,4
+1569,classifiers,links,linked data,heuristic,1
+1570,ontology development,supports,resource description framework (rdf),heuristic,2
+1571,domain-specific ontologies,is,semantic search engine,heuristic,2
+1572,semantic search engine,supports,software development life cycle,heuristic,1
+1573,context reasoning,analyzes,web ontology language,heuristic,1
+1574,heterogeneous databases,uses,semantic web services,heuristic,1
+1575,linked data,provides,back propagation neural networks,heuristic,2
+1576,service architecture,base,linked data,heuristic,1
+1577,ontology alignment,defines,resource description framework (rdf),heuristic,1
+1578,investments,extends,resource description framework (rdf),heuristic,1
+1579,visualization,links,linked data,heuristic,3
+1580,wordnet,analyzes,ontology alignment,heuristic,2
+1581,zig-bee,uses,web ontology language,heuristic,1
+1582,semantic web services,provides,communication,heuristic,15
+1583,cache,uses,semantic description,heuristic,1
+1584,reasoning algorithms,is,web ontology language,heuristic,5
+1585,semantic search engines,uses,semantic relationships,heuristic,4
+1586,semantic description,uses,semantic web technologies,heuristic,2
+1587,semantic web services,base,data exchange,heuristic,1
+1588,agent technology,conjunction,semantic search engines,heuristic,1
+1589,component-based software engineering,is,ontology alignment,heuristic,1
+1590,semantic search engine,supports,semantic search engines,heuristic,2
+1591,parallelism,improves,semantic search engines,heuristic,1
+1592,resource description framework (rdf),represents,sparql,heuristic,22
+1593,validation,selects,linked data,heuristic,1
+1594,resource description framework (rdf),base,service compositions,heuristic,1
+1595,software architectures,produces,semantic web services,heuristic,1
+1596,argumentation,combines,ontology alignment,heuristic,2
+1597,ontology alignment,improves,information integration,heuristic,4
+1598,semantic web services,produces,business processes,heuristic,10
+1599,semantic similarity measures,combines,web ontology language,heuristic,2
+1600,resource description framework (rdf),acquires,semantic relationships,heuristic,9
+1601,semantic search engines,conjunction,product design,heuristic,1
+1602,reasoning algorithms,uses,semantic web services,heuristic,9
+1603,software agents,publishes,web ontology language,heuristic,9
+1604,semantic web services,uses,web ontology language,heuristic,1
+1605,semantic web services,analyzes,web 2.0,heuristic,1
+1606,universities,is,resource description framework (rdf),heuristic,1
+1607,web ontology language,produces,pattern,heuristic,1
+1608,semantic web technologies,includes,resource description framework (rdf),heuristic,2
+1609,search engines,selects,web ontology language,heuristic,2
+1610,semantic description,supports,automated reasoning,heuristic,3
+1611,semantic description,supports,robots,heuristic,1
+1612,ontology alignment,selects,software agents,heuristic,5
+1613,controlled vocabulary,converts,web ontology language,heuristic,3
+1614,ontology alignment,provides,semantic interoperability,heuristic,8
+1615,resource description framework (rdf),base,architecture viewpoints,heuristic,1
+1616,linked data,produces,world wide web,heuristic,12
+1617,intranets,uses,semantic web services,heuristic,2
+1618,semantic descriptions,acquires,parsing algorithm,heuristic,1
+1619,semantic relationships,improves,ontology alignment,heuristic,2
+1620,explicit knowledge,conjunction,linked data,heuristic,1
+1621,linked data,conjunction,augmented reality,heuristic,1
+1622,mobile devices,produces,resource description framework (rdf),heuristic,1
+1623,web ontology language,supports,business intelligence,heuristic,1
+1624,information fusion,conjunction,ontology alignment,heuristic,1
+1625,xml schemas,conjunction,resource description framework (rdf),heuristic,1
+1626,semantic web services,converts,information exchanges,heuristic,1
+1627,web ontology language,produces,xquery,heuristic,3
+1628,semantic web services,base,knowledge representation,heuristic,2
+1629,semantic search engines,supports,knowledge management,heuristic,2
+1630,fuzzy ontology,conjunction,resource description framework (rdf),heuristic,1
+1631,resource description framework (rdf),uses,component-based software engineering,heuristic,1
+1632,ontology alignment,conjunction,ontology evaluation,heuristic,1
+1633,context models,proposes,web ontology language,heuristic,5
+1634,resource description framework (rdf),uses,communication,heuristic,2
+1635,automation,uses,ontology alignment,heuristic,2
+1636,semantic search engine,supports,embedded,heuristic,1
+1637,ontology-based,uses,semantic search engine,heuristic,7
+1638,semantic search engine,uses,semantic web technologies,heuristic,1
+1639,web ontology language,defines,domain knowledge,heuristic,11
+1640,web ontology language,proposes,semantic web rule languages,heuristic,75
+1641,database systems,includes,semantic description,heuristic,6
+1642,semantic web services,provides,distributed applications,heuristic,2
+1643,semantic description,supports,systems integration,heuristic,1
+1644,sparql,queries,web ontology language,heuristic,20
+1645,organizational memory,uses,resource description framework (rdf),heuristic,1
+1646,resource description framework (rdf),analyzes,complex networks,heuristic,2
+1647,ontology integration,interacts,ontology alignment,heuristic,5
+1648,resource description framework (rdf),represents,coloured petri nets,heuristic,2
+1649,semantic web services,provides,open source software,heuristic,7
+1650,semantic web services,proposes,authorization,heuristic,3
+1651,web ontology language,provides,tool support,heuristic,3
+1652,linked data,provides,knowledge engineering,heuristic,2
+1653,answering queries,requires,semantic search engines,heuristic,2
+1654,ontology building,provides,web ontology language,heuristic,2
+1655,semantic search engines,conjunction,artificial intelligence,heuristic,2
+1656,resource description framework (rdf),produces,knowledge representation and reasoning,heuristic,2
+1657,semantic web services,provides,semantic relationships,heuristic,12
+1658,on-line communities,produces,resource description framework (rdf),heuristic,4
+1659,abstract syntax,extends,web ontology language,heuristic,3
+1660,web applications,uses,resource description framework (rdf),heuristic,1
+1661,intelligent software agent,conjunction,semantic web services,heuristic,1
+1662,web ontology language,represents,web ontology language,heuristic,4
+1663,resource description framework (rdf),is,binary relations,heuristic,2
+1664,data publishing,uses,resource description framework (rdf),heuristic,1
+1665,text mining,conjunction,linked data,heuristic,1
+1666,resource description framework (rdf),represents,semantic interoperability,heuristic,11
+1667,linked data,conjunction,process modelling,heuristic,1
+1668,web ontology language,analyzes,propositional logic,heuristic,3
+1669,semantic interoperability,uses,web ontology language,heuristic,5
+1670,formal models,produces,linked data,heuristic,2
+1671,web contents,uses,resource description framework (rdf),heuristic,4
+1672,map-reduce,requires,resource description framework (rdf),heuristic,3
+1673,semantic web services,is,product design,heuristic,1
+1674,web ontology language,queries,optimization,heuristic,1
+1675,semantic web services,extends,dialogue,heuristic,1
+1676,xml technology,annotates,resource description framework (rdf),heuristic,1
+1677,ontology alignment,uses,bayesian networks,heuristic,1
+1678,extreme programming,proposes,semantic web services,heuristic,2
+1679,search engines,conjunction,ontology alignment,heuristic,1
+1680,resource description framework (rdf),supports,information systems,heuristic,1
+1681,semantic description,uses,component-based software engineering,heuristic,1
+1682,computer systems,includes,linked data,heuristic,4
+1683,mobile web,conjunction,linked data,heuristic,1
+1684,controlled vocabulary,produces,resource description framework (rdf),heuristic,1
+1685,reasoning algorithms,base,resource description framework (rdf),heuristic,1
+1686,web ontology language,supports,attribute based access control,heuristic,1
+1687,clustering algorithms,conjunction,ontology alignment,heuristic,3
+1688,ternary content addressable memories,links,linked data,heuristic,1
+1689,ontology-based,defines,web ontology language,heuristic,176
+1690,change detection,conjunction,ontology alignment,heuristic,1
+1691,email,supports,semantic search engines,heuristic,2
+1692,resource description framework (rdf),supports,information filtering,heuristic,1
+1693,semantic web services,uses,agent technology,heuristic,7
+1694,domain-specific ontologies,provides,semantic description,heuristic,3
+1695,resource description framework (rdf),uses,parallelism,heuristic,5
+1696,linked data,conjunction,adaptive hypermedia,heuristic,1
+1697,resource description framework (rdf),represents,dbpedia,heuristic,6
+1698,resource description framework (rdf),proposes,reusability,heuristic,2
+1699,web service description,proposes,web ontology language,heuristic,1
+1700,ontology alignment,proposes,ontology alignment,heuristic,1
+1701,web ontology language,improves,knowledge management,heuristic,2
+1702,doherty power amplifier,proposes,semantic description,heuristic,1
+1703,semantic search engine,conjunction,semantic web services,heuristic,1
+1704,semantic relationships,improves,semantic search engine,heuristic,1
+1705,semantic web services,produces,matching algorithm,heuristic,3
+1706,services discovery,analyzes,web ontology language,heuristic,2
+1707,ontology alignment,proposes,grid environments,heuristic,1
+1708,information extraction,supports,linked data,heuristic,3
+1709,resource description framework (rdf),maintains,context information,heuristic,2

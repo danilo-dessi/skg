@@ -1,6 +1,8 @@
-# skg
+# Scientific Knowledge Graph
+
 
 ## Intro
+
 This repository contains the source code developed for wrapping tools and make operations that build a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
 
 If you use our work please cite us with:
@@ -17,10 +19,10 @@ Please follow this guide to run the code and get results. You can also use the p
 ### Downloads
 1. Clone the repository on your local environment
 2. Download the Stanford Core NLP moduels from https://stanfordnlp.github.io/CoreNLP/ and put it under skg/. 
-3. Download the Luan Yi et al.'s tool from the repository https://bitbucket.org/luanyi/scierc/src/master/ and put it under luanyi-extractor. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool is correctly working. We used their scientific_best_ner model.
+3. Download the Luan Yi et al.'s tool from the repository https://bitbucket.org/luanyi/scierc/src/master/ and put it under luanyi-extractor/. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool correctly works. We used their scientific_best_ner model.
 
 ### Data preparation
-1. Go to the directory data-preparation. It contains the abstracts coming from the MAG datasets and a script to parse them and produce the input files that will be fed to the Luanyi tool.
+1. Go to the directory data-preparation. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al.'s tool.
 
 2. To prepare the data you need to run:
 
@@ -39,7 +41,7 @@ You can skip these steps if your data are in the format required by the Luan Yi 
 ### Extraction with Luan Yi et al.'s tool
 
 To extract entities and relations from scientific publications our work has been built on top of https://arxiv.org/abs/1808.09602
-1. Go to the directory luanyi-extractor
+1. Go to the directory luanyi-extractor/
 2. Please be sure you have already downloaded and tested the files coming from https://bitbucket.org/luanyi/scierc/src/master/
 3. Under master/ create the directories paths data/processed_data/json/ and data/processed_data/elmo/
 4. Copy the directory **luanyi_input** from ../data-preparation/ to master/data/processed_data/json/
@@ -57,7 +59,7 @@ python3 run.py
 
 9. The execution will produce a csv file called *luanyi_output.csv* under the luanyi-extractor/ directory.
 
-Please note that our project has been developed in Python 3.6 while the Luan Yi et al. tool uses Python 2.7.
+Please note that our project has been developed in Python 3.6 while the Luan Yi et al.'s tool uses Python 2.7.
 
 The execution will also produce the directory **csv_e_r** that contains files where for each sentence a list of entities and a list of relations are associated. We suggest to run above commands in background since they are very time consuming.
 

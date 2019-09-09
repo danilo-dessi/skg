@@ -1,0 +1,20 @@
+linked data
+ontology engineering
+ontology creation
+ontology matching
+ontology alignment
+ontology mapping
+resource description framework
+rdf
+resource description framework (rdf)
+semantic descriptions
+semantic description
+semantic service
+semantic search
+semantic search engines
+semantic search engine
+semantic social network analysis
+semantic web services
+semantic web service
+web ontology language
+owl

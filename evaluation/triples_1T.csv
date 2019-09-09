@@ -1,0 +1,1001 @@
+;s;p;o;source;support
+0;ontology editor protege;uses;enriched owl syntax;heuristic;4
+1;automatic discovery;includes;composition;luanyi;6
+2;ontology base;produces;ontology-based;heuristic;2
+3;extensible markup language (xml);includes;rdf query language;luanyi;1
+4;distributed computing;includes;application integration;luanyi;1
+5;semantic foundation;includes;mapping language;luanyi;1
+6;it;provides;distributed modelling;heuristic;1
+7;social network analysi;includes;semantic web technologies;luanyi;9
+8;design;uses;semantic web technologies;heuristic;11
+9;semantic web technologies;provides;digital contents;heuristic;2
+10;collective ontology;provides;ontology-based;heuristic;2
+11;reasoning algorithms;includes;rule engine;luanyi;3
+12;nearest neighbor retrieval strategy;uses;aircraft manufacturing enterprise;heuristic;3
+13;indexing;acquires;annotation;heuristic;10
+14;it;provides;classification;heuristic;24
+15;natural languages;includes;machine learning techniques;luanyi;1
+16;syntax;includes;semantic;luanyi;62
+17;computer - interpretation;supports;automatic web service discovery;heuristic;1
+18;triple pattern;selects;machine readable dictionary worldnet;heuristic;2
+19;sparql;is;resource description framework (rdf);heuristic;23
+20;hbase;includes;ontology reuse;luanyi;1
+21;modularisation;supports;10million - triple - based application;heuristic;1
+22;social networks;includes;ontology alignment;luanyi;1
+23;platform;produces;internet;heuristic;8
+24;similarity measure;includes;semantic feature;luanyi;1
+25;report service;includes;mesh - up service;luanyi;1
+26;kim platform;provides;automatic semantic annotation;heuristic;2
+27;triple space computing;includes;semantic web technologies;luanyi;1
+28;blank node;proposes;method;heuristic;2
+29;data warehouses;includes;requirements engineering;luanyi;2
+30;discovery mechanism;base;uddi;heuristic;21
+31;automatic ontology construction;uses;web ontology language;heuristic;1
+32;representation;provides;distributed information system;heuristic;6
+33;it;provides;dfki;heuristic;2
+34;web services filtering;uses;security ontology;heuristic;1
+35;foaf;includes;access control model;luanyi;1
+36;protege-2000 knowledge model;produces;knowledge bases;heuristic;1
+37;query language;uses;xquery;heuristic;2
+38;data model;guides;resource description framework (rdf);heuristic;18
+39;infrastructural component;supports;a - priori information integration;heuristic;1
+40;ontology language bowl;uses;owl dl;heuristic;1
+41;overall semantic quality;uses;semantic quality of causal link;heuristic;1
+42;ontology-based;represents;temporal information;openie;1
+43;oil;is;web standard;heuristic;6
+44;mobile user;improves;precision;heuristic;3
+45;triplestore;uses;triples format;heuristic;1
+46;classification algorithm;selects;search framework;heuristic;2
+47;cybertwitter;selects;cybersecurity intelligence;heuristic;2
+48;engine;includes;system;luanyi;1
+49;owl - s description;produces;web applications;heuristic;2
+50;semi - automatic ontology engineering;uses;ontocase framework;heuristic;1
+51;scalability;conjunction;semantic search efficiency;heuristic;1
+52;semantic web technologies;includes;information technology;luanyi;10
+53;semantic path;includes;semantic search system;luanyi;1
+54;web portal;uses;data grids;heuristic;2
+55;rhizomer;provides;ontology-based;heuristic;6
+56;recall;includes;semantic search system;luanyi;1
+57;it;provides;scalable epidemic algorithm;heuristic;3
+58;top - down and bottom - up search;uses;subsumption testing;heuristic;1
+59;owl - s;provides;semantic interoperability;heuristic;2
+60;metadata model;includes;xml schemas;luanyi;1
+61;ssd_oc;is;system;heuristic;1
+62;java - based converter;supports;csv dataset;heuristic;1
+63;semantic web technologies;includes;web-mining;luanyi;1
+64;social networks;includes;web 2.0;luanyi;1
+65;ontology engineering approach;includes;multimedia ontology;luanyi;1
+66;semantic indexing;includes;summarization;luanyi;1
+67;reusability;includes;linked data technology;luanyi;4
+68;ubiquitous computing;produces;it;heuristic;2
+69;natural language processing systems;provides;data management;heuristic;1
+70;prototype mapping system;supports;semi - automatic ontology mapping;heuristic;2
+71;data warehousing;includes;knowledge discovery;luanyi;1
+72;information retrieval be- cause browsing lattice;supports;query augmentation;heuristic;2
+73;owl dl;is;semantic web technologies;heuristic;8
+74;europeana;includes;semantic web technologies;luanyi;2
+75;chemical entities of biological interest;includes;biotoplite2;luanyi;1
+76;presentation level;is;information resource integration;heuristic;1
+77;mapping rule;includes;knowledge ontology mapping;luanyi;1
+78;reasoning algorithms;includes;bandwidth;luanyi;1
+79;computer program;includes;resource discovery;luanyi;1
+80;core technology;uses;multimedia and software technology;heuristic;2
+81;web;provides;knowledge representation;heuristic;24
+82;application logic layer;uses;owl - dl;heuristic;1
+83;electronic government;includes;semantic web technologies;luanyi;5
+84;semantic component;includes;resource management;luanyi;1
+85;controlled natural language;includes;ontology alignment;luanyi;1
+86;medicine;includes;life science;luanyi;2
+87;ontology alignment;includes;ontology alignment;luanyi;7
+88;user commitment;supports;ontology usage;heuristic;1
+89;digital libraries;includes;web service;luanyi;1
+90;semantic web technologies;provides;interoperable framework;heuristic;1
+91;ontology-based;is;class alignment;heuristic;2
+92;metadata format;includes;metadata format;luanyi;2
+93;ontology-based;is;human - web interface design;heuristic;2
+94;web service description;includes;matchmaking;luanyi;1
+95;machine readable format;provides;information extraction;heuristic;1
+96;semantic web technologies;provides;information identification;heuristic;1
+97;database systems;includes;geographic information system;luanyi;1
+98;w3c;represents;resource description framework (rdf);heuristic;11
+99;computer program;includes;automatic classification;luanyi;1
+100;ontology inquiring system;provides;resource description framework (rdf);heuristic;2
+101;semantic matching;includes;data warehouses;luanyi;1
+102;technology;supports;application;openie;1
+103;web service technology;includes;architecture;heuristic;1
+104;technology;includes;wsdl;heuristic;1
+105;registry;includes;web service;luanyi;6
+106;ontology construction;produces;concept evolution;heuristic;1
+107;sub - tree mapping algorithm;includes;ontology mapping algorithm;luanyi;1
+108;image processing;includes;shape optimization;luanyi;1
+109;web service;includes;architecture;luanyi;1
+110;semantic relationships;provides;ontology-based;heuristic;38
+111;natural language understanding;includes;semantic search engines;luanyi;2
+112;model - driven architecture ( mda ) approach;supports;inference capability;heuristic;1
+113;business logic;uses;linked data model;heuristic;1
+114;machine processability;includes;reasoning algorithms;luanyi;1
+115;software system;provides;api;heuristic;4
+116;dublin core;includes;ieee lom;luanyi;1
+117;ontology - based description of learning object;provides;learning objects;heuristic;2
+118;semantic short - term profiling;supports;web user;heuristic;1
+119;sharable and reusable knowledge;selects;knowledge structure;heuristic;1
+120;automated approach;includes;multilingual ontology;luanyi;1
+121;multiparty mn;uses;model;heuristic;4
+122;search tool;includes;geographic information system;luanyi;1
+123;semantic search engines;improves;precision;heuristic;9
+124;reasoning algorithms;uses;semantic web agent interoperability;heuristic;3
+125;automated reasoning;conjunction;interoperability;heuristic;1
+126;twitter;includes;wikipedia article;luanyi;1
+127;learning resource;includes;competency index;luanyi;1
+128;scalability;conjunction;system maintainability;heuristic;1
+129;consistency-checking;includes;query processing;luanyi;5
+130;web;provides;information organization;heuristic;6
+131;sw;is;worldwideweb;openie;1
+132;semantic web technologies;provides;machine readable information space;heuristic;3
+133;ontologies.ontology mapping;supports;ontology heterogeneity;heuristic;2
+134;learner selection;includes;discovery architecture;luanyi;1
+135;aq machine learning algorithm;selects;user intention;heuristic;1
+136;execution;conjunction;function;heuristic;1
+137;structural information;includes;disambiguation;luanyi;1
+138;trade;is;semantic web technologies;heuristic;1
+139;wordnet;includes;natural language processing systems;luanyi;1
+140;unified modeling language (uml);includes;unified process;luanyi;1
+141;imagekb;includes;image databases;luanyi;1
+142;extensible markup language (xml);converts;web ontology language;heuristic;10
+143;policy;includes;conflict resolution;luanyi;1
+144;rea - eo theory;provides;semantic foundation;heuristic;1
+145;care;requires;fuzzy sets;heuristic;10
+146;semantic approach;uses;simple knowledge organization system;heuristic;1
+147;pattern recognition;includes;fault detection;luanyi;1
+148;semantic web technologies;includes;grid computing;luanyi;20
+149;verification;conjunction;refactorings;heuristic;1
+150;reasoning procedure;includes;dl reasoner;luanyi;2
+151;query language;provides;expressivity;heuristic;1
+152;ontological language;produces;collaborative environment;heuristic;1
+153;semantic web technologies;provides;tutoring system;heuristic;1
+154;e - learning;includes;semantic web technologies;luanyi;5
+155;architecture;produces;standards - based smart grid architecture;heuristic;1
+156;idtv;uses;semantic web concept;heuristic;4
+157;web contents;produces;semantic web technologies;heuristic;21
+158;computer science;produces;user 's requirement;heuristic;3
+159;semantic web ontology;produces;automatic ontology mapping system;heuristic;1
+160;template - based automated service provisioning;supports;service level agreement (sla);heuristic;1
+161;personalized medicine;includes;drug discovery;luanyi;1
+162;knowledge representation;includes;software engineering;luanyi;5
+163;knowledge discovery solution;includes;semantic web technologies;luanyi;1
+164;geo - environmental intelligence system;produces;it;heuristic;1
+165;semantic social media platform;provides;health information;heuristic;1
+166;non - monotonic logics family;supports;inference system;heuristic;1
+167;metadata;supports;execution;heuristic;1
+168;domain-specific ontologies;includes;semantic web tool;luanyi;2
+169;logic inference;includes;graph theory;luanyi;1
+170;approximate matching;includes;logic based reasoning;luanyi;2
+171;wordnet dictionary;includes;semantic similarity measures;luanyi;1
+172;world wide web;guides;web information;heuristic;10
+173;latex writing environment;supports;scientific publication;heuristic;1
+174;economic;includes;data mining;luanyi;5
+175;loose - coupled knowledge;includes;information service;luanyi;1
+176;web ontology language;includes;semantic web standard;luanyi;15
+177;semantic cache mechanism;improves;response time;heuristic;1
+178;pokm;supports;data interoperability;heuristic;2
+179;spreading activation;includes;web information search.- xml signature extensibility;luanyi;2
+180;musicology;includes;semantic web technologies;luanyi;1
+181;semantic relationships;is;semantic web technologies;heuristic;41
+182;semantic;is;knowledge understanding;heuristic;5
+183;json - ld;conjunction;video;heuristic;1
+184;semantic processing;includes;information fusion;luanyi;2
+185;semantic web technique;includes;recommender systems;luanyi;1
+186;pathogen - host interaction database;includes;plant science;luanyi;1
+187;logic layer;includes;semantic web architecture;luanyi;1
+188;tracking;conjunction;dynamic linking;heuristic;1
+189;linked data capability;supports;based reasoning tool;heuristic;1
+190;information retrieval;selects;conceptual framework;heuristic;2
+191;loinc;conjunction;snomed ct;heuristic;1
+192;resource description framework (rdf);includes;formal concept analysis (fca);luanyi;1
+193;ontology-based;supports;software agents;openie;2
+194;multimedia ontology;includes;ontomedia;luanyi;1
+195;mobility;includes;scalability;luanyi;1
+196;healthcare domain;includes;domain-specific ontologies;luanyi;1
+197;semantic homonymy;includes;synonymy;luanyi;1
+198;hotel ontology;uses;semantic web technologies;openie;1
+199;uddi;provides;context - aware service discovery;heuristic;1
+200;ontology alignment;includes;translation;luanyi;1
+201;process template definition;includes;web services discovery;luanyi;1
+202;collaborative agentsresearch;includes;web intelligence;luanyi;1
+203;virtual organisation;includes;distributed system technology;luanyi;1
+204;web service mechanism;proposes;owl - s;heuristic;1
+205;wordnet;includes;arab lexicon;luanyi;1
+206;description logics;includes;soft computing;luanyi;1
+207;federated identity management;includes;web searches;luanyi;2
+208;tmmob;supports;ontology building;heuristic;1
+209;semantic web ontology;includes;concept space;luanyi;2
+210;application dependent approach;improves;efficiency;heuristic;1
+211;vocabulary;provides;information retrieval;heuristic;2
+212;babelnet;includes;multilingual semantic web;luanyi;1
+213;semantic relationship;includes;procedural knowledge;luanyi;1
+214;method;provides;semantic search engines;heuristic;11
+215;multisensory data.- video tracking association problem;includes;genetic algorithm (ga);luanyi;2
+216;open world assumption;includes;web ontology language;luanyi;2
+217;spatial planning schema mapping approach;supports;inspire implementation;heuristic;1
+218;semantic web standard;produces;metadata;heuristic;3
+219;service - oriented approach;provides;uniform interface;heuristic;2
+220;business process modeling (bpm);provides;automation;heuristic;13
+221;execution time;includes;execution time;luanyi;1
+222;manufacturing resource information;proposes;web service;heuristic;3
+223;daml language;includes;workflow ontology;luanyi;1
+224;precondition;uses;semantic registry;heuristic;2
+225;composition;conjunction;negotiation;heuristic;1
+226;information retrieval;includes;data warehouses;luanyi;2
+227;domain-specific ontologies;includes;query template;luanyi;1
+228;ontology design;conjunction;ranging;heuristic;1
+229;learning;produces;semantic inference;heuristic;1
+230;ncbo bioportal;includes;biomedical ontology;luanyi;1
+231;frbroo;includes;ontological model;luanyi;1
+232;word cluster;includes;information extraction;luanyi;1
+233;service-oriented architecture (soa);includes;web service;luanyi;12
+234;disambiguation;improves;extraction model;heuristic;12
+235;uml profiles;supports;high - level graphical model;heuristic;1
+236;generic semantic authoring;includes;adaptive hypermedia;luanyi;1
+237;autoshoe;supports;feature extraction;heuristic;1
+238;social software;includes;semantic wikis;luanyi;1
+239;collaborative system;includes;grid computing;luanyi;1
+240;browsing;includes;application;luanyi;1
+241;graph - based algorithm;conjunction;other;heuristic;1
+242;semantic context;includes;multicast protocol traffic overload;luanyi;1
+243;sap r/3;supports;business partner;heuristic;1
+244;query evaluation;uses;web service;heuristic;1
+245;knowledge services innovation;is;knowledge resource;heuristic;3
+246;authentication;includes;authorization;luanyi;3
+247;e - learning management system;uses;semantic web technologies;heuristic;9
+248;description logic reasoning;uses;dynamic reasoning system;heuristic;1
+249;posl;is;knowledge interchange;heuristic;1
+250;d2r map;proposes;mapping;heuristic;1
+251;semantic consensus.the standardization system;supports;horizontal task ontology;heuristic;1
+252;rule;provides;semantic web application;heuristic;6
+253;dataset;is;data integration;heuristic;1
+254;ship design educational framework;uses;sharefast;heuristic;1
+255;language processing;uses;automatic translation;heuristic;2
+256;semantic overlay network structure;includes;semantic search approach;luanyi;1
+257;dcmi;produces;it;heuristic;3
+258;xml schemas;uses;web ontology language owl;heuristic;1
+259;social participation;includes;social participation;luanyi;1
+260;three - dimensional building model;uses;citygml lod4;heuristic;1
+261;web ontology language;supports;wsmo;heuristic;4
+262;ontology alignment;requires;distributed and heterogeneous ontology;heuristic;10
+263;web contents;includes;semantic web technologies;luanyi;7
+264;libraries;produces;subject heading;heuristic;2
+265;visibility;includes;internet data mining;luanyi;1
+266;semantic web technologies;includes;it;luanyi;24
+267;machine - readable interface;supports;bioinformatic;heuristic;1
+268;semantic;improves;scalability;heuristic;13
+269;non - intrusive solution;supports;ldquoa priorirdquo connector;heuristic;2
+270;precision;conjunction;mean recall;heuristic;1
+271;service;learns;metadata;heuristic;12
+272;methodology;produces;web applications;openie;1
+273;multi - agent learning environment;supports;diagnostic reasoning;heuristic;2
+274;semantic model;uses;rdf graph;heuristic;1
+275;semantic relationships;includes;web resource;luanyi;2
+276;dynamic composition;produces;it;heuristic;3
+277;semantic meteorology grid architecture;supports;automated meteorology grid service discovery;openie;1
+278;gephi tool set;includes;sna;luanyi;1
+279;relevance calculation;conjunction;ontology alignment;heuristic;1
+280;semantic web technologies;includes;information integration;luanyi;13
+281;relational.owl;selects;semantics of relational database;heuristic;1
+282;resource description framework (rdf);includes;web ontology language;luanyi;35
+283;location information;is;pervasive;heuristic;1
+284;technique;interacts;description logic reasoner;heuristic;1
+285;specificity;includes;specificity;luanyi;1
+286;project management;uses;central decision making component;heuristic;5
+287;bioinformatic;includes;business intelligence;luanyi;1
+288;uml profiles;includes;model - driven architecture ap- proach;luanyi;1
+289;user feedback;includes;semantic web service composition;luanyi;1
+290;application;is;system;heuristic;9
+291;facebook;includes;semantic search engines;luanyi;1
+292;internet;produces;ontology-based;heuristic;29
+293;syntax;represents;semantic;heuristic;65
+294;semantic web editor;uses;semantic relationships;heuristic;1
+295;dataset linkage;conjunction;ontology alignment;heuristic;1
+296;task;produces;ontology-based;heuristic;30
+297;social networks;includes;beta system;luanyi;1
+298;linked data source;includes;harmonization methodology;luanyi;1
+299;semantic web technologies;provides;event - driven dynamic composition;heuristic;2
+300;transitive propagation;produces;conceptual modeling;heuristic;2
+301;ontology evaluation;is;data annotation;heuristic;2
+302;construction risk;is;task;openie;1
+303;bayesian networks;includes;text classification;luanyi;1
+304;healthcare information system;improves;efficiency;heuristic;1
+305;web 2.0;produces;multimedia resource;heuristic;1
+306;ontology-based;supports;service discovery;heuristic;13
+307;metadata abstraction;provides;ontology-based;heuristic;3
+308;ontology-based;provides;spark;heuristic;2
+309;semantic interoperability;represents;well - defined semantic;heuristic;3
+310;base time ontology;is;chinese time ontology;heuristic;3
+311;semantic web technologies;provides;machine processable information;heuristic;7
+312;text mining;conjunction;artificial intelligence;heuristic;2
+313;owl ontology;includes;semantic search engine;luanyi;1
+314;context models;includes;semantic mediation;luanyi;1
+315;metadata;improves;language;heuristic;12
+316;service component semantic description method;uses;jb system;heuristic;2
+317;modular erdf framework;supports;collaborative reasoning;heuristic;2
+318;peer to peer (p2p) network;is;www;heuristic;1
+319;ontology-based;produces;heterogeneous data source;heuristic;16
+320;discovery;includes;aggregation;luanyi;2
+321;extensible markup language (xml);proposes;web - based informadon;heuristic;1
+322;domain-specific ontologies;includes;statistical method;luanyi;1
+323;architecture;produces;scholarly semantic network;heuristic;1
+324;data privacy;provides;cloud computing;heuristic;1
+325;factforge;provides;linked data;heuristic;2
+326;crowdsourcing;includes;tracking;luanyi;1
+327;function object;acquires;computer communication networks;heuristic;10
+328;recursive selforganizing architecture;includes;conceptual framework;luanyi;1
+329;paradigm;provides;web;heuristic;1
+330;methodology;learns;ontology alignment task;heuristic;6
+331;support system;includes;domain-specific ontologies;luanyi;1
+332;semantic web service technology;includes;collaborative virtual enterprise;luanyi;1
+333;spreading activation;includes;answering queries;luanyi;2
+334;ontowiki application framework;produces;semantic web application;heuristic;1
+335;semantic wikis;uses;domain model;openie;1
+336;semantic interlinking;supports;document retrieval;heuristic;1
+337;data warehouses;includes;heterogeneous data sources integration;luanyi;4
+338;reference architecture model;includes;industry 4.0;luanyi;1
+339;image markup;supports;digital imaging and communication in medicine (dicom);heuristic;2
+340;metadata schema;includes;functional annotation;luanyi;1
+341;artificial intelligence;includes;database systems;luanyi;5
+342;bandwidth;conjunction;storage ) consumption;heuristic;1
+343;edge - based distance;includes;semantic similarity algorithm;luanyi;2
+344;predicate arity;is;database schemas;heuristic;2
+345;physical process integration model;supports;engineer;heuristic;1
+346;semantic reasoning;uses;annotation;heuristic;1
+347;ontology-based;is;machine - readable specification;heuristic;1
+348;resource description framework (rdf);provides;metadata management;openie;1
+349;oracle cartridge;supports;websogo;heuristic;1
+350;authorization conflict problem;is;semantic web technologies;heuristic;1
+351;formal approach;produces;frdb;heuristic;6
+352;semantic web technologies;provides;knowledge level;heuristic;3
+353;navigation;includes;synchronization;luanyi;1
+354;composition;conjunction;web services discovery;heuristic;8
+355;markup;includes;automated web service discovery;luanyi;1
+356;image domain;includes;image retrieval;luanyi;1
+357;semantic web services;provides;semantic web services technology;heuristic;3
+358;user profiles;includes;natural language interfaces;luanyi;1
+359;relational database systems;includes;semantic web application;luanyi;11
+360;semantic descriptions;includes;interaction ontology;luanyi;1
+361;digital repository;provides;digital contents;heuristic;3
+362;concept - based approach;includes;markup language;luanyi;1
+363;recall;includes;low precision;luanyi;2
+364;authority control;includes;classification;luanyi;2
+365;immune - based framework;includes;pattern recognition;luanyi;1
+366;semantic web technologies;provides;lifelong learning;heuristic;2
+367;educational content;includes;patient education;luanyi;1
+368;semantic web services;improves;reliability;heuristic;2
+369;ontology-based;produces;ontology-based;openie;9
+370;web service;provides;enterprise application integration eai;heuristic;2
+371;semantic search engines;is;multimedia retrieval;heuristic;2
+372;knowledge representation formalism;provides;formal semantic;heuristic;1
+373;contextual meaning;includes;temporal knowledge;luanyi;1
+374;internet - based multi - agent problem solving;supports;formalization of task - relevant ontological knowledge;heuristic;2
+375;social networking;includes;mass collaboration;luanyi;1
+376;computer science;includes;ontology construction;luanyi;2
+377;text search operation;uses;canonical form;heuristic;2
+378;linked data;uses;resource description framework (rdf);heuristic;13
+379;semantic web technologies;provides;service compositions;heuristic;15
+380;hypertext transfer protocol (http);provides;sparql endpoint;heuristic;1
+381;semantic web area;uses;owl api;heuristic;1
+382;classification;includes;data format;luanyi;1
+383;user - generated content;includes;enterprise 2.0;luanyi;1
+384;object - oriented dialog system;includes;personalized e - learning;luanyi;1
+385;collaborative editing;includes;killer application;luanyi;1
+386;semantic matching methodology;improves;accuracy;heuristic;1
+387;domain-specific ontologies;includes;adaptive learning;luanyi;1
+388;description logics;includes;ontology-based;luanyi;15
+389;information systems;includes;semantic heterogeneity;luanyi;1
+390;owls extension;supports;workflow description;heuristic;1
+391;management;conjunction;active real - time data management;heuristic;1
+392;distributed approach;includes;data distribution;luanyi;1
+393;daml - w;includes;workflow ontology;luanyi;1
+394;stock ontology;includes;enquire ontology;luanyi;1
+395;keyword dictionary server;supports;keyword expansion;heuristic;1
+396;data mining;conjunction;information quality;heuristic;1
+397;it;provides;automatic process;heuristic;2
+398;accessibility;includes;accessibility;luanyi;8
+399;metaprogramming;includes;domain model;luanyi;1
+400;complexity;conjunction;usability;heuristic;1
+401;rdql;is;standardization;heuristic;2
+402;mobile devices;is;task;heuristic;2
+403;singular value decomposition method;includes;ontology learning algorithm;luanyi;1
+404;ontology alignment;is;semantic relationship;heuristic;5
+405;execution;conjunction;orchestration;heuristic;1
+406;multi - agent portfolio management system.- user modeling;includes;adaptive hypermedia;luanyi;1
+407;method engineering;uses;ontology concept;heuristic;2
+408;architecture;produces;intelligent parking management application;heuristic;2
+409;semantic web technologies;provides;upgrade path;heuristic;1
+410;knowledge representation;includes;e - learning system;luanyi;1
+411;ontology - driven approach;includes;system;luanyi;1
+412;personalization system;uses;content semantic;heuristic;5
+413;hadoop;includes;cloud computing;luanyi;1
+414;technology;conjunction;method;heuristic;10
+415;social networks;includes;retrieval;luanyi;2
+416;efficiency;conjunction;transparency;heuristic;1
+417;answering queries;is;reasoning algorithms;heuristic;12
+418;ontological structure;provides;vocabulary;heuristic;3
+419;open source framework bacon;supports;interactive and crowed - sourced data integration;heuristic;1
+420;wordnet;includes;external domain knowledge;luanyi;1
+421;curriculum;learns;learning;heuristic;4
+422;service model;uses;web ontology language;openie;1
+423;ontology - driven user modeling architecture;includes;semantic web browser;luanyi;1
+424;artificial fish swarm algorithm;supports;ultrametric tree construction;heuristic;3
+425;concept hierarchy induction;uses;gahc;heuristic;1
+426;methodology;produces;ontology-based;heuristic;132
+427;semantic;includes;alignment;luanyi;1
+428;grid computing;includes;resource sharing;luanyi;1
+429;gene regulation;includes;gene expression;luanyi;1
+430;fundamental appraisal theory;produces;metadata;heuristic;3
+431;w3c;represents;resource description framework (rdf);heuristic;25
+432;database systems;includes;database systems;luanyi;3
+433;semantic web query language sparql;produces;reference ontology;heuristic;3
+434;validity;conjunction;usability;heuristic;1
+435;manchester owl syntax;includes;lan - guage;luanyi;1
+436;phenomic;conjunction;genomic;heuristic;1
+437;service compositions;uses;secoa;heuristic;1
+438;ontology heterogeneity;is;semantic web technologies;heuristic;2
+439;semantic web technologies;includes;search engines;luanyi;12
+440;log ontology;selects;access pattern;heuristic;1
+441;biomedical community;uses;technology;heuristic;2
+442;copyright law;produces;concept;heuristic;1
+443;bpmn language;supports;semantic - based discovery;heuristic;1
+444;semantic service discovery;includes;web service composition;luanyi;2
+445;medicine;includes;electronic;luanyi;1
+446;similarity computation;includes;ontology matching method;luanyi;1
+447;formal language;includes;dictionary;luanyi;1
+448;ecological environment modeling;uses;model;heuristic;1
+449;flexiformal digital library;supports;engineer;heuristic;1
+450;xmlrdf;includes;semantic web technologies;luanyi;1
+451;ontology-based;is;search technology;heuristic;1
+452;hierarchical clustering algorithm;uses;vector space model (vsm);heuristic;1
+453;firewalls;uses;open - source firewall;heuristic;1
+454;data streams;includes;knowledge reuse;luanyi;1
+455;semantic web technologies;provides;search function;heuristic;2
+456;resource description framework (rdf);provides;ontology language;heuristic;15
+457;ontology-based;supports;problem;heuristic;14
+458;mapping language;produces;language;heuristic;3
+459;social networks;includes;cloud;luanyi;1
+460;semantic subgraph;is;ontology application;heuristic;3
+461;semantic web service framework;includes;specification matching;luanyi;1
+462;semantic web technologies;includes;semantic web technologies;luanyi;17
+463;owl - s approach;includes;semantic matching;luanyi;2
+464;virtual factory framework;supports;factory lifecycle;heuristic;3
+465;learning resource;provides;user interfaces;heuristic;1
+466;xpointer framework;includes;semantic web technologies;luanyi;1
+467;semantic web technologies;provides;information sharing;heuristic;7
+468;semantic retrieval.this algorithm;improves;information retrieval;heuristic;4
+469;web - based p2p metadata network infrastructure;supports;rdf metadata management;openie;1
+470;resource description framework (rdf);provides;formal semantic;heuristic;8
+471;axiom;includes;semantic definition;luanyi;1
+472;representational state transfer - based approach;supports;online rule editing;heuristic;1
+473;possibility theory;provides;reasoning algorithms;heuristic;2
+474;semantic web schema representation;uses;model;heuristic;2
+475;cooperation;includes;intelligence;luanyi;1
+476;rdf object type;provides;metadata management;heuristic;1
+477;cloud computing;produces;internet;heuristic;11
+478;semantic web technologies;provides;paperlessenvironment;heuristic;1
+479;machine readable and processable information;produces;intelligent agents;heuristic;3
+480;knowledge grid;includes;social networking;luanyi;1
+481;implicit authorization propagation;is;semantic web technologies;heuristic;1
+482;composition;conjunction;aggregation;heuristic;1
+483;vocabulary;defines;rule;heuristic;3
+484;relational database systems;provides;semantic web technologies;heuristic;22
+485;hypertension;includes;obesity;luanyi;1
+486;methodology;produces;semantic web technologies;heuristic;13
+487;semantic system;produces;semantic web application;heuristic;1
+488;knowledge processing;includes;information fusion;luanyi;1
+489;semantic relationships;includes;metadata generation;luanyi;1
+490;recommender systems;uses;dbpedia knowledge base;heuristic;1
+491;artificial intelligence systems integration;conjunction;artificial intelligence;heuristic;1
+492;www;is;task;heuristic;3
+493;biomedical ontology;includes;biomedical ontology;luanyi;10
+494;domain-specific ontologies;includes;rules reasoning;luanyi;1
+495;open evaluation;conjunction;blind evaluation;heuristic;9
+496;data mining;conjunction;artificial intelligence;heuristic;3
+497;analysis tree;supports;knowledge discovery;heuristic;1
+498;querying;conjunction;information indexing;heuristic;2
+499;precision rate;includes;si - seeker;luanyi;2
+500;text document;includes;heavy weight ontology;luanyi;1
+501;information infrastructure;includes;scm;luanyi;1
+502;it;provides;query enhancement;heuristic;1
+503;markup language;includes;information architecture;luanyi;1
+504;database design;conjunction;knowledge engineering;heuristic;2
+505;graph partitioning technique;supports;complex query;heuristic;1
+506;word sense disambiguation;includes;information extraction;luanyi;1
+507;emerald;uses;description logic ( dl ) reasoner;heuristic;3
+508;ebxml;includes;service formalism;luanyi;1
+509;firewalls;uses;description logic reasoning;heuristic;2
+510;multimedia annotation;includes;semantic web technologies;luanyi;1
+511;sharable content object reference model (scorm);includes;sharable content object reference model (scorm);luanyi;1
+512;social computing;includes;crowdsourcing;luanyi;1
+513;social and semantic web technology;supports;e - brainstorming;heuristic;1
+514;semantic context;includes;location - dependent data.- scalable context simulation;luanyi;1
+515;geographic information service;selects;service - user - group;heuristic;5
+516;user profiling;includes;ontology learning;luanyi;1
+517;class editor;supports;knowledge-sharing;openie;1
+518;semantic web mining;includes;blogging;luanyi;1
+519;digital community management;includes;ontology system;luanyi;1
+520;user goal;uses;sparql query language;heuristic;1
+521;design;produces;semantic concept;heuristic;2
+522;semantic enrichment;includes;knowledge engineering;luanyi;1
+523;temporal knowledge representation;is;reusing;heuristic;1
+524;ontology language;proposes;semantic;heuristic;17
+525;tool;produces;service description;heuristic;1
+526;learning;produces;user - feedback;heuristic;3
+527;data web;uses;cataloging practice;heuristic;1
+528;rich internet application;includes;semantic matching;luanyi;1
+529;heterogeneous databases;uses;semantic web services;heuristic;1
+530;collaborative filtering techniques.- case - based reasoning;includes;fuzzy description logic;luanyi;1
+531;privacy;includes;application;luanyi;1
+532;induction;uses;semantic depiction of information;heuristic;1
+533;graph database;supports;gdbms;heuristic;2
+534;semantic web infrastructure development;supports;open innovation;heuristic;1
+535;web resource;is;internet;heuristic;2
+536;educational material;includes;educational material;luanyi;1
+537;taxonomy;includes;web ontology;luanyi;1
+538;rich semantic meaning;supports;machine processing;heuristic;3
+539;multi - feature reasoning;includes;ontology mapping approach;luanyi;1
+540;dynamic xaml based mechanism;provides;web;heuristic;1
+541;sensor networks;includes;ssn ontology;luanyi;1
+542;semantic reasoning;includes;search engines;luanyi;1
+543;ontology mapping approach;uses;data source;heuristic;1
+544;genetic algorithm (ga);includes;inference mechanism;luanyi;1
+545;complexity;maintains;n - node system;heuristic;1
+546;ontology - based news authoring environment;includes;semantic web technologies;luanyi;2
+547;translation;produces;reference ontology;heuristic;1
+548;similarity measure;includes;discovery method;luanyi;1
+549;jade api;includes;information retrieval system;luanyi;1
+550;web ontology language;provides;semantic;heuristic;61
+551;semantic web information system;is;semantic web technologies;heuristic;2
+552;system;provides;ontology-based;heuristic;83
+553;accuracy;includes;algorithm;luanyi;9
+554;extended semantic retrieval;improves;precision;heuristic;2
+555;taxonomy;uses;relationship;heuristic;1
+556;semantic web standard;uses;temporal constraint;heuristic;4
+557;syntax;includes;system;luanyi;1
+558;data model;defines;syntax;heuristic;1
+559;soap;includes;web service technology;luanyi;3
+560;core meta - ontology;includes;ontological approach;luanyi;1
+561;semantic link network sln;is;semantic web technologies;heuristic;1
+562;roadmap;uses;semantic web technique;heuristic;1
+563;supply chain management;produces;collaborative solution;heuristic;3
+564;cross - domain information integration;includes;query;luanyi;1
+565;reasoning algorithms;includes;web science;luanyi;1
+566;data complexity;includes;similarity search;luanyi;1
+567;image annotation;includes;e - mail management;luanyi;6
+568;it;provides;data exchange;heuristic;7
+569;tool;produces;semantic model;openie;1
+570;metadata standard;links;linked data;heuristic;3
+571;wm;supports;metabolic pathway;heuristic;3
+572;wide - spread knowledge discovery;produces;web applications;heuristic;2
+573;semantic web technologies;provides;resilience;heuristic;3
+574;crawler;provides;vocabulary;heuristic;1
+575;information resource;includes;knowledge organization;luanyi;1
+576;resource description framework (rdf);includes;semantic web technologies;luanyi;67
+577;information extraction;uses;ontology engineering process;heuristic;1
+578;semantic web technologies;provides;web environment;heuristic;8
+579;parallel abox reasoning algorithm;provides;reasoning algorithms;heuristic;1
+580;caching;uses;sparql;heuristic;1
+581;semantic web research;conjunction;artificial intelligence;heuristic;1
+582;relationship database mysql;uses;semantic similarity calculation;heuristic;2
+583;semantic level;produces;ontology mapping technology;heuristic;9
+584;artifacts formal model;supports;highest ion level;heuristic;1
+585;resource description framework (rdf);provides;linked open data;heuristic;3
+586;engineering;includes;application;luanyi;1
+587;semantic web technologies;acquires;ontology - based knowledge base;heuristic;10
+588;terminology;includes;image annotation;luanyi;1
+589;knowledge bases;supports;visualization;heuristic;2
+590;system integration;includes;business collaboration;luanyi;1
+591;ontology manager;selects;p2p context;heuristic;3
+592;run - time automatic service composition;produces;business processes;heuristic;1
+593;semantic web technologies;provides;structured knowledge;heuristic;9
+594;classical logic system;provides;ontology-based;heuristic;2
+595;library and information science;includes;web design;luanyi;1
+596;reasoning service mechanism;uses;compute science;heuristic;1
+597;search engines;uses;bayesian inference;heuristic;1
+598;logic formalism;includes;information model;luanyi;1
+599;web service;provides;categorization;heuristic;2
+600;learning styles;includes;personalized learning system;luanyi;1
+601;pubmed subset;uses;dedicated parser;openie;2
+602;background knowledge;includes;ontology alignment;luanyi;1
+603;generated ontology;includes;semantic conflict;luanyi;1
+604;technology;supports;information retrieval;heuristic;1
+605;linked data - driven method;includes;disambiguation;luanyi;1
+606;semantic matching support;supports;interaction specification;heuristic;2
+607;scalability;conjunction;semantic ability;heuristic;3
+608;ubiquitous computing;produces;learner - centric service - based architecture;heuristic;1
+609;ontology-based;provides;mutual understanding;heuristic;7
+610;hybrid ontology mediation approach;includes;semantic web technologies;luanyi;1
+611;lightweight semantic;supports;scalable reasoning;heuristic;1
+612;it;provides;airport security inspection information;heuristic;3
+613;owl on- tology;provides;knowledge interoperability;heuristic;1
+614;semantic similarity measures;includes;ontology class;luanyi;1
+615;language;defines;data model;heuristic;13
+616;web service matching;proposes;qo;heuristic;9
+617;km;includes;information extraction;heuristic;2
+618;agriculture;includes;life science;luanyi;1
+619;user interfaces;uses;scene authoring;heuristic;1
+620;management;conjunction;negotiation process visualization;heuristic;1
+621;user interaction;uses;ontology schema;heuristic;2
+622;ontology model;includes;semantic web technologies;luanyi;3
+623;background knowledge;includes;machine perception;luanyi;1
+624;k - link +;uses;ontology concept;heuristic;2
+625;storage;conjunction;automatic feature extraction;heuristic;1
+626;ontology storage;includes;ontological approach;luanyi;1
+627;rdf metadata management;includes;query;luanyi;1
+628;dlvhex system;supports;dlv db;heuristic;2
+629;language engineering;includes;database design;luanyi;1
+630;algebra;links;linked data;heuristic;1
+631;engine;produces;virtual humans;heuristic;1
+632;web personalization;includes;ontology construction;luanyi;1
+633;semantic descriptions of grid service;uses;matchmaking algorithm;heuristic;1
+634;semantic relationship;includes;content management systems;luanyi;1
+635;resource description framework (rdf);provides;world wide web;heuristic;22
+636;kb;includes;chronic disease diet care;luanyi;1
+637;tool support;produces;complex service orchestration;heuristic;3
+638;web searches;is;internet;heuristic;1
+639;contextual information;selects;ontology-based;heuristic;9
+640;mapping precision;conjunction;recall;heuristic;4
+641;data structure;includes;fat pointer;heuristic;2
+642;lattice - based evidential structure.- knowledge modelling;supports;learning;heuristic;1
+643;ontology - driven decision support system;supports;domestic solar hot water system;heuristic;1
+644;uniprot;includes;protein data bank;luanyi;1
+645;icmaus theory of computation;includes;semantic web technologies;luanyi;1
+646;semantic web concept;conjunction;daml+oil;heuristic;1
+647;consistency-checking;includes;knowledge inference;luanyi;1
+648;storage;conjunction;semantic relationships;heuristic;1
+649;data transformation;includes;programming paradigm;luanyi;1
+650;programming languages;includes;database systems;luanyi;2
+651;selection;conjunction;automation of service discovery;heuristic;1
+652;smart device;includes;semantic web technologies;luanyi;1
+653;internet;produces;platform;heuristic;1
+654;update;includes;navigation;luanyi;2
+655;resource management;includes;resource sharing;luanyi;1
+656;semantic web approach;produces;clinical decision support systems;heuristic;1
+657;machine learning algorithm;includes;web services discovery;luanyi;1
+658;knowledge modeling;includes;logic reasoning;luanyi;1
+659;ontology-based;provides;mobile service platform;heuristic;2
+660;interoperable semantic information query;includes;semantic web technologies;luanyi;1
+661;knowledge management;includes;business intelligence;luanyi;2
+662;semantic web technologies;provides;semantic web research;heuristic;12
+663;dynamic flexibility;includes;ontology - based approach;luanyi;1
+664;semantic similarity transition;uses;semantic graph;heuristic;1
+665;ontology-based;provides;dynamic web service composition;heuristic;3
+666;star ontology;conjunction;ontology alignment;heuristic;1
+667;internet;supports;educative content;heuristic;1
+668;matching method;includes;ontology matching system;luanyi;1
+669;rdf database;includes;path - based query;luanyi;1
+670;semantic relationships;includes;ontology management;luanyi;3
+671;reasoning algorithms;includes;query processing;luanyi;2
+672;social bookmarking;includes;community effort;luanyi;1
+673;ontology engineering environment;improves;quality;heuristic;2
+674;semantic web service discovery;is;semantic relationships;heuristic;4
+675;oesm;supports;component-based software engineering;heuristic;1
+676;reflective interaction;produces;it;heuristic;1
+677;web ontology language;provides;information retrieval;heuristic;1
+678;bim;uses;digital building model;heuristic;1
+679;text;produces;ontological commitment;heuristic;2
+680;web search engine;includes;semantic web implementation;luanyi;1
+681;ontology reasoner;includes;ontology based system;luanyi;1
+682;electronic health record;uses;semantic web technologies;heuristic;1
+683;domain-specific ontologies;includes;data communication;luanyi;1
+684;relational navigation;includes;relational navigation;luanyi;2
+685;platform;produces;semantic social index;heuristic;1
+686;analysis methodology;includes;ap- proach;luanyi;1
+687;semantic web technologies;provides;flexible schema;heuristic;2
+688;web interface;includes;web intelligence;luanyi;1
+689;structural ontology owl - dl alignment ) method;uses;composition and aggregation of similarities ) method;heuristic;1
+690;javascript;includes;cs;luanyi;1
+691;vector space model (vsm);uses;web ontology language;heuristic;3
+692;owl 2 activity ontology;provides;reasoning algorithms;heuristic;2
+693;interoperability;is;describing key plan - related information;heuristic;2
+694;web link;is;semantic web technologies;heuristic;4
+695;universities;uses;e - busines;heuristic;1
+696;semantic web technologies;provides;benchmarking;heuristic;1
+697;semantic web technologies;provides;gis interoperability;heuristic;2
+698;information retrieval field precision;conjunction;recall;heuristic;1
+699;nomenclature;includes;nomenclature;luanyi;4
+700;unified modeling language (uml);guides;semantic web services;heuristic;10
+701;algorithm;includes;semantic web services;luanyi;2
+702;java;produces;it;heuristic;4
+703;data warehousing;conjunction;web scraping;heuristic;1
+704;distributed environments;extends;technique;heuristic;1
+705;machine learning techniques;includes;graph theory;heuristic;2
+706;database systems;includes;statistic;luanyi;2
+707;web;extends;rdf datum;heuristic;12
+708;domain-specific ontologies;includes;archaeology;luanyi;1
+709;conceptual relation;includes;structure similarity;luanyi;1
+710;humanreadable document;provides;knowledge representation;heuristic;1
+711;structured documents creation;provides;data model;heuristic;2
+712;unsupervised approach.- relaxing result accuracy;includes;ontological approach;luanyi;1
+713;relational database systems;acquires;web ontology language;heuristic;9
+714;social networking;includes;crowd intelligence;luanyi;1
+715;policy;includes;policy;luanyi;3
+716;semantic web technologies;provides;computational resource;heuristic;2
+717;archetype;uses;web ontology language;heuristic;1
+718;linked data;selects;dataset;heuristic;33
+719;data modelling;includes;information extraction;luanyi;1
+720;rif;includes;ruleml;luanyi;2
+721;knowledge representation;provides;prior knowledge;heuristic;4
+722;data provenance;includes;query processing;luanyi;1
+723;semantic;provides;semantic search engines;heuristic;4
+724;healthcare delivery;is;information technology;heuristic;1
+725;collective intelligence;includes;semantic web technologies;luanyi;1
+726;platform;produces;service - oriented architecture;heuristic;1
+727;agent communication layer;proposes;web ontology language;heuristic;1
+728;xoperator approach;supports;personal information management;openie;1
+729;it;uses;semantic - web technology;heuristic;8
+730;contextual information;uses;business process execution language;heuristic;2
+731;web service descriptor;includes;machine learning techniques;luanyi;1
+732;ontological approach;uses;interlingua;heuristic;4
+733;semantic aware format;produces;it;heuristic;1
+734;semantic - based web information retrieval model;includes;semantic web technologies;luanyi;1
+735;ontological metadata representation;includes;web service description;luanyi;1
+736;read - only general - purpose mapping;includes;mapping language;luanyi;1
+737;open api;provides;api;heuristic;2
+738;web;supports;discovery;openie;1
+739;linked data.thi;uses;cds service;heuristic;9
+740;ontology construction;includes;semantic relationships;luanyi;1
+741;personalized services;includes;ecommerce;luanyi;1
+742;maintenance service supply chain;selects;semantic integration model;heuristic;1
+743;hbase;includes;hive;luanyi;1
+744;platform;supports;problem;heuristic;1
+745;tuplespace;is;semantic web technologies;heuristic;3
+746;grid resources search;provides;ontological framework;heuristic;1
+747;domain-specific ontologies;includes;upper ontology;luanyi;1
+748;semantic architecture;is;requirement;heuristic;2
+749;conceptual structure;includes;machine learning techniques;luanyi;2
+750;apparel coordination system;uses;personalized preference;heuristic;1
+751;sparql query processing;is;large scale data processing;heuristic;1
+752;semantic web approach;uses;semantic web technologies;heuristic;1
+753;domain-specific ontologies;includes;application logic;luanyi;1
+754;minimal computational and memory overhead;limits;complexity;heuristic;1
+755;can - based p2p novel system;supports;semantic web servicediscovery;heuristic;1
+756;owl 2rl web ontology language profile;provides;ptime data complexity;openie;1
+757;reasoning algorithms;includes;data classification;luanyi;1
+758;heterogeneous source;includes;semantic web technologies;luanyi;1
+759;crisp ontology;includes;data extraction;luanyi;1
+760;reasoning algorithms;uses;knowledge conjunction;heuristic;1
+761;fuzzy ontology model;supports;semantic retrieval of information;heuristic;3
+762;database systems;includes;decision sup- port;luanyi;1
+763;data cleansing;includes;service matchmaking;luanyi;1
+764;software engineering;includes;semantic web development;luanyi;1
+765;large - scale distributed software development framework;supports;e - research;heuristic;1
+766;model transformations;includes;model transformations;luanyi;1
+767;disparate source;conjunction;data mining;heuristic;1
+768;intelligent agents;provides;knowledge representation;heuristic;4
+769;frequent pattern discovery method;includes;fault-tolerance;luanyi;1
+770;user interface adaptation architecture;includes;semantic web technologies;luanyi;1
+771;ontology based traveling information system;supports;immediate integrating of traveling information;heuristic;1
+772;stream annotation ontology;supports;dynamic semantic;heuristic;2
+773;ontology generation;uses;fuzzy logics;heuristic;2
+774;monitoring;conjunction;scheduling;heuristic;1
+775;pubmed;includes;unified modeling language (uml);luanyi;1
+776;maintenance;conjunction;clustering algorithms;heuristic;1
+777;hypertext markup language (html);provides;resource description framework (rdf);heuristic;1
+778;top - down strategy;includes;query processing;luanyi;1
+779;computer science;includes;knowledge representation;heuristic;3
+780;programming languages;includes;programming languages;luanyi;2
+781;mac - based service bundle authentication mechanism;includes;fault-tolerance;luanyi;1
+782;technique;produces;reasoning algorithms;heuristic;14
+783;composition;conjunction;model integration;heuristic;1
+784;maintenance;conjunction;service implementation;heuristic;1
+785;user query;includes;retrieval of information;luanyi;1
+786;prototype agent - based semantic search system;supports;ontological concept learning;heuristic;1
+787;policy;includes;policy;openie;1
+788;sharing intelligence;uses;shuang sun;heuristic;1
+789;it;provides;semantic;heuristic;98
+790;query rewritings;includes;database technology;luanyi;1
+791;semantic web technologies;includes;keyword;luanyi;1
+792;semantic relationships;includes;matching technique;luanyi;1
+793;network structure;includes;exploitation of semantic structure;luanyi;1
+794;generic ontology;includes;generic ontology;luanyi;1
+795;cellular ontology model;uses;web ontology language;heuristic;1
+796;relational database systems;defines;relational database systems;heuristic;10
+797;it;provides;master data management;heuristic;2
+798;agent system;includes;question answering systems;luanyi;1
+799;3-d information exchange;uses;inference engine;heuristic;1
+800;job matching;uses;social semantic technology;heuristic;1
+801;computational humor;includes;spreading activation;luanyi;1
+802;ontology inquiring system;provides;ontology-based;heuristic;1
+803;semantic web technologies;improves;privacy;heuristic;1
+804;rough sets based rule generation;includes;ubiquitous computing;luanyi;1
+805;transplant portal;uses;lucene search framework;heuristic;1
+806;user centric ws - mediator;is;dynamic service composition;heuristic;1
+807;it;provides;underline communication middleware;heuristic;1
+808;provenance driven access control;uses;type systems;heuristic;1
+809;restructuring framework;uses;run - time trace information;heuristic;4
+810;foundational ontology;improves;precision;heuristic;1
+811;sw;is;sws - related resource;heuristic;2
+812;resource description framework (rdf);provides;data integration;heuristic;7
+813;web - scale knowledge representation;includes;agent technology;luanyi;1
+814;ontology matching ( om ) problem;provides;semantic interoperability;heuristic;2
+815;web programming;includes;web searches;luanyi;1
+816;vhe;uses;semantic background;heuristic;2
+817;syntactic keyword based search mechanism;supports;metadata service description taxonomy;heuristic;1
+818;concept map;includes;ontology design;luanyi;1
+819;information retrieval;conjunction;database design;heuristic;4
+820;ai planning problem;includes;web service composition;luanyi;1
+821;open world reasoning;uses;web ontology language;heuristic;1
+822;information retrieval;includes;knowledge acquisition;luanyi;2
+823;javascript;uses;syntax style;heuristic;5
+824;question answering systems;includes;information search;luanyi;1
+825;ontoneo;uses;hmm;heuristic;1
+826;3d content;produces;it;heuristic;1
+827;natural language processing systems;includes;grid computing;luanyi;1
+828;context - aware platform;uses;semantic web technologies;heuristic;2
+829;clustering service;uses;case based indexing;heuristic;1
+830;alignment;includes;unification;luanyi;1
+831;knowledge technology;includes;human-computer interaction;luanyi;1
+832;semantic search engine;proposes;semantic level;heuristic;4
+833;xml document;uses;resource description framework (rdf);heuristic;2
+834;open geospatial consortium (ogc);conjunction;dublin core;heuristic;1
+835;indexing approach;includes;image annotation;luanyi;1
+836;ontology-based;is;component-based software engineering;openie;16
+837;riock;selects;emanating knowledge;heuristic;1
+838;semantic distance;produces;semantic conversion;heuristic;1
+839;unknown resource;provides;resource description framework (rdf);heuristic;1
+840;photo annotation;uses;semantic web technologies;heuristic;1
+841;indexing;includes;retrieval;luanyi;9
+842;ontology - based whiteboard component;uses;web ontology language;heuristic;1
+843;seismic engineering;conjunction;computer science;heuristic;1
+844;hypertext transfer protocol (http);includes;web service technology;luanyi;1
+845;domain-specific ontologies;includes;semantic retrieval;luanyi;1
+846;inference engine;produces;semantic translation;heuristic;1
+847;linked data;provides;computability;heuristic;1
+848;semantic engine;uses;machine - to - machine measurement;heuristic;1
+849;ontology-based;produces;rule - based logic;heuristic;2
+850;it;interacts;internet;heuristic;41
+851;ontology modeling;includes;ontology alignment;luanyi;1
+852;vtracker;uses;owl / rdf;heuristic;1
+853;tbox subsumption hierarchy;uses;cone tree layout;heuristic;1
+854;structure;defines;topological relation;heuristic;4
+855;it;provides;web of visual content;heuristic;1
+856;web;provides;curation;heuristic;2
+857;tagging;includes;multilingual processing;luanyi;1
+858;fuzzy sets theory;includes;fuzzy description logic;luanyi;1
+859;prototype;produces;ontology-based;heuristic;21
+860;ontology-based;provides;concept precision;heuristic;2
+861;cybernetic;conjunction;software engineering;heuristic;1
+862;structured logical shape feature.- automatic html;includes;fault-tolerance;luanyi;1
+863;ontology taxonomy;uses;training and learning strategy;heuristic;1
+864;discipline;includes;biology;heuristic;1
+865;rf memory tag;is;internet;heuristic;2
+866;color;includes;human propensity;luanyi;1
+867;semantic web service technology;is;internet;heuristic;1
+868;semantic web activity;is;world wide web;heuristic;2
+869;extensible markup language (xml);conjunction;soap;heuristic;1
+870;java;uses;pellet api;heuristic;1
+871;semantic web database;includes;spatial databases;luanyi;1
+872;cashew workflow model;produces;workflow;heuristic;4
+873;reasoning algorithms;includes;owl ontology;heuristic;5
+874;semantic web search engine;improves;retrieval;heuristic;1
+875;music;includes;map;luanyi;1
+876;interlinking pattern;includes;classifiers;luanyi;1
+877;ontology-based;provides;description;heuristic;2
+878;unified modeling language (uml);includes;e - learning system;luanyi;1
+879;netcdf;supports;geon - idv;heuristic;1
+880;random forest tree classification algorithm;includes;classifiers;luanyi;1
+881;mobile phones;produces;hierarchical ontology;heuristic;1
+882;process translation;includes;decomposition;luanyi;1
+883;rss framework;supports;ontology - based rbac specification;heuristic;1
+884;ontology-based;represents;semantic relationships;heuristic;48
+885;reference model;includes;reference model;luanyi;1
+886;business intelligence;includes;semantic web technologies;luanyi;1
+887;tourism;includes;pervasive computing;luanyi;1
+888;negotiation protocol;uses;semantic web domain;heuristic;1
+889;ontomat;includes;annotation tool;luanyi;1
+890;e - learning;produces;collective meta - knowledge structure;heuristic;5
+891;b2c;includes;b2b;luanyi;1
+892;resource description framework (rdf);defines;syntax;heuristic;14
+893;cloud management perspective;uses;iot cloud service data management;heuristic;2
+894;web authoring;includes;natural language interfaces;luanyi;1
+895;video steam;uses;person re - detection;heuristic;2
+896;web services annotation;uses;semantic relationships;heuristic;1
+897;keyword based search;includes;prototype engine;luanyi;1
+898;ontology alignment;includes;semantic heterogeneity;luanyi;3
+899;disambiguation;is;linked data;heuristic;2
+900;metadata pro;uses;protege;openie;1
+901;layered and modular rule language;includes;semantic web technologies;luanyi;1
+902;cscw;uses;software engineering;heuristic;3
+903;taxonomy;is;semantic web technologies;heuristic;9
+904;encoded archival description;includes;metadata format;luanyi;1
+905;maintenance;conjunction;human - centered metadata publishing;heuristic;1
+906;ontology-based;includes;web applications;luanyi;16
+907;protein;includes;clinical trial;luanyi;1
+908;abstract semantic annotation;is;semantic web technologies;heuristic;3
+909;legal ontology;includes;privacy preservation;luanyi;1
+910;information systems;uses;isa platform;heuristic;1
+911;authorization;includes;data integrity;luanyi;1
+912;visual query definition;includes;query evaluation;luanyi;1
+913;semantic web browser;provides;user interfaces;heuristic;1
+914;ontology alignment;is;task;openie;1
+915;owl - s;includes;web services discovery;luanyi;1
+916;linked data platform;includes;domain-specific ontologies;luanyi;1
+917;slbn;includes;concept mapping;luanyi;1
+918;technique;provides;scalability;heuristic;4
+919;linkedin;conjunction;facebook;heuristic;8
+920;it;provides;semantic query facility;heuristic;1
+921;data mining;provides;decision support system.- flexible decision making;heuristic;1
+922;biomedical imaging;conjunction;drug;heuristic;1
+923;internet content selection;includes;metadata format;luanyi;1
+924;lightweight reasoning;provides;ontology-based;heuristic;1
+925;central registry;uses;distributed registry;heuristic;1
+926;ontology - based multi - agent system model;limits;complexity;openie;1
+927;semantic grid;produces;ws - resource framework;heuristic;1
+928;metamodel;proposes;fuzzy rif frameworkf - ria;heuristic;1
+929;aggregation;includes;composition;luanyi;1
+930;ontology concept;includes;ontology alignment;luanyi;2
+931;service level interoperability;produces;service-oriented architecture (soa);heuristic;1
+932;reference ontology;produces;it;heuristic;1
+933;conceptual modeling;uses;modular method engineering;heuristic;2
+934;user profiles;includes;inflected language.- multi - topic information filtering;luanyi;1
+935;social networking;includes;electronic commerce;luanyi;1
+936;web service;uses;wsdl;heuristic;39
+937;ontology extraction;includes;ontology alignment;luanyi;1
+938;service computing;conjunction;software engineering;heuristic;1
+939;janus system;is;xml schemas;heuristic;2
+940;ontology management;includes;ontology management;luanyi;5
+941;evolutionary computations;includes;music information retrieval;luanyi;1
+942;it;provides;open interface;heuristic;2
+943;semantic systems biology;supports;smooth data integration;heuristic;2
+944;abox reasoning;supports;expressive ontology;heuristic;1
+945;selection;includes;web services discovery;luanyi;2
+946;pervasive computing;includes;sensor networks;luanyi;1
+947;ontology management;includes;mediation;luanyi;2
+948;concept subsumption relationship;improves;precision;heuristic;1
+949;user privacy;uses;w3c specification;heuristic;1
+950;pragmatic;includes;scalability;luanyi;1
+951;knowledge source;produces;biomedical research;heuristic;2
+952;semantic desktop;is;semantic web technologies;heuristic;2
+953;quality;conjunction;consistency;heuristic;1
+954;educational system;uses;collaborative ontology development methodology framework;heuristic;1
+955;ontology-based;provides;web contents;heuristic;39
+956;artificial intelligence;includes;knowledge society;luanyi;1
+957;building information model;uses;technology;heuristic;1
+958;splde framework;uses;semantic web services;heuristic;12
+959;semantic descriptions;includes;execution;heuristic;1
+960;social networks;includes;grid intelligence;luanyi;1
+961;precision ratio;includes;semantic search engines;luanyi;1
+962;napster;supports;semantic retrieval;heuristic;1
+963;tool;produces;topic map;heuristic;3
+964;semantic web rule languages;includes;semantic web language;luanyi;2
+965;modular architecture;includes;digital logic problems.- reflective tutoring;luanyi;1
+966;implicit knowledge;includes;pattern matching;luanyi;1
+967;triangle fuzzy expression;includes;ontology mapping approach;luanyi;1
+968;rdf / xml;provides;web interface;heuristic;1
+969;relational database systems;includes;semantic web layer;luanyi;1
+970;authentication;supports;mobile;heuristic;1
+971;spatial knowledge grid;supports;spatial knowledge service;heuristic;1
+972;business rule;includes;bargaining;luanyi;1
+973;user profiles;includes;lexical and semantic linguistic information;luanyi;1
+974;staged configuration;includes;domain engineering;luanyi;1
+975;user profiles;includes;personalized e - learning;luanyi;1
+976;unified theoretical model;provides;structured domain knowledge;heuristic;1
+977;web service matching;includes;web services discovery;luanyi;1
+978;it;provides;network communication;openie;1
+979;data warehousing;uses;data quality firewall;heuristic;1
+980;automatic ontology generation;includes;hybrid system;luanyi;2
+981;web ontology;represents;web;heuristic;9
+982;ontological language;supports;rules expression;heuristic;2
+983;java program specification;uses;protege;heuristic;1
+984;materialized view maintenance;includes;virtual enterprise;luanyi;2
+985;artificial intelligence;includes;formalism;luanyi;1
+986;b2b application;includes;enterprise application;luanyi;1
+987;nutrition;includes;nutrition;luanyi;4
+988;it;provides;resource description framework (rdf);heuristic;135
+989;requirements engineering;includes;requirements engineering;luanyi;3
+990;querying;conjunction;automatic reasoning;heuristic;1
+991;spreading activation;includes;user service oriented method;luanyi;2
+992;argdf;is;platform;openie;1
+993;conceptual modeling;includes;knowledge engineering;luanyi;1
+994;semantic web - based architecture;includes;wot;luanyi;1
+995;visualization model;supports;automatic binding;openie;1
+996;semantic information content;uses;web ontology language;heuristic;2
+997;semantic representation;includes;semantic reasoning;luanyi;1
+998;text encoding initiative;includes;metadata format;luanyi;1
+999;database schemas;includes;rdf dataset;luanyi;1
