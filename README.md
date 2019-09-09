@@ -1,7 +1,6 @@
 # Scientific Knowledge Graph Generator
 
 
-## Intro
 
 This repository contains the source code developed for wrapping tools and make operations that build a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
 
