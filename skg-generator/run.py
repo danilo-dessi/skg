@@ -270,7 +270,6 @@ class GraphBuilder:
 		print(str(datetime.datetime.now()))
 		self.relationsRefinement()
 		print()
-		
 
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
@@ -294,7 +293,6 @@ class GraphBuilder:
 		df = df[columns_order]
 		df.to_csv('out/all_triples.csv')
 
-
 		print('# TRIPLES SELECTION')
 		print(str(datetime.datetime.now()))
 		s = Selector(triples)
@@ -312,8 +310,10 @@ class GraphBuilder:
 		print('GRAPH BUILDING')
 		print(str(datetime.datetime.now()))
 		self.build_g(selected_triples)
-		print('Saved Knowledge Graph with nodes:', len(self.g.nodes()), 'and edges:', len(self.g.edges()))
+		self.removeNoConnectedNodes()
+		self.removeSelfEdges()
 		nx.write_graphml(self.g, 'kg.graphml')
+		print('Saved Knowledge Graph with nodes:', len(self.g.nodes()), 'and edges:', len(self.g.edges()))
 
 		
 
