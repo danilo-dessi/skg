@@ -52,6 +52,9 @@ python3 run.py
 
 # Toward the skg
 cd ../skg-generator
+#wget archive
+cp ../cso-openie-extractor/csv_e_r_full.csv ./
+python3 run.py
 
 
 
