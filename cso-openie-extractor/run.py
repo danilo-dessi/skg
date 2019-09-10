@@ -1,4 +1,4 @@
-from cso_wrapper import CSO_wrapper
+#from cso_wrapper import CSO_wrapper
 from openie_wrapper import OPENIE_wrapper
 import pandas as pd
 import sklearn as sk
