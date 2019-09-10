@@ -226,15 +226,6 @@ class Mapper:
 				return p
 
 
-
-
-	def save(self, filename):
-		columns_order = ['s', 'p', 'o', 'source', 'support']
-		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in self.triples]
-		df = pd.DataFrame(data, columns=columns_order)
-		df = df[columns_order]
-		df.to_csv(filename)
-
 	def get_triples(self):
 		return self.triples
 

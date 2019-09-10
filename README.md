@@ -49,18 +49,19 @@ To extract entities and relations from scientific publications our work has been
 3. Under master/ create the directories paths data/processed_data/json/ and data/processed_data/elmo/
 4. Copy the directory **luanyi_input** from ../data-preparation/ to master/data/processed_data/json/
 5. Create an empty directory **luanyi_input** (same name of above) also under data/processed_data/elmo/
-6. Copy the files from the directory use/ to the directory master/
-7. Run 
+6. Go to master/
+7. Copy the files from the directory use/ to the directory master/
+8. Run 
 ```
 python generate_elmo.py
 ```
 
-8. Run
+9. Run
 ```
 python3 run.py
 ```
 
-9. The execution will produce a csv file called *luanyi_output.csv* under the luanyi-extractor/ directory.
+The execution will produce a csv file called *luanyi_output.csv* under the luanyi-extractor/ directory.
 
 Please note that our project has been developed in Python 3.6 while the Luan Yi et al.'s tool uses Python 2.7.
 

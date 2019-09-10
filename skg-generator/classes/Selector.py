@@ -88,6 +88,7 @@ class Selector:
 
 		return consistent
 
+
 	def build_embeddings(self, keys, emb_size):
 		text = None
 		with open('resources/semantic_web_28k_abstracts.txt', 'r') as f:
@@ -109,7 +110,6 @@ class Selector:
 	# Subject and object can have at most 3 predicates coming from the three different methods.
 	# This method chooses pnly one predicate following this order: 1. Luanyi, 2. openie, 3. heuristic
 	def unique(self, triples):
-
 		unique_triples = set()
 		seen = set()
 
@@ -129,7 +129,6 @@ class Selector:
 				seen.add((s,o))
 		return list(unique_triples)
 		
-
 
 
 	def get_selected_triples(self):
@@ -159,17 +158,6 @@ class Selector:
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
 		consistent_triples = self.unique(consistent_triples)
 		self.out_triples = set(trusted_triples + consistent_triples)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
