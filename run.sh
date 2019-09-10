@@ -27,7 +27,10 @@ pip install -r requirements.txt
 python generate_elmo.py
 
 # this task does not stop. The user has to force its stop by interrupting the process
+python singleton.py scientific_best_ner
 python evaluator.py scientific_best_ner
+
+echo "The Luan Yi et al.'s tool has been configured"
 
 
 
