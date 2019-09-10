@@ -6,7 +6,7 @@ This repository contains the source code developed for wrapping tools and make o
 
 If you use our work please cite us with:
 ```
-Buscaldi D., Dessì D., Motta E., Osborne F., Reforgiato Recupero D. BLA BLA BLA
+ BLA BLA BLA
 ```
 
 
