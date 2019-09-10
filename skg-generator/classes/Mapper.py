@@ -49,15 +49,19 @@ class Mapper:
 		triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'used-for':
+				print((s,p,o, source, support))
+				print((o, 'uses', s, source, support), '\n')
 				triples_tmp += [(o, 'uses', s, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
-		triples = triples_tmp
+		self.triples = triples_tmp
 
 		# feature-of management
 		triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'feature-of' or p == 'part-of':
+				print((s,p,o, source, support))
+				print((o, 'includes', s, source, support), '\n')
 				triples_tmp += [(o, 'includes', s, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
@@ -67,11 +71,11 @@ class Mapper:
 		triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'evaluate-for':
-				triples_tmp += [(o, 'evaluates', s, source, support)]
+				print((s,p,o, source, support))
+				print((s, 'evaluates', o, source, support), '\n')
+				triples_tmp += [(s, 'evaluates', o, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
-
-
 		self.triples = triples_tmp
 
 
@@ -245,7 +249,6 @@ class Mapper:
 		print('Number after entities mapping:', len(self.triples))
 
 		self.triples = set(self.triples)
-		self.save('out/full_entities_mapped_test.csv')
 
 
 

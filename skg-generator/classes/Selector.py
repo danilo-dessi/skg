@@ -75,14 +75,12 @@ class Selector:
 
 				if pred == verb:
 					consistent += [(s,verb,o,suorce,support)]
-					print((s,verb,o,suorce,support), pred)
 				else:
 					wverb = model[verb]
 					wpred = model[pred]
 					sim = 1 - spatial.distance.cosine(wverb, wpred)
 					sim_wn = wup_sim(verb, pred)
 					if (sim + sim_wn) / 2 >= 0.5:
-						#print(verb, pred, (sim + sim_wn) / 2)
 						consistent += [(s,verb,o,suorce,support)]
 						print((s,verb,o,suorce,support), pred)
 			except Exception as e:
@@ -156,6 +154,7 @@ class Selector:
 			else:
 				untrusted_triples += [(s,p,o,source,support)]
 
+		trusted_triples = self.unique(trusted_triples)
 		clf = self.get_classifier(trusted_triples)
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
 		consistent_triples = self.unique(consistent_triples)
