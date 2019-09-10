@@ -20,6 +20,8 @@ cd master
 wget http://nlp.cs.washington.edu/sciIE/models/scientific_best_ner.zip
 unzip scientific_best_ner.zip
 rm scientific_best_ner.zip
+cp ../use/requirements.txt ./
+pip install -r requirements.txt
 
 # this is a time consuming task
 python generate_elmo.py
