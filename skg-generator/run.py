@@ -3,6 +3,7 @@ from classes.RelationsDeepFinder import RelationsDeepFinder
 from classes.StatisticsRefiner import StatisticsRefiner
 from classes.Mapper import Mapper
 from classes.Selector import Selector
+from classes.RelationsBuilder import RelationsBuilder
 
 import sys
 import pandas as pd
@@ -310,6 +311,11 @@ class GraphBuilder:
 		print('GRAPH BUILDING')
 		print(str(datetime.datetime.now()))
 		self.build_g(selected_triples)
+
+		rb = RelationsBuilder(self.g)
+		rb.run()
+		self.g = rb.get_g()
+
 		self.removeNoConnectedNodes()
 		self.removeSelfEdges()
 		nx.write_graphml(self.g, 'kg.graphml')

@@ -46,10 +46,9 @@ class EntityCleaner:
 
 			newA = None
 			newB = None
-			if A in entitiesMap: 
+			if A in entitiesMap and entitiesMap[B]: 
 				newA = entitiesMap[A]
-
-			if B in entitiesMap:
+				#if B in entitiesMap:
 				newB = entitiesMap[B]
 
 			if newA is not None and newB is not None:
@@ -64,7 +63,7 @@ class EntityCleaner:
 	def puntuaction_and_stopword(self):
 		
 		stopWords = set(stopwords.words('english'))
-		regex_puntuaction_ok = re.compile('[%s]' % re.escape("!\"'-_`")) # possible characters
+		regex_puntuaction_ok = re.compile('[%s]' % re.escape("\"'-_`")) # possible characters
 		puntuaction_reject = list("!#$%*+,./:;<=>?@[\\]^{|}~")
 
 		new_entities = []
@@ -166,5 +165,11 @@ class EntityCleaner:
 	def run(self):
 		self.puntuaction_and_stopword()
 		self.lemmatize()
+
+
+
+
+
+
 		
 	

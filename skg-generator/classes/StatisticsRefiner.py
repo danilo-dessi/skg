@@ -70,7 +70,7 @@ class StatisticsRefiner:
 			csv_reader = csv.reader(csv_file, delimiter=',')
 			for row in csv_reader:
 				t1 = unquote(row[0]).replace('<https://', '')[:-1]
-				t2 = unquote(row[2]).replace('<http://', '')[:-1]
+				t2 = unquote(row[2]).replace('<https://', '')[:-1]
 				if t1.startswith('cso.kmi.open.ac.uk/topics/'):
 					t1 = t1.split('/')[-1]
 					self.csoTopics.add(t1.lower())

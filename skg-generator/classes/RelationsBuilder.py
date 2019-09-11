@@ -11,7 +11,7 @@ class RelationsBuilder:
 		self.label2node = {}
 		self.node2label = {}
 		self.relations = {}
-		self.csoResourcePath = '../resources/CSO.3.1.csv'
+		self.csoResourcePath = 'resources/CSO.3.1.csv'
 		self.csoTopics = set()
 		self.csoTriples = set()
 
@@ -27,22 +27,37 @@ class RelationsBuilder:
 
 
 	def loadCSO(self):
+		t1_ok = False
+		t2_ok = False
 		with open(self.csoResourcePath) as csv_file:
 			csv_reader = csv.reader(csv_file, delimiter=',')
 			for row in csv_reader:
 				#print(row)
-				t1 = unquote(row[0]).replace('<https://', '')[:-1]
-				t2 = unquote(row[2]).replace('<https://', '')[:-1]
-				t1 = t1.split('/')[-1]
-				t2 = t2.split('/')[-1]
-				r = unquote(row[1])
-				self.csoTriples.add((t1.lower(), r, t2.lower()))
-				self.csoTopics.add(t1.lower())
-				self.csoTopics.add(t2.lower())
+				t1 = unquote(row[0])[1:-1]
+				t2 = unquote(row[2])[1:-1]
 
+				if t1.startswith('https://cso.kmi.open.ac.uk/topics/'):
+					t1 = t1.split('/')[-1]
+					self.csoTopics.add(t1.lower())
+					t1_ok = True
+
+				if t2.startswith('https://cso.kmi.open.ac.uk/topics/'):
+					t2 = t2.split('/')[-1]
+					self.csoTopics.add(t2.lower())
+					t2_ok = True
+
+				if t1_ok and t2_ok:
+					r = unquote(row[1])
+					self.csoTriples.add((t1.lower(), r, t2.lower()))
+					
+
+				t1_ok = False
+				t2_ok = False	
+		print('Number of CSO topics:', len(self.csoTopics))
 
 	def findSubTopics(self):
 		generics = {}
+
 		for label in self.label2node:
 			keyLabel = label.replace(' ', '_')
 			generics[label] = []
@@ -63,48 +78,37 @@ class RelationsBuilder:
 		newEdges = {}
 		newEdgesWeight = {}
 
-		#print('UP:', upEntity, 'SUB:', subEntity)
-		#print('NodeUP:', upEntityNode, 'NodeSUB:', subEntityNode)
-		#print('IN EDGES:', inEdges)
-		#print('OUT EDGES:', outEdges)
-		#exit(1)
-
-
-
 		for edge in inEdges:
 			neighborNode = edge[0]
 			if (neighborNode, upEntityNode) not in self.g.edges():
-				#print('NEW relation:', self.node2label[neighborNode], '-', self.g.edges[edge]['label'], '-',  self.node2label[upEntityNode])
-				#print('ORIGINAL', self.node2label[neighborNode], '-', self.g.edges[edge]['label'], '-',  self.node2label[subEntityNode], '\n')
 				newEdges[(neighborNode, upEntityNode)] = self.g.edges[edge]['label']
-			#else:
-				#print('OLD relation:', self.node2label[neighborNode], '-', self.g.edges[edge]['label'], '-',  self.node2label[upEntityNode], '\n')
-
-
+			
 		for edge in outEdges:
 			neighborNode = edge[1]
 			if (upEntityNode, neighborNode) not in self.g.edges():
-				#print('NEW relation:', self.node2label[upEntityNode], '-', self.g.edges[edge]['label'], '-',  self.node2label[neighborNode])
-				#print('ORIGINAL', self.node2label[subEntityNode], '-', self.g.edges[edge]['label'], '-', self.node2label[neighborNode], '\n')
 				newEdges[(upEntityNode, neighborNode)] = self.g.edges[edge]['label']
-			#else:
-				#print('OLD relation:', self.node2label[neighborNode], '-', self.g.edges[edge]['label'], '-',  self.node2label[upEntityNode], '\n')
-
+				#print(subEntity, upEntity, (upEntity, self.g.edges[edge]['label'], self.node2label[neighborNode]))
+			
 		for edge in newEdges:
 			if edge not in self.g.edges():
 				self.g.add_edge(edge[0], edge[1], label='INFER-' + newEdges[edge], weight=100)
+
+
 			
 
 	def buildRelations(self):
 		superTopic2SubTopics = self.findSubTopics()
-		
 		for upTopic in superTopic2SubTopics:
 			subTopics = superTopic2SubTopics[upTopic]
 			for subTopic in subTopics:
-				if subTopic in self.label2node:
-					self.addRelations(subTopic, upTopic)
+				if subTopic.replace('_', ' ') in self.label2node:
+					self.addRelations(subTopic.replace('_', ' '), upTopic.replace('_', ' '))
 
 	
+	def get_g(self):
+		return self.g
+
+
 	def run(self):
 		self.loadCSO()
 		self.loadGraphData()
@@ -113,6 +117,6 @@ class RelationsBuilder:
 
 
 if __name__ == '__main__':
-	g = nx.read_graphml('../out/semantic_web.graphml')
+	g = nx.read_graphml('../kg.graphml')
 	c = RelationsBuilder(g)
 	c.run()
