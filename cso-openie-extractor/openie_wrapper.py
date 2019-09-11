@@ -44,6 +44,7 @@ class OPENIE_wrapper:
 		try:
 			corenlp_out = json.loads(self.nlp.annotate(text, properties=props))
 		except:
+			self.nlp.close()
 			print('Stanford Core NLP is not responding. Please try later')
 			exit(1)
 		
@@ -98,6 +99,7 @@ class OPENIE_wrapper:
 							self.relations += [(subject, relation, object)]
 							print('Final:', (subject, relation, object))	
 
+		self.nlp.close()
 		return self.relations
 
 
