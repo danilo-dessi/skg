@@ -119,16 +119,17 @@ if __name__ == '__main__':
 	#Extraction with CSO in batch mode
 	papers = {}
 	for n_abstract in range(len(sentences_list)):
+		sentences = sentences_list[n_abstract]
 		for n_sentence in range(len(sentences)):
 			sentence = sentences_list[n_abstract][n_sentence]
 			paper = {
 				"title": "",
 				"abstract": sentence,
 				"keywords": ""
-    		}
-    		papers[str(n_abstract) + '.' + str(n_sentence)] = paper
+			}
+			papers[str(n_abstract) + '.' + str(n_sentence)] = paper
 
-   	cso_result = CSO.run_cso_classifier_batch_mode(papers, workers = 2, modules = "both", enhancement = "first")
+	cso_result = CSO.run_cso_classifier_batch_mode(papers, workers = 2, modules = "both", enhancement = "first")
 
 
 	for n_abstract in range(len(sentences_list)):

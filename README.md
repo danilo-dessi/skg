@@ -15,6 +15,11 @@ If you use our work please cite us with:
 
 ## Repository Description
 
+- **data-preparation/** contains the scripts used to mode the data downloaded from MAG dataset about the Semantic Web into a format that can be mined by the Luan Yi et al. tool. 
+
+-
+
+
 
 ## Usage
 Please follow this guide to run the code and get results. You can also use the pipeline_runner.sh for running the whole pipeline at once on your own data.

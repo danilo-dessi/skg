@@ -18,7 +18,7 @@ class Mapper:
 				index = 'v' + str(j)
 				from_ = r[index]
 				vMap[from_]  = to_
-				vCount[to_] = 0
+				#vCount[to_] = 0
 
 		triple_verb_mapped = []
 		lost = 0
@@ -27,11 +27,11 @@ class Mapper:
 			p = self.solve_auxiliar_verbs(p_start)
 			if p in vMap:
 				triple_verb_mapped += [(s, vMap[p], o, source, support)]
-				vCount[vMap[p]] += 1
+				#vCount[vMap[p]] += 1
 			elif p in self.hold_relations:
 				triple_verb_mapped += [(s, p, o, source, support)]
 			else:
-				#print('LOST BECAUSE VERB', (s, p, o, source, support) )
+				print('LOST BECAUSE VERB', (s, p, o, source, support) )
 				lost_triples += [(s, p, o, source, support)]
 				#print('LOST:',(s, p, o, source, support), p_start, p)
 				lost += 1
@@ -45,19 +45,27 @@ class Mapper:
 		df = df[columns_order]
 		df.to_csv('out/lost_triples.csv')
 
-		# used-for management
+		# Luan Yi triples management
 		triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'used-for':
 				print((s,p,o, source, support))
 				print((o, 'uses', s, source, support), '\n')
 				triples_tmp += [(o, 'uses', s, source, support)]
+			elif p == 'feature-of' or p == 'part-of':
+				print((s,p,o, source, support))
+				print((o, 'includes', s, source, support), '\n')
+				triples_tmp += [(o, 'includes', s, source, support)]
+			elif p == 'evaluate-for':
+				print((s,p,o, source, support))
+				print((s, 'evaluates', o, source, support), '\n')
+				triples_tmp += [(s, 'evaluates', o, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
 		self.triples = triples_tmp
 
 		# feature-of management
-		triples_tmp = []
+		'''triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'feature-of' or p == 'part-of':
 				print((s,p,o, source, support))
@@ -76,8 +84,7 @@ class Mapper:
 				triples_tmp += [(s, 'evaluates', o, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
-		self.triples = triples_tmp
-
+		self.triples = triples_tmp'''
 
 
 	def load_cso_triples(self):

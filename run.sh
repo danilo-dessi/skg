@@ -27,6 +27,8 @@ pip install -r requirements.txt
 python generate_elmo.py
 
 # this task does not stop. The user has to force its stop by interrupting the process
+echo "Keep this process running for a while (5 minutes is enough)"
+echo "then stop it with ctrl+c (only once). See the Luan Yi et al.'s repository for details about this behavior of singleton.py"
 python singleton.py scientific_best_ner
 python evaluator.py scientific_best_ner
 
@@ -55,9 +57,9 @@ cp ../luanyi-extractor/luanyi_output.cs ./
 python3 run.py
 
 
-# Toward the skg
+# Towards the skg
 cd ../skg-generator
-#wget archive
+#wget archive    
 cp ../cso-openie-extractor/csv_e_r_full.csv ./
 python3 run.py
 

@@ -188,7 +188,7 @@ class GraphBuilder:
 			counter = collections.Counter(labels)
 			frequencies = sorted(counter.items(), key=operator.itemgetter(1), reverse=True)
 			most_frequent_label = frequencies[0][0]
-			triples += [(s, best_label, o, 'luanyi', support)]
+			triples += [(s, most_frequent_label, o, 'luanyi', support)]
 
 		return triples
 

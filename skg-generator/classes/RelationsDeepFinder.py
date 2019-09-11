@@ -79,11 +79,10 @@ class RelationsDeepFinder:
 	def isPassive(self, verb, verb_tags):#isPassive(self, verb, wordnet_lemmatizer):
 		return len(verb) >= 2 and self.spacy_lemmatizer(verb[-2], 'v') == 'be' and verb_tags[-1] == 'VBN'
 
-
-		verbTokensLemmatized = [wordnet_lemmatizer.lemmatize(token, 'v') for token in verb]
-		if len(verbTokensLemmatized) >= 2 and  verbTokensLemmatized[-2] == 'be' and verbTokensLemmatized[-1] != 'be':
-			return True
-		return False
+		#verbTokensLemmatized = [wordnet_lemmatizer.lemmatize(token, 'v') for token in verb]
+		#if len(verbTokensLemmatized) >= 2 and  verbTokensLemmatized[-2] == 'be' and verbTokensLemmatized[-1] != 'be':
+		#	return True
+		#return False
 
 	#not used
 	def spacy_pos_tag(self, text):
