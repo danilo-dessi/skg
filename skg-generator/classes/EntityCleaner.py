@@ -46,7 +46,7 @@ class EntityCleaner:
 
 			newA = None
 			newB = None
-			if A in entitiesMap and entitiesMap[B]: 
+			if A in entitiesMap and B in entitiesMap: 
 				newA = entitiesMap[A]
 				#if B in entitiesMap:
 				newB = entitiesMap[B]
