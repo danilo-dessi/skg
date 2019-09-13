@@ -64,7 +64,7 @@ class EntityCleaner:
 		
 		stopWords = set(stopwords.words('english'))
 		regex_puntuaction_ok = re.compile('[%s]' % re.escape("\"'-_`")) # possible characters
-		puntuaction_reject = list("!#$%*+,./:;<=>?@[\\]^{|}~")
+		puntuaction_reject = list("!#$%*+,./:;<=>?@%=[\\]^{|}~#\\/{}")
 
 		new_entities = []
 		new_relations = []

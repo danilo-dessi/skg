@@ -29,7 +29,7 @@ class RelationsBuilder:
 	def loadCSO(self):
 		t1_ok = False
 		t2_ok = False
-		with open(self.csoResourcePath) as csv_file:
+		with open(self.csoResourcePath, encoding="utf-8") as csv_file:
 			csv_reader = csv.reader(csv_file, delimiter=',')
 			for row in csv_reader:
 				#print(row)

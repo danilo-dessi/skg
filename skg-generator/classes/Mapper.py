@@ -170,22 +170,33 @@ class Mapper:
 
 		for (s,p,o) in triples_plain:
 
+			s_new = s
+			o_new = o
+			if s.endswith('datum'):
+				s_new = s.replace('datum', 'data')
+
+			if o.endswith('datum'):
+				o_new = o.replace('datum', 'data')
+
+
 			if s not in eMap:
-				equivalent_set = self.equivalentSet(cso_triples, s)
+				equivalent_set = self.equivalentSet(cso_triples, s_new)
 				for e in equivalent_set:
 					eMap[e] = equivalent_set[0]	
 
 			if s not in eMap:
-				eMap[s] = s
+				eMap[s] = s_new
 
 			if o not in eMap:
-				equivalent_set = self.equivalentSet(cso_triples, o)
+				equivalent_set = self.equivalentSet(cso_triples, o_new)
 				for e in equivalent_set:
 					eMap[e] = equivalent_set[0]
 
 			if o not in eMap:
-				eMap[o] = o
+				eMap[o] = o_new
 				
+		for e in eMap:
+			print(e, '->', eMap[e])
 		return eMap
 	
 
