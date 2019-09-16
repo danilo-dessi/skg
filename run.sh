@@ -6,15 +6,17 @@ rm stanford-corenlp-full-2018-10-05.zip
 
 
 # Luan Yi e al 's tool download
-wget https://bitbucket.org/luanyi/scierc/get/a8f486a9c1b4.zip
-unzip a8f486a9c1b4.zip
-rm a8f486a9c1b4.zip
-mv luanyi-scierc-a8f486a9c1b4 master
-cp -r master/ luanyi-extractor/
-rm -r master
 
-cd luanyi-extractor
-cd master
+wget https://bitbucket.org/luanyi/scierc/get/a8f486a9c1b4.zip
+unzip a8f486a9c1b4.zip -d luanyi-scierc-a8f486a9c1b4
+rm a8f486a9c1b4.zip
+cp -r luanyi-scierc-a8f486a9c1b4/ luanyi-extractor/
+rm -r luanyi-scierc-a8f486a9c1b4/
+cd luanyi-extractor/
+mv luanyi-scierc-a8f486a9c1b4/ master/
+
+cd luanyi-extractor/
+cd master/
 ./scripts/fetch_required_data.sh
 ./scripts/build_custom_kernels.sh
 wget http://nlp.cs.washington.edu/sciIE/models/scientific_best_ner.zip
@@ -23,8 +25,13 @@ rm scientific_best_ner.zip
 cp ../use/requirements.txt ./
 pip install -r requirements.txt
 
+cd luanyi-extractor/
+cd master/
+pip2.7 install -r requirements.txt
+
 # this is a time consuming task
-python generate_elmo.py
+python2.7 generate_elmo.py
+exit
 
 # this task does not stop. The user has to force its stop by interrupting the process
 echo "Keep this process running for a while (5 minutes is enough)"
