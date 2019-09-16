@@ -154,10 +154,13 @@ class Selector:
 				untrusted_triples += [(s,p,o,source,support)]
 
 		trusted_triples = self.unique(trusted_triples)
+		print('Trusted triples:', len(trusted_triples))
 		clf = self.get_classifier(trusted_triples)
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
 		consistent_triples = self.unique(consistent_triples)
-		self.out_triples = set(trusted_triples + consistent_triples)
+		print('Consistent triples:', len(consistent_triples))
+		self.out_triples = self.unique(trusted_triples + consistent_triples)
+		print('Total triples:', len(self.out_triples))
 
 
 

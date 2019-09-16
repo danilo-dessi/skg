@@ -64,27 +64,6 @@ class Mapper:
 				triples_tmp += [(s, p, o, source, support)]
 		self.triples = triples_tmp
 
-		# feature-of management
-		'''triples_tmp = []
-		for (s, p, o, source, support) in self.triples:
-			if p == 'feature-of' or p == 'part-of':
-				print((s,p,o, source, support))
-				print((o, 'includes', s, source, support), '\n')
-				triples_tmp += [(o, 'includes', s, source, support)]
-			else:
-				triples_tmp += [(s, p, o, source, support)]
-		self.triples = triples_tmp
-
-		# evaluate-for management
-		triples_tmp = []
-		for (s, p, o, source, support) in self.triples:
-			if p == 'evaluate-for':
-				print((s,p,o, source, support))
-				print((s, 'evaluates', o, source, support), '\n')
-				triples_tmp += [(s, 'evaluates', o, source, support)]
-			else:
-				triples_tmp += [(s, p, o, source, support)]
-		self.triples = triples_tmp'''
 
 
 	def load_cso_triples(self):

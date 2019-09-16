@@ -299,7 +299,7 @@ class GraphBuilder:
 		s = Selector(triples)
 		s.run()
 		selected_triples = s.get_selected_triples()
-		print('Number of triples:', len(triples))
+		print('Number of triples:', len(selected_triples))
 
 		columns_order = ['s', 'p', 'o', 'source', 'support']
 		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in selected_triples]
