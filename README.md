@@ -23,19 +23,28 @@ If you use our work please cite us with:
 
 - **skg-generator/** contains the scripts for performing the verb window heuristic, the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our output.
 
-- **evaluation/** contains the scripts we used to generate the sample of triples about the semntic web and evaluate our approach.
+- **evaluation/** contains the scripts we used to generate the sample of triples about the semantic web and evaluate our approach.
 
 
 ## Usage
 Please follow this guide to run the code and reproduce our results. 
 
-### Downloads
+### Requirements
+1. Python2.7 and Python3.6 (ensure you have Python 3.6 or above installed.). Python2.7 is used to run the Luan Yi et al. tool.
+2. Install Python3.7 requirements of our work by running:
+```
+pip3 install -r requirements.py
+```
+3. Download English package for spaCy using python3 -m spacy download en_core_web_sm
+
+
+### Downloads 
 1. Clone the repository on your local environment
-2. Download the Stanford Core NLP moduels from https://stanfordnlp.github.io/CoreNLP/ and put it under skg/. 
-3. Download the Luan Yi et al.'s tool from the repository https://bitbucket.org/luanyi/scierc/src/master/ and put it under luanyi-extractor/. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool correctly works. As model we used their scientific_best_ner model.
+2. Download and unzip the [Stanford Core NLP]( https://stanfordnlp.github.io/CoreNLP/) modules put them under skg/stanford-corenlp-full-2018-10-05. 
+3. Download and unzip the [Luan Yi et al. work](https://bitbucket.org/luanyi/scierc/src/master/) and move all files under luanyi-extractor/master/. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool correctly works. As model we used their scientific_best_ner model. (**ATTENTION**: be sure that their scripts are properly working.)
 
 ### Data preparation
-1. Go to the directory data-preparation. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al.'s tool.
+1. Go to the directory data-preparation/. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al.'s tool.
 
 2. To prepare the data you need to run:
 
