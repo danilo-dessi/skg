@@ -2,7 +2,7 @@
 
 
 
-This repository contains the source code developed for wrapping tools and make operations that build a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
+This repository contains the source code developed for wrapping tools and perform our pipeline that builds a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
 
 If you use our work please cite us with:
 ```
@@ -15,19 +15,24 @@ If you use our work please cite us with:
 
 ## Repository Description
 
-- **data-preparation/** contains the scripts used to mode the data downloaded from MAG dataset about the Semantic Web into a format that can be mined by the Luan Yi et al. tool. 
+- **data-preparation/** contains the scripts used to model the data downloaded from MAG dataset about the Semantic Web into a format that can be mined by the Luan Yi et al. tool. 
 
--
+- **luanyi-extractor/** contains the scripts we have changed from the original project for adapting the Luan Yi et al. tool to our data. (**ATTENTION**: they have to be copied into the Luan Yi et al. project after that it works and its models have been built.)
 
+- **cso-openie-extractor/** contains the scripts that have been used to enrich the Luan Yi et al. result wirh CSO topics and OpenIE relations.
+
+- **skg-generator/** contains the scripts for performing the verb window heuristic, the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our output.
+
+- **evalution/** contains the scripts we used to generate the sample of triples about the semntic web and evaluate our approach.
 
 
 ## Usage
-Please follow this guide to run the code and get results. You can also use the pipeline_runner.sh for running the whole pipeline at once on your own data.
+Please follow this guide to run the code and reproduce our results. 
 
 ### Downloads
 1. Clone the repository on your local environment
 2. Download the Stanford Core NLP moduels from https://stanfordnlp.github.io/CoreNLP/ and put it under skg/. 
-3. Download the Luan Yi et al.'s tool from the repository https://bitbucket.org/luanyi/scierc/src/master/ and put it under luanyi-extractor/. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool correctly works. We used their scientific_best_ner model.
+3. Download the Luan Yi et al.'s tool from the repository https://bitbucket.org/luanyi/scierc/src/master/ and put it under luanyi-extractor/. Follow the instruction in that repository to verify that all libraries have been installed, train the model on their data, and check if the tool correctly works. As model we used their scientific_best_ner model.
 
 ### Data preparation
 1. Go to the directory data-preparation. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al.'s tool.
@@ -95,6 +100,10 @@ This code generates heristic based relations through the window of verbs, and va
 python3 run.py
 ```
 5. At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).
+
+
+### Evaluation
+
 
 
 
