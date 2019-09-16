@@ -23,7 +23,7 @@ If you use our work please cite us with:
 
 - **skg-generator/** contains the scripts for performing the verb window heuristic, the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our output.
 
-- **evalution/** contains the scripts we used to generate the sample of triples about the semntic web and evaluate our approach.
+- **evaluation/** contains the scripts we used to generate the sample of triples about the semntic web and evaluate our approach.
 
 
 ## Usage
