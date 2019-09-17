@@ -51,7 +51,7 @@ python3 -m spacy download "en_core_web_sm"
 ```
 
 ### Data preparation
-1. Go to the directory data-preparation/. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al.'s tool.
+1. Go to the directory data-preparation/. It contains the abstracts coming from the MAG datasets, a script to parse them and produce the input files that will be fed to the Luan Yi et al. tool.
 
 2. To prepare the data you need to run:
 
@@ -64,10 +64,10 @@ python3 parse_input.py
 - **data.csv** a file that contains the mag_id, title, abstract, keywords, and doi (when available) of publications
 - **all_abstracts.txt** a textual file that contains all abstracts and that will be used later by the pipeline
 
-You can skip these steps if your data are in the format required by the Luan Yi et al.'s tool.
+You can skip these steps if your data are in the format required by the Luan Yi et al. tool.
 
 
-### Extraction with Luan Yi et al.'s tool
+### Extraction with Luan Yi et al. tool
 
 To extract entities and relations from scientific publications our work has been built on top of https://arxiv.org/abs/1808.09602
 1. Go to the directory luanyi-extractor/
