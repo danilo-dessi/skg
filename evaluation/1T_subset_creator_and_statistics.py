@@ -102,8 +102,8 @@ if __name__ == "__main__":
 	print('Number of relations from OpenIE in SW triple', count_source(triples_sw, 'openie'))
 	print('Number of relations from our Heuristic in SW triple', count_source(triples_sw, 'heuristic'))
 	print('Number of relations from our Heuristic with high support in SW triple', count_source([(s, p, o, source, support)  for (s, p, o, source, support) in triples_sw if support >= 9], 'heuristic'))
-
-	random.shuffle(triples_sw)
+	save(triples_sw, 'selected_sw_triples.csv')
+	'''random.shuffle(triples_sw)
 	random.shuffle(triples_sw)
 	random.shuffle(triples_sw)
 	random.shuffle(triples_sw)
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 	print('Number of relations from our Heuristic in 1T SW triples', count_source(triples_1T, 'heuristic'))
 	print('Number of relations from our Heuristic with high support in 1T SW triples', count_source([(s, p, o, source, support)  for (s, p, o, source, support) in triples_1T if support >= 9], 'heuristic'))
 
-	save(triples_1T, 'triples_sw_1T.csv')
+	save(triples_1T, 'triples_sw_1T.csv')'''
 
 
 

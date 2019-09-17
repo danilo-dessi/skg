@@ -1,0 +1,1001 @@
+;s;p;o;source;support
+135;access control;uses;resource description framework (rdf);heuristic;1
+553;access control;uses;web ontology language;heuristic;12
+462;access control mechanism;uses;web ontology language;luanyi;1
+579;activity recognition;uses;resource description framework (rdf);heuristic;1
+625;activity recognition;uses;web ontology language;heuristic;1
+576;adaptive hypermedia;conjunction;linked data;heuristic;1
+117;adaptive hypermedia;conjunction;semantic search engines;luanyi;1
+123;affective computing;uses;semantic description;luanyi;1
+62;agent technology;uses;semantic description;luanyi;1
+137;agent technology;conjunction;semantic search engines;heuristic;1
+145;ajax;conjunction;linked data;luanyi;1
+591;ajax;conjunction;resource description framework (rdf);luanyi;1
+629;anomaly detection;uses;ontology alignment;luanyi;1
+895;answer set programming;conjunction;web ontology language;luanyi;1
+355;answering queries;uses;linked data;luanyi;1
+150;answering queries;uses;ontology alignment;luanyi;2
+863;artificial intelligence;is;linked data;luanyi;2
+24;artificial intelligence;conjunction;semantic search engines;luanyi;3
+456;artificial intelligence;conjunction;semantic web services;luanyi;1
+582;authorization;uses;web ontology language;heuristic;4
+598;automated reasoning;uses;semantic web services;luanyi;1
+451;automated systems;uses;ontology alignment;luanyi;1
+220;automatic composition;uses;semantic web services;luanyi;1
+523;automatic composition;uses;web ontology language;heuristic;1
+161;automatic image annotation;supports;semantic search engines;openie;1
+213;automatic translation;uses;web ontology language;luanyi;2
+830;automation;recommends;semantic web services;heuristic;12
+946;b2b;uses;semantic web services;heuristic;1
+798;back propagation neural networks;conjunction;semantic web services;luanyi;1
+622;bibliographic data;uses;linked data;luanyi;5
+948;big data;conjunction;linked data;luanyi;1
+261;biometrics;supports;semantic description;heuristic;9
+411;blogs;conjunction;ontology alignment;luanyi;1
+530;broker pattern;converts;semantic web services;heuristic;9
+874;business logic;uses;semantic web services;luanyi;1
+214;business process execution language;conjunction;web ontology language;luanyi;1
+893;business process modelling;uses;web ontology language;heuristic;1
+188;business processes;uses;semantic web services;luanyi;2
+565;caching;conjunction;web ontology language;luanyi;1
+362;cellular;uses;web ontology language;heuristic;3
+905;change detection;conjunction;ontology alignment;heuristic;1
+85;cloud computing;conjunction;linked data;luanyi;1
+951;cloud computing;is;semantic search engine;luanyi;1
+168;cloud computing;conjunction;semantic search engines;luanyi;2
+766;cloud computing;conjunction;semantic web services;luanyi;1
+743;cloud services;uses;semantic description;luanyi;1
+711;cloud storages;conjunction;semantic search engines;luanyi;1
+307;clustering algorithms;conjunction;linked data;heuristic;1
+246;clustering algorithms;conjunction;ontology alignment;luanyi;1
+781;clustering algorithms;conjunction;semantic search engines;luanyi;1
+668;collaborative designs;uses;web ontology language;luanyi;1
+11;coloured petri nets;represents;semantic web services;heuristic;13
+45;coloured petri nets;uses;web ontology language;luanyi;1
+938;commerce;requires;ontology alignment;openie;1
+396;commerce;conjunction;semantic web services;heuristic;1
+106;communication;supports;resource description framework (rdf);heuristic;15
+695;communication;produces;semantic web services;heuristic;16
+548;community detection;conjunction;semantic search engines;luanyi;2
+852;complex networks;conjunction;linked data;luanyi;2
+316;component-based software engineering;links;linked data;heuristic;14
+967;component-based software engineering;is;ontology alignment;openie;1
+823;component-based software engineering;acquires;semantic description;heuristic;11
+41;component-based software engineering;selects;semantic web services;heuristic;13
+61;component-based software engineering;uses;web ontology language;heuristic;9
+551;computer science;uses;linked data;luanyi;1
+311;computer vision;uses;semantic description;luanyi;1
+374;concept similarity;uses;ontology alignment;luanyi;1
+514;constraint language;uses;resource description framework (rdf);heuristic;1
+884;content management;conjunction;resource description framework (rdf);heuristic;1
+603;content management systems;uses;semantic web services;heuristic;2
+337;context modeling;conjunction;ontology alignment;luanyi;1
+473;controlled vocabulary;uses;web ontology language;heuristic;2
+770;data exchange;conjunction;ontology alignment;luanyi;1
+466;data exchange;conjunction;resource description framework (rdf);luanyi;1
+966;data integration;uses;linked data;luanyi;2
+361;data integration;conjunction;ontology alignment;luanyi;5
+495;data integration;publishes;resource description framework (rdf);heuristic;13
+810;data integration;conjunction;semantic search engines;luanyi;2
+44;data integration;uses;web ontology language;luanyi;1
+511;data management;uses;linked data;heuristic;14
+569;data management;conjunction;semantic search engines;luanyi;1
+151;data mining;conjunction;ontology alignment;luanyi;1
+929;data mining;provides;semantic web services;heuristic;10
+940;data publishing;uses;linked data;luanyi;1
+493;data publishing;uses;resource description framework (rdf);openie;1
+380;data security;conjunction;semantic description;luanyi;2
+861;data sparsity;uses;linked data;luanyi;1
+599;data visualization;conjunction;linked data;heuristic;1
+534;data warehousing;conjunction;ontology alignment;luanyi;1
+292;database systems;includes;semantic description;luanyi;1
+818;database systems;includes;semantic descriptions;luanyi;1
+777;database systems;conjunction;semantic search engines;luanyi;1
+736;dbpedia;is;linked data;luanyi;4
+450;dbpedia;produces;resource description framework (rdf);heuristic;9
+278;deontic logic;is;web ontology language;luanyi;1
+113;description logics;proposes;semantic web services;heuristic;9
+322;description logics;uses;web ontology language;luanyi;7
+652;digital contents;uses;linked data;luanyi;1
+726;digital libraries;uses;linked data;luanyi;1
+836;digital libraries;conjunction;resource description framework (rdf);luanyi;1
+40;digital libraries;conjunction;semantic search engines;heuristic;1
+815;digital libraries;uses;semantic web services;luanyi;2
+464;distributed hash table;includes;semantic web services;luanyi;1
+780;distributed ledgers;conjunction;linked data;luanyi;1
+887;distributed query processing;uses;linked data;luanyi;1
+880;document classification;conjunction;semantic search engines;luanyi;1
+700;document clustering;uses;semantic search engines;luanyi;1
+590;domain knowledge;uses;resource description framework (rdf);heuristic;1
+211;domain knowledge;uses;semantic description;luanyi;1
+745;domain knowledge;uses;semantic search engines;luanyi;1
+13;domain knowledge;uses;semantic web services;luanyi;1
+574;domain knowledge;uses;web ontology language;luanyi;3
+820;domain-specific ontologies;uses;ontology alignment;luanyi;2
+25;domain-specific ontologies;uses;resource description framework (rdf);heuristic;2
+908;domain-specific ontologies;uses;semantic search engines;heuristic;13
+626;domain-specific ontologies;conjunction;semantic web services;luanyi;3
+481;domain-specific ontologies;uses;web ontology language;luanyi;3
+594;dublin core;is;resource description framework (rdf);luanyi;1
+972;dublin core;conjunction;web ontology language;luanyi;2
+661;education;conjunction;resource description framework (rdf);luanyi;1
+786;education;uses;web ontology language;heuristic;1
+15;electrical discharge machining;conjunction;semantic search engine;luanyi;1
+648;electronic commerce;uses;ontology alignment;luanyi;1
+408;electronic commerce;conjunction;semantic web services;luanyi;2
+684;engine;links;linked data;heuristic;13
+699;engine;uses;resource description framework (rdf);heuristic;10
+507;engine;provides;semantic search engines;heuristic;56
+756;engine;uses;web ontology language;heuristic;13
+255;engineering;converts;linked data;heuristic;10
+399;engineering;conjunction;semantic web services;luanyi;2
+386;engineering;produces;web ontology language;heuristic;11
+704;enterprise architecture;uses;resource description framework (rdf);luanyi;1
+445;enterprise architecture;uses;semantic web services;heuristic;1
+228;extensible markup language;conjunction;resource description framework (rdf);luanyi;13
+338;extensible markup language;conjunction;web ontology language;luanyi;2
+934;extreme programming;conjunction;linked data;luanyi;1
+244;facebook;is;semantic search engines;luanyi;1
+619;facial expressions;uses;linked data;heuristic;1
+902;feature space;conjunction;semantic search engines;luanyi;1
+639;formal models;uses;semantic web services;heuristic;7
+907;formal specifications;uses;resource description framework (rdf);heuristic;1
+267;fuzzy clustering techniques;conjunction;semantic web services;luanyi;1
+841;fuzzy ontology;uses;semantic search engine;luanyi;1
+912;geographic information system;uses;linked data;luanyi;1
+990;geospatial data;uses;semantic description;luanyi;2
+350;grid computing;conjunction;semantic search engines;luanyi;1
+997;grid computing;is;semantic web services;luanyi;1
+609;grid services;uses;semantic description;luanyi;1
+67;grid services;uses;web ontology language;luanyi;2
+620;html5;conjunction;linked data;luanyi;1
+375;hypervisor;is;linked data;luanyi;1
+429;hypervisor;conjunction;web ontology language;luanyi;1
+653;image annotation;conjunction;semantic web services;luanyi;1
+666;image processing;conjunction;semantic web services;luanyi;1
+555;image retrieval;uses;ontology alignment;luanyi;1
+763;image search;uses;semantic description;heuristic;1
+179;image search;conjunction;semantic search engines;heuristic;1
+80;inference;conjunction;ontology alignment;heuristic;1
+98;inference;uses;resource description framework (rdf);luanyi;2
+707;inference;is;semantic search engine;luanyi;1
+916;inference;uses;web ontology language;openie;1
+298;information acquisitions;uses;semantic search engines;luanyi;1
+221;information extraction;uses;linked data;luanyi;1
+205;information extraction;conjunction;ontology alignment;luanyi;1
+869;information filtering;uses;semantic description;luanyi;1
+32;information fusion;uses;linked data;luanyi;1
+773;information fusion;conjunction;ontology alignment;luanyi;1
+829;information fusion;conjunction;semantic search engines;heuristic;1
+802;information integration;uses;linked data;heuristic;3
+416;information integration;conjunction;semantic search engines;luanyi;2
+177;information integration;conjunction;semantic web services;luanyi;4
+809;information integration;conjunction;web ontology language;luanyi;1
+898;information needs;uses;linked data;luanyi;1
+234;information retrieval;uses;linked data;luanyi;1
+460;information retrieval;conjunction;ontology alignment;luanyi;2
+958;information retrieval;uses;resource description framework (rdf);luanyi;1
+110;information retrieval;uses;semantic description;heuristic;1
+885;information retrieval;uses;semantic search engine;luanyi;1
+164;information retrieval;uses;semantic search engines;luanyi;2
+428;information retrieval;is;semantic web services;luanyi;2
+342;information retrieval;conjunction;web ontology language;luanyi;1
+303;information sharing;is;resource description framework (rdf);luanyi;1
+279;information systems;uses;linked data;luanyi;1
+855;information systems;conjunction;ontology alignment;heuristic;1
+886;intelligent agents;conjunction;resource description framework (rdf);heuristic;1
+217;intelligent agents;conjunction;semantic web services;luanyi;4
+63;intelligent software agent;conjunction;semantic web services;luanyi;1
+754;intelligent tutoring systems;uses;web ontology language;luanyi;1
+152;internet;links;linked data;heuristic;14
+674;investments;uses;linked data;heuristic;1
+74;java;conjunction;resource description framework (rdf);luanyi;1
+294;java;conjunction;web ontology language;luanyi;2
+672;javascript;conjunction;resource description framework (rdf);luanyi;1
+256;keyword search;uses;linked data;luanyi;2
+552;keyword search;conjunction;semantic search engines;luanyi;5
+268;knowledge acquisition;conjunction;ontology alignment;luanyi;1
+632;knowledge bases;uses;linked data;luanyi;1
+664;knowledge bases;conjunction;resource description framework (rdf);luanyi;2
+26;knowledge bases;uses;semantic search engine;heuristic;3
+998;knowledge bases;conjunction;semantic search engines;luanyi;3
+108;knowledge bases;conjunction;semantic web services;luanyi;1
+66;knowledge bases;uses;web ontology language;luanyi;2
+329;knowledge discovery;uses;linked data;luanyi;3
+544;knowledge discovery;uses;resource description framework (rdf);luanyi;1
+517;knowledge engineering;uses;linked data;luanyi;2
+630;knowledge exchange;uses;ontology alignment;luanyi;1
+923;knowledge exchange;uses;resource description framework (rdf);luanyi;1
+722;knowledge management;conjunction;semantic search engines;luanyi;1
+788;knowledge management;is;semantic web services;luanyi;2
+17;knowledge management systems;uses;linked data;luanyi;1
+2;knowledge management systems;uses;resource description framework (rdf);luanyi;1
+601;knowledge management systems;uses;web ontology language;heuristic;1
+166;knowledge representation;conjunction;ontology alignment;luanyi;1
+571;knowledge representation;uses;resource description framework (rdf);luanyi;1
+203;knowledge representation;provides;semantic description;heuristic;9
+419;knowledge representation;uses;semantic search engines;heuristic;9
+224;knowledge representation;conjunction;semantic web services;luanyi;2
+78;knowledge representation;uses;web ontology language;luanyi;1
+592;knowledge representation and reasoning;uses;resource description framework (rdf);luanyi;1
+289;knowledge-sharing;uses;ontology alignment;luanyi;3
+974;knowledge-sharing;conjunction;semantic search engines;luanyi;1
+51;language acquisition;uses;linked data;heuristic;1
+223;learning;produces;linked data;heuristic;23
+608;learning;improves;ontology alignment;heuristic;11
+156;learning;uses;resource description framework (rdf);heuristic;9
+837;learning;provides;semantic search engines;heuristic;10
+588;learning;conjunction;semantic web services;luanyi;2
+613;learning objects;uses;ontology alignment;heuristic;1
+686;learning objects;uses;semantic search engines;luanyi;1
+288;learning organizations;includes;semantic search engine;luanyi;1
+138;libraries;uses;linked data;luanyi;1
+454;libraries;uses;resource description framework (rdf);openie;1
+547;libraries;conjunction;semantic search engines;heuristic;1
+814;link prediction;conjunction;semantic search engines;luanyi;1
+831;linked data;conjunction;adaptive hypermedia;heuristic;1
+245;linked data;conjunction;artificial intelligence;luanyi;1
+468;linked data;links;authentication;heuristic;11
+991;linked data;provides;background knowledge;openie;1
+512;linked data;improves;bibliographic data;openie;3
+848;linked data;conjunction;cloud services;luanyi;1
+774;linked data;conjunction;clustering algorithms;heuristic;1
+832;linked data;is;component-based software engineering;openie;1
+758;linked data;uses;concept lattices;luanyi;1
+561;linked data;provides;data integration;openie;1
+19;linked data;links;data publishing;heuristic;9
+103;linked data;conjunction;data visualization;luanyi;1
+808;linked data;produces;dbpedia;heuristic;37
+846;linked data;supports;dialogue;openie;1
+420;linked data;includes;digital libraries;luanyi;2
+144;linked data;conjunction;digital preservation;luanyi;1
+976;linked data;conjunction;distributed ledgers;heuristic;1
+712;linked data;uses;engine;heuristic;3
+352;linked data;uses;hadoop;heuristic;2
+120;linked data;conjunction;html5;heuristic;1
+37;linked data;supports;information integration;heuristic;2
+264;linked data;improves;information retrieval;heuristic;6
+677;linked data;produces;internet;heuristic;23
+486;linked data;uses;javascript;heuristic;11
+240;linked data;provides;knowledge bases;heuristic;20
+297;linked data;conjunction;knowledge representation;luanyi;1
+247;linked data;produces;learning;heuristic;27
+215;linked data;provides;libraries;heuristic;52
+618;linked data;conjunction;linked data;luanyi;4
+860;linked data;conjunction;linked open data;luanyi;2
+351;linked data;conjunction;machine learning techniques;luanyi;1
+568;linked data;supports;mashup;heuristic;11
+334;linked data;uses;mobile devices;luanyi;2
+721;linked data;conjunction;mobile web;heuristic;1
+563;linked data;conjunction;multilingualism;heuristic;1
+76;linked data;conjunction;natural language processing systems;luanyi;2
+792;linked data;uses;natural languages;luanyi;1
+22;linked data;conjunction;ontologies;luanyi;3
+212;linked data;uses;ontology alignment;heuristic;1
+692;linked data;conjunction;ontology construction;luanyi;1
+38;linked data;supports;parsing algorithm;openie;1
+779;linked data;conjunction;process modelling;luanyi;1
+739;linked data;conjunction;query processing;luanyi;2
+366;linked data;uses;question answering systems;luanyi;1
+787;linked data;uses;rdf data;heuristic;27
+265;linked data;uses;relational database systems;luanyi;1
+572;linked data;conjunction;representational state transfer;heuristic;1
+742;linked data;conjunction;resource description framework (rdf);luanyi;1
+804;linked data;uses;rule engine;luanyi;1
+114;linked data;provides;semantic data;heuristic;20
+357;linked data;provides;semantic interoperability;openie;2
+753;linked data;supports;semantic metadata;heuristic;9
+102;linked data;conjunction;semantic search engines;luanyi;3
+266;linked data;conjunction;semantic similarity measures;luanyi;2
+68;linked data;uses;semantic web technologies;luanyi;2
+354;linked data;links;sensor data;heuristic;11
+528;linked data;conjunction;social networks;luanyi;2
+436;linked data;includes;social sciences;luanyi;1
+573;linked data;uses;software design patterns;luanyi;1
+992;linked data;conjunction;software development life cycle;luanyi;1
+397;linked data;uses;sparql;luanyi;5
+875;linked data;conjunction;spatial data infrastructure;luanyi;1
+341;linked data;conjunction;text mining;luanyi;1
+960;linked data;conjunction;textual data;luanyi;1
+477;linked data;conjunction;twitter;heuristic;1
+856;linked data;produces;universities;heuristic;15
+827;linked data;conjunction;user interface designs;luanyi;1
+141;linked data;uses;user profiles;heuristic;4
+3;linked data;produces;user query;heuristic;11
+735;linked data;acquires;user-generated content;heuristic;9
+455;linked data;conjunction;vocabulary;luanyi;1
+105;linked data;conjunction;web 2.0;heuristic;5
+717;linked data;produces;web applications;heuristic;11
+669;linked data;improves;web contents;openie;1
+575;linked data;produces;web of data;heuristic;58
+84;linked data;is;world wide web;luanyi;1
+284;linked open data;links;linked data;heuristic;29
+890;linked open data;includes;resource description framework (rdf);heuristic;9
+31;linked open data;conjunction;semantic search engine;luanyi;1
+714;linked open data;conjunction;semantic search engines;luanyi;2
+782;linked open data;conjunction;semantic web services;luanyi;1
+301;logic programming;is;web ontology language;luanyi;1
+698;logistics;uses;semantic web services;heuristic;11
+705;machine learning techniques;uses;linked data;heuristic;2
+531;machine translation systems;conjunction;semantic search engines;luanyi;1
+148;machining;uses;web ontology language;heuristic;1
+694;manets;includes;semantic descriptions;luanyi;2
+959;mashup;selects;semantic web services;openie;1
+783;mass customization;uses;semantic description;luanyi;1
+207;microdata;uses;linked data;heuristic;1
+936;mobile applications;uses;linked data;heuristic;2
+172;mobile applications;uses;semantic description;heuristic;1
+924;mobile services;uses;linked data;luanyi;1
+181;mobile web;conjunction;linked data;heuristic;1
+56;model transformations;uses;ontology alignment;luanyi;1
+962;modeling languages;uses;web ontology language;luanyi;4
+53;mse;uses;web ontology language;heuristic;1
+723;multimedia contents;uses;web ontology language;heuristic;1
+816;named entity recognition;uses;linked data;heuristic;2
+527;named entity recognition;is;resource description framework (rdf);luanyi;1
+977;natural language interfaces;uses;ontology alignment;luanyi;1
+796;natural language processing systems;conjunction;ontology alignment;luanyi;2
+398;natural language processing systems;uses;semantic description;heuristic;1
+201;natural language processing systems;conjunction;semantic search engines;luanyi;1
+807;natural language processing systems;conjunction;semantic web services;luanyi;1
+654;natural language processing systems;conjunction;web ontology language;luanyi;1
+825;natural language understanding;conjunction;semantic search engines;luanyi;2
+340;network management;uses;semantic web services;heuristic;1
+126;on-line learning;conjunction;linked data;luanyi;1
+882;ontologies;conjunction;linked data;luanyi;9
+487;ontologies;conjunction;ontology alignment;luanyi;6
+248;ontologies;conjunction;resource description framework (rdf);luanyi;9
+778;ontologies;produces;semantic description;heuristic;56
+859;ontologies;produces;semantic descriptions;openie;1
+276;ontologies;uses;semantic search engine;heuristic;15
+957;ontologies;executes;semantic search engines;openie;2
+532;ontologies;uses;semantic web services;heuristic;226
+834;ontologies;uses;web ontology language;luanyi;25
+904;ontology alignment;uses;answering queries;heuristic;7
+759;ontology alignment;uses;argumentation;luanyi;2
+876;ontology alignment;uses;automated reasoning;luanyi;1
+813;ontology alignment;conjunction;automatic classification;luanyi;1
+526;ontology alignment;uses;background knowledge;luanyi;1
+989;ontology alignment;uses;bayesian networks;luanyi;1
+854;ontology alignment;conjunction;blogs;luanyi;1
+60;ontology alignment;conjunction;change detection;luanyi;1
+546;ontology alignment;uses;clone detection;heuristic;1
+328;ontology alignment;conjunction;clustering algorithms;luanyi;3
+718;ontology alignment;produces;communication;openie;1
+583;ontology alignment;is;computer science;luanyi;1
+899;ontology alignment;conjunction;concept lattices;luanyi;1
+381;ontology alignment;executes;concept similarity;heuristic;21
+589;ontology alignment;conjunction;context modeling;heuristic;1
+263;ontology alignment;uses;controlled natural language;luanyi;1
+313;ontology alignment;is;data integration;heuristic;20
+744;ontology alignment;conjunction;data management;heuristic;1
+243;ontology alignment;uses;decision tables;heuristic;1
+283;ontology alignment;uses;description logics;heuristic;1
+427;ontology alignment;uses;distributed environments;luanyi;1
+641;ontology alignment;conjunction;document clustering;luanyi;1
+379;ontology alignment;uses;domain-specific ontologies;luanyi;1
+238;ontology alignment;conjunction;engineering;luanyi;2
+46;ontology alignment;conjunction;evaluation system;luanyi;1
+713;ontology alignment;conjunction;facebook;luanyi;1
+730;ontology alignment;uses;fuzzy sets theory;luanyi;1
+522;ontology alignment;uses;grid environments;luanyi;2
+775;ontology alignment;uses;hownet;heuristic;1
+537;ontology alignment;uses;image retrieval;heuristic;2
+732;ontology alignment;conjunction;inference;luanyi;1
+163;ontology alignment;conjunction;information extraction;luanyi;1
+401;ontology alignment;conjunction;information fusion;heuristic;1
+949;ontology alignment;is;information integration;luanyi;2
+89;ontology alignment;conjunction;information retrieval;luanyi;1
+696;ontology alignment;uses;interactive visualizations;luanyi;2
+95;ontology alignment;conjunction;knowledge acquisition;luanyi;2
+14;ontology alignment;uses;knowledge bases;heuristic;2
+888;ontology alignment;supports;knowledge exchange;openie;1
+910;ontology alignment;conjunction;learning;luanyi;2
+706;ontology alignment;uses;machine learning techniques;luanyi;1
+993;ontology alignment;is;modeling languages;luanyi;1
+472;ontology alignment;uses;mutual informations;luanyi;1
+505;ontology alignment;conjunction;ontologies;luanyi;6
+348;ontology alignment;uses;ontology alignment;luanyi;4
+749;ontology alignment;conjunction;ontology construction;luanyi;1
+964;ontology alignment;conjunction;ontology evolution;luanyi;1
+325;ontology alignment;uses;ontology integration;luanyi;1
+302;ontology alignment;conjunction;ontology learning;luanyi;1
+508;ontology alignment;conjunction;ontology merging;luanyi;1
+258;ontology alignment;uses;ontology technology;luanyi;1
+764;ontology alignment;uses;particle swarm optimization algorithms;luanyi;1
+253;ontology alignment;includes;pervasive computing environments;luanyi;1
+0;ontology alignment;uses;posterior probability;luanyi;1
+524;ontology alignment;conjunction;question answering systems;luanyi;1
+673;ontology alignment;conjunction;reasoning algorithms;luanyi;3
+811;ontology alignment;uses;relational database systems;luanyi;1
+913;ontology alignment;uses;rough sets theory;luanyi;1
+795;ontology alignment;conjunction;schema integration;heuristic;1
+129;ontology alignment;conjunction;schema mappings;luanyi;2
+97;ontology alignment;conjunction;schema matching;heuristic;1
+983;ontology alignment;conjunction;search engines;heuristic;1
+79;ontology alignment;is;semantic descriptions;luanyi;2
+536;ontology alignment;uses;semantic interoperability;luanyi;1
+504;ontology alignment;conjunction;semantic relationships;luanyi;3
+196;ontology alignment;conjunction;semantic similarity measures;luanyi;2
+192;ontology alignment;is;semantic web technologies;luanyi;1
+405;ontology alignment;conjunction;sentence similarity;luanyi;2
+315;ontology alignment;conjunction;service orchestration;heuristic;1
+382;ontology alignment;conjunction;social networks;luanyi;1
+643;ontology alignment;conjunction;spatial databases;heuristic;1
+385;ontology alignment;conjunction;testing and debugging;luanyi;1
+274;ontology alignment;conjunction;text mining;luanyi;1
+435;ontology alignment;uses;vector space models;luanyi;1
+503;ontology alignment;conjunction;web 2.0;luanyi;1
+33;ontology alignment;supports;web applications;heuristic;9
+665;ontology alignment;is;web of data;luanyi;1
+955;ontology alignment;conjunction;web service composition;luanyi;1
+170;ontology alignment;conjunction;web-mining;heuristic;1
+850;ontology alignment;conjunction;word sense disambiguation;heuristic;1
+204;ontology alignment;uses;wordnet;luanyi;1
+346;ontology building;conjunction;ontology alignment;luanyi;2
+628;ontology building;conjunction;semantic search engines;luanyi;2
+600;ontology construction;uses;linked data;luanyi;1
+702;ontology construction;conjunction;ontology alignment;luanyi;2
+424;ontology construction;uses;resource description framework (rdf);heuristic;1
+920;ontology construction;uses;semantic descriptions;heuristic;2
+733;ontology construction;conjunction;semantic search engines;heuristic;1
+483;ontology construction;uses;web ontology language;luanyi;1
+975;ontology development;conjunction;ontology alignment;luanyi;2
+538;ontology development;conjunction;web ontology language;luanyi;1
+171;ontology evaluation;conjunction;ontology alignment;luanyi;1
+43;ontology evolution;conjunction;ontology alignment;luanyi;1
+392;ontology evolution;is;semantic descriptions;luanyi;1
+635;ontology evolution;conjunction;semantic search engines;luanyi;1
+614;ontology integration;includes;ontology alignment;luanyi;1
+81;ontology language;uses;resource description framework (rdf);luanyi;1
+862;ontology language;defines;semantic web services;heuristic;18
+797;ontology language;conjunction;web ontology language;luanyi;1
+149;ontology learning;conjunction;ontology alignment;luanyi;1
+169;ontology learning;uses;resource description framework (rdf);heuristic;1
+71;ontology learning;is;semantic descriptions;luanyi;2
+681;ontology learning;conjunction;semantic search engines;heuristic;1
+27;ontology merging;conjunction;ontology alignment;luanyi;2
+290;ontology modeling;conjunction;ontology alignment;luanyi;1
+414;ontology technology;conjunction;semantic web services;heuristic;2
+291;ontology technology;conjunction;web ontology language;luanyi;2
+835;open source software;uses;linked data;luanyi;1
+21;organizational memory;uses;resource description framework (rdf);heuristic;1
+988;orthography;conjunction;semantic search engines;luanyi;1
+112;parsing algorithm;uses;linked data;luanyi;1
+489;personalized services;conjunction;semantic web services;luanyi;1
+157;pervasive;conjunction;semantic search engines;heuristic;1
+474;petri nets;uses;semantic web services;heuristic;23
+187;phonology;conjunction;semantic search engines;luanyi;1
+418;policy specification;uses;resource description framework (rdf);luanyi;1
+740;privacy;uses;web ontology language;heuristic;1
+502;process management;combines;semantic web services;heuristic;9
+491;product configuration;uses;web ontology language;heuristic;1
+467;product family design;uses;web ontology language;heuristic;1
+320;programming languages;conjunction;resource description framework (rdf);luanyi;1
+101;propositional logic;uses;web ontology language;heuristic;1
+737;query expansion;uses;ontology alignment;luanyi;1
+821;query processing;links;linked data;heuristic;20
+996;query processing;uses;ontology alignment;luanyi;1
+968;question answering systems;uses;linked data;luanyi;3
+109;question answering systems;uses;ontology alignment;luanyi;3
+199;question answering systems;uses;semantic search engine;luanyi;1
+413;question answering systems;conjunction;semantic search engines;luanyi;4
+731;rdf data;interacts;linked data;heuristic;22
+607;rdf data;uses;resource description framework (rdf);heuristic;29
+838;rdf data;uses;semantic search engine;luanyi;1
+230;re-engineering;uses;linked data;heuristic;4
+140;reasoning algorithms;provides;linked data;heuristic;11
+280;reasoning algorithms;uses;semantic web services;heuristic;19
+4;reasoning algorithms;conjunction;web ontology language;luanyi;1
+602;recommendation;is;linked data;luanyi;1
+519;recommendation;conjunction;semantic search engine;heuristic;1
+349;recommendation;conjunction;semantic web services;luanyi;1
+219;recommender systems;uses;linked data;luanyi;1
+174;recommender systems;includes;semantic web services;luanyi;1
+900;relation extraction;uses;semantic search engine;luanyi;1
+158;relational database systems;uses;ontology alignment;heuristic;1
+178;relational database systems;conjunction;resource description framework (rdf);luanyi;2
+373;relational database systems;acquires;web ontology language;heuristic;12
+388;representational state transfer;conjunction;web ontology language;luanyi;1
+30;resource description framework (rdf);uses;abstract syntax;luanyi;1
+701;resource description framework (rdf);conjunction;ajax;luanyi;1
+200;resource description framework (rdf);conjunction;caching;luanyi;1
+729;resource description framework (rdf);includes;component-based software engineering;luanyi;1
+139;resource description framework (rdf);is;constraint language;heuristic;1
+725;resource description framework (rdf);conjunction;content management;heuristic;1
+585;resource description framework (rdf);uses;data exchange;heuristic;10
+49;resource description framework (rdf);conjunction;data integration;luanyi;1
+851;resource description framework (rdf);conjunction;data mining;luanyi;1
+927;resource description framework (rdf);uses;database systems;luanyi;3
+100;resource description framework (rdf);conjunction;dbpedia;luanyi;2
+482;resource description framework (rdf);conjunction;description logics;luanyi;1
+400;resource description framework (rdf);uses;digital libraries;luanyi;1
+650;resource description framework (rdf);acquires;domain knowledge;heuristic;9
+842;resource description framework (rdf);conjunction;dublin core;luanyi;1
+70;resource description framework (rdf);uses;engine;heuristic;9
+525;resource description framework (rdf);conjunction;extensible markup language;luanyi;4
+687;resource description framework (rdf);uses;formal specifications;heuristic;5
+703;resource description framework (rdf);produces;inference;heuristic;26
+529;resource description framework (rdf);conjunction;intelligent agents;luanyi;1
+980;resource description framework (rdf);proposes;internet;heuristic;11
+521;resource description framework (rdf);extends;knowledge bases;heuristic;12
+918;resource description framework (rdf);conjunction;learning object metadata;luanyi;1
+371;resource description framework (rdf);uses;libraries;heuristic;12
+833;resource description framework (rdf);conjunction;linked data;luanyi;7
+391;resource description framework (rdf);is;linked open data;luanyi;8
+931;resource description framework (rdf);conjunction;microdata;luanyi;1
+36;resource description framework (rdf);conjunction;natural language processing systems;luanyi;1
+791;resource description framework (rdf);conjunction;ontologies;luanyi;4
+73;resource description framework (rdf);is;ontology language;luanyi;11
+173;resource description framework (rdf);provides;ontology modeling;openie;1
+335;resource description framework (rdf);conjunction;optimization;luanyi;1
+77;resource description framework (rdf);uses;query optimization;luanyi;1
+90;resource description framework (rdf);includes;rdf data;luanyi;1
+679;resource description framework (rdf);uses;rdf graph;heuristic;21
+257;resource description framework (rdf);conjunction;reasoning algorithms;luanyi;1
+395;resource description framework (rdf);is;recommendation;openie;2
+55;resource description framework (rdf);uses;relational data;luanyi;1
+324;resource description framework (rdf);matches;relational database systems;heuristic;29
+20;resource description framework (rdf);uses;search engines;heuristic;16
+545;resource description framework (rdf);includes;semantic data;luanyi;1
+651;resource description framework (rdf);is;semantic interoperability;luanyi;1
+321;resource description framework (rdf);is;semantic relationships;luanyi;2
+806;resource description framework (rdf);conjunction;semantic web rule languages;luanyi;7
+378;resource description framework (rdf);produces;semantic web services;heuristic;10
+939;resource description framework (rdf);is;semantic web technologies;luanyi;68
+978;resource description framework (rdf);is;semantic wikis;luanyi;1
+387;resource description framework (rdf);provides;service ontology;heuristic;1
+909;resource description framework (rdf);is;social networks;luanyi;1
+540;resource description framework (rdf);includes;social sciences;luanyi;1
+480;resource description framework (rdf);conjunction;sparql;luanyi;63
+803;resource description framework (rdf);conjunction;spatial data;luanyi;1
+963;resource description framework (rdf);supports;tool support;heuristic;1
+330;resource description framework (rdf);is;vocabulary;luanyi;2
+849;resource description framework (rdf);is;web applications;luanyi;8
+638;resource description framework (rdf);represents;web contents;openie;1
+327;resource description framework (rdf);is;web engineering;luanyi;1
+584;resource description framework (rdf);represents;web information;openie;1
+394;resource description framework (rdf);conjunction;web ontology language;luanyi;233
+189;resource description framework (rdf);conjunction;web-searching;luanyi;1
+539;resource description framework (rdf);conjunction;world wide web;luanyi;1
+760;resource description framework (rdf);includes;xml data;openie;1
+308;resource description framework (rdf);conjunction;xpath;luanyi;1
+96;resource discovery;uses;linked data;heuristic;1
+919;resource discovery;uses;web ontology language;luanyi;1
+516;robots;uses;semantic web services;heuristic;2
+127;schema integration;conjunction;ontology alignment;luanyi;2
+446;schema matching;conjunction;ontology alignment;luanyi;1
+634;scientific data;uses;linked data;luanyi;1
+956;search engines;links;linked data;heuristic;9
+5;search engines;conjunction;ontology alignment;luanyi;1
+497;search engines;provides;semantic search engine;heuristic;17
+915;search engines;includes;semantic search engines;luanyi;4
+515;search engines;uses;semantic web services;luanyi;2
+637;search engines;uses;web ontology language;luanyi;2
+186;security models;uses;resource description framework (rdf);luanyi;1
+153;semantic data;conjunction;linked data;luanyi;1
+183;semantic data;uses;ontology alignment;luanyi;1
+331;semantic data;uses;web ontology language;heuristic;2
+748;semantic description;conjunction;biometrics;heuristic;1
+231;semantic description;uses;component-based software engineering;heuristic;11
+509;semantic description;uses;description logics;luanyi;1
+47;semantic description;uses;digital libraries;luanyi;1
+249;semantic description;produces;engine;heuristic;16
+115;semantic description;uses;formal specifications;luanyi;1
+104;semantic description;uses;fuzzy logics;luanyi;1
+143;semantic description;learns;learning;heuristic;11
+343;semantic description;uses;model-driven architectures;luanyi;1
+453;semantic description;uses;ontologies;luanyi;6
+708;semantic description;uses;ontology alignment;heuristic;1
+448;semantic description;uses;ontology language;luanyi;2
+364;semantic description;uses;parallel programming;heuristic;2
+675;semantic description;supports;reasoning algorithms;openie;1
+812;semantic description;uses;semantic descriptions;luanyi;1
+130;semantic description;uses;semantic relationships;luanyi;1
+259;semantic description;uses;semantic web technologies;luanyi;1
+132;semantic description;uses;web ontology language;openie;1
+667;semantic description;uses;wordnet;luanyi;1
+463;semantic descriptions;supports;business services;openie;1
+917;semantic descriptions;is;component-based software engineering;openie;1
+270;semantic descriptions;uses;heterogeneous databases;luanyi;1
+595;semantic descriptions;conjunction;intelligent agents;luanyi;3
+914;semantic descriptions;uses;ontologies;luanyi;3
+866;semantic descriptions;uses;semantic description;heuristic;1
+254;semantic descriptions;uses;semantic descriptions;luanyi;2
+7;semantic descriptions;is;semantic relationships;luanyi;1
+752;semantic descriptions;conjunction;semantic search engine;luanyi;1
+790;semantic descriptions;uses;semantic web technologies;openie;1
+738;semantic descriptions;conjunction;verification;luanyi;2
+689;semantic desktop;uses;linked data;heuristic;1
+449;semantic desktop;uses;semantic search engines;luanyi;1
+633;semantic distance;uses;linked data;luanyi;1
+640;semantic heterogeneity;uses;ontology alignment;luanyi;1
+389;semantic heterogeneity;uses;semantic web services;luanyi;1
+624;semantic interoperability;uses;ontology alignment;luanyi;10
+319;semantic interoperability;conjunction;semantic search engines;luanyi;1
+947;semantic interoperability;uses;semantic web services;luanyi;1
+430;semantic interoperability;uses;web ontology language;luanyi;2
+431;semantic metadata;uses;resource description framework (rdf);heuristic;1
+500;semantic relationships;uses;linked data;luanyi;2
+367;semantic relationships;uses;ontology alignment;luanyi;1
+799;semantic relationships;uses;semantic description;luanyi;1
+475;semantic relationships;conjunction;semantic descriptions;luanyi;1
+295;semantic relationships;conjunction;semantic search engine;luanyi;1
+492;semantic relationships;conjunction;semantic search engines;luanyi;10
+133;semantic relationships;uses;semantic web services;luanyi;4
+94;semantic relationships;conjunction;web ontology language;luanyi;2
+499;semantic search engine;includes;component-based software engineering;luanyi;1
+412;semantic search engine;uses;database systems;luanyi;1
+981;semantic search engine;uses;description logics;luanyi;1
+562;semantic search engine;uses;engine;heuristic;17
+92;semantic search engine;is;information technology;luanyi;1
+273;semantic search engine;uses;knowledge bases;heuristic;4
+881;semantic search engine;uses;linked data;luanyi;1
+597;semantic search engine;uses;natural language interfaces;luanyi;4
+844;semantic search engine;uses;ontologies;luanyi;5
+225;semantic search engine;uses;ontology technology;luanyi;1
+716;semantic search engine;conjunction;recommendation systems;luanyi;1
+54;semantic search engine;conjunction;search engines;luanyi;5
+513;semantic search engine;uses;semantic data;luanyi;1
+299;semantic search engine;uses;semantic relationships;luanyi;2
+566;semantic search engine;uses;semantic search engines;luanyi;2
+368;semantic search engine;uses;semantic web technologies;luanyi;3
+118;semantic search engine;uses;user interfaces;luanyi;1
+237;semantic search engine;uses;wordnet;luanyi;1
+437;semantic search engines;conjunction;adaptive hypermedia;luanyi;1
+277;semantic search engines;conjunction;agent technology;luanyi;1
+840;semantic search engines;conjunction;artificial intelligence;luanyi;1
+471;semantic search engines;conjunction;audio;luanyi;2
+406;semantic search engines;uses;automatic image annotation;luanyi;1
+490;semantic search engines;conjunction;cloud computing;luanyi;3
+801;semantic search engines;is;component-based software engineering;openie;1
+384;semantic search engines;conjunction;data integration;luanyi;1
+8;semantic search engines;conjunction;data mining;luanyi;1
+369;semantic search engines;conjunction;database systems;luanyi;1
+88;semantic search engines;uses;description logics;luanyi;1
+871;semantic search engines;uses;digital images;heuristic;1
+58;semantic search engines;conjunction;document classification;heuristic;1
+210;semantic search engines;uses;domain-specific ontologies;luanyi;5
+262;semantic search engines;conjunction;education;luanyi;1
+469;semantic search engines;uses;electronic documents;luanyi;1
+867;semantic search engines;uses;email;luanyi;1
+727;semantic search engines;uses;engine;heuristic;47
+994;semantic search engines;uses;fuzzy description logic;heuristic;2
+828;semantic search engines;uses;graph matchings;luanyi;1
+969;semantic search engines;uses;hierarchical models;luanyi;2
+709;semantic search engines;conjunction;image search;luanyi;1
+950;semantic search engines;uses;index structure;luanyi;1
+197;semantic search engines;uses;inference;luanyi;2
+128;semantic search engines;executes;information extraction;heuristic;9
+417;semantic search engines;conjunction;information fusion;luanyi;1
+439;semantic search engines;uses;information retrieval;heuristic;34
+657;semantic search engines;conjunction;interactive visualizations;luanyi;1
+891;semantic search engines;produces;internet;heuristic;11
+165;semantic search engines;conjunction;keyword search;luanyi;4
+111;semantic search engines;provides;knowledge bases;heuristic;25
+906;semantic search engines;conjunction;knowledge discovery;luanyi;1
+440;semantic search engines;conjunction;knowledge management;luanyi;1
+843;semantic search engines;uses;knowledge representation;luanyi;1
+660;semantic search engines;learns;learning;heuristic;24
+218;semantic search engines;conjunction;linked data;luanyi;1
+953;semantic search engines;uses;linked open data;heuristic;8
+581;semantic search engines;conjunction;machine learning techniques;luanyi;1
+587;semantic search engines;conjunction;machine translation systems;luanyi;1
+10;semantic search engines;uses;map-reduce;luanyi;1
+461;semantic search engines;uses;mobile agents;luanyi;1
+202;semantic search engines;conjunction;mobile computing;luanyi;1
+894;semantic search engines;uses;mobile devices;luanyi;2
+683;semantic search engines;uses;mobile phones;luanyi;2
+124;semantic search engines;uses;named entity recognition;luanyi;1
+649;semantic search engines;is;natural language processing systems;luanyi;1
+226;semantic search engines;conjunction;natural language understanding;luanyi;1
+310;semantic search engines;provides;natural languages;heuristic;9
+621;semantic search engines;uses;ontologies;luanyi;16
+459;semantic search engines;conjunction;ontology alignment;luanyi;1
+444;semantic search engines;conjunction;ontology building;heuristic;1
+326;semantic search engines;conjunction;ontology construction;luanyi;1
+724;semantic search engines;conjunction;ontology evolution;luanyi;1
+979;semantic search engines;conjunction;ontology learning;luanyi;2
+296;semantic search engines;uses;parallelism;luanyi;1
+655;semantic search engines;conjunction;personalizations;luanyi;2
+190;semantic search engines;conjunction;pervasive;heuristic;1
+443;semantic search engines;uses;pervasive computing;luanyi;1
+697;semantic search engines;conjunction;question answering systems;luanyi;4
+944;semantic search engines;uses;rdf data;luanyi;1
+16;semantic search engines;conjunction;reasoning algorithms;luanyi;2
+631;semantic search engines;conjunction;recommendation;luanyi;1
+28;semantic search engines;uses;resource description framework (rdf);luanyi;1
+99;semantic search engines;uses;search engines;luanyi;11
+86;semantic search engines;conjunction;semantic interoperability;luanyi;1
+306;semantic search engines;conjunction;semantic relationships;luanyi;1
+564;semantic search engines;uses;semantic search engine;luanyi;2
+83;semantic search engines;conjunction;semantic search engines;luanyi;6
+636;semantic search engines;uses;semantic similarity measures;heuristic;13
+272;semantic search engines;uses;semantic web services;heuristic;6
+771;semantic search engines;is;semantic web technologies;luanyi;1
+409;semantic search engines;uses;social networks;luanyi;2
+410;semantic search engines;conjunction;social search;luanyi;1
+285;semantic search engines;conjunction;social software;luanyi;1
+896;semantic search engines;uses;spatial data infrastructure;luanyi;1
+785;semantic search engines;provides;speech recognition;heuristic;10
+479;semantic search engines;uses;text mining;luanyi;1
+57;semantic search engines;uses;user query;luanyi;1
+282;semantic search engines;conjunction;validation;heuristic;1
+82;semantic search engines;conjunction;vector space models;luanyi;1
+762;semantic search engines;requires;verification;openie;1
+872;semantic search engines;conjunction;visualization;luanyi;1
+250;semantic search engines;uses;web ontology language;luanyi;2
+857;semantic search engines;improves;web searches;openie;1
+719;semantic search engines;conjunction;web services discovery;heuristic;1
+241;semantic search engines;conjunction;wiki;luanyi;1
+615;semantic search engines;conjunction;wordnet;luanyi;1
+136;semantic similarity measures;uses;ontology alignment;luanyi;1
+9;semantic web rule languages;is;web ontology language;luanyi;1
+747;semantic web service discovery;uses;ontology alignment;luanyi;2
+873;semantic web service discovery;conjunction;semantic search engines;luanyi;1
+817;semantic web services;uses;access control;luanyi;3
+39;semantic web services;uses;agent technology;luanyi;2
+376;semantic web services;uses;answering queries;heuristic;1
+889;semantic web services;uses;artificial intelligence;heuristic;5
+438;semantic web services;requires;authentication;openie;1
+433;semantic web services;supports;automated reasoning;openie;2
+826;semantic web services;uses;automatic composition;luanyi;1
+682;semantic web services;supports;automation;openie;6
+12;semantic web services;uses;bayesian classification;luanyi;1
+987;semantic web services;conjunction;blogging;luanyi;2
+952;semantic web services;conjunction;blogs;luanyi;1
+175;semantic web services;uses;business logic;luanyi;1
+986;semantic web services;uses;business process execution language;luanyi;4
+180;semantic web services;conjunction;cloud computing;heuristic;1
+6;semantic web services;uses;collaborative filtering algorithms;luanyi;1
+422;semantic web services;uses;collaborative tagging;luanyi;1
+616;semantic web services;conjunction;communication;luanyi;2
+535;semantic web services;includes;component-based software engineering;luanyi;1
+663;semantic web services;uses;database management;luanyi;1
+691;semantic web services;uses;description logics;luanyi;6
+358;semantic web services;uses;distributed applications;luanyi;1
+870;semantic web services;uses;distributed architectures;luanyi;1
+300;semantic web services;uses;distributed systems;luanyi;1
+720;semantic web services;provides;dynamic composition;heuristic;10
+356;semantic web services;provides;engineering;heuristic;10
+162;semantic web services;uses;explicit knowledge;heuristic;2
+543;semantic web services;uses;formal models;luanyi;2
+119;semantic web services;conjunction;grid services;luanyi;2
+922;semantic web services;is;information integration;luanyi;1
+606;semantic web services;uses;information theory;heuristic;1
+644;semantic web services;supports;intelligent agents;heuristic;9
+647;semantic web services;uses;knowledge acquisition;luanyi;3
+23;semantic web services;conjunction;knowledge engineering;luanyi;1
+305;semantic web services;conjunction;knowledge management;luanyi;1
+432;semantic web services;conjunction;knowledge representation;luanyi;1
+642;semantic web services;uses;learning;heuristic;24
+271;semantic web services;uses;linear logic;heuristic;3
+556;semantic web services;uses;mashup;luanyi;1
+377;semantic web services;uses;matching algorithm;luanyi;2
+50;semantic web services;conjunction;mobile computing;luanyi;1
+167;semantic web services;uses;mobile devices;luanyi;1
+741;semantic web services;uses;modeling languages;luanyi;2
+52;semantic web services;conjunction;multi-agents;luanyi;1
+646;semantic web services;uses;natural languages;heuristic;5
+236;semantic web services;uses;ontologies;luanyi;21
+847;semantic web services;uses;ontology alignment;luanyi;2
+35;semantic web services;uses;ontology evolution;luanyi;1
+269;semantic web services;uses;ontology integration;luanyi;1
+370;semantic web services;uses;ontology language;luanyi;1
+488;semantic web services;conjunction;ontology technology;luanyi;1
+864;semantic web services;provides;open source software;heuristic;9
+312;semantic web services;conjunction;p2p computing;luanyi;1
+659;semantic web services;acquires;petri nets;heuristic;10
+550;semantic web services;requires;privacy;openie;1
+901;semantic web services;represents;programming models;openie;1
+393;semantic web services;conjunction;query processing;heuristic;1
+596;semantic web services;conjunction;reasoning algorithms;luanyi;2
+542;semantic web services;uses;reference architectures;luanyi;1
+903;semantic web services;uses;resource description framework (rdf);luanyi;1
+892;semantic web services;includes;semantic description;luanyi;2
+252;semantic web services;uses;semantic interoperability;luanyi;2
+858;semantic web services;uses;semantic relationships;luanyi;4
+125;semantic web services;conjunction;semantic search engine;luanyi;1
+191;semantic web services;uses;semantic search engines;luanyi;1
+293;semantic web services;conjunction;semantic web service discovery;luanyi;1
+452;semantic web services;uses;semantic web services;luanyi;18
+286;semantic web services;is;semantic web technologies;luanyi;2
+59;semantic web services;conjunction;semantic wikis;luanyi;3
+402;semantic web services;uses;service compositions;luanyi;2
+69;semantic web services;provides;service execution;heuristic;9
+769;semantic web services;uses;service management;heuristic;5
+457;semantic web services;produces;service matching;heuristic;9
+185;semantic web services;uses;service-oriented computing;luanyi;3
+883;semantic web services;proposes;services discovery;heuristic;12
+404;semantic web services;includes;services selection;luanyi;1
+323;semantic web services;uses;shortest paths;luanyi;1
+415;semantic web services;conjunction;social networks;luanyi;6
+345;semantic web services;conjunction;software agents;luanyi;3
+662;semantic web services;uses;sparql;luanyi;1
+309;semantic web services;supports;supply chain coordination;openie;1
+645;semantic web services;uses;system architectures;luanyi;1
+160;semantic web services;uses;text clustering;luanyi;1
+746;semantic web services;uses;tool support;luanyi;1
+541;semantic web services;uses;uml profiles;luanyi;1
+75;semantic web services;conjunction;user profiles;luanyi;1
+930;semantic web services;uses;user query;luanyi;1
+819;semantic web services;uses;visual programming;luanyi;1
+961;semantic web services;uses;visualization;luanyi;1
+232;semantic web services;uses;web 2.0;luanyi;1
+611;semantic web services;uses;web of data;luanyi;1
+612;semantic web services;uses;web ontology language;luanyi;4
+222;semantic web services;proposes;web service composition;heuristic;19
+878;semantic web services;uses;web service description;luanyi;2
+685;semantic web services;uses;web services discovery;luanyi;2
+407;semantic web services;uses;wi-fi;heuristic;3
+933;semantic web technologies;conjunction;linked data;luanyi;17
+965;semantic web technologies;includes;ontology alignment;luanyi;1
+853;semantic web technologies;conjunction;resource description framework (rdf);luanyi;1
+954;semantic web technologies;includes;semantic description;luanyi;1
+498;semantic web technologies;conjunction;semantic descriptions;luanyi;3
+693;semantic web technologies;uses;semantic search engine;luanyi;2
+941;semantic web technologies;uses;semantic web services;luanyi;4
+146;semantic web technologies;conjunction;web ontology language;luanyi;4
+34;semantic wikis;conjunction;semantic search engines;luanyi;3
+365;sensor networks;uses;ontology alignment;luanyi;1
+317;sensor networks;conjunction;semantic web services;heuristic;1
+478;sentence similarity;conjunction;ontology alignment;heuristic;2
+578;service architecture;uses;resource description framework (rdf);heuristic;1
+194;service compositions;conjunction;ontology alignment;luanyi;3
+560;service compositions;uses;semantic description;luanyi;1
+176;service compositions;proposes;semantic web services;heuristic;9
+995;service execution;is;semantic web services;luanyi;1
+87;service matching;uses;semantic web services;luanyi;2
+932;service ontology;proposes;semantic web services;heuristic;13
+570;service orchestration;conjunction;ontology alignment;luanyi;1
+195;services discovery;selects;semantic web services;heuristic;9
+1;services selection;uses;semantic web services;luanyi;1
+159;smart phones;uses;semantic search engines;luanyi;1
+42;social networks;conjunction;ontology alignment;luanyi;1
+865;social networks;uses;web ontology language;luanyi;2
+824;social relationships;uses;semantic search engines;luanyi;1
+216;software agents;uses;semantic description;luanyi;1
+227;software agents;uses;semantic web services;heuristic;13
+656;software agents;publishes;web ontology language;heuristic;11
+122;software design;uses;web ontology language;heuristic;3
+715;software design patterns;uses;web ontology language;heuristic;1
+921;software development life cycle;uses;semantic web services;luanyi;1
+710;software engineering;uses;linked data;luanyi;1
+447;software maintenance;uses;ontology alignment;luanyi;1
+879;sparql;links;linked data;heuristic;59
+789;sparql;is;resource description framework (rdf);luanyi;4
+423;sparql;conjunction;semantic descriptions;luanyi;1
+425;sparql;conjunction;web ontology language;luanyi;7
+925;spatial data;uses;linked data;luanyi;2
+134;spatial databases;conjunction;ontology alignment;heuristic;1
+260;speech recognition;conjunction;semantic search engines;luanyi;1
+942;star schema;uses;web ontology language;luanyi;1
+768;stream data;uses;linked data;heuristic;11
+734;supervised machine learning;uses;resource description framework (rdf);heuristic;1
+251;supervised machine learning;uses;web ontology language;luanyi;1
+314;supply chain coordination;uses;semantic web services;luanyi;2
+984;telecommunications industry;uses;semantic web services;luanyi;2
+465;testing and debugging;conjunction;ontology alignment;heuristic;1
+793;text clustering;uses;semantic search engine;luanyi;1
+233;text mining;conjunction;linked data;heuristic;2
+549;text mining;conjunction;ontology alignment;heuristic;1
+897;text mining;uses;semantic web services;luanyi;1
+275;twitter;is;linked data;luanyi;1
+943;ubiquitous computing environment;uses;web ontology language;heuristic;5
+510;uml models;visualizes;web ontology language;heuristic;9
+235;universities;links;linked data;heuristic;17
+363;user experience;uses;semantic search engine;luanyi;1
+676;user interfaces;links;linked data;heuristic;13
+617;user navigation;uses;semantic search engines;luanyi;1
+580;user profiling;conjunction;semantic search engines;heuristic;1
+755;user query;uses;ontology alignment;luanyi;1
+868;user query;uses;semantic search engine;luanyi;1
+784;user query;uses;semantic search engines;luanyi;1
+347;user query;uses;web ontology language;heuristic;6
+935;validation;conjunction;ontology alignment;luanyi;1
+593;validation;uses;resource description framework (rdf);heuristic;1
+877;validation;uses;semantic description;heuristic;7
+208;validation;conjunction;semantic search engines;heuristic;1
+971;validation;uses;web ontology language;heuristic;1
+670;verification;uses;web ontology language;heuristic;2
+999;visualization;links;linked data;heuristic;17
+485;vocabulary;conjunction;linked data;luanyi;1
+441;vocabulary;defines;resource description framework (rdf);heuristic;14
+360;vocabulary;converts;web ontology language;heuristic;10
+496;voicexml;conjunction;resource description framework (rdf);luanyi;4
+610;voicexml;conjunction;web ontology language;luanyi;4
+206;web applications;uses;linked data;luanyi;4
+945;web applications;uses;ontology alignment;luanyi;1
+658;web applications;uses;resource description framework (rdf);luanyi;2
+604;web applications;uses;web ontology language;luanyi;1
+761;web browsing;uses;linked data;luanyi;1
+48;web contents;uses;linked data;luanyi;2
+501;web contents;uses;resource description framework (rdf);luanyi;1
+800;web contents;uses;semantic description;luanyi;1
+91;web contents;uses;semantic search engine;luanyi;1
+116;web contents;uses;semantic search engines;luanyi;1
+494;web contents;uses;semantic web services;luanyi;1
+209;web contents;uses;web ontology language;luanyi;2
+559;web crawlers;conjunction;resource description framework (rdf);luanyi;1
+107;web engineering;uses;resource description framework (rdf);luanyi;2
+336;web engineering;uses;semantic web services;luanyi;1
+567;web information;uses;semantic web services;heuristic;2
+403;web of data;uses;resource description framework (rdf);luanyi;2
+757;web of data;uses;semantic search engine;luanyi;1
+533;web ontology language;provides;access control;openie;1
+794;web ontology language;supports;business intelligence;heuristic;1
+229;web ontology language;conjunction;coloured petri nets;luanyi;1
+318;web ontology language;includes;component-based software engineering;heuristic;10
+767;web ontology language;is;computer science;luanyi;1
+805;web ontology language;supports;context reasoning;heuristic;11
+557;web ontology language;conjunction;controlled natural language;luanyi;1
+506;web ontology language;provides;data integration;openie;1
+518;web ontology language;uses;description logics;luanyi;8
+281;web ontology language;defines;domain knowledge;heuristic;22
+937;web ontology language;includes;domain-specific ontologies;luanyi;1
+476;web ontology language;defines;engine;heuristic;11
+627;web ontology language;is;expert systems;luanyi;1
+93;web ontology language;is;extensible markup language;heuristic;1
+772;web ontology language;is;fuzzy extension;luanyi;1
+970;web ontology language;uses;fuzzy logics;luanyi;1
+434;web ontology language;is;haptics;heuristic;1
+928;web ontology language;conjunction;inference;luanyi;3
+558;web ontology language;represents;internet;heuristic;18
+193;web ontology language;conjunction;java;luanyi;2
+985;web ontology language;includes;knowledge bases;luanyi;1
+926;web ontology language;uses;knowledge engineering;luanyi;1
+147;web ontology language;is;knowledge management;luanyi;1
+72;web ontology language;uses;knowledge representation;luanyi;1
+750;web ontology language;conjunction;linked data;luanyi;1
+121;web ontology language;is;logic programming;luanyi;1
+304;web ontology language;is;mass customization;heuristic;2
+18;web ontology language;conjunction;object constraint language;luanyi;1
+131;web ontology language;includes;ontologies;luanyi;13
+680;web ontology language;includes;ontology construction;luanyi;2
+333;web ontology language;is;ontology language;luanyi;5
+64;web ontology language;provides;ontology modeling;openie;1
+470;web ontology language;conjunction;optimization;luanyi;1
+765;web ontology language;conjunction;pattern recognition;heuristic;1
+239;web ontology language;conjunction;pervasive computing;luanyi;1
+982;web ontology language;provides;query processing;heuristic;7
+383;web ontology language;supports;reasoning algorithms;openie;1
+822;web ontology language;is;recommendation;openie;1
+442;web ontology language;uses;relational data models;luanyi;1
+554;web ontology language;uses;relational database systems;luanyi;1
+577;web ontology language;conjunction;resource description framework (rdf);luanyi;4
+198;web ontology language;supports;search engines;openie;1
+339;web ontology language;is;semantic description;luanyi;1
+458;web ontology language;conjunction;semantic relationships;luanyi;3
+359;web ontology language;conjunction;semantic web rule languages;luanyi;50
+671;web ontology language;includes;semantic web services;luanyi;1
+29;web ontology language;is;semantic web technologies;luanyi;43
+845;web ontology language;conjunction;sparql;luanyi;31
+678;web ontology language;provides;tool support;heuristic;4
+287;web ontology language;uses;uml profiles;luanyi;1
+776;web ontology language;is;vocabulary;luanyi;2
+184;web ontology language;provides;web contents;heuristic;2
+65;web ontology language;uses;web of data;luanyi;1
+605;web ontology language;conjunction;web ontology language;luanyi;3
+484;web ontology language;produces;world wide web;heuristic;15
+372;web searches;uses;resource description framework (rdf);luanyi;1
+421;web searches;uses;semantic search engines;luanyi;3
+142;web service composition;conjunction;ontology alignment;luanyi;1
+344;web service composition;conjunction;semantic web services;luanyi;2
+690;web services discovery;conjunction;ontology alignment;luanyi;1
+390;web services discovery;uses;semantic description;luanyi;1
+751;web services discovery;uses;semantic web services;luanyi;1
+973;web-mining;conjunction;ontology alignment;luanyi;1
+353;web-mining;conjunction;semantic search engines;luanyi;1
+242;wiki;is;linked data;luanyi;1
+911;wiki;provides;semantic search engines;openie;1
+332;word sense disambiguation;conjunction;ontology alignment;luanyi;1
+182;word sense disambiguation;conjunction;semantic search engines;luanyi;2
+688;wordnet;is;web ontology language;luanyi;2
+839;world wide web;publishes;resource description framework (rdf);heuristic;9
+728;world wide web;is;semantic search engine;luanyi;1
+426;xacml;is;web ontology language;luanyi;1
+155;xml data;converts;resource description framework (rdf);heuristic;12
+520;xml schemas;conjunction;resource description framework (rdf);luanyi;7
+623;xml schemas;conjunction;web ontology language;luanyi;2
+154;xpath;conjunction;resource description framework (rdf);luanyi;1
+586;zig-bee;conjunction;web ontology language;luanyi;1

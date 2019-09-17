@@ -30,7 +30,7 @@ If you use our work please cite us with:
 Please follow this guide to run the code and reproduce our results. 
 
 ### Environments
-Our project uses both Python2.7 and Python3.6 (ensure you have Python 3.6 or above installed.). Python2.7 is used to run the Luan Yi et al. tool.
+Our project uses both Python 2.7 and Python 3.6 (ensure you have Python 3.6 or above installed.). Python2.7 is used to run the Luan Yi et al. tool.
 
 
 ### Downloads 
