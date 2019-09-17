@@ -60,7 +60,7 @@ python3 parse_input.py
 ```
 
 3. The script produces:
-- a directory **luanyi_input** that contains the input files to be fed to the Luanyi tools
+- a directory **luanyi_input/** that contains the input files to be fed to the Luanyi tools
 - **data.csv** a file that contains the mag_id, title, abstract, keywords, and doi (when available) of publications
 - **all_abstracts.txt** a textual file that contains all abstracts and that will be used later by the pipeline
 
@@ -73,8 +73,8 @@ To extract entities and relations from scientific publications our work has been
 1. Go to the directory luanyi-extractor/
 2. Please be sure you have already downloaded and tested the files coming from https://bitbucket.org/luanyi/scierc/src/master/
 3. Under master/ create the directories paths data/processed_data/json/ and data/processed_data/elmo/
-4. Copy the directory **luanyi_input** from ../data-preparation/ to master/data/processed_data/json/
-5. Create an empty directory **luanyi_input** (same name of above) also under data/processed_data/elmo/
+4. From data-preparation/ copy the directory **luanyi_input/** to master/data/processed_data/json/
+5. Create an empty directory luanyi_input/ (same name of above) also under master/data/processed_data/elmo/
 6. Go to master/
 7. Copy the files from the directory use/ to the directory master/
 8. Run 
@@ -89,9 +89,9 @@ python3 run.py
 
 The execution will produce a csv file called *luanyi_output.csv* under the luanyi-extractor/ directory.
 
-Please note that our project has been developed in Python 3.6 while the Luan Yi et al.'s tool uses Python 2.7.
+The execution will also produce the directory **csv_e_r/** that contains files where for each sentence a list of entities and a list of relations are associated. 
 
-The execution will also produce the directory **csv_e_r** that contains files where for each sentence a list of entities and a list of relations are associated. We suggest to run above commands in background since they are very time consuming.
+We suggest to run above commands in background since they are very time consuming.
 
 
 ### Extraction of CSO entities and Stanford Core NLP relations
