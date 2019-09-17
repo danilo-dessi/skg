@@ -9,7 +9,7 @@ class Mapper:
 
 	def verb_mapper(self):
 		verb_taxonomy = pd.read_csv('resources/SKG_predicates.csv', sep=';')
-		#print(verb_taxonomy.head(5))
+		
 		vMap = {}
 		vCount = {}
 		for i, r in verb_taxonomy.iterrows():
@@ -18,7 +18,6 @@ class Mapper:
 				index = 'v' + str(j)
 				from_ = r[index]
 				vMap[from_]  = to_
-				#vCount[to_] = 0
 
 		triple_verb_mapped = []
 		lost = 0
@@ -31,9 +30,8 @@ class Mapper:
 			elif p in self.hold_relations:
 				triple_verb_mapped += [(s, p, o, source, support)]
 			else:
-				print('LOST BECAUSE VERB', (s, p, o, source, support) )
+				print('LOST BECAUSE VERB', (s, p, o, source, support))
 				lost_triples += [(s, p, o, source, support)]
-				#print('LOST:',(s, p, o, source, support), p_start, p)
 				lost += 1
 		
 		self.triples = triple_verb_mapped
@@ -136,14 +134,8 @@ class Mapper:
 		        'fso' : 'financial statement ontology (fso)',
 		        'cam' : 'complementary and alternative medicines (cam)',
 		        'etl' : 'extract-transform-load (etl) process',
-		        'soc' : 'service-oriented computing (soc)',
-		        'datum' : 'data',
-		        'linked open datum' : 'linked open data',
-		        'lod datum' : 'lod data',
-		        'linked datum' : 'linked data',
-		        'calendar datum' : 'calendar data',
-		        'structured datum' : 'structured data',
-		        'semantic datum' : 'semantic data'}
+		        'soc' : 'service-oriented computing (soc)'
+		        }
 
 		cso_triples = self.load_cso_triples()
 

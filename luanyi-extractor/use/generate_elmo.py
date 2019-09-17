@@ -62,12 +62,13 @@ lm_emb_op = tf.concat([
         tf.expand_dims(lm_embeddings["lstm_outputs1"], 3),
         tf.expand_dims(lm_embeddings["lstm_outputs2"], 3)], 3)  # [B, slen, 1024, 3]
 
+print(os.listdir('./data/processed_data/json/luanyi_input/'))
 for filename in os.listdir('./data/processed_data/json/luanyi_input/'):
     print '\n' + filename
     fn = './data/processed_data/json/luanyi_input/' + filename
     outfn = './data/processed_data/elmo/luanyi_input/' + filename.replace('json', 'hdf5')
     Elmo(fn, outfn)
+    print(os.listdir('./data/processed_data/json/luanyi_input/'))
 
-Elmo(fn, outfn)
           
 
