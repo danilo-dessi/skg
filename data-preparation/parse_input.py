@@ -30,10 +30,10 @@ def parse_mag_json(json_file_directory):
 
 	for file in os.listdir(json_file_directory):
 		if '.json' in file:
-			with open(json_file_directory + '/' + file, 'r') as f:
+			with open(json_file_directory + '/' + file, 'r', encoding='utf-8') as f:
 				content = f.read()
 				myjson = json.loads(content)
-				print(file)
+		
 				for hit in myjson['hits']['hits']:
 					if hit['_score'] > 7.5:
 						try:
@@ -124,7 +124,6 @@ def prepare_for_luanyi(df, name):
 if __name__ == '__main__':
 
 	json_file_directory = 'mag_data' # the directory that contains the MAG json files
-	file = 'file.csv'       		 # a csv that is produced with the MAG data and that contains all abstracts of input data
 	n_splits = 20					 # the Luanyi et al. tool raises problems on big data, therefore, we split data to be fed to the tool 
 
 
@@ -132,19 +131,19 @@ if __name__ == '__main__':
 	parse_mag_json(json_file_directory)
 
 	# input for Luanyi tool
-	directory = 'luanyi_input_dir'
+	directory = 'luanyi_input'
 	if not os.path.exists(directory):
 		os.makedirs(directory)
 
-	data = pd.read_csv(file)
+	data = pd.read_csv('data.csv')
 	subdata = np.array_split(data, n_splits)
 	for i in range(len(subdata)):
 		print(i, str(datetime.datetime.now()))
-		prepare_for_luanyi(subdata[i], directory + '/' + file.split('.')[0] + '_' + str(i))
+		prepare_for_luanyi(subdata[i], directory + '/file_' + str(i))
 
 	# creation of textual resource that will be subsequently employed in the pipeline
-	data = pd.read_csv(file)
-	with open('all_abstracts.txt', 'w+') as f:
+	data = pd.read_csv('data.csv')
+	with open('all_abstracts.txt', 'w+', encoding='utf-8') as f:
 		for abstract in data['abstract']:
 			f.write(abstract.strip() + '\n')
 
