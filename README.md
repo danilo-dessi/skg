@@ -102,7 +102,7 @@ We suggest to run above commands in background since they are very time consumin
 python3 run.py
 ```
 
-4. The results is a csv file called *csv_e_r_full.csv* which contains all entities and relations extracted by the used tools
+4. The result is a csv file called *csv_e_r_full.csv* which contains all entities and relations extracted by the used tools
 
 
 ### Toward the SKG
