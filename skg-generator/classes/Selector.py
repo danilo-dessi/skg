@@ -17,6 +17,7 @@ class Selector:
 		self.out_triples = None
 		self.vectors_model = 'resources/300model.bin'
 		self.trust_th = 9
+		self.discarded_triples = None
 
 
 	def clean_for_embeddings(self, e_text):
@@ -134,6 +135,9 @@ class Selector:
 	def get_selected_triples(self):
 		return self.out_triples
 
+	def get_discarded_triples(self):
+		return self.discarded_triples
+
 
 	def run(self):
 		trusted_triples = []
@@ -153,14 +157,17 @@ class Selector:
 			else:
 				untrusted_triples += [(s,p,o,source,support)]
 
-		trusted_triples = self.unique(trusted_triples)
+
+		trusted_triples_for_classifier = self.unique(trusted_triples)
 		print('Trusted triples:', len(trusted_triples))
-		clf = self.get_classifier(trusted_triples)
+		print('Untrusted triples:', len(untrusted_triples))
+		clf = self.get_classifier(trusted_triples_for_classifier)
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
-		consistent_triples = self.unique(consistent_triples)
 		print('Consistent triples:', len(consistent_triples))
-		self.out_triples = self.unique(trusted_triples + consistent_triples)
-		print('Total triples:', len(self.out_triples))
+		self.out_triples = trusted_triples + consistent_triples
+		self.discarded_triples = [item for item in untrusted_triples if item not in consistent_triples]
+		print('Total selected triples:', len(self.out_triples))
+		print('Discarded triples:', len(self.discarded_triples))
 
 
 

@@ -1,0 +1,68 @@
+xslt
+extensible stylesheet language (xslt)
+cbr
+content based recommendation (cbr)
+ehr
+electronic health record (ehr)
+crm
+conceptual reference model (crm)
+cim
+computation independent model (cim)
+cad
+computer aided design (cad)
+vhdl
+very high speed integrated circuit description language (vhdl)
+xml
+extensible markup language (xml)
+sql
+structured query language (sql)
+ict
+information communications technology (ict)
+dicom
+digital imaging and communication in medicine (dicom)
+http
+hypertext transfer protocol (http)
+ssd
+semantic service description (ssd)
+wsn
+wireless sensor networks (wsn)
+html
+hypertext markup language (html)
+pim
+product information model (pim)
+spin
+sparql inferencing notation (spin)
+scorm
+sharable content object reference model (scorm)
+bpmn
+business process modeling notation (bpmn)
+fca
+formal concept analysis (fca)
+vsm
+vector space model (vsm)
+ahp
+analytic hierarchy process (ahp)
+dht
+distributed hash tables (dht)
+ber
+bit error rate (ber)
+bpm
+business process modeling (bpm)
+ogc
+open geospatial consortium (ogc)
+csp
+communicating sequential processes (csp)
+cac
+congenial access control (cac)
+dht
+distributed hash table
+cbir
+content based image retrieval (cbir)
+fso
+financial statement ontology (fso)
+cam
+complementary and alternative medicines (cam)
+etl
+extract-transform-load (etl) process
+soc
+service-oriented computing (soc)

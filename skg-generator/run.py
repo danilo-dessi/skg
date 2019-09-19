@@ -307,6 +307,13 @@ class GraphBuilder:
 		df = df[columns_order]
 		df.to_csv('out/selected_triples.csv')
 
+		discarded_triples = s.get_discarded_triples()
+		columns_order = ['s', 'p', 'o', 'source', 'support']
+		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in discarded_triples]
+		df = pd.DataFrame(data, columns=columns_order)
+		df = df[columns_order]
+		df.to_csv('out/discarded_triples.csv')
+
 
 		print('GRAPH BUILDING')
 		print(str(datetime.datetime.now()))

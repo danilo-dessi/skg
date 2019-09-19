@@ -6,7 +6,9 @@ def load_triples_ann(filename, ann_name):
 	triples = {}
 	data = pd.read_csv(filename, sep=';')
 	for i, r in data.iterrows():
-		triples[(r['s'], r['p'], r['o'])] = r[ann_name]
+		if r['p'] != 'conjunction':
+			triples[(r['s'], r['p'], r['o'])] = r[ann_name]
+	#print(len(triples))
 	return triples
 
 
@@ -58,7 +60,7 @@ if __name__ == "__main__":
 	print('Heuristic \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(triples2ann, triples2ann)
-	print('General \t- \tPrecision:', p)
+	print('General \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 	
 
 
