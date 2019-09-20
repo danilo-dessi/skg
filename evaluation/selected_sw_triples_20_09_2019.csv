@@ -1,0 +1,1339 @@
+;s;p;o;source;support;pipeline
+624;access control;uses;resource description framework (rdf);['heuristic'];[1];yes
+761;access control;uses;web ontology language;['heuristic'];[12];yes
+577;access control mechanism;uses;web ontology language;['luanyi', 'heuristic'];[1, 1];yes
+696;activity recognition;uses;resource description framework (rdf);['heuristic'];[1];yes
+725;activity recognition;uses;web ontology language;['heuristic'];[1];yes
+395;affective computing;uses;semantic description;['luanyi'];[1];yes
+576;agent technology;uses;semantic description;['luanyi'];[1];yes
+808;agent technology;uses;semantic web services;['heuristic'];[7.0];no
+277;anomaly detection;uses;ontology alignment;['luanyi'];[1];yes
+533;answering queries;uses;linked data;['luanyi'];[1];yes
+106;answering queries;uses;ontology alignment;['luanyi', 'luanyi'];[1, 2];yes
+1001;architecture reconstruction;proposes;semantic description;['heuristic'];[4.0];no
+1132;argumentation;combines;ontology alignment;['heuristic'];[3.0];no
+102;artificial intelligence;is;linked data;['luanyi'];[2];yes
+912;artificial intelligence;produces;semantic description;['heuristic'];[5.0];no
+1133;audio;includes;semantic description;['heuristic'];[3.0];no
+1134;augmented reality;links;linked data;['heuristic'];[3.0];no
+809;authentication;links;linked data;['heuristic'];[7.0];no
+1135;authorization;base;semantic web services;['heuristic'];[3.0];no
+729;authorization;uses;web ontology language;['heuristic'];[4];yes
+1136;automated reasoning;converts;linked data;['heuristic'];[3.0];no
+41;automated reasoning;uses;semantic web services;['luanyi'];[1];yes
+368;automated systems;uses;ontology alignment;['luanyi'];[1];yes
+147;automatic composition;uses;semantic web services;['luanyi'];[1];yes
+645;automatic composition;uses;web ontology language;['heuristic'];[1];yes
+239;automatic image annotation;supports;semantic search engines;['openie'];[1];yes
+590;automatic translation;uses;web ontology language;['luanyi'];[2];yes
+1137;b2b;proposes;linked data;['heuristic'];[3.0];no
+735;b2b;uses;semantic web services;['heuristic'];[1];yes
+414;background knowledge;uses;linked data;['luanyi', 'heuristic'];[3, 4];yes
+1002;bayesian approaches;represents;semantic description;['heuristic'];[4.0];no
+1138;bayesian classification;classifies;semantic description;['heuristic'];[3.0];no
+206;bibliographic data;uses;linked data;['luanyi'];[5];yes
+1139;blogospheres;uses;linked data;['heuristic'];[3.0];no
+848;broadcast;base;semantic search engines;['heuristic'];[6.0];no
+1003;building model;improves;web ontology language;['heuristic'];[4.0];no
+1;business logic;uses;semantic web services;['luanyi'];[1];yes
+649;business process modelling;uses;web ontology language;['heuristic'];[1];yes
+152;business processes;uses;semantic web services;['luanyi', 'heuristic'];[2, 7];yes
+730;capp;uses;web ontology language;['heuristic'];[1];yes
+666;cellular;uses;web ontology language;['heuristic'];[3];yes
+849;chord;publishes;semantic web services;['heuristic'];[6.0];no
+1004;cloud computing;analyzes;semantic search engine;['heuristic'];[4.0];no
+532;cloud computing;is;semantic search engine;['luanyi'];[1];yes
+913;cloud computing;analyzes;semantic search engines;['heuristic'];[5.0];no
+512;cloud services;uses;semantic description;['luanyi'];[1];yes
+1140;cnc;produces;semantic web services;['heuristic'];[3.0];no
+850;collaborative designs;produces;ontology alignment;['heuristic'];[6.0];no
+256;collaborative designs;uses;web ontology language;['luanyi'];[1];yes
+228;coloured petri nets;uses;web ontology language;['luanyi'];[1];yes
+216;commerce;requires;ontology alignment;['openie'];[1];yes
+618;communication;uses;linked data;['heuristic'];[8];yes
+1141;communication;supports;ontology alignment;['heuristic'];[3.0];no
+914;communication;acquires;semantic search engines;['heuristic'];[5.0];no
+1005;communication;provides;web ontology language;['heuristic'];[4.0];no
+1142;communication protocols;produces;web ontology language;['heuristic'];[3.0];no
+603;component-based software engineering;is;ontology alignment;['openie'];[1];yes
+915;component-based software engineering;provides;resource description framework (rdf);['heuristic'];[5.0];no
+1143;component-based software engineering;produces;semantic search engine;['heuristic'];[3.0];no
+635;component-based software engineering;uses;web ontology language;['heuristic', 'heuristic'];[14, 9];yes
+1144;computation independent model (cim);proposes;linked data;['heuristic'];[3.0];no
+916;computation independent model (cim);represents;web ontology language;['heuristic'];[5.0];no
+749;computation independent model (cim);uses;web ontology language;['heuristic'];[1];yes
+498;computer science;uses;linked data;['luanyi'];[1];yes
+1006;computer systems;includes;linked data;['heuristic'];[4.0];no
+418;computer vision;uses;semantic description;['luanyi'];[1];yes
+851;concept similarity;proposes;ontology alignment;['heuristic'];[6.0];no
+388;concept similarity;uses;ontology alignment;['luanyi'];[1];yes
+453;conceptual reference model (crm);uses;ontology alignment;['luanyi'];[1];yes
+917;congenial access control (cac);links;linked data;['heuristic'];[5.0];no
+640;constraint language;uses;resource description framework (rdf);['heuristic'];[1];yes
+1145;constraint language;base;web ontology language;['heuristic'];[3.0];no
+744;content management;uses;semantic web services;['heuristic'];[2];yes
+687;content management systems;uses;semantic web services;['heuristic'];[2];yes
+918;context models;proposes;web ontology language;['heuristic'];[5.0];no
+748;controlled vocabulary;uses;web ontology language;['heuristic'];[2];yes
+1007;cycle;acquires;linked data;['heuristic'];[4.0];no
+1146;data exchange;produces;linked data;['heuristic'];[3.0];no
+1008;data exchange;provides;resource description framework (rdf);['heuristic'];[4.0];no
+19;data exchange;uses;resource description framework (rdf);['luanyi', 'luanyi'];[3, 1];yes
+1009;data exchange;queries;web ontology language;['heuristic'];[4.0];no
+162;data integration;uses;linked data;['luanyi', 'heuristic'];[2, 20];yes
+919;data integration;is;ontology alignment;['heuristic'];[5.0];no
+48;data integration;uses;ontology alignment;['luanyi', 'luanyi'];[1, 3];yes
+1010;data integration;provides;resource description framework (rdf);['heuristic'];[4.0];no
+1147;data integration;supports;semantic search engines;['heuristic'];[3.0];no
+1148;data integration;base;semantic web services;['heuristic'];[3.0];no
+163;data integration;uses;semantic web services;['luanyi'];[1];yes
+132;data integration;uses;web ontology language;['luanyi'];[1];yes
+641;data management;uses;linked data;['heuristic'];[14];yes
+920;data management;supports;resource description framework (rdf);['heuristic'];[5.0];no
+1149;data mining;supports;ontology alignment;['heuristic'];[3.0];no
+1150;data mining;acquires;resource description framework (rdf);['heuristic'];[3.0];no
+1151;data mining;produces;semantic search engines;['heuristic'];[3.0];no
+60;data publishing;uses;linked data;['luanyi', 'heuristic'];[1, 4];yes
+609;data publishing;uses;resource description framework (rdf);['openie', 'heuristic'];[1, 1];yes
+168;data sparsity;uses;linked data;['luanyi'];[1];yes
+1152;database systems;includes;resource description framework (rdf);['heuristic'];[3.0];no
+584;database systems;includes;semantic description;['luanyi'];[1];yes
+282;database systems;includes;semantic descriptions;['luanyi'];[1];yes
+481;dbpedia;is;linked data;['luanyi'];[4];yes
+267;dbpedia;provides;linked data;['heuristic'];[39];yes
+1011;decision procedures;supports;web ontology language;['heuristic'];[4.0];no
+79;deontic logic;is;web ontology language;['luanyi'];[1];yes
+1153;description logics;base;resource description framework (rdf);['heuristic'];[3.0];no
+58;description logics;supports;web ontology language;['heuristic'];[29];yes
+345;description logics;uses;web ontology language;['luanyi'];[7];yes
+921;design knowledge;base;ontology alignment;['heuristic'];[5.0];no
+442;digital contents;uses;linked data;['luanyi'];[1];yes
+1154;digital images;converts;web ontology language;['heuristic'];[3.0];no
+519;digital libraries;uses;linked data;['luanyi'];[1];yes
+613;digital libraries;uses;semantic web services;['luanyi'];[2];yes
+922;digital preservation;contributes;linked data;['heuristic'];[5.0];no
+1012;distributed architectures;base;semantic web services;['heuristic'];[4.0];no
+1155;distributed hash table;supports;semantic search engines;['heuristic'];[3.0];no
+567;distributed hash table;includes;semantic web services;['luanyi'];[1];yes
+337;distributed query processing;uses;linked data;['luanyi'];[1];yes
+363;document clustering;uses;semantic search engines;['luanyi'];[1];yes
+728;domain knowledge;uses;resource description framework (rdf);['heuristic'];[1];yes
+324;domain knowledge;uses;semantic description;['luanyi'];[1];yes
+1156;domain knowledge;produces;semantic search engines;['heuristic'];[3.0];no
+573;domain knowledge;uses;semantic search engines;['luanyi'];[1];yes
+122;domain knowledge;uses;semantic web services;['luanyi'];[1];yes
+810;domain knowledge;converts;web ontology language;['heuristic'];[7.0];no
+238;domain knowledge;includes;web ontology language;['luanyi'];[2];yes
+71;domain knowledge;uses;web ontology language;['luanyi'];[3];yes
+778;domain-specific ontologies;supports;linked data;['heuristic'];[8.0];no
+16;domain-specific ontologies;uses;ontology alignment;['luanyi'];[2];yes
+639;domain-specific ontologies;uses;resource description framework (rdf);['heuristic'];[2];yes
+1157;domain-specific ontologies;includes;semantic description;['heuristic'];[3.0];no
+923;domain-specific ontologies;proposes;web ontology language;['heuristic'];[5.0];no
+274;domain-specific ontologies;uses;web ontology language;['openie', 'luanyi', 'luanyi'];[1, 2, 3];yes
+198;dublin core;is;resource description framework (rdf);['luanyi'];[1];yes
+1013;dublin core;selects;resource description framework (rdf);['heuristic'];[4.0];no
+1158;dublin core;learns;web ontology language;['heuristic'];[3.0];no
+852;education;links;linked data;['heuristic'];[6.0];no
+1014;education;uses;resource description framework (rdf);['heuristic'];[4.0];no
+769;education;uses;web ontology language;['heuristic'];[1];yes
+607;electronic commerce;requires;ontology alignment;['openie'];[1];yes
+40;electronic commerce;uses;ontology alignment;['luanyi'];[1];yes
+727;electronic health record (ehr);uses;semantic search engine;['heuristic'];[1];yes
+693;electronic health record (ehr);uses;semantic search engines;['heuristic'];[3];yes
+1159;engine;converts;ontology alignment;['heuristic'];[3.0];no
+340;engine;provides;semantic search engines;['heuristic'];[56];yes
+668;engine;produces;web ontology language;['heuristic'];[5];yes
+853;engineering;supports;resource description framework (rdf);['heuristic'];[6.0];no
+779;engineering;proposes;semantic description;['heuristic'];[8.0];no
+924;engineering;automates;semantic web services;['heuristic'];[5.0];no
+811;engineering;supports;web ontology language;['heuristic'];[7.0];no
+140;enterprise architecture;uses;resource description framework (rdf);['openie', 'luanyi', 'heuristic'];[1, 1, 1];yes
+628;enterprise information systems;uses;semantic web services;['heuristic'];[7];yes
+854;extensible markup language;uses;resource description framework (rdf);['heuristic'];[6.0];no
+1015;extensible markup language (xml);converts;linked data;['heuristic'];[4.0];no
+736;extensible markup language (xml);uses;ontology alignment;['heuristic'];[4];yes
+229;extensible markup language (xml);converts;resource description framework (rdf);['heuristic'];[149];yes
+247;extensible markup language (xml);uses;resource description framework (rdf);['heuristic'];[25];yes
+210;extensible markup language (xml);uses;semantic search engine;['luanyi'];[1];yes
+925;extensible markup language (xml);proposes;semantic search engines;['heuristic'];[5.0];no
+204;extensible markup language (xml);defines;web ontology language;['heuristic'];[22];yes
+1160;extensible stylesheet language (xslt);converts;resource description framework (rdf);['heuristic'];[3.0];no
+1016;extract-transform-load (etl) process;proposes;web ontology language;['heuristic'];[4.0];no
+113;facebook;is;semantic search engines;['luanyi'];[1];yes
+707;facial expressions;uses;linked data;['heuristic'];[1];yes
+669;financial statement ontology (fso);uses;web ontology language;['heuristic'];[1];yes
+1161;fingerprints;learns;linked data;['heuristic'];[3.0];no
+697;formal concept analysis (fca);uses;ontology alignment;['heuristic'];[1];yes
+743;formal models;uses;semantic web services;['heuristic'];[7];yes
+713;formal specifications;uses;resource description framework (rdf);['heuristic'];[1];yes
+855;fuzzy description logic;extends;web ontology language;['heuristic'];[6.0];no
+1162;fuzzy logics;maintains;semantic description;['heuristic'];[3.0];no
+1163;fuzzy ontology;proposes;resource description framework (rdf);['heuristic'];[3.0];no
+6;fuzzy ontology;uses;semantic search engine;['luanyi'];[1];yes
+57;geographic information system;uses;linked data;['luanyi'];[1];yes
+137;geospatial data;uses;semantic description;['luanyi'];[2];yes
+1164;graphical models;learns;semantic description;['heuristic'];[3.0];no
+484;grid computing;is;semantic web services;['luanyi'];[1];yes
+503;grid services;uses;semantic description;['luanyi'];[1];yes
+1017;grid services;defines;web ontology language;['heuristic'];[4.0];no
+107;grid services;uses;web ontology language;['luanyi'];[2];yes
+716;hadoop;uses;semantic search engines;['heuristic'];[1];yes
+812;hash;links;linked data;['heuristic'];[7.0];no
+1165;heterogeneous databases;includes;semantic search engines;['heuristic'];[3.0];no
+771;hierarchical structures;uses;resource description framework (rdf);['heuristic'];[1];yes
+780;hypertext markup language (html);produces;resource description framework (rdf);['heuristic'];[8.0];no
+1166;hypertext markup language (html);provides;semantic search engines;['heuristic'];[3.0];no
+1167;hypertext markup language (html);is;web ontology language;['heuristic'];[3.0];no
+738;hypertext transfer protocol (http);uses;linked data;['heuristic'];[19];yes
+1168;hypertext transfer protocol (http);produces;semantic search engines;['heuristic'];[3.0];no
+574;hypervisor;is;linked data;['luanyi'];[1];yes
+477;image retrieval;uses;ontology alignment;['luanyi'];[1];yes
+856;image retrieval;base;semantic description;['heuristic'];[6.0];no
+1169;image retrieval;supports;semantic search engines;['heuristic'];[3.0];no
+647;image search;uses;semantic description;['heuristic'];[1];yes
+1170;index structure;provides;resource description framework (rdf);['heuristic'];[3.0];no
+1018;index structure;proposes;semantic search engines;['heuristic'];[4.0];no
+379;inference;uses;resource description framework (rdf);['luanyi', 'heuristic'];[2, 26];yes
+371;inference;is;semantic search engine;['luanyi'];[1];yes
+926;inference;base;web ontology language;['heuristic'];[5.0];no
+327;inference;uses;web ontology language;['openie', 'heuristic'];[1, 15];yes
+76;information acquisitions;uses;semantic search engines;['luanyi'];[1];yes
+670;information communications technology (ict);uses;semantic web services;['heuristic'];[1];yes
+813;information extraction;links;linked data;['heuristic'];[7.0];no
+420;information extraction;uses;linked data;['luanyi'];[1];yes
+1171;information extraction;is;ontology alignment;['heuristic'];[3.0];no
+1172;information extraction;includes;resource description framework (rdf);['heuristic'];[3.0];no
+192;information filtering;uses;semantic description;['luanyi'];[1];yes
+30;information fusion;uses;linked data;['luanyi'];[1];yes
+711;information integration;uses;linked data;['heuristic'];[3];yes
+227;information integration;uses;ontology alignment;['luanyi'];[2];yes
+586;information needs;uses;linked data;['luanyi'];[1];yes
+604;information retrieval;uses;linked data;['luanyi'];[1];yes
+1173;information retrieval;maintains;ontology alignment;['heuristic'];[3.0];no
+156;information retrieval;uses;ontology alignment;['luanyi', 'luanyi'];[7, 1];yes
+1174;information retrieval;represents;resource description framework (rdf);['heuristic'];[3.0];no
+551;information retrieval;uses;resource description framework (rdf);['luanyi'];[1];yes
+692;information retrieval;uses;semantic description;['heuristic'];[1];yes
+508;information retrieval;uses;semantic search engine;['luanyi', 'heuristic'];[1, 7];yes
+334;information retrieval;uses;semantic search engines;['luanyi', 'heuristic'];[2, 41];yes
+594;information retrieval;is;semantic web services;['luanyi'];[2];yes
+56;information sharing;is;resource description framework (rdf);['luanyi'];[1];yes
+370;information systems;uses;linked data;['luanyi'];[1];yes
+857;information systems;matches;ontology alignment;['heuristic'];[6.0];no
+927;information systems;produces;semantic web services;['heuristic'];[5.0];no
+553;intelligent agents;uses;semantic web services;['luanyi'];[2];yes
+410;intelligent tutoring systems;uses;web ontology language;['luanyi', 'heuristic'];[1, 1];yes
+1175;internet;represents;resource description framework (rdf);['heuristic'];[3.0];no
+676;internet;uses;semantic description;['heuristic'];[4];yes
+1176;internet;converts;semantic search engines;['heuristic'];[3.0];no
+705;investments;uses;linked data;['heuristic'];[1];yes
+928;java;includes;resource description framework (rdf);['heuristic'];[5.0];no
+1019;java;supports;semantic web services;['heuristic'];[4.0];no
+929;java;converts;web ontology language;['heuristic', 'heuristic'];[5.0, 4.0];no
+92;keyword search;uses;linked data;['luanyi'];[2];yes
+458;knowledge bases;uses;linked data;['luanyi'];[1];yes
+1177;knowledge bases;defines;resource description framework (rdf);['heuristic'];[3.0];no
+1020;knowledge bases;acquires;semantic description;['heuristic'];[4.0];no
+1178;knowledge bases;uses;semantic search engine;['heuristic'];[3.0];no
+930;knowledge bases;base;web ontology language;['heuristic'];[5.0];no
+39;knowledge bases;uses;web ontology language;['openie', 'luanyi', 'heuristic'];[1, 2, 8];yes
+1021;knowledge discovery;links;linked data;['heuristic'];[4.0];no
+243;knowledge discovery;uses;linked data;['luanyi'];[3];yes
+148;knowledge discovery;uses;resource description framework (rdf);['luanyi'];[1];yes
+1022;knowledge discovery;supports;semantic search engines;['heuristic'];[4.0];no
+350;knowledge engineering;uses;linked data;['luanyi'];[2];yes
+185;knowledge exchange;uses;ontology alignment;['luanyi'];[1];yes
+457;knowledge exchange;uses;resource description framework (rdf);['luanyi'];[1];yes
+931;knowledge management;uses;semantic search engines;['heuristic'];[5.0];no
+306;knowledge management;is;semantic web services;['luanyi'];[2];yes
+1179;knowledge management;provides;semantic web services;['heuristic'];[3.0];no
+1023;knowledge management;base;web ontology language;['heuristic'];[4.0];no
+745;knowledge management;uses;web ontology language;['heuristic'];[1];yes
+150;knowledge management systems;uses;linked data;['luanyi'];[1];yes
+323;knowledge management systems;uses;resource description framework (rdf);['luanyi'];[1];yes
+648;knowledge management systems;uses;semantic search engines;['heuristic'];[1];yes
+626;knowledge management systems;uses;web ontology language;['heuristic'];[1];yes
+814;knowledge representation;extends;resource description framework (rdf);['heuristic'];[7.0];no
+177;knowledge representation;uses;resource description framework (rdf);['luanyi', 'luanyi'];[4, 1];yes
+358;knowledge representation;base;web ontology language;['heuristic'];[20];yes
+293;knowledge representation;uses;web ontology language;['luanyi', 'openie', 'heuristic', 'luanyi'];[1, 1, 21, 3];yes
+434;knowledge representation and reasoning;uses;resource description framework (rdf);['luanyi'];[1];yes
+429;knowledge-sharing;uses;ontology alignment;['luanyi'];[3];yes
+1180;lan;provides;resource description framework (rdf);['heuristic'];[3.0];no
+756;language acquisition;uses;linked data;['heuristic'];[1];yes
+446;learning;produces;linked data;['heuristic'];[23];yes
+1024;learning;requires;ontology alignment;['heuristic'];[4.0];no
+643;learning;uses;resource description framework (rdf);['heuristic', 'heuristic'];[6, 9];yes
+1025;learning;requires;semantic description;['heuristic'];[4.0];no
+667;learning;uses;semantic search engine;['heuristic'];[1];yes
+631;learning objects;uses;ontology alignment;['heuristic'];[1];yes
+355;learning objects;uses;semantic search engines;['luanyi'];[1];yes
+932;learning objects;learns;semantic web services;['heuristic'];[5.0];no
+100;learning organizations;includes;semantic search engine;['luanyi'];[1];yes
+933;legacy systems;acquires;resource description framework (rdf);['heuristic'];[5.0];no
+55;libraries;links;linked data;['heuristic'];[63];yes
+144;libraries;uses;linked data;['luanyi'];[1];yes
+591;libraries;uses;resource description framework (rdf);['openie'];[1];yes
+1026;linked data;supports;access control;['heuristic'];[4.0];no
+934;linked data;includes;augmented reality;['heuristic'];[5.0];no
+1181;linked data;improves;automatic classification;['heuristic'];[3.0];no
+119;linked data;provides;background knowledge;['openie', 'heuristic'];[1, 5];yes
+151;linked data;improves;bibliographic data;['openie'];[3];yes
+935;linked data;supports;big data;['heuristic'];[5.0];no
+1027;linked data;produces;communication;['heuristic'];[4.0];no
+94;linked data;is;component-based software engineering;['openie'];[1];yes
+517;linked data;uses;concept lattices;['luanyi'];[1];yes
+1028;linked data;links;cycle;['heuristic'];[4.0];no
+858;linked data;proposes;data exchange;['heuristic'];[6.0];no
+459;linked data;provides;data integration;['openie', 'heuristic'];[1, 23];yes
+859;linked data;provides;data mining;['heuristic'];[6.0];no
+1182;linked data;combines;data warehouses;['heuristic'];[3.0];no
+815;linked data;provides;database systems;['heuristic'];[7.0];no
+22;linked data;produces;dbpedia;['heuristic'];[37];yes
+35;linked data;supports;dialogue;['openie'];[1];yes
+261;linked data;includes;digital libraries;['luanyi'];[2];yes
+1183;linked data;publishes;domain-specific ontologies;['heuristic'];[3.0];no
+816;linked data;links;e-business models;['heuristic'];[7.0];no
+757;linked data;uses;emotion recognition;['heuristic'];[2];yes
+659;linked data;uses;engine;['heuristic'];[3];yes
+722;linked data;uses;extensible markup language (xml);['heuristic'];[4];yes
+1029;linked data;publishes;geospatial data;['heuristic'];[4.0];no
+1184;linked data;executes;graph theory;['heuristic'];[3.0];no
+781;linked data;publishes;hypertext;['heuristic'];[8.0];no
+674;linked data;uses;hypertext transfer protocol (http);['heuristic'];[12];yes
+1185;linked data;produces;information dissemination;['heuristic'];[3.0];no
+1186;linked data;requires;information fusion;['heuristic'];[3.0];no
+698;linked data;supports;information needs;['heuristic'];[1];yes
+860;linked data;improves;information retrieval;['heuristic'];[6.0];no
+1187;linked data;supports;information systems;['heuristic'];[3.0];no
+236;linked data;produces;internet;['heuristic'];[23];yes
+1188;linked data;produces;java;['heuristic'];[3.0];no
+407;linked data;provides;knowledge bases;['heuristic'];[20];yes
+861;linked data;provides;knowledge discovery;['heuristic'];[6.0];no
+817;linked data;produces;knowledge engineering;['heuristic'];[7.0];no
+862;linked data;extends;knowledge representation;['heuristic'];[6.0];no
+1030;linked data;proposes;knowledge-sharing;['heuristic'];[4.0];no
+359;linked data;produces;learning;['heuristic'];[27];yes
+367;linked data;provides;libraries;['heuristic'];[52];yes
+540;linked data;provides;linked open data;['heuristic'];[22];yes
+1189;linked data;base;machine learning techniques;['heuristic'];[3.0];no
+462;linked data;uses;mobile devices;['luanyi'];[2];yes
+193;linked data;uses;natural languages;['luanyi', 'openie'];[1, 1];yes
+506;linked data;provides;ontologies;['heuristic'];[101];yes
+268;linked data;supports;ontologies;['openie'];[2];yes
+1190;linked data;improves;ontology development;['heuristic'];[3.0];no
+549;linked data;supports;parsing algorithm;['openie'];[1];yes
+863;linked data;supports;privacy;['heuristic'];[6.0];no
+1031;linked data;provides;python;['heuristic'];[4.0];no
+818;linked data;uses;query execution;['heuristic'];[7.0];no
+1032;linked data;produces;query rewritings;['heuristic'];[4.0];no
+1033;linked data;proposes;question answering systems;['heuristic'];[4.0];no
+158;linked data;uses;question answering systems;['luanyi'];[1];yes
+3;linked data;uses;rdf data;['heuristic'];[27];yes
+936;linked data;uses;recommender systems;['heuristic'];[5.0];no
+1191;linked data;converts;relational data;['heuristic'];[3.0];no
+606;linked data;uses;relational database systems;['luanyi'];[1];yes
+136;linked data;uses;resource description framework (rdf);['heuristic', 'openie', 'heuristic'];[21, 1, 54];yes
+104;linked data;uses;rule engine;['luanyi'];[1];yes
+191;linked data;provides;semantic data;['heuristic'];[20];yes
+1034;linked data;produces;semantic description;['heuristic'];[4.0];no
+937;linked data;executes;semantic distance;['heuristic'];[5.0];no
+74;linked data;provides;semantic interoperability;['openie', 'heuristic'];[2, 6];yes
+938;linked data;is;semantic relationships;['heuristic'];[5.0];no
+1035;linked data;produces;semantic relationships;['heuristic'];[4.0];no
+1192;linked data;improves;semantic search engine;['heuristic'];[3.0];no
+1193;linked data;improves;semantic similarity measures;['heuristic'];[3.0];no
+605;linked data;is;semantic web technologies;['luanyi'];[11];yes
+264;linked data;provides;semantic web technologies;['heuristic', 'heuristic'];[251, 53];yes
+62;linked data;uses;semantic web technologies;['luanyi', 'openie', 'openie', 'luanyi'];[2, 2, 1, 4];yes
+1194;linked data;includes;sensor networks;['heuristic'];[3.0];no
+479;linked data;includes;social sciences;['luanyi'];[1];yes
+328;linked data;uses;software design patterns;['luanyi', 'heuristic'];[1, 1];yes
+599;linked data;provides;sparql;['openie'];[1];yes
+51;linked data;supports;sparql;['heuristic'];[74];yes
+95;linked data;uses;sparql;['luanyi'];[5];yes
+939;linked data;produces;spatial data;['heuristic'];[5.0];no
+940;linked data;links;stream data;['heuristic'];[5.0];no
+1195;linked data;includes;streaming data;['heuristic'];[3.0];no
+941;linked data;improves;user experience;['heuristic'];[5.0];no
+782;linked data;is;user interfaces;['heuristic'];[8.0];no
+682;linked data;uses;user profiles;['heuristic'];[4];yes
+819;linked data;supports;visualization;['heuristic'];[7.0];no
+468;linked data;uses;vocabulary;['heuristic'];[25];yes
+18;linked data;improves;web contents;['openie'];[1];yes
+43;linked data;produces;web of data;['heuristic'];[58];yes
+1036;linked data;supports;web ontology language;['heuristic'];[4.0];no
+259;linked data;is;world wide web;['luanyi'];[1];yes
+513;linked data;produces;world wide web;['openie'];[1];yes
+72;linked open data;links;linked data;['heuristic'];[29];yes
+864;linked open data;publishes;resource description framework (rdf);['heuristic'];[6.0];no
+391;linked open data;supports;semantic search engines;['openie'];[2];yes
+720;logic programming;uses;linked data;['heuristic'];[1];yes
+66;logic programming;is;web ontology language;['luanyi'];[1];yes
+637;logistics;uses;semantic search engine;['heuristic'];[1];yes
+661;logistics;uses;semantic web services;['heuristic'];[11];yes
+865;machine learning techniques;improves;ontology alignment;['heuristic'];[6.0];no
+1196;machine learning techniques;requires;ontology alignment;['heuristic'];[3.0];no
+772;machining;uses;web ontology language;['heuristic'];[1];yes
+118;manets;includes;semantic descriptions;['luanyi'];[2];yes
+1197;map-reduce;requires;resource description framework (rdf);['heuristic'];[3.0];no
+1037;mashup;publishes;linked data;['heuristic'];[4.0];no
+475;mashup;selects;semantic web services;['openie'];[1];yes
+46;mass customization;uses;semantic description;['luanyi'];[1];yes
+942;matching algorithm;base;semantic web services;['heuristic'];[5.0];no
+665;microdata;uses;linked data;['heuristic'];[1];yes
+619;mobile applications;uses;linked data;['heuristic'];[2];yes
+755;mobile applications;uses;semantic description;['heuristic'];[1];yes
+1198;mobile devices;proposes;web ontology language;['heuristic'];[3.0];no
+601;mobile services;uses;linked data;['luanyi'];[1];yes
+263;model transformations;uses;ontology alignment;['luanyi'];[1];yes
+1199;model transformations;converts;web ontology language;['heuristic'];[3.0];no
+308;modeling languages;uses;web ontology language;['luanyi'];[4];yes
+717;mse;uses;web ontology language;['heuristic'];[1];yes
+726;multimedia contents;uses;web ontology language;['heuristic'];[1];yes
+1038;music recommendation;links;linked data;['heuristic'];[4.0];no
+770;named entity recognition;uses;linked data;['heuristic'];[2];yes
+450;named entity recognition;is;resource description framework (rdf);['luanyi'];[1];yes
+240;natural language interfaces;uses;ontology alignment;['luanyi'];[1];yes
+820;natural language processing systems;publishes;linked data;['heuristic'];[7.0];no
+634;natural language processing systems;uses;semantic description;['heuristic'];[1];yes
+943;natural language processing systems;uses;semantic search engines;['heuristic'];[5.0];no
+354;natural language processing systems;uses;web ontology language;['luanyi'];[1];yes
+1200;natural languages;converts;web ontology language;['heuristic'];[3.0];no
+1201;network management;produces;resource description framework (rdf);['heuristic', 'heuristic'];[3.0, 2.0];no
+715;network management;uses;semantic web services;['heuristic'];[1];yes
+821;on-line learning;produces;linked data;['heuristic'];[7.0];no
+4;ontologies;provides;linked data;['heuristic'];[108];yes
+304;ontologies;supports;linked data;['openie'];[1];yes
+199;ontologies;proposes;ontology alignment;['openie'];[1];yes
+99;ontologies;uses;ontology alignment;['heuristic', 'heuristic', 'luanyi'];[204, 338, 2];yes
+322;ontologies;represents;resource description framework (rdf);['heuristic'];[159];yes
+438;ontologies;uses;resource description framework (rdf);['openie', 'heuristic'];[2, 91];yes
+537;ontologies;produces;semantic description;['heuristic'];[56];yes
+451;ontologies;produces;semantic descriptions;['openie'];[1];yes
+499;ontologies;provides;semantic descriptions;['heuristic'];[23];yes
+777;ontologies;uses;semantic search engine;['heuristic'];[15];yes
+545;ontologies;executes;semantic search engines;['openie'];[2];yes
+115;ontologies;provides;semantic search engines;['heuristic'];[151];yes
+312;ontologies;uses;semantic web services;['heuristic'];[226];yes
+86;ontologies;uses;web ontology language;['heuristic', 'openie', 'heuristic', 'openie', 'luanyi', 'luanyi'];[391, 11, 418, 9, 25, 8];yes
+1039;ontology alignment;supports;access control;['heuristic'];[4.0];no
+718;ontology alignment;uses;answering queries;['heuristic'];[7];yes
+305;ontology alignment;uses;argumentation;['luanyi', 'heuristic'];[2, 1];yes
+14;ontology alignment;uses;automated reasoning;['luanyi'];[1];yes
+1040;ontology alignment;base;background knowledge;['heuristic'];[4.0];no
+536;ontology alignment;uses;background knowledge;['luanyi'];[1];yes
+290;ontology alignment;uses;bayesian networks;['luanyi', 'heuristic'];[1, 1];yes
+1202;ontology alignment;executes;belief propagation;['heuristic'];[3.0];no
+655;ontology alignment;uses;clone detection;['heuristic'];[1];yes
+1203;ontology alignment;proposes;clustering algorithms;['heuristic'];[3.0];no
+944;ontology alignment;is;communication;['heuristic'];[5.0];no
+488;ontology alignment;produces;communication;['openie'];[1];yes
+662;ontology alignment;supports;communication;['heuristic'];[8];yes
+945;ontology alignment;uses;communication;['heuristic'];[5.0];no
+560;ontology alignment;is;computer science;['luanyi'];[1];yes
+189;ontology alignment;executes;concept similarity;['heuristic'];[21];yes
+272;ontology alignment;uses;controlled natural language;['luanyi'];[1];yes
+335;ontology alignment;is;data integration;['heuristic'];[20];yes
+946;ontology alignment;provides;data integration;['heuristic'];[5.0];no
+1204;ontology alignment;provides;data mining;['heuristic'];[3.0];no
+638;ontology alignment;uses;decision tables;['heuristic'];[1];yes
+866;ontology alignment;uses;description logics;['heuristic', 'heuristic'];[6.0, 1.0];no
+1041;ontology alignment;proposes;design knowledge;['heuristic'];[4.0];no
+376;ontology alignment;uses;distributed environments;['luanyi'];[1];yes
+1205;ontology alignment;requires;domain knowledge;['heuristic'];[3.0];no
+776;ontology alignment;uses;domain knowledge;['heuristic'];[5];yes
+867;ontology alignment;produces;domain-specific ontologies;['heuristic'];[6.0];no
+1206;ontology alignment;selects;domain-specific ontologies;['heuristic'];[3.0];no
+120;ontology alignment;uses;domain-specific ontologies;['luanyi', 'heuristic'];[1, 3];yes
+1042;ontology alignment;produces;education;['heuristic'];[4.0];no
+281;ontology alignment;uses;electronic commerce;['luanyi'];[2];yes
+1207;ontology alignment;produces;engineering;['heuristic'];[3.0];no
+1043;ontology alignment;uses;engineering;['heuristic'];[4.0];no
+1208;ontology alignment;proposes;extensible markup language (xml);['heuristic'];[3.0];no
+1209;ontology alignment;represents;faculty;['heuristic'];[3.0];no
+673;ontology alignment;uses;formal concept analysis (fca);['heuristic'];[3];yes
+528;ontology alignment;uses;fuzzy logics;['luanyi', 'heuristic'];[1, 1];yes
+190;ontology alignment;uses;fuzzy sets theory;['luanyi'];[1];yes
+1044;ontology alignment;proposes;graph theory;['heuristic'];[4.0];no
+579;ontology alignment;uses;grid environments;['luanyi'];[2];yes
+691;ontology alignment;uses;hownet;['heuristic'];[1];yes
+630;ontology alignment;uses;image retrieval;['heuristic', 'heuristic'];[1, 2];yes
+1045;ontology alignment;improves;inference;['heuristic'];[4.0];no
+87;ontology alignment;is;information integration;['luanyi', 'heuristic'];[2, 4];yes
+1046;ontology alignment;represents;information integration;['heuristic'];[4.0];no
+947;ontology alignment;converts;information retrieval;['heuristic'];[5.0];no
+1047;ontology alignment;is;information sharing;['heuristic'];[4.0];no
+664;ontology alignment;is;information systems;['heuristic'];[5];yes
+400;ontology alignment;uses;interactive visualizations;['luanyi'];[2];yes
+753;ontology alignment;uses;knowledge bases;['heuristic'];[2];yes
+1048;ontology alignment;provides;knowledge exchange;['heuristic'];[4.0];no
+244;ontology alignment;supports;knowledge exchange;['openie', 'heuristic'];[1, 1];yes
+1210;ontology alignment;is;knowledge management;['heuristic'];[3.0];no
+677;ontology alignment;supports;knowledge-sharing;['heuristic'];[5];yes
+747;ontology alignment;uses;linked data;['heuristic'];[1];yes
+868;ontology alignment;publishes;linked open data;['heuristic'];[6.0];no
+948;ontology alignment;supports;linked open data;['heuristic'];[5.0];no
+615;ontology alignment;uses;machine learning techniques;['luanyi'];[1];yes
+1211;ontology alignment;defines;matching algorithm;['heuristic'];[3.0];no
+73;ontology alignment;is;modeling languages;['luanyi'];[1];yes
+411;ontology alignment;uses;mutual informations;['luanyi'];[1];yes
+949;ontology alignment;base;natural language processing systems;['heuristic'];[5.0];no
+218;ontology alignment;is;ontologies;['luanyi'];[1];yes
+207;ontology alignment;reuses;ontologies;['openie'];[1];yes
+34;ontology alignment;uses;ontologies;['heuristic', 'luanyi', 'heuristic', 'heuristic'];[111, 1, 429, 269];yes
+1212;ontology alignment;provides;ontology building;['heuristic'];[3.0];no
+502;ontology alignment;is;ontology construction;['luanyi'];[1];yes
+456;ontology alignment;uses;ontology construction;['luanyi'];[1];yes
+1049;ontology alignment;combines;ontology evolution;['heuristic'];[4.0];no
+77;ontology alignment;uses;ontology integration;['luanyi'];[1];yes
+1213;ontology alignment;is;ontology merging;['heuristic'];[3.0];no
+500;ontology alignment;uses;ontology technology;['luanyi'];[1];yes
+435;ontology alignment;uses;particle swarm optimization algorithms;['luanyi'];[1];yes
+231;ontology alignment;includes;pervasive computing environments;['luanyi'];[1];yes
+357;ontology alignment;uses;posterior probability;['luanyi'];[1];yes
+1050;ontology alignment;proposes;product design;['heuristic'];[4.0];no
+1214;ontology alignment;executes;reasoning algorithms;['heuristic'];[3.0];no
+1215;ontology alignment;matches;reasoning algorithms;['heuristic'];[3.0];no
+869;ontology alignment;provides;reasoning algorithms;['heuristic'];[6.0];no
+403;ontology alignment;uses;relational database systems;['luanyi'];[1];yes
+447;ontology alignment;uses;rough sets theory;['luanyi'];[1];yes
+950;ontology alignment;provides;semantic data;['heuristic'];[5.0];no
+245;ontology alignment;is;semantic descriptions;['luanyi'];[2];yes
+870;ontology alignment;limits;semantic heterogeneity;['heuristic'];[6.0];no
+93;ontology alignment;provides;semantic interoperability;['openie'];[4];yes
+570;ontology alignment;supports;semantic interoperability;['openie'];[1];yes
+375;ontology alignment;uses;semantic interoperability;['luanyi', 'luanyi'];[1, 2];yes
+581;ontology alignment;includes;semantic relationships;['luanyi'];[1];yes
+535;ontology alignment;uses;semantic relationships;['luanyi', 'heuristic'];[1, 2];yes
+822;ontology alignment;executes;semantic similarity measures;['heuristic'];[7.0];no
+1051;ontology alignment;proposes;semantic web services;['heuristic'];[4.0];no
+301;ontology alignment;is;semantic web technologies;['luanyi', 'luanyi', 'heuristic', 'heuristic'];[1, 9, 67, 43];yes
+69;ontology alignment;uses;semantic web technologies;['luanyi', 'luanyi'];[2, 5];yes
+1052;ontology alignment;represents;sensor data;['heuristic'];[4.0];no
+1216;ontology alignment;is;text categorization;['heuristic'];[3.0];no
+562;ontology alignment;uses;vector space models;['luanyi'];[1];yes
+215;ontology alignment;is;web of data;['luanyi'];[1];yes
+1053;ontology alignment;provides;web of data;['heuristic'];[4.0];no
+783;ontology alignment;provides;web ontology language;['heuristic'];[8.0];no
+1217;ontology alignment;converts;web service composition;['heuristic'];[3.0];no
+1218;ontology alignment;improves;web services discovery;['heuristic'];[3.0];no
+527;ontology alignment;uses;wordnet;['luanyi'];[1];yes
+1219;ontology building;proposes;web ontology language;['heuristic'];[3.0];no
+33;ontology construction;uses;linked data;['luanyi'];[1];yes
+1054;ontology construction;acquires;ontology alignment;['heuristic'];[4.0];no
+1055;ontology construction;supports;resource description framework (rdf);['heuristic'];[4.0];no
+709;ontology construction;uses;resource description framework (rdf);['heuristic'];[1];yes
+704;ontology construction;uses;semantic descriptions;['heuristic'];[2];yes
+951;ontology construction;supports;web ontology language;['heuristic'];[5.0];no
+310;ontology construction;uses;web ontology language;['luanyi'];[1];yes
+621;ontology design;uses;web ontology language;['heuristic'];[1];yes
+1056;ontology development;supports;resource description framework (rdf);['heuristic'];[4.0];no
+125;ontology development;uses;web ontology language;['luanyi'];[2];yes
+121;ontology evolution;is;semantic descriptions;['luanyi'];[1];yes
+36;ontology integration;includes;ontology alignment;['luanyi'];[1];yes
+1220;ontology integration;provides;semantic web services;['heuristic'];[3.0];no
+397;ontology language;uses;resource description framework (rdf);['luanyi'];[1];yes
+680;ontology language;defines;semantic web services;['heuristic'];[18];yes
+223;ontology language;proposes;web ontology language;['heuristic'];[82];yes
+823;ontology language;provides;web ontology language;['heuristic'];[7.0];no
+714;ontology learning;uses;resource description framework (rdf);['heuristic'];[1];yes
+534;ontology learning;is;semantic descriptions;['luanyi'];[2];yes
+1221;ontology merging;produces;ontology alignment;['heuristic'];[3.0];no
+1057;ontology modeling;matches;web ontology language;['heuristic'];[4.0];no
+555;ontology modeling;uses;web ontology language;['luanyi'];[1];yes
+608;open source software;uses;linked data;['luanyi'];[1];yes
+1058;optimization;learns;ontology alignment;['heuristic'];[4.0];no
+702;organizational memory;uses;resource description framework (rdf);['heuristic'];[1];yes
+178;parsing algorithm;uses;linked data;['luanyi'];[1];yes
+1222;pattern;produces;linked data;['heuristic'];[3.0];no
+1059;pattern;supports;semantic descriptions;['heuristic'];[4.0];no
+1060;pervasive;combines;semantic web services;['heuristic'];[4.0];no
+646;pervasive computing;uses;web ontology language;['heuristic'];[1];yes
+289;petri nets;uses;semantic web services;['heuristic'];[23];yes
+321;policy specification;uses;resource description framework (rdf);['luanyi'];[1];yes
+734;privacy;uses;web ontology language;['heuristic'];[1];yes
+710;product configuration;uses;web ontology language;['heuristic'];[1];yes
+633;product family design;uses;web ontology language;['heuristic'];[1];yes
+752;programming languages;uses;semantic description;['heuristic'];[1];yes
+766;propositional logic;uses;web ontology language;['heuristic'];[1];yes
+952;query execution;executes;linked data;['heuristic'];[5.0];no
+123;query expansion;uses;ontology alignment;['luanyi'];[1];yes
+561;query processing;links;linked data;['heuristic'];[20];yes
+266;query processing;uses;ontology alignment;['luanyi'];[1];yes
+824;question answering systems;links;linked data;['heuristic'];[7.0];no
+230;question answering systems;uses;linked data;['luanyi'];[3];yes
+173;question answering systems;uses;ontology alignment;['luanyi'];[3];yes
+138;question answering systems;uses;semantic search engine;['luanyi'];[1];yes
+1061;question answering systems;acquires;semantic search engines;['heuristic'];[4.0];no
+784;question answering systems;links;semantic search engines;['heuristic'];[8.0];no
+953;radio frequency identification technology;combines;semantic web services;['heuristic'];[5.0];no
+114;rdf data;interacts;linked data;['heuristic'];[22];yes
+472;rdf data;uses;resource description framework (rdf);['heuristic'];[29];yes
+1223;rdf data;converts;semantic search engine;['heuristic'];[3.0];no
+374;rdf data;uses;semantic search engine;['openie', 'luanyi'];[1, 1];yes
+1224;rdf data;converts;semantic search engines;['heuristic'];[3.0];no
+1062;rdf data;provides;web ontology language;['heuristic'];[4.0];no
+871;rdf graph;maintains;linked data;['heuristic'];[6.0];no
+785;rdf graph;includes;resource description framework (rdf);['heuristic'];[8.0];no
+684;re-engineering;uses;linked data;['heuristic'];[4];yes
+825;reasoning algorithms;executes;ontology alignment;['heuristic'];[7.0];no
+954;reasoning algorithms;represents;ontology alignment;['heuristic'];[5.0];no
+955;reasoning algorithms;supports;ontology alignment;['heuristic'];[5.0];no
+826;reasoning algorithms;produces;semantic description;['heuristic'];[7.0];no
+1225;reasoning algorithms;is;web ontology language;['heuristic'];[3.0];no
+329;reasoning algorithms;uses;web ontology language;['luanyi', 'heuristic', 'openie'];[1, 47, 1];yes
+255;recommendation;is;linked data;['luanyi'];[1];yes
+656;recommendation;uses;linked data;['heuristic'];[18];yes
+956;recommendation;defines;resource description framework (rdf);['heuristic'];[5.0];no
+764;recommendation;uses;web ontology language;['heuristic'];[7];yes
+571;recommender systems;uses;linked data;['luanyi', 'heuristic'];[1, 8];yes
+393;recommender systems;includes;semantic web services;['luanyi'];[1];yes
+460;relation extraction;uses;semantic search engine;['luanyi'];[1];yes
+627;relational database systems;uses;ontology alignment;['heuristic'];[1];yes
+294;relational database systems;uses;resource description framework (rdf);['heuristic'];[29];yes
+1226;relational database systems;produces;semantic description;['heuristic'];[3.0];no
+1063;relevance feedback;acquires;linked data;['heuristic'];[4.0];no
+211;resource description framework (rdf);uses;abstract syntax;['luanyi'];[1];yes
+1227;resource description framework (rdf);supports;access control;['heuristic'];[3.0];no
+632;resource description framework (rdf);uses;access control;['heuristic'];[1];yes
+957;resource description framework (rdf);uses;bdd;['heuristic'];[5.0];no
+1228;resource description framework (rdf);affects;bibliographic data;['heuristic'];[3.0];no
+872;resource description framework (rdf);uses;cloud computing;['heuristic'];[6.0];no
+1064;resource description framework (rdf);improves;collaborative work;['heuristic'];[4.0];no
+1065;resource description framework (rdf);produces;compilers;['heuristic'];[4.0];no
+566;resource description framework (rdf);includes;component-based software engineering;['luanyi'];[1];yes
+149;resource description framework (rdf);is;component-based software engineering;['luanyi'];[1];yes
+1229;resource description framework (rdf);provides;component-based software engineering;['heuristic'];[3.0];no
+1230;resource description framework (rdf);acquires;computer graphics equipment;['heuristic'];[3.0];no
+724;resource description framework (rdf);uses;computer science;['heuristic'];[1];yes
+433;resource description framework (rdf);provides;data integration;['openie'];[2];yes
+1066;resource description framework (rdf);supports;data integration;['heuristic'];[4.0];no
+1231;resource description framework (rdf);produces;database systems;['heuristic'];[3.0];no
+430;resource description framework (rdf);uses;database systems;['luanyi'];[3];yes
+958;resource description framework (rdf);interacts;dbpedia;['heuristic'];[5.0];no
+873;resource description framework (rdf);uses;dbpedia;['heuristic'];[6.0];no
+786;resource description framework (rdf);uses;description logics;['heuristic'];[8.0];no
+90;resource description framework (rdf);uses;digital libraries;['luanyi', 'heuristic'];[1, 9];yes
+721;resource description framework (rdf);represents;domain knowledge;['heuristic'];[5];yes
+1067;resource description framework (rdf);proposes;education;['heuristic'];[4.0];no
+959;resource description framework (rdf);supports;engineering;['heuristic'];[5.0];no
+1232;resource description framework (rdf);base;extensible markup language;['heuristic'];[3.0];no
+0;resource description framework (rdf);uses;extensible markup language (xml);['heuristic', 'heuristic'];[25, 136];yes
+161;resource description framework (rdf);uses;fuzzy cognitive maps;['luanyi'];[1];yes
+1233;resource description framework (rdf);converts;graph matchings;['heuristic'];[3.0];no
+1068;resource description framework (rdf);executes;hash;['heuristic'];[4.0];no
+1069;resource description framework (rdf);provides;hypertext transfer protocol (http);['heuristic'];[4.0];no
+1070;resource description framework (rdf);evaluates;index structure;['heuristic'];[4.0];no
+182;resource description framework (rdf);produces;inference;['heuristic'];[26];yes
+787;resource description framework (rdf);supports;inference;['heuristic'];[8.0];no
+1234;resource description framework (rdf);requires;information fusion;['heuristic'];[3.0];no
+250;resource description framework (rdf);is;intelligent agents;['luanyi'];[1];yes
+1235;resource description framework (rdf);selects;knowledge acquisition;['heuristic', 'heuristic'];[3.0, 2.0];no
+1071;resource description framework (rdf);provides;knowledge bases;['heuristic'];[4.0];no
+960;resource description framework (rdf);supports;knowledge management;['heuristic'];[5.0];no
+1072;resource description framework (rdf);uses;knowledge management;['heuristic'];[4.0];no
+257;resource description framework (rdf);guides;knowledge representation;['heuristic'];[33];yes
+874;resource description framework (rdf);is;knowledge representation;['heuristic'];[6.0];no
+788;resource description framework (rdf);learns;learning;['heuristic'];[8.0];no
+875;resource description framework (rdf);learns;learning objects;['heuristic'];[6.0];no
+1073;resource description framework (rdf);uses;libraries;['heuristic'];[4.0];no
+96;resource description framework (rdf);is;linked data;['luanyi'];[1];yes
+471;resource description framework (rdf);links;linked data;['heuristic'];[24];yes
+563;resource description framework (rdf);produces;linked data;['heuristic'];[55];yes
+176;resource description framework (rdf);is;linked open data;['luanyi'];[8];yes
+789;resource description framework (rdf);uses;linked open data;['heuristic'];[8.0];no
+1236;resource description framework (rdf);acquires;mobile applications;['heuristic'];[3.0];no
+1237;resource description framework (rdf);provides;modeling languages;['heuristic'];[3.0];no
+1238;resource description framework (rdf);selects;natural language processing systems;['heuristic'];[3.0];no
+28;resource description framework (rdf);defines;ontologies;['heuristic', 'openie', 'heuristic'];[77, 3, 155];yes
+64;resource description framework (rdf);is;ontology language;['luanyi'];[11];yes
+262;resource description framework (rdf);provides;ontology modeling;['openie'];[1];yes
+1074;resource description framework (rdf);improves;query execution;['heuristic'];[4.0];no
+587;resource description framework (rdf);uses;query optimization;['luanyi'];[1];yes
+548;resource description framework (rdf);includes;rdf data;['luanyi'];[1];yes
+315;resource description framework (rdf);queries;rdf data;['openie'];[1];yes
+166;resource description framework (rdf);uses;rdf data;['heuristic'];[53];yes
+356;resource description framework (rdf);uses;rdf graph;['heuristic'];[21];yes
+439;resource description framework (rdf);produces;reasoning algorithms;['heuristic'];[20];yes
+9;resource description framework (rdf);provides;reasoning algorithms;['openie'];[1];yes
+876;resource description framework (rdf);supports;reasoning algorithms;['heuristic'];[6.0];no
+366;resource description framework (rdf);is;recommendation;['openie'];[2];yes
+1075;resource description framework (rdf);produces;relational data;['heuristic'];[4.0];no
+490;resource description framework (rdf);uses;relational data;['luanyi'];[1];yes
+877;resource description framework (rdf);converts;relational database systems;['heuristic'];[6.0];no
+197;resource description framework (rdf);matches;relational database systems;['heuristic'];[29];yes
+1239;resource description framework (rdf);produces;resource discovery;['heuristic'];[3.0];no
+741;resource description framework (rdf);provides;retrieval performance;['heuristic'];[1];yes
+827;resource description framework (rdf);acquires;semantic data;['heuristic'];[7.0];no
+595;resource description framework (rdf);includes;semantic data;['luanyi'];[1];yes
+249;resource description framework (rdf);is;semantic interoperability;['luanyi'];[1];yes
+1240;resource description framework (rdf);provides;semantic interoperability;['heuristic'];[3.0];no
+465;resource description framework (rdf);is;semantic relationships;['luanyi'];[2];yes
+961;resource description framework (rdf);supports;semantic search engines;['heuristic'];[5.0];no
+1241;resource description framework (rdf);converts;semantic web technologies;['heuristic'];[3.0];no
+112;resource description framework (rdf);is;semantic web technologies;['luanyi', 'heuristic', 'luanyi', 'luanyi'];[9, 131, 8, 68];yes
+600;resource description framework (rdf);provides;semantic web technologies;['heuristic'];[228];yes
+78;resource description framework (rdf);uses;semantic web technologies;['luanyi'];[2];yes
+409;resource description framework (rdf);is;semantic wikis;['luanyi'];[1];yes
+61;resource description framework (rdf);is;social networks;['luanyi'];[1];yes
+169;resource description framework (rdf);includes;social sciences;['luanyi'];[1];yes
+401;resource description framework (rdf);represents;sparql;['heuristic'];[39];yes
+258;resource description framework (rdf);uses;sparql;['heuristic', 'openie'];[134, 1];yes
+694;resource description framework (rdf);uses;sparql inferencing notation (spin);['heuristic'];[2];yes
+347;resource description framework (rdf);is;standard model;['openie', 'heuristic', 'heuristic'];[1, 1, 2];yes
+1242;resource description framework (rdf);produces;structured query language (sql);['heuristic'];[3.0];no
+1076;resource description framework (rdf);automates;validation;['heuristic'];[4.0];no
+226;resource description framework (rdf);is;vocabulary;['luanyi'];[2];yes
+338;resource description framework (rdf);provides;vocabulary;['heuristic'];[20];yes
+557;resource description framework (rdf);is;web applications;['luanyi'];[8];yes
+1243;resource description framework (rdf);provides;web applications;['heuristic'];[3.0];no
+790;resource description framework (rdf);includes;web contents;['heuristic', 'heuristic'];[8.0, 3.0];no
+154;resource description framework (rdf);represents;web contents;['openie', 'heuristic'];[1, 2];yes
+444;resource description framework (rdf);is;web engineering;['luanyi'];[1];yes
+501;resource description framework (rdf);represents;web information;['openie', 'heuristic'];[1, 8];yes
+1077;resource description framework (rdf);interacts;web of data;['heuristic'];[4.0];no
+27;resource description framework (rdf);is;web ontology language;['luanyi'];[6];yes
+275;resource description framework (rdf);uses;web ontology language;['heuristic'];[212];yes
+1244;resource description framework (rdf);supports;wordnet;['heuristic'];[3.0];no
+373;resource description framework (rdf);includes;xml data;['openie'];[1];yes
+620;resource discovery;uses;linked data;['heuristic'];[1];yes
+482;resource discovery;uses;web ontology language;['luanyi'];[1];yes
+1245;resource sharing;base;web ontology language;['heuristic'];[3.0];no
+689;robots;uses;semantic description;['heuristic'];[2];yes
+763;robots;uses;semantic web services;['heuristic'];[2];yes
+1246;satisfiability;includes;web ontology language;['heuristic'];[3.0];no
+962;schema matching;uses;ontology alignment;['heuristic'];[5.0];no
+296;scientific data;uses;linked data;['luanyi'];[1];yes
+963;search engines;base;resource description framework (rdf);['heuristic'];[5.0];no
+1078;search engines;selects;resource description framework (rdf);['heuristic'];[4.0];no
+91;search engines;includes;semantic search engines;['luanyi'];[4];yes
+346;search engines;provides;semantic search engines;['openie', 'heuristic'];[2, 44];yes
+585;search engines;uses;semantic web services;['luanyi'];[2];yes
+598;search engines;uses;web ontology language;['luanyi'];[2];yes
+25;security models;uses;resource description framework (rdf);['luanyi'];[1];yes
+1247;security policies;base;web ontology language;['heuristic', 'heuristic'];[3.0, 1.0];no
+52;security policies;uses;web ontology language;['luanyi'];[1];yes
+1248;semantic concept;supports;semantic search engines;['heuristic'];[3.0];no
+1079;semantic data;links;linked data;['heuristic'];[4.0];no
+412;semantic data;uses;ontology alignment;['luanyi'];[1];yes
+878;semantic data;improves;semantic search engines;['heuristic'];[6.0];no
+658;semantic data;uses;web ontology language;['heuristic'];[2];yes
+565;semantic description;uses;analytic hierarchy process (ahp);['luanyi'];[1];yes
+1249;semantic description;supports;automated reasoning;['heuristic'];[3.0];no
+879;semantic description;provides;automation;['heuristic'];[6.0];no
+1250;semantic description;supports;autonomic computing;['heuristic'];[3.0];no
+964;semantic description;improves;cache;['heuristic'];[5.0];no
+1080;semantic description;requires;compilers;['heuristic'];[4.0];no
+663;semantic description;uses;component-based software engineering;['heuristic'];[11];yes
+828;semantic description;produces;content based recommendation (cbr);['heuristic'];[7.0];no
+316;semantic description;uses;description logics;['luanyi'];[1];yes
+1251;semantic description;proposes;descriptors;['heuristic'];[3.0];no
+791;semantic description;improves;digital libraries;['heuristic'];[8.0];no
+145;semantic description;uses;digital libraries;['luanyi'];[1];yes
+1081;semantic description;learns;e-learning environment;['heuristic'];[4.0];no
+1252;semantic description;links;engineering;['heuristic'];[3.0];no
+1253;semantic description;affects;extensible markup language (xml);['heuristic'];[3.0];no
+202;semantic description;uses;formal specifications;['luanyi'];[1];yes
+164;semantic description;uses;fuzzy logics;['luanyi'];[1];yes
+688;semantic description;uses;haskell;['heuristic'];[2];yes
+1254;semantic description;acquires;knowledge bases;['heuristic'];[3.0];no
+142;semantic description;uses;knowledge bases;['luanyi'];[1];yes
+1082;semantic description;converts;knowledge representation;['heuristic'];[4.0];no
+1255;semantic description;proposes;linked data;['heuristic'];[3.0];no
+402;semantic description;uses;model-driven architectures;['luanyi'];[1];yes
+1083;semantic description;includes;multimedia data;['heuristic'];[4.0];no
+485;semantic description;uses;ontologies;['heuristic', 'luanyi', 'openie'];[48, 6, 1];yes
+731;semantic description;uses;ontology alignment;['heuristic'];[1];yes
+59;semantic description;uses;ontology language;['luanyi', 'heuristic'];[2, 4];yes
+686;semantic description;uses;parallel programming;['heuristic'];[2];yes
+552;semantic description;supports;reasoning algorithms;['openie'];[1];yes
+1084;semantic description;supports;search engines;['heuristic'];[4.0];no
+174;semantic description;uses;semantic descriptions;['luanyi'];[1];yes
+880;semantic description;extends;semantic distance;['heuristic'];[6.0];no
+1256;semantic description;extends;semantic relationships;['heuristic'];[3.0];no
+1085;semantic description;provides;semantic relationships;['heuristic'];[4.0];no
+377;semantic description;uses;semantic relationships;['luanyi'];[1];yes
+1086;semantic description;provides;semantic web services;['heuristic'];[4.0];no
+611;semantic description;uses;semantic web technologies;['luanyi', 'heuristic'];[1, 3];yes
+1087;semantic description;provides;sensor data;['heuristic'];[4.0];no
+1257;semantic description;supports;service compositions;['heuristic'];[3.0];no
+1258;semantic description;provides;web ontology language;['heuristic'];[3.0];no
+170;semantic description;uses;web ontology language;['openie', 'heuristic'];[1, 3];yes
+1259;semantic description;provides;wordnet;['heuristic'];[3.0];no
+510;semantic description;uses;wordnet;['luanyi'];[1];yes
+159;semantic descriptions;supports;business services;['openie'];[1];yes
+364;semantic descriptions;is;component-based software engineering;['openie'];[1];yes
+542;semantic descriptions;uses;heterogeneous databases;['luanyi'];[1];yes
+1260;semantic descriptions;publishes;linked data;['heuristic'];[3.0];no
+541;semantic descriptions;uses;ontologies;['luanyi'];[3];yes
+1261;semantic descriptions;is;resource description framework (rdf);['heuristic'];[3.0];no
+685;semantic descriptions;uses;semantic description;['heuristic'];[1];yes
+13;semantic descriptions;is;semantic relationships;['luanyi'];[1];yes
+881;semantic descriptions;is;semantic web technologies;['heuristic', 'heuristic'];[6.0, 1.0];no
+269;semantic descriptions;uses;semantic web technologies;['openie', 'heuristic'];[1, 3];yes
+1262;semantic descriptions;supports;web of data;['heuristic'];[3.0];no
+765;semantic desktop;uses;linked data;['heuristic'];[1];yes
+232;semantic desktop;uses;semantic search engines;['luanyi'];[1];yes
+514;semantic distance;uses;linked data;['luanyi'];[1];yes
+318;semantic heterogeneity;uses;ontology alignment;['luanyi', 'luanyi'];[3, 1];yes
+75;semantic heterogeneity;uses;semantic web services;['luanyi'];[1];yes
+1263;semantic interoperability;provides;linked data;['heuristic'];[3.0];no
+146;semantic interoperability;uses;ontology alignment;['luanyi', 'luanyi', 'heuristic'];[10, 3, 10];yes
+1264;semantic interoperability;supports;semantic search engines;['heuristic'];[3.0];no
+1088;semantic interoperability;converts;semantic web services;['heuristic'];[4.0];no
+489;semantic interoperability;uses;semantic web services;['luanyi'];[1];yes
+792;semantic interoperability;includes;web ontology language;['heuristic'];[8.0];no
+497;semantic interoperability;uses;web ontology language;['luanyi', 'heuristic'];[2, 3];yes
+719;semantic metadata;uses;resource description framework (rdf);['heuristic'];[1];yes
+436;semantic relationships;uses;linked data;['luanyi', 'luanyi'];[1, 2];yes
+5;semantic relationships;uses;ontology alignment;['luanyi'];[1];yes
+1265;semantic relationships;converts;resource description framework (rdf);['heuristic'];[3.0];no
+1266;semantic relationships;represents;resource description framework (rdf);['heuristic'];[3.0];no
+1267;semantic relationships;selects;semantic description;['heuristic'];[3.0];no
+425;semantic relationships;uses;semantic description;['luanyi'];[1];yes
+965;semantic relationships;represents;semantic web services;['heuristic'];[5.0];no
+526;semantic relationships;supports;semantic web services;['heuristic'];[21];yes
+387;semantic relationships;uses;semantic web services;['luanyi'];[4];yes
+703;semantic relationships;uses;web ontology language;['heuristic', 'heuristic'];[8, 1];yes
+882;semantic search engine;acquires;component-based software engineering;['heuristic', 'heuristic'];[6.0, 1.0];no
+212;semantic search engine;includes;component-based software engineering;['luanyi'];[1];yes
+1268;semantic search engine;acquires;database systems;['heuristic'];[3.0];no
+406;semantic search engine;uses;database systems;['luanyi'];[1];yes
+248;semantic search engine;uses;description logics;['luanyi'];[1];yes
+1269;semantic search engine;produces;domain-specific ontologies;['heuristic'];[3.0];no
+644;semantic search engine;uses;engine;['heuristic'];[17];yes
+1089;semantic search engine;combines;information retrieval;['heuristic'];[4.0];no
+157;semantic search engine;is;information technology;['luanyi'];[1];yes
+1270;semantic search engine;acquires;internet;['heuristic'];[3.0];no
+701;semantic search engine;uses;knowledge bases;['heuristic'];[4];yes
+141;semantic search engine;uses;linked data;['luanyi'];[1];yes
+1090;semantic search engine;supports;linked open data;['heuristic'];[4.0];no
+241;semantic search engine;uses;natural language interfaces;['luanyi'];[4];yes
+1271;semantic search engine;provides;natural languages;['heuristic'];[3.0];no
+2;semantic search engine;produces;ontologies;['heuristic'];[30];yes
+273;semantic search engine;uses;ontologies;['luanyi'];[5];yes
+966;semantic search engine;acquires;ontology technology;['heuristic'];[5.0];no
+589;semantic search engine;combines;ontology technology;['openie'];[1];yes
+404;semantic search engine;uses;ontology technology;['luanyi'];[1];yes
+588;semantic search engine;uses;search engines;['luanyi'];[4];yes
+220;semantic search engine;uses;semantic data;['luanyi'];[1];yes
+556;semantic search engine;uses;semantic relationships;['luanyi'];[2];yes
+504;semantic search engine;uses;semantic search engines;['luanyi'];[2];yes
+17;semantic search engine;uses;semantic web technologies;['luanyi', 'luanyi', 'heuristic'];[3, 1, 1];yes
+650;semantic search engine;uses;structured query language (sql);['heuristic'];[1];yes
+478;semantic search engine;uses;user interfaces;['luanyi'];[1];yes
+883;semantic search engine;provides;user query;['heuristic'];[6.0];no
+1272;semantic search engine;supports;visualization;['heuristic'];[3.0];no
+1091;semantic search engine;acquires;web contents;['heuristic'];[4.0];no
+700;semantic search engine;includes;web information;['heuristic'];[2];yes
+493;semantic search engine;uses;wordnet;['luanyi'];[1];yes
+1092;semantic search engines;produces;access control;['heuristic'];[4.0];no
+967;semantic search engines;uses;artificial intelligence;['heuristic'];[5.0];no
+829;semantic search engines;supports;audio;['heuristic'];[7.0];no
+129;semantic search engines;uses;automatic image annotation;['luanyi', 'heuristic'];[1, 1];yes
+1273;semantic search engines;acquires;background knowledge;['heuristic'];[3.0];no
+1274;semantic search engines;uses;clustering algorithms;['heuristic'];[3.0];no
+884;semantic search engines;produces;communication;['heuristic'];[6.0];no
+793;semantic search engines;acquires;component-based software engineering;['heuristic', 'heuristic'];[8.0, 1.0];no
+352;semantic search engines;is;component-based software engineering;['openie'];[1];yes
+1275;semantic search engines;proposes;concept lattices;['heuristic'];[3.0];no
+1276;semantic search engines;causes;concept similarity;['heuristic'];[3.0];no
+1277;semantic search engines;uses;data mining;['heuristic'];[3.0];no
+623;semantic search engines;uses;database systems;['heuristic'];[4];yes
+365;semantic search engines;uses;description logics;['luanyi', 'heuristic'];[1, 3];yes
+678;semantic search engines;uses;digital images;['heuristic'];[1];yes
+968;semantic search engines;is;digital libraries;['heuristic'];[5.0];no
+885;semantic search engines;provides;domain knowledge;['heuristic'];[6.0];no
+495;semantic search engines;uses;domain-specific ontologies;['luanyi'];[5];yes
+1278;semantic search engines;learns;e-learning environment;['heuristic'];[3.0];no
+108;semantic search engines;uses;electronic documents;['luanyi'];[1];yes
+253;semantic search engines;uses;email;['luanyi'];[1];yes
+454;semantic search engines;uses;engine;['heuristic'];[47];yes
+1093;semantic search engines;base;extensible markup language (xml);['heuristic'];[4.0];no
+746;semantic search engines;uses;fuzzy description logic;['heuristic'];[2];yes
+332;semantic search engines;uses;graph matchings;['luanyi'];[1];yes
+1279;semantic search engines;base;hierarchical models;['heuristic'];[3.0];no
+494;semantic search engines;uses;hierarchical models;['luanyi'];[2];yes
+582;semantic search engines;uses;index structure;['luanyi'];[1];yes
+432;semantic search engines;uses;inference;['luanyi', 'heuristic'];[2, 21];yes
+1280;semantic search engines;supports;information acquisitions;['heuristic'];[3.0];no
+1281;semantic search engines;uses;information needs;['heuristic'];[3.0];no
+593;semantic search engines;uses;information retrieval;['heuristic'];[34];yes
+559;semantic search engines;provides;knowledge bases;['heuristic'];[25];yes
+830;semantic search engines;improves;knowledge discovery;['heuristic'];[7.0];no
+1094;semantic search engines;supports;knowledge management;['heuristic'];[4.0];no
+530;semantic search engines;uses;knowledge representation;['luanyi'];[1];yes
+117;semantic search engines;learns;learning;['heuristic'];[24];yes
+886;semantic search engines;selects;libraries;['heuristic'];[6.0];no
+758;semantic search engines;uses;linked data;['heuristic'];[11];yes
+699;semantic search engines;uses;linked open data;['heuristic'];[8];yes
+23;semantic search engines;uses;map-reduce;['luanyi', 'heuristic'];[1, 1];yes
+8;semantic search engines;uses;mobile agents;['luanyi'];[1];yes
+133;semantic search engines;uses;mobile devices;['luanyi'];[2];yes
+486;semantic search engines;uses;mobile phones;['openie', 'luanyi', 'heuristic'];[1, 2, 2];yes
+969;semantic search engines;provides;multimedia data;['heuristic'];[5.0];no
+385;semantic search engines;uses;named entity recognition;['luanyi'];[1];yes
+525;semantic search engines;is;natural language processing systems;['luanyi'];[1];yes
+831;semantic search engines;uses;natural language processing systems;['heuristic'];[7.0];no
+171;semantic search engines;requires;ontologies;['openie'];[3];yes
+285;semantic search engines;uses;ontologies;['heuristic', 'luanyi'];[209, 16];yes
+362;semantic search engines;uses;parallelism;['luanyi'];[1];yes
+405;semantic search engines;uses;pervasive computing;['luanyi'];[1];yes
+1282;semantic search engines;improves;process mining;['heuristic'];[3.0];no
+1283;semantic search engines;produces;purchase;['heuristic'];[3.0];no
+12;semantic search engines;uses;rdf data;['luanyi'];[1];yes
+511;semantic search engines;executes;reasoning algorithms;['heuristic'];[23];yes
+24;semantic search engines;uses;recommendation;['openie'];[1];yes
+126;semantic search engines;uses;resource description framework (rdf);['luanyi', 'openie', 'heuristic'];[1, 1, 5];yes
+50;semantic search engines;combines;search engines;['heuristic'];[57];yes
+461;semantic search engines;requires;search engines;['openie'];[4];yes
+592;semantic search engines;uses;search engines;['luanyi'];[11];yes
+970;semantic search engines;requires;semantic metadata;['heuristic'];[5.0];no
+740;semantic search engines;uses;semantic relationships;['heuristic'];[8];yes
+278;semantic search engines;uses;semantic search engine;['luanyi'];[2];yes
+767;semantic search engines;uses;semantic similarity measures;['heuristic'];[13];yes
+887;semantic search engines;uses;semantic web services;['heuristic'];[6.0];no
+971;semantic search engines;base;semantic web technologies;['heuristic'];[5.0];no
+480;semantic search engines;is;semantic web technologies;['luanyi', 'luanyi'];[2, 1];yes
+63;semantic search engines;provides;semantic web technologies;['heuristic'];[68];yes
+372;semantic search engines;uses;semantic web technologies;['luanyi', 'luanyi'];[3, 6];yes
+612;semantic search engines;uses;social networks;['luanyi'];[2];yes
+348;semantic search engines;uses;sparql;['luanyi', 'heuristic'];[2, 17];yes
+760;semantic search engines;uses;sparql inferencing notation (spin);['heuristic'];[1];yes
+302;semantic search engines;uses;spatial data infrastructure;['luanyi'];[1];yes
+1284;semantic search engines;selects;stream data;['heuristic'];[3.0];no
+213;semantic search engines;uses;text mining;['luanyi'];[1];yes
+1095;semantic search engines;extends;user profiling;['heuristic'];[4.0];no
+398;semantic search engines;uses;user query;['luanyi', 'heuristic'];[1, 19];yes
+523;semantic search engines;requires;verification;['openie'];[1];yes
+636;semantic search engines;uses;vocabulary;['heuristic'];[6];yes
+888;semantic search engines;classifies;web contents;['heuristic'];[6.0];no
+1096;semantic search engines;includes;web information;['heuristic'];[4.0];no
+520;semantic search engines;uses;web of data;['luanyi'];[1];yes
+167;semantic search engines;uses;web ontology language;['luanyi', 'heuristic'];[2, 4];yes
+180;semantic search engines;improves;web searches;['openie'];[1];yes
+794;semantic search engines;produces;web-searching;['heuristic'];[8.0];no
+972;semantic similarity measures;proposes;linked data;['heuristic'];[5.0];no
+973;semantic similarity measures;is;ontology alignment;['heuristic'];[5.0];no
+179;semantic similarity measures;uses;ontology alignment;['luanyi'];[1];yes
+1097;semantic similarity measures;extends;semantic description;['heuristic'];[4.0];no
+974;semantic similarity measures;is;semantic web services;['heuristic'];[5.0];no
+1098;semantic web rule languages;defines;web ontology language;['heuristic'];[4.0];no
+516;semantic web rule languages;extends;web ontology language;['openie'];[1];yes
+538;semantic web rule languages;is;web ontology language;['luanyi'];[1];yes
+319;semantic web rule languages;produces;web ontology language;['heuristic'];[62];yes
+889;semantic web service discovery;base;ontology alignment;['heuristic'];[6.0];no
+309;semantic web service discovery;uses;ontology alignment;['luanyi'];[2];yes
+795;semantic web service discovery;base;semantic web services;['heuristic'];[8.0];no
+1099;semantic web services;base;access control;['heuristic'];[4.0];no
+467;semantic web services;uses;access control;['luanyi'];[3];yes
+320;semantic web services;uses;agent technology;['luanyi', 'heuristic'];[2, 11];yes
+625;semantic web services;uses;answering queries;['heuristic'];[1];yes
+280;semantic web services;requires;authentication;['openie', 'heuristic'];[1, 1];yes
+463;semantic web services;supports;automated reasoning;['openie', 'heuristic'];[2, 6];yes
+440;semantic web services;produces;automatic composition;['openie'];[1];yes
+298;semantic web services;uses;automatic composition;['luanyi'];[1];yes
+38;semantic web services;supports;automation;['heuristic', 'openie'];[54, 6];yes
+568;semantic web services;uses;bayesian classification;['luanyi'];[1];yes
+97;semantic web services;uses;business logic;['luanyi', 'heuristic'];[1, 8];yes
+124;semantic web services;uses;business process execution language;['luanyi'];[4];yes
+1285;semantic web services;produces;business process modelling;['heuristic'];[3.0];no
+353;semantic web services;uses;collaborative filtering algorithms;['luanyi', 'heuristic'];[1, 1];yes
+295;semantic web services;uses;collaborative tagging;['luanyi'];[1];yes
+572;semantic web services;provides;communication;['heuristic'];[41];yes
+578;semantic web services;includes;component-based software engineering;['luanyi'];[1];yes
+194;semantic web services;is;component-based software engineering;['openie'];[1];yes
+53;semantic web services;produces;component-based software engineering;['heuristic'];[27];yes
+1286;semantic web services;represents;computer science;['heuristic'];[3.0];no
+832;semantic web services;extends;context information;['heuristic'];[7.0];no
+1100;semantic web services;combines;cycle;['heuristic'];[4.0];no
+1287;semantic web services;automates;data integration;['heuristic'];[3.0];no
+424;semantic web services;uses;database management;['luanyi'];[1];yes
+602;semantic web services;uses;description logics;['luanyi'];[6];yes
+26;semantic web services;uses;distributed applications;['luanyi'];[1];yes
+515;semantic web services;uses;distributed architectures;['luanyi'];[1];yes
+165;semantic web services;uses;distributed systems;['luanyi'];[1];yes
+833;semantic web services;requires;domain-specific ontologies;['heuristic'];[7.0];no
+1288;semantic web services;matches;efficient algorithm;['heuristic'];[3.0];no
+742;semantic web services;uses;explicit knowledge;['heuristic'];[2];yes
+426;semantic web services;uses;extensible markup language (xml);['openie'];[1];yes
+1101;semantic web services;includes;finite state machines;['heuristic'];[4.0];no
+543;semantic web services;uses;formal models;['luanyi'];[2];yes
+1102;semantic web services;supports;grid services;['heuristic'];[4.0];no
+1103;semantic web services;proposes;inference;['heuristic'];[4.0];no
+11;semantic web services;is;information integration;['luanyi'];[1];yes
+975;semantic web services;queries;information retrieval;['heuristic'];[5.0];no
+796;semantic web services;supports;information systems;['heuristic'];[8.0];no
+1104;semantic web services;extends;information technology;['heuristic'];[4.0];no
+723;semantic web services;uses;information theory;['heuristic'];[1];yes
+1289;semantic web services;is;intelligibility;['heuristic'];[3.0];no
+279;semantic web services;uses;knowledge acquisition;['luanyi'];[3];yes
+109;semantic web services;uses;learning;['heuristic'];[24];yes
+976;semantic web services;supports;learning objects;['heuristic'];[5.0];no
+768;semantic web services;uses;linear logic;['heuristic'];[3];yes
+1105;semantic web services;links;linked open data;['heuristic'];[4.0];no
+977;semantic web services;proposes;logistics;['heuristic'];[5.0];no
+737;semantic web services;uses;machine learning techniques;['heuristic'];[2];yes
+242;semantic web services;uses;mashup;['luanyi'];[1];yes
+200;semantic web services;uses;matching algorithm;['luanyi'];[2];yes
+415;semantic web services;uses;mobile devices;['luanyi', 'heuristic'];[1, 1];yes
+128;semantic web services;uses;modeling languages;['luanyi'];[2];yes
+116;semantic web services;uses;ontologies;['luanyi', 'openie', 'heuristic'];[21, 1, 251];yes
+378;semantic web services;uses;ontology alignment;['luanyi'];[2];yes
+233;semantic web services;uses;ontology evolution;['luanyi'];[1];yes
+834;semantic web services;provides;ontology integration;['heuristic'];[7.0];no
+522;semantic web services;uses;ontology integration;['luanyi'];[1];yes
+110;semantic web services;uses;ontology language;['luanyi', 'heuristic'];[1, 7];yes
+105;semantic web services;uses;ontology technology;['luanyi', 'heuristic'];[2, 3];yes
+978;semantic web services;produces;optimization;['heuristic'];[5.0];no
+1106;semantic web services;base;planning algorithms;['heuristic'];[4.0];no
+98;semantic web services;requires;privacy;['openie', 'heuristic'];[1, 1];yes
+1290;semantic web services;supports;process discovery;['heuristic'];[3.0];no
+360;semantic web services;represents;programming models;['openie'];[1];yes
+835;semantic web services;uses;radio frequency identification technology;['heuristic'];[7.0];no
+265;semantic web services;supports;reasoning algorithms;['heuristic', 'openie'];[28, 1];yes
+20;semantic web services;uses;reference architectures;['luanyi'];[1];yes
+284;semantic web services;uses;resource description framework (rdf);['luanyi'];[1];yes
+1107;semantic web services;combines;robots;['heuristic'];[4.0];no
+80;semantic web services;includes;semantic description;['luanyi'];[2];yes
+610;semantic web services;produces;semantic description;['heuristic'];[39];yes
+81;semantic web services;provides;semantic description;['openie'];[2];yes
+836;semantic web services;matches;semantic distance;['heuristic'];[7.0];no
+101;semantic web services;uses;semantic interoperability;['luanyi'];[2];yes
+797;semantic web services;improves;semantic relationships;['heuristic'];[8.0];no
+67;semantic web services;uses;semantic relationships;['luanyi', 'luanyi'];[6, 4];yes
+389;semantic web services;uses;semantic search engines;['luanyi'];[1];yes
+890;semantic web services;base;semantic similarity measures;['heuristic'];[6.0];no
+733;semantic web services;uses;semantic web service discovery;['heuristic'];[11];yes
+300;semantic web services;combines;semantic web technologies;['heuristic', 'openie'];[32, 1];yes
+331;semantic web services;is;semantic web technologies;['luanyi', 'luanyi'];[3, 2];yes
+31;semantic web services;uses;semantic web technologies;['heuristic', 'luanyi', 'luanyi', 'openie', 'heuristic'];[413, 3, 19, 1, 1];yes
+297;semantic web services;uses;semantic wikis;['luanyi'];[3];yes
+1291;semantic web services;produces;service architecture;['heuristic'];[3.0];no
+798;semantic web services;supports;service compositions;['heuristic'];[8.0];no
+214;semantic web services;uses;service compositions;['luanyi', 'heuristic'];[2, 2];yes
+732;semantic web services;uses;service management;['heuristic'];[5];yes
+837;semantic web services;proposes;service ontology;['heuristic'];[7.0];no
+891;semantic web services;proposes;service-oriented computing;['heuristic'];[6.0];no
+614;semantic web services;uses;service-oriented computing;['luanyi'];[3];yes
+205;semantic web services;includes;services selection;['luanyi'];[1];yes
+799;semantic web services;supports;services selection;['heuristic'];[8.0];no
+82;semantic web services;uses;shortest paths;['luanyi'];[1];yes
+1108;semantic web services;extends;social networks;['heuristic'];[4.0];no
+892;semantic web services;uses;soft computing;['heuristic'];[6.0];no
+554;semantic web services;supports;software agents;['heuristic'];[24];yes
+286;semantic web services;uses;software agents;['luanyi'];[2];yes
+800;semantic web services;queries;sparql;['heuristic'];[8.0];no
+483;semantic web services;uses;sparql;['luanyi'];[1];yes
+1292;semantic web services;extends;supply chain coordination;['heuristic'];[3.0];no
+83;semantic web services;supports;supply chain coordination;['openie'];[1];yes
+330;semantic web services;uses;system architectures;['luanyi'];[1];yes
+469;semantic web services;uses;text clustering;['luanyi'];[1];yes
+175;semantic web services;uses;tool support;['luanyi'];[1];yes
+518;semantic web services;uses;uml profiles;['luanyi'];[1];yes
+1293;semantic web services;provides;user experience;['heuristic'];[3.0];no
+838;semantic web services;matches;user query;['heuristic'];[7.0];no
+507;semantic web services;uses;user query;['luanyi'];[1];yes
+1294;semantic web services;automates;verification;['heuristic'];[3.0];no
+369;semantic web services;uses;visual programming;['luanyi'];[1];yes
+1109;semantic web services;extends;visualization;['heuristic'];[4.0];no
+54;semantic web services;uses;visualization;['luanyi'];[1];yes
+186;semantic web services;uses;web 2.0;['luanyi'];[1];yes
+774;semantic web services;uses;web engineering;['heuristic'];[4];yes
+413;semantic web services;uses;web of data;['luanyi'];[1];yes
+234;semantic web services;uses;web ontology language;['luanyi', 'heuristic', 'heuristic'];[4, 3, 7];yes
+246;semantic web services;uses;web service description;['luanyi'];[2];yes
+221;semantic web services;automates;web services discovery;['openie'];[1];yes
+580;semantic web services;provides;web services discovery;['heuristic'];[42];yes
+437;semantic web services;supports;web services discovery;['openie'];[1];yes
+417;semantic web services;uses;web services discovery;['luanyi'];[2];yes
+653;semantic web services;uses;wi-fi;['heuristic'];[3];yes
+1295;semantic web services;converts;xml data;['heuristic'];[3.0];no
+1296;semantic web services;uses;zig-bee;['heuristic'];[3.0];no
+386;semantic web technologies;links;linked data;['heuristic'];[271];yes
+203;semantic web technologies;publishes;linked data;['heuristic'];[65];yes
+521;semantic web technologies;supports;linked data;['heuristic'];[23];yes
+487;semantic web technologies;uses;linked data;['openie'];[1];yes
+7;semantic web technologies;includes;ontology alignment;['luanyi', 'luanyi', 'heuristic', 'heuristic'];[1, 10, 3, 11];yes
+208;semantic web technologies;provides;ontology alignment;['heuristic'];[41];yes
+464;semantic web technologies;uses;ontology alignment;['luanyi'];[1];yes
+32;semantic web technologies;includes;resource description framework (rdf);['heuristic'];[27];yes
+85;semantic web technologies;uses;resource description framework (rdf);['heuristic', 'openie', 'heuristic', 'openie', 'luanyi', 'luanyi', 'heuristic'];[141, 3, 317, 1, 66, 15, 4];yes
+127;semantic web technologies;includes;semantic description;['luanyi'];[1];yes
+893;semantic web technologies;supports;semantic description;['heuristic'];[6.0];no
+546;semantic web technologies;uses;semantic description;['heuristic'];[84];yes
+325;semantic web technologies;includes;semantic descriptions;['luanyi'];[1];yes
+683;semantic web technologies;provides;semantic descriptions;['heuristic'];[7];yes
+44;semantic web technologies;uses;semantic search engine;['luanyi'];[2];yes
+894;semantic web technologies;includes;semantic search engines;['heuristic'];[6.0];no
+103;semantic web technologies;supports;semantic search engines;['heuristic'];[54];yes
+470;semantic web technologies;produces;semantic web services;['openie'];[1];yes
+449;semantic web technologies;provides;semantic web services;['heuristic'];[372];yes
+184;semantic web technologies;supports;semantic web services;['heuristic'];[22];yes
+509;semantic web technologies;uses;semantic web services;['luanyi'];[4];yes
+445;semantic web technologies;combines;web ontology language;['openie'];[1];yes
+979;semantic web technologies;supports;web ontology language;['heuristic'];[5.0];no
+49;semantic web technologies;uses;web ontology language;['heuristic', 'heuristic', 'heuristic', 'luanyi', 'openie', 'luanyi'];[176, 88, 27, 38, 2, 14];yes
+1297;sensor data;base;linked data;['heuristic'];[3.0];no
+47;sensor networks;uses;ontology alignment;['luanyi'];[1];yes
+895;sensors;publishes;linked data;['heuristic'];[6.0];no
+654;service architecture;uses;resource description framework (rdf);['heuristic'];[1];yes
+313;service compositions;uses;semantic description;['luanyi'];[1];yes
+496;service execution;is;semantic web services;['luanyi'];[1];yes
+980;service execution;supports;semantic web services;['heuristic'];[5.0];no
+981;service matching;produces;semantic description;['heuristic'];[5.0];no
+134;service matching;uses;semantic web services;['luanyi', 'heuristic'];[2, 10];yes
+982;service ontology;base;web ontology language;['heuristic'];[5.0];no
+660;service ontology;uses;web ontology language;['heuristic'];[1];yes
+616;services selection;is;semantic web services;['luanyi'];[1];yes
+896;services selection;selects;semantic web services;['heuristic'];[6.0];no
+181;services selection;uses;semantic web services;['luanyi'];[1];yes
+1298;smart grids;links;linked data;['heuristic'];[3.0];no
+342;smart phones;uses;semantic search engines;['luanyi'];[1];yes
+751;social networks;uses;linked data;['heuristic'];[6];yes
+1299;social networks;produces;resource description framework (rdf);['heuristic'];[3.0];no
+1300;social networks;publishes;resource description framework (rdf);['heuristic'];[3.0];no
+473;social networks;uses;web ontology language;['luanyi'];[2];yes
+187;social relationships;uses;semantic search engines;['luanyi'];[1];yes
+276;software agents;uses;semantic description;['luanyi'];[1];yes
+759;software agents;uses;semantic web services;['heuristic'];[13];yes
+672;software design;uses;web ontology language;['heuristic'];[3];yes
+690;software design patterns;uses;web ontology language;['heuristic'];[1];yes
+983;software development life cycle;base;semantic web services;['heuristic'];[5.0];no
+596;software development life cycle;uses;semantic web services;['luanyi'];[1];yes
+341;software engineering;uses;linked data;['luanyi'];[1];yes
+984;software engineering;produces;web ontology language;['heuristic'];[5.0];no
+505;software maintenance;uses;ontology alignment;['luanyi'];[1];yes
+1301;software product lines;acquires;semantic description;['heuristic'];[3.0];no
+897;source codes;proposes;linked data;['heuristic'];[6.0];no
+1110;spam filtering;publishes;linked data;['heuristic'];[4.0];no
+392;sparql;links;linked data;['heuristic'];[59];yes
+1111;sparql;proposes;ontology alignment;['heuristic'];[4.0];no
+476;sparql;acquires;resource description framework (rdf);['heuristic'];[113];yes
+111;sparql;is;resource description framework (rdf);['luanyi'];[4];yes
+455;sparql;queries;resource description framework (rdf);['heuristic'];[30];yes
+396;sparql;represents;resource description framework (rdf);['openie'];[1];yes
+1302;sparql;uses;semantic search engines;['heuristic'];[3.0];no
+1303;sparql;executes;web ontology language;['heuristic'];[3.0];no
+408;sparql;supports;web ontology language;['heuristic'];[23];yes
+985;spatial data;converts;linked data;['heuristic'];[5.0];no
+292;spatial data;uses;linked data;['luanyi'];[2];yes
+452;speech recognition;uses;semantic search engines;['luanyi'];[4];yes
+225;star schema;uses;web ontology language;['luanyi'];[1];yes
+1304;stream data;improves;semantic description;['heuristic'];[3.0];no
+898;structured query language (sql);produces;resource description framework (rdf);['heuristic'];[6.0];no
+773;supervised machine learning;uses;resource description framework (rdf);['heuristic'];[1];yes
+303;supervised machine learning;uses;web ontology language;['luanyi', 'heuristic'];[1, 1];yes
+399;supply chain coordination;uses;semantic web services;['luanyi'];[2];yes
+254;telecommunications industry;uses;semantic web services;['luanyi'];[2];yes
+271;text clustering;uses;semantic search engine;['luanyi'];[1];yes
+839;text mining;selects;semantic description;['heuristic'];[7.0];no
+899;text mining;supports;semantic search engines;['heuristic'];[6.0];no
+448;text mining;uses;semantic web services;['luanyi'];[1];yes
+840;topology;links;linked data;['heuristic'];[7.0];no
+196;twitter;is;linked data;['luanyi'];[1];yes
+986;twitter;uses;linked data;['heuristic'];[5.0];no
+987;type systems;provides;linked data;['heuristic'];[5.0];no
+679;ubiquitous computing;uses;web ontology language;['heuristic'];[1];yes
+642;ubiquitous computing environment;uses;web ontology language;['heuristic'];[5];yes
+988;undirected graph;represents;resource description framework (rdf);['heuristic', 'heuristic'];[5.0, 1.0];no
+1112;universities;acquires;resource description framework (rdf);['heuristic'];[4.0];no
+583;user experience;uses;semantic search engine;['luanyi'];[1];yes
+10;user navigation;uses;semantic search engines;['luanyi'];[1];yes
+70;user query;uses;ontology alignment;['luanyi'];[1];yes
+380;user query;uses;semantic search engine;['luanyi'];[1];yes
+383;user query;uses;semantic search engines;['luanyi'];[1];yes
+671;user query;uses;web ontology language;['heuristic'];[6];yes
+652;vector space model (vsm);uses;web ontology language;['heuristic'];[3];yes
+1305;verification;represents;semantic description;['heuristic'];[3.0];no
+1306;verification;supports;semantic web services;['heuristic'];[3.0];no
+739;verification;uses;web ontology language;['heuristic'];[2];yes
+989;video search;proposes;semantic search engines;['heuristic'];[5.0];no
+841;visual features;supports;semantic search engines;['heuristic'];[7.0];no
+801;visualization;supports;ontology alignment;['heuristic'];[8.0];no
+990;visualization;includes;resource description framework (rdf);['heuristic'];[5.0];no
+382;vocabulary;proposes;linked data;['heuristic'];[37];yes
+842;vocabulary;produces;resource description framework (rdf);['heuristic'];[7.0];no
+900;vocabulary;proposes;semantic web services;['heuristic'];[6.0];no
+901;web 2.0;selects;linked data;['heuristic'];[6.0];no
+29;web applications;uses;linked data;['luanyi'];[4];yes
+291;web applications;uses;ontology alignment;['luanyi'];[1];yes
+339;web applications;uses;resource description framework (rdf);['luanyi', 'heuristic'];[2, 4];yes
+1307;web applications;defines;semantic description;['heuristic'];[3.0];no
+991;web applications;base;semantic search engines;['heuristic'];[5.0];no
+902;web applications;produces;semantic web services;['heuristic'];[6.0];no
+550;web applications;uses;semantic web services;['luanyi'];[4];yes
+1113;web applications;executes;web ontology language;['heuristic'];[4.0];no
+222;web applications;uses;web ontology language;['luanyi'];[1];yes
+333;web browsing;uses;linked data;['luanyi'];[1];yes
+1114;web contents;selects;linked data;['heuristic'];[4.0];no
+314;web contents;uses;linked data;['luanyi', 'heuristic'];[2, 2];yes
+201;web contents;uses;resource description framework (rdf);['openie', 'luanyi', 'heuristic'];[1, 1, 8];yes
+287;web contents;uses;semantic description;['luanyi'];[1];yes
+441;web contents;uses;semantic search engine;['luanyi', 'heuristic'];[1, 1];yes
+344;web contents;uses;semantic search engines;['luanyi'];[1];yes
+188;web contents;uses;semantic web services;['luanyi'];[1];yes
+307;web contents;uses;web ontology language;['luanyi'];[2];yes
+1308;web development;includes;resource description framework (rdf);['heuristic', 'heuristic'];[3.0, 1.0];no
+1309;web development;requires;semantic web services;['heuristic'];[3.0];no
+351;web engineering;uses;resource description framework (rdf);['luanyi', 'heuristic'];[2, 1];yes
+1115;web engineering;produces;semantic description;['heuristic'];[4.0];no
+564;web engineering;uses;semantic web services;['luanyi'];[1];yes
+651;web information;uses;semantic web services;['heuristic'];[2];yes
+209;web of data;links;linked data;['heuristic'];[43];yes
+524;web of data;uses;linked data;['luanyi'];[9];yes
+802;web of data;acquires;resource description framework (rdf);['heuristic'];[8.0];no
+1310;web of data;includes;resource description framework (rdf);['heuristic'];[3.0];no
+416;web of data;uses;resource description framework (rdf);['luanyi'];[2];yes
+531;web of data;uses;semantic search engine;['luanyi'];[1];yes
+1116;web ontology language;limits;access control;['heuristic'];[4.0];no
+139;web ontology language;provides;access control;['openie', 'heuristic'];[1, 9];yes
+1311;web ontology language;defines;automated reasoning;['heuristic'];[3.0];no
+843;web ontology language;provides;automated reasoning;['heuristic'];[7.0];no
+1312;web ontology language;produces;automatic composition;['heuristic'];[3.0];no
+695;web ontology language;supports;automation;['heuristic'];[3];yes
+1117;web ontology language;base;bayesian approaches;['heuristic'];[4.0];no
+992;web ontology language;represents;bayesian approaches;['heuristic'];[5.0];no
+1313;web ontology language;produces;cellular;['heuristic'];[3.0];no
+754;web ontology language;uses;classifiers;['heuristic'];[1];yes
+1314;web ontology language;proposes;cloud services;['heuristic'];[3.0];no
+1118;web ontology language;uses;collaborative designs;['heuristic', 'heuristic'];[4.0, 3.0];no
+903;web ontology language;uses;communication;['heuristic'];[6.0];no
+1315;web ontology language;uses;component repository;['heuristic'];[3.0];no
+1316;web ontology language;uses;component-based software engineering;['heuristic'];[3.0];no
+993;web ontology language;executes;computation independent model (cim);['heuristic'];[5.0];no
+844;web ontology language;produces;computation independent model (cim);['heuristic'];[7.0];no
+1317;web ontology language;supports;computer aided design (cad);['heuristic'];[3.0];no
+491;web ontology language;is;computer science;['luanyi'];[1];yes
+762;web ontology language;uses;computer science;['heuristic'];[1];yes
+1119;web ontology language;provides;context modeling;['heuristic'];[4.0];no
+622;web ontology language;supports;data exchange;['heuristic'];[3];yes
+492;web ontology language;provides;data integration;['openie', 'heuristic'];[1, 4];yes
+904;web ontology language;uses;data integration;['heuristic'];[6.0];no
+1318;web ontology language;extends;data integration system;['heuristic'];[3.0];no
+270;web ontology language;base;description logics;['heuristic', 'heuristic'];[35, 48];yes
+68;web ontology language;is;description logics;['luanyi'];[4];yes
+288;web ontology language;uses;description logics;['luanyi', 'luanyi'];[10, 8];yes
+251;web ontology language;defines;domain knowledge;['heuristic'];[22];yes
+803;web ontology language;represents;domain knowledge;['heuristic'];[8.0];no
+172;web ontology language;includes;domain-specific ontologies;['luanyi'];[1];yes
+37;web ontology language;produces;domain-specific ontologies;['openie'];[1];yes
+708;web ontology language;uses;engine;['heuristic'];[7];yes
+804;web ontology language;represents;engineering;['heuristic'];[8.0];no
+361;web ontology language;is;expert systems;['luanyi'];[1];yes
+143;web ontology language;converts;extensible markup language (xml);['heuristic'];[29];yes
+343;web ontology language;uses;extensible stylesheet language (xslt);['luanyi'];[2];yes
+1319;web ontology language;proposes;facebook;['heuristic'];[3.0];no
+428;web ontology language;is;fuzzy extension;['luanyi'];[1];yes
+529;web ontology language;uses;fuzzy extension;['luanyi'];[1];yes
+131;web ontology language;uses;fuzzy logics;['luanyi'];[1];yes
+994;web ontology language;extends;horn clause;['heuristic'];[5.0];no
+750;web ontology language;uses;hypertext transfer protocol (http);['heuristic'];[3];yes
+219;web ontology language;defines;inference;['heuristic'];[29];yes
+569;web ontology language;supports;inference;['openie'];[1];yes
+712;web ontology language;uses;inference;['heuristic'];[10];yes
+1120;web ontology language;maintains;information systems;['heuristic'];[4.0];no
+1121;web ontology language;includes;intelligent agents;['heuristic'];[4.0];no
+311;web ontology language;includes;knowledge bases;['luanyi'];[1];yes
+805;web ontology language;produces;knowledge bases;['heuristic'];[8.0];no
+130;web ontology language;uses;knowledge engineering;['luanyi'];[1];yes
+42;web ontology language;is;knowledge management;['luanyi'];[1];yes
+1122;web ontology language;represents;knowledge management;['heuristic'];[4.0];no
+466;web ontology language;uses;knowledge representation;['luanyi', 'heuristic'];[1, 14];yes
+1320;web ontology language;supports;knowledge-sharing;['heuristic'];[3.0];no
+224;web ontology language;is;logic programming;['luanyi'];[1];yes
+1321;web ontology language;defines;matching algorithm;['heuristic'];[3.0];no
+217;web ontology language;is;modeling languages;['luanyi'];[1];yes
+1123;web ontology language;uses;modeling languages;['heuristic'];[4.0];no
+1322;web ontology language;provides;natural language processing systems;['heuristic'];[3.0];no
+390;web ontology language;defines;ontologies;['openie', 'heuristic', 'heuristic'];[9, 280, 276];yes
+135;web ontology language;includes;ontologies;['luanyi'];[13];yes
+326;web ontology language;is;ontologies;['openie'];[8];yes
+1124;web ontology language;defines;ontology alignment;['heuristic'];[4.0];no
+995;web ontology language;provides;ontology alignment;['heuristic'];[5.0];no
+575;web ontology language;includes;ontology construction;['luanyi'];[2];yes
+996;web ontology language;proposes;ontology construction;['heuristic'];[5.0];no
+431;web ontology language;includes;ontology language;['luanyi'];[1];yes
+153;web ontology language;is;ontology language;['luanyi', 'heuristic', 'luanyi', 'heuristic', 'openie'];[5, 48, 36, 36, 6];yes
+195;web ontology language;provides;ontology modeling;['openie'];[1];yes
+1323;web ontology language;supports;ontology modeling;['heuristic', 'heuristic'];[3.0, 2.0];no
+1125;web ontology language;produces;pervasive;['heuristic', 'heuristic'];[4.0, 3.0];no
+1126;web ontology language;base;petri nets;['heuristic'];[4.0];no
+1324;web ontology language;maintains;privacy;['heuristic'];[3.0];no
+997;web ontology language;acquires;probability;['heuristic'];[5.0];no
+845;web ontology language;provides;query processing;['heuristic'];[7.0];no
+1325;web ontology language;acquires;rdf data;['heuristic'];[3.0];no
+235;web ontology language;provides;reasoning algorithms;['heuristic'];[70];yes
+336;web ontology language;supports;reasoning algorithms;['heuristic', 'openie'];[53, 1];yes
+155;web ontology language;is;recommendation;['openie'];[1];yes
+1326;web ontology language;matches;relational data models;['heuristic'];[3.0];no
+21;web ontology language;uses;relational data models;['luanyi'];[1];yes
+427;web ontology language;is;relational database systems;['luanyi'];[1];yes
+1127;web ontology language;produces;relational database systems;['heuristic'];[4.0];no
+15;web ontology language;uses;relational database systems;['luanyi', 'luanyi'];[2, 1];yes
+419;web ontology language;provides;resource description framework (rdf);['heuristic'];[211];yes
+1327;web ontology language;uses;resource discovery;['heuristic'];[3.0];no
+1328;web ontology language;produces;search engines;['heuristic'];[3.0];no
+617;web ontology language;supports;search engines;['openie', 'heuristic'];[1, 1];yes
+89;web ontology language;is;semantic description;['luanyi', 'luanyi'];[2, 1];yes
+998;web ontology language;provides;semantic interoperability;['heuristic'];[5.0];no
+905;web ontology language;converts;semantic relationships;['heuristic'];[6.0];no
+1329;web ontology language;proposes;semantic relationships;['heuristic'];[3.0];no
+906;web ontology language;produces;semantic web rule languages;['heuristic'];[6.0];no
+421;web ontology language;proposes;semantic web rule languages;['heuristic'];[59];yes
+381;web ontology language;includes;semantic web services;['luanyi'];[1];yes
+317;web ontology language;is;semantic web services;['luanyi'];[2];yes
+283;web ontology language;defines;semantic web technologies;['heuristic'];[161];yes
+846;web ontology language;includes;semantic web technologies;['heuristic'];[7.0];no
+84;web ontology language;is;semantic web technologies;['luanyi', 'luanyi', 'luanyi'];[6, 43, 3];yes
+547;web ontology language;produces;semantic web technologies;['openie'];[1];yes
+558;web ontology language;uses;semantic web technologies;['heuristic'];[168];yes
+675;web ontology language;is;sensors;['heuristic'];[1];yes
+775;web ontology language;supports;software agents;['heuristic'];[1];yes
+657;web ontology language;is;software engineering;['heuristic'];[1];yes
+394;web ontology language;base;sparql;['heuristic'];[27];yes
+1330;web ontology language;selects;uml models;['heuristic'];[3.0];no
+1128;web ontology language;includes;uml profiles;['heuristic', 'heuristic'];[4.0, 3.0];no
+443;web ontology language;uses;uml profiles;['luanyi'];[1];yes
+1331;web ontology language;improves;understandability;['heuristic'];[3.0];no
+999;web ontology language;defines;vocabulary;['heuristic'];[5.0];no
+422;web ontology language;is;vocabulary;['luanyi'];[2];yes
+806;web ontology language;proposes;vocabulary;['heuristic'];[8.0];no
+384;web ontology language;provides;vocabulary;['openie'];[1];yes
+1332;web ontology language;selects;web contents;['heuristic'];[3.0];no
+260;web ontology language;uses;web of data;['luanyi'];[1];yes
+1129;web ontology language;supports;wiki;['heuristic'];[4.0];no
+1130;web ontology language;supports;xml data;['heuristic'];[4.0];no
+807;web ontology language;converts;xml schemas;['heuristic'];[8.0];no
+1333;web searches;proposes;resource description framework (rdf);['heuristic'];[3.0];no
+544;web searches;uses;resource description framework (rdf);['luanyi'];[1];yes
+88;web searches;uses;semantic search engines;['luanyi'];[3];yes
+349;web service composition;uses;ontology alignment;['luanyi'];[1];yes
+539;web service composition;uses;semantic web services;['luanyi'];[1];yes
+1334;web service description;lacks;semantic web services;['heuristic'];[3.0];no
+299;web service description;uses;semantic web services;['luanyi'];[6];yes
+907;web services discovery;base;ontology alignment;['heuristic'];[6.0];no
+45;web services discovery;uses;semantic description;['luanyi'];[1];yes
+908;web services discovery;combines;semantic search engines;['heuristic'];[6.0];no
+183;web services discovery;uses;semantic web services;['heuristic', 'luanyi', 'luanyi'];[29, 3, 1];yes
+252;web-mining;uses;semantic search engines;['luanyi'];[1];yes
+474;web-searching;uses;semantic search engines;['luanyi'];[1];yes
+160;wiki;is;linked data;['luanyi'];[1];yes
+681;wiki;uses;resource description framework (rdf);['heuristic'];[1];yes
+597;wiki;provides;semantic search engines;['openie'];[1];yes
+909;wiki;uses;semantic search engines;['heuristic'];[6.0];no
+706;wireless sensor networks (wsn);uses;web ontology language;['heuristic'];[2];yes
+1131;wordnet;produces;ontology alignment;['heuristic'];[4.0];no
+1335;wordnet;converts;web ontology language;['heuristic'];[3.0];no
+65;wordnet;is;web ontology language;['luanyi'];[2];yes
+847;world wide web;improves;linked data;['heuristic'];[7.0];no
+910;world wide web;converts;resource description framework (rdf);['heuristic'];[6.0];no
+237;world wide web;is;semantic search engine;['luanyi'];[1];yes
+1000;world wide web;recommends;web ontology language;['heuristic'];[5.0];no
+423;xacml;is;web ontology language;['luanyi'];[1];yes
+911;xml schemas;is;web ontology language;['heuristic'];[6.0];no
+629;xml technology;uses;semantic search engines;['heuristic'];[1];yes
+1336;xpath;provides;resource description framework (rdf);['heuristic'];[3.0];no
+1337;xquery;provides;resource description framework (rdf);['heuristic'];[3.0];no

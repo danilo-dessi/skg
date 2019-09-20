@@ -59,7 +59,7 @@ def select_sw_cso(triple2source, triple2support):
 				sw_triple2support[s,p,o] = triple2support[(s,p,o)]
 	return sw_triple2source, sw_triple2support
 
-'''
+
 #used just once to retrieve old annotations
 def retrieve_old_annotations(filename):
 	data_triples = pd.read_csv(filename, sep=';')
@@ -71,22 +71,22 @@ def retrieve_old_annotations(filename):
 		annotation = row['Danilo']
 		triples[(s,p,o)] = annotation
 	return triples
-'''
+
 
 
 
 def save(triple2source, triple2support, pipeline, filename):
 
-	'''old_annotations = retrieve_old_annotations('selected_sw_triples_ann.csv')
+	old_annotations = retrieve_old_annotations('selected_sw_triples_annotated_new.csv')
 	for (s,p,o) in triple2source:
 		if (s,p,o) not in old_annotations:
 			old_annotations[(s,p,o)] = ''
-	'''
+	
 
 	#print('Annotations: ',len(old_annotations), len(triple2source))
 
 	columns_order = ['s', 'p', 'o', 'source', 'support', 'pipeline', 'Danilo']
-	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)], 'Danilo': old_annotations[(s,p,o)] } for (s,p,o) in triple2source]
+	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)], 'Danilo': old_annotations[(s,p,o)] } for (s,p,o) in triple2source if s != o]
 	df = pd.DataFrame(data, columns=columns_order)
 	df = df[columns_order]
 	df.to_csv(filename, sep=';')
@@ -104,7 +104,7 @@ def load_triples(filename):
 		o = row['o']
 		source = row['source']
 		support = row['support']
-		if p != 'conjunction':
+		if p != 'conjunction' and s != o: 
 			if (s,p,o) not in triple2source:
 				triple2source[(s,p,o)] = [source]
 				triple2support[s,p,o] = [support]
@@ -118,9 +118,9 @@ def load_triples(filename):
 if __name__ == "__main__":
 
 
-
-	triple2source, triple2support = load_triples('selected_triples.csv')
-	dis_triple2source, dis_triple2support = load_triples('discarded_triples.csv')
+	th_support = 20
+	triple2source, triple2support = load_triples('selected_triples_20_09_2019.csv')
+	dis_triple2source, dis_triple2support = load_triples('discarded_triples_20_09_2019.csv')
 
 	print('Number of relations', len(triple2source))
 	print('Number of relations from Luan Yi et al\'s tool', count_source(triple2source, 'luanyi'))
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 		if 'heuristic' in triple2source[(s,p,o)]:
 			pos_support = triple2source[(s,p,o)].index('heuristic')
 			support = triple2support[(s,p,o)][pos_support]
-			if support >= 9:
+			if support >= th_support:
 				triples2source_high[(s,p,o)] = triple2source[(s,p,o)]
 	print('Number of relations from our Heuristic with high support', count_source(triples2source_high, 'heuristic'))
 
@@ -148,7 +148,7 @@ if __name__ == "__main__":
 		if 'heuristic' in sw_triple2source[(s,p,o)]:
 			pos_support = sw_triple2source[(s,p,o)].index('heuristic')
 			support = sw_triple2support[(s,p,o)][pos_support]
-			if support >= 9:
+			if support >= th_support:
 				sw_triples2source_high[(s,p,o)] = sw_triple2source[(s,p,o)]
 	print('Number of relations from our Heuristic with high support', count_source(sw_triples2source_high, 'heuristic'))
 	
@@ -184,13 +184,13 @@ if __name__ == "__main__":
 		if 'heuristic' in sw_triple2source[(s,p,o)]:
 			pos_support = sw_triple2source[(s,p,o)].index('heuristic')
 			support = sw_triple2support[(s,p,o)][pos_support]
-			if support >= 9:
+			if support >= th_support:
 				sw_triples2source_high[(s,p,o)] = sw_triple2source[(s,p,o)]
 	print('Number of relations from our Heuristic with high support', count_source(sw_triples2source_high, 'heuristic'))
 
 
 
-	save(sw_triple2source, sw_triple2support, pipeline,'selected_sw_triples.csv')
+	save(sw_triple2source, sw_triple2support, pipeline,'selected_sw_triples_20_09_2019test.csv')
 	
 
 

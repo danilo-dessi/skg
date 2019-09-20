@@ -37,42 +37,62 @@ def precision_recall(triples, gs_triples):
 
 
 if __name__ == "__main__":
-	triples2ann = load_triples_ann('selected_sw_triples_annotated_new.csv', 'Danilo')
-	triples2source = load_triples_ann('selected_sw_triples_annotated_new.csv', 'source')
-	triples2support = load_triples_ann('selected_sw_triples_annotated_new.csv', 'support')
-	triples2pipeline = load_triples_ann('selected_sw_triples_annotated_new.csv', 'pipeline')
+	file = 'selected_sw_triples_20_09_2019_annotated.csv'
+	triples2ann = load_triples_ann(file, 'Danilo')
+	triples2source = load_triples_ann(file, 'source')
+	triples2support = load_triples_ann(file, 'support')
+	triples2pipeline = load_triples_ann(file, 'pipeline')
 
 
 	luanyi_triples = [t for t in triples2source if 'luanyi' in triples2source[t] and triples2pipeline[t] == 'yes']
 	openie_triples = [t for t in triples2source if 'openie' in triples2source[t] and triples2pipeline[t] == 'yes']
 	heuristic_triples = [t for t in triples2source if 'heuristic' in triples2source[t] and triples2pipeline[t] == 'yes']
-	heuristic_triples_high = [t for t in heuristic_triples if ast.literal_eval(triples2support[t])[ast.literal_eval(triples2source[t]).index('heuristic')] >= 9]
+
+	heuristic_triples_high = []
+	for t in heuristic_triples:
+
+		tsources = ast.literal_eval(triples2source[t])
+		#print(tsources)
+		indices = [i for i, x in enumerate(tsources) if x == "heuristic"]
+		tsupports = ast.literal_eval(triples2support[t])
+		#print(tsupports)
+		support = max([tsupports[i] for i in indices])
+		#print(support)
+		if support >= 20:
+			heuristic_triples_high += [t]
+
+	#heuristic_triples_high = [t for t in heuristic_triples if ast.literal_eval(triples2support[t])[ast.literal_eval(triples2source[t]).index('heuristic')] >= 20]
 	allpipeline_triples = [t for t in triples2source if triples2pipeline[t] == 'yes']
 	nopipeline_triples = [t for t in triples2source if triples2pipeline[t] == 'no']
 
-
-	print('Number of Luan Yi triples:\t\t', len(luanyi_triples))
-	print('Number of OpenIE triples:\t\t', len(openie_triples))
-	print('Number of Heuristic triples:\t\t', len(heuristic_triples))
-	print('Number of Heuristic high support triples:', len(heuristic_triples_high))
-	print('Number of all pipeline triples:\t\t', len(allpipeline_triples))
-	print('Number of no pipeline triples:\t\t', len(nopipeline_triples))
+	print('Number of triples:', len(triples2source.keys()))
+	print('Luan Yi:\t\t', len(luanyi_triples))
+	print('OpenIE:\t\t\t', len(openie_triples))
+	print('Heuristic:\t\t', len(heuristic_triples))
+	print('Heuristic (high support only):', len(heuristic_triples_high))
+	print('Pipeline:\t\t', len(allpipeline_triples))
+	print('NO pipeline:\t\t', len(nopipeline_triples))
 	print()
 
 	p,r,f = precision_recall(luanyi_triples, triples2ann)
-	print('Luan Yi \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Luan Yi \t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(openie_triples, triples2ann)
-	print('OpenIE \t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('OpenIE \t\t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(heuristic_triples_high, triples2ann)
-	print('Heuristic High \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Heuristic High \t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(heuristic_triples, triples2ann)
-	print('Heuristic \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Heuristic High + classifier - \tPrecision:', p, 'Recall:', r, 'F1:', f)
+
+	p,r,f = precision_recall(set(luanyi_triples + openie_triples), triples2ann)
+	print('Luanyi + OpenIE only \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(allpipeline_triples, triples2ann)
-	print('General \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Union \t\t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+
+	
 	
 
 

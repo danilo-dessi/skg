@@ -16,7 +16,7 @@ class Selector:
 		self.input_triples = triples
 		self.out_triples = None
 		self.vectors_model = 'resources/300model.bin'
-		self.trust_th = 9
+		self.trust_th = 20
 		self.discarded_triples = None
 
 
