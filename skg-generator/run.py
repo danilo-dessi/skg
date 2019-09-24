@@ -115,7 +115,6 @@ class GraphBuilder:
 		self.relationsRefined = None
 		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
-
 	 
 
 	#BestLabelFinder module execution
@@ -131,6 +130,14 @@ class GraphBuilder:
 		return m.get_triples()
 
 
+	def save_pandas(self, triples, destination):
+		columns_order = ['s', 'p', 'o', 'source', 'support']
+		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in triples]
+		df = pd.DataFrame(data, columns=columns_order)
+		df = df[columns_order]
+		df.to_csv(destination)
+
+
 
 	def build_g(self, selected_triples):
 
@@ -138,7 +145,7 @@ class GraphBuilder:
 		entity2id = {}
 		id2entity = {}
 
-		#a single id to each entity
+		# a single id to each entity
 		for (s,p,o, source, support) in selected_triples:
 			if s not in entity2id:
 				entity2id[s] = id_gen
@@ -151,7 +158,7 @@ class GraphBuilder:
 				self.g.add_node(id_gen, label=o)
 				id_gen += 1
 
-		#graph generation
+		# graph generation
 		for (s,p,o, source, support) in selected_triples:
 			idS = entity2id[s]
 			idO = entity2id[o]
@@ -172,34 +179,30 @@ class GraphBuilder:
 		self.validate()
 		print()
 
+
 		print('# DEEP FINDER')
 		print(str(datetime.datetime.now()))
 		self.relationsRefinement()
 		print()
+
 
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
 		self.cleanEntities()
 		print()
 
+
 		print('# TRIPLES GENERATION')
 		print(str(datetime.datetime.now()))
-		#triples = self.make_triples()
 		triples = self.build_triples()
 		print('Number of triples:', len(triples))
 
+
 		print('# TRIPLES MAPPING')
 		print(str(datetime.datetime.now()))
-
-
 		triples = self.get_mapped_triples(triples)
 		print('Number of triples:', len(triples))
-
-		columns_order = ['s', 'p', 'o', 'source', 'support']
-		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in triples]
-		df = pd.DataFrame(data, columns=columns_order)
-		df = df[columns_order]
-		df.to_csv('out/all_triples.csv')
+		self.save_pandas(triples, 'out/all_triples.csv')
 
 
 		print('# TRIPLES SELECTION')
@@ -207,26 +210,15 @@ class GraphBuilder:
 		s = Selector(triples)
 		s.run()
 		selected_triples = s.get_selected_triples()
-		print('Number of triples:', len(selected_triples))
-
-		columns_order = ['s', 'p', 'o', 'source', 'support']
-		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in selected_triples]
-		df = pd.DataFrame(data, columns=columns_order)
-		df = df[columns_order]
-		df.to_csv('out/selected_triples.csv')
-
 		discarded_triples = s.get_discarded_triples()
-		columns_order = ['s', 'p', 'o', 'source', 'support']
-		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in discarded_triples]
-		df = pd.DataFrame(data, columns=columns_order)
-		df = df[columns_order]
-		df.to_csv('out/discarded_triples.csv')
+		print('Number of triples:', len(selected_triples))
+		self.save_pandas(selected_triples, 'out/selected_triples.csv')
+		self.save_pandas(discarded_triples, 'out/discarded_triples.csv')
 
 
 		print('GRAPH BUILDING')
 		print(str(datetime.datetime.now()))
 		self.build_g(selected_triples)
-
 		rb = RelationsBuilder(self.g)
 		rb.run()
 		self.g = rb.get_g()
