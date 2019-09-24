@@ -4,6 +4,8 @@ from classes.StatisticsRefiner import StatisticsRefiner
 from classes.Mapper import Mapper
 from classes.Selector import Selector
 from classes.RelationsBuilder import RelationsBuilder
+from classes.BestLabelFinder import BestLabelFinder
+
 
 import sys
 import pandas as pd
@@ -41,7 +43,7 @@ class GraphBuilder:
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile)#.head(50)
+		self.inputDataFrame = pd.read_csv(self.inputFile).head(50)
 
 
 	def parse(self):
@@ -81,118 +83,6 @@ class GraphBuilder:
 		self.inputRelations = newInputRelations
 
 
-	def flatWordsOnAverage(self, wordList, model):
-		X = []
-		X_i = []
-		stopVerbs = ['have', 'be', 'do']
-		
-		for i in range(len(wordList)):
-			word = wordList[i]
-			if word.lower() in model and word != 'RELATE':
-				X += [model[word.lower()]]
-				X_i += [i]
-
-		if len(X) > 0:
-			avg = np.array(X).mean(0)
-
-			XDistance = []
-			for i in range(len(X)):
-				x = X[i]
-				sim = 1 - spatial.distance.cosine(x, avg)
-				XDistance += [(x, wordList[X_i[i]], sim)]
-				
-			coeff = 0.8
-			XDistanceTemp = []
-			for (x, w, sim) in XDistance:
-				if w in stopVerbs:
-					XDistanceTemp += [(x, w, sim*0.8)]
-				else:
-					XDistanceTemp += [(x, w, sim)]
-			XDistance  = XDistanceTemp
-
-			mostSimilar = sorted(XDistance, key=lambda x: x[2], reverse=True)[0]
-			noMap = [ w for (x, w, sim) in XDistance if sim < 0.7]
-			resultingVerbs = [mostSimilar[1]] + noMap
-
-			return resultingVerbs
-		else:
-			return [wordList[0]]
-
-
-	def make_triples(self):
-		model = KeyedVectors.load_word2vec_format('resources/9M[300-5]_skip_gram.bin', binary=True)
-		so2verbs = {}
-		so2openie_verbs = {}
-
-		so2luanyi = {}
-
-		spo2sentences = {}
-		spo_openie2sentences = {}
-		spo_luanyi2sentences = {}
-
-		data = []
-		triples = []
-
-		for paper_number in range(len(self.relationsCleaned)):
-			for sentence_number in range(len(self.relationsCleaned[paper_number])):
-				relations = self.relationsCleaned[paper_number][sentence_number]
-
-				for (s,p,o) in relations:
-					if p.startswith('v-'):
-						if (s,o) not in so2openie_verbs:
-							so2openie_verbs[(s,o)] = []
-
-						if (s,p,o) not in spo_openie2sentences:
-							spo_openie2sentences[(s,p[2:],o)] = []
-
-						so2openie_verbs[(s,o)] += [p[2:]]
-						spo_openie2sentences[(s,p[2:],o)] += [self.inputTexts[paper_number][sentence_number]]
-
-					elif p.startswith('luanyi-'):
-						if (s,o) not in so2luanyi:
-							so2luanyi[(s,o)] = []
-
-						if (s,p,o) not in spo_luanyi2sentences:
-							spo_luanyi2sentences[(s,p[7:],o)] = []
-
-						so2luanyi[(s,o)] += [p[7:]]
-						spo_luanyi2sentences[(s,p[7:],o)] += [self.inputTexts[paper_number][sentence_number]]
-
-					else:
-						if (s,o) not in so2verbs:
-							so2verbs[(s,o)] = []
-
-						if (s,p,o) not in spo2sentences:
-							spo2sentences[(s,p,o)] = []
-
-						so2verbs[(s,o)] += [p]
-						spo2sentences[(s,p,o)] += [self.inputTexts[paper_number][sentence_number]]
-
-		for (s,o) in so2verbs:
-			verbs = so2verbs[(s,o)]
-			labels = self.flatWordsOnAverage(verbs, model)			
-			best_label = labels[0]
-			support = len(verbs)
-			triples += [(s, best_label, o, 'heuristic', support)]
-
-		for (s,o) in so2openie_verbs:
-			verbs = so2openie_verbs[(s,o)]
-			labels = self.flatWordsOnAverage(verbs, model)			
-			best_label = labels[0]
-			support = len(verbs)
-			triples += [(s, best_label, o, 'openie', support)]
-
-		for (s,o) in so2luanyi:
-
-			labels = so2luanyi[(s,o)]
-			support = len(labels)
-			counter = collections.Counter(labels)
-			frequencies = sorted(counter.items(), key=operator.itemgetter(1), reverse=True)
-			most_frequent_label = frequencies[0][0]
-			triples += [(s, most_frequent_label, o, 'luanyi', support)]
-
-		return triples
-
 		
 	def removeNoConnectedNodes(self):
 		isolated_nodes = [n for n,d in self.g.degree() if d == 0]
@@ -225,6 +115,21 @@ class GraphBuilder:
 		self.relationsRefined = None
 		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
+
+	 
+
+	#BestLabelFinder module execution
+	def build_triples(self):
+		finder = BestLabelFinder(self.inputTexts, self.entitiesCleaned, self.relationsCleaned)
+		finder.run()
+		return finder.get_triples()
+
+	# Mapping of relations with our taxonomy using Mapper
+	def get_mapped_triples(self, triples):
+		m = Mapper(triples)
+		m.run()
+		return m.get_triples()
+
 
 
 	def build_g(self, selected_triples):
@@ -278,14 +183,16 @@ class GraphBuilder:
 		print()
 
 		print('# TRIPLES GENERATION')
-		triples = self.make_triples()
+		print(str(datetime.datetime.now()))
+		#triples = self.make_triples()
+		triples = self.build_triples()
 		print('Number of triples:', len(triples))
 
 		print('# TRIPLES MAPPING')
 		print(str(datetime.datetime.now()))
-		m = Mapper(triples)
-		m.run()
-		triples = m.get_triples()
+
+
+		triples = self.get_mapped_triples(triples)
 		print('Number of triples:', len(triples))
 
 		columns_order = ['s', 'p', 'o', 'source', 'support']
@@ -293,6 +200,7 @@ class GraphBuilder:
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
 		df.to_csv('out/all_triples.csv')
+
 
 		print('# TRIPLES SELECTION')
 		print(str(datetime.datetime.now()))
