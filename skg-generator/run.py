@@ -1,11 +1,11 @@
 from classes.EntityCleaner import EntityCleaner
-from classes.RelationsDeepFinder import RelationsDeepFinder
 from classes.StatisticsRefiner import StatisticsRefiner
 from classes.Mapper import Mapper
 from classes.Selector import Selector
 from classes.RelationsBuilder import RelationsBuilder
 from classes.BestLabelFinder import BestLabelFinder
 
+from gensim.models.keyedvectors import KeyedVectors
 
 import sys
 import pandas as pd
@@ -15,7 +15,6 @@ import Levenshtein.StringMatcher as ls
 import datetime
 import nltk
 import numpy as np
-from gensim.models.keyedvectors import KeyedVectors
 from scipy import spatial
 import operator
 import random
@@ -102,18 +101,17 @@ class GraphBuilder:
 		allEntities = set(allEntities)	
 		refiner = StatisticsRefiner(allEntities, self.inputEntities, self.inputRelations, 10, 15)
 		self.validEntities, self.inputEntities,  self.inputRelations = refiner.validate()
-		print('Entities after:', len(self.validEntities))#, len(set([e for l in self.inputEntities for e in l])))
+		print('Entities after:', len(self.validEntities))
 
 
-	def relations_deep_finder_execution(self):
+	'''def relations_deep_finder_execution(self):
 		refiner = RelationsDeepFinder(self.inputTexts, self.inputEntities, self.inputRelations, self.rel2sent)
-		self.relationsComplete = refiner.run() 
+		self.relationsComplete = refiner.run() '''
 
 
 	def cleanEntities(self):
-		entityCleaner = EntityCleaner(self.inputEntities, self.relationsComplete, self.validEntities, self.rel2sent, self.id2sent)
+		entityCleaner = EntityCleaner(self.inputEntities, self.inputRelations, self.validEntities, self.rel2sent, self.id2sent)
 		entityCleaner.run()
-		self.relationsComplete = None
 		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
 	 
@@ -148,9 +146,6 @@ class GraphBuilder:
 
 
 
-
-
-
 	#BestLabelFinder module execution
 	def build_triples(self):
 		finder = BestLabelFinder(self.inputTexts, self.entitiesCleaned, self.relationsCleaned)
@@ -163,7 +158,6 @@ class GraphBuilder:
 		m = Mapper(triples)
 		m.run()
 		return m.get_triples()
-
 
 
 	def save_pandas(self, triples, destination):
@@ -216,21 +210,18 @@ class GraphBuilder:
 		print()
 
 
-		print('# DEEP FINDER')
+		'''print('# DEEP FINDER')
 		print(str(datetime.datetime.now()))
 		self.relations_deep_finder_execution()
 		print()
 
-		self.save_all_data_extracted()
+		self.save_all_data_extracted()'''
 
 
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
 		self.cleanEntities()
 		print()
-
-
-		
 
 
 		print('# TRIPLES GENERATION')

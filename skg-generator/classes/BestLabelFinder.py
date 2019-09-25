@@ -58,12 +58,8 @@ class BestLabelFinder:
 	def run(self):
 			model = KeyedVectors.load_word2vec_format('resources/9M[300-5]_skip_gram.bin', binary=True)
 			so2verbs = {}
-			so2openie_verbs = {}
 			so2luanyi = {}
-
-			spo2sentences = {}
-			spo_openie2sentences = {}
-			spo_luanyi2sentences = {}
+			so2openie_verbs = {}
 
 			data = []
 			triples = []
@@ -73,35 +69,20 @@ class BestLabelFinder:
 					relations = self.relations[paper_number][sentence_number]
 
 					for (s,p,o) in relations:
-						if p.startswith('v-'):
+						if p.startswith('openie-'):
 							if (s,o) not in so2openie_verbs:
 								so2openie_verbs[(s,o)] = []
-
-							if (s,p,o) not in spo_openie2sentences:
-								spo_openie2sentences[(s,p[2:],o)] = []
-
-							so2openie_verbs[(s,o)] += [p[2:]]
-							spo_openie2sentences[(s,p[2:],o)] += [self.texts[paper_number][sentence_number]]
+							so2openie_verbs[(s,o)] += [p[7:]]
 
 						elif p.startswith('luanyi-'):
 							if (s,o) not in so2luanyi:
 								so2luanyi[(s,o)] = []
-
-							if (s,p,o) not in spo_luanyi2sentences:
-								spo_luanyi2sentences[(s,p[7:],o)] = []
-
 							so2luanyi[(s,o)] += [p[7:]]
-							spo_luanyi2sentences[(s,p[7:],o)] += [self.texts[paper_number][sentence_number]]
 
-						else:
+						elif p.startswith('verb_window-'):
 							if (s,o) not in so2verbs:
 								so2verbs[(s,o)] = []
-
-							if (s,p,o) not in spo2sentences:
-								spo2sentences[(s,p,o)] = []
-
-							so2verbs[(s,o)] += [p]
-							spo2sentences[(s,p,o)] += [self.texts[paper_number][sentence_number]]
+							so2verbs[(s,o)] += [p[12:]]
 
 			for (s,o) in so2verbs:
 				verbs = so2verbs[(s,o)]
