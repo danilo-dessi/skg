@@ -31,7 +31,7 @@ class GraphBuilder:
 		self.inputRelations = None
 		self.inputTexts = None
 		
-		self.relationsRefined = None
+		self.relationsComplete = None
 		self.entitiesCleaned = None
 		self.relationsCleaned = None
 		self.entitiesEmbeddingsMap = {}
@@ -88,8 +88,10 @@ class GraphBuilder:
 		isolated_nodes = [n for n,d in self.g.degree() if d == 0]
 		self.g.remove_nodes_from(isolated_nodes)
 
+
 	def removeSelfEdges(self):
 		self.g.remove_edges_from(self.g.selfloop_edges())
+
 
 	def validate(self):
 		allEntities = [] 
@@ -103,19 +105,51 @@ class GraphBuilder:
 		print('Entities after:', len(self.validEntities))#, len(set([e for l in self.inputEntities for e in l])))
 
 
-	def relationsRefinement(self):
+	def relations_deep_finder_execution(self):
 		refiner = RelationsDeepFinder(self.inputTexts, self.inputEntities, self.inputRelations, self.rel2sent)
-		self.relationsRefined = refiner.run() 
+		self.relationsComplete = refiner.run() 
 
 
 	def cleanEntities(self):
-		entityCleaner = EntityCleaner(self.inputEntities, self.relationsRefined, self.validEntities, self.rel2sent, self.id2sent)
+		entityCleaner = EntityCleaner(self.inputEntities, self.relationsComplete, self.validEntities, self.rel2sent, self.id2sent)
 		entityCleaner.run()
-
-		self.relationsRefined = None
+		self.relationsComplete = None
 		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
 	 
+
+	def save_all_data_extracted(self):
+
+		abstract_level_texts = []
+		abstract_level_relations = []
+		abstract_level_entities = []
+		paper_numbers = []
+
+		for paper_number in range(len(self.inputTexts)):
+			paper_numbers += [paper_number]
+			sentence_level_texts = []
+			sentence_level_relations = []
+			sentence_level_entities = []
+
+			for sentence_number in range(len(self.inputTexts[paper_number])):
+				sentence_level_texts += [self.inputTexts[paper_number][sentence_number]]
+				sentence_level_relations += [self.relationsComplete[paper_number][sentence_number]]
+				sentence_level_entities += [self.inputEntities[paper_number][sentence_number]]
+
+			abstract_level_texts += [sentence_level_texts]
+			abstract_level_relations += [sentence_level_relations]
+			abstract_level_entities += [sentence_level_entities]
+
+		data = {'paper_id' : paper_numbers, 'abstract_sentences' : abstract_level_texts, 'relations' : abstract_level_relations, 'entities' : abstract_level_entities}
+		columns_order = ['paper_id', 'abstract_sentences', 'entities', 'relations']
+		df = pd.DataFrame(data, columns=columns_order)
+		df = df[columns_order]
+		df.to_csv('out/all_extracted_data.csv')
+
+
+
+
+
 
 	#BestLabelFinder module execution
 	def build_triples(self):
@@ -123,11 +157,13 @@ class GraphBuilder:
 		finder.run()
 		return finder.get_triples()
 
+
 	# Mapping of relations with our taxonomy using Mapper
 	def get_mapped_triples(self, triples):
 		m = Mapper(triples)
 		m.run()
 		return m.get_triples()
+
 
 
 	def save_pandas(self, triples, destination):
@@ -182,14 +218,19 @@ class GraphBuilder:
 
 		print('# DEEP FINDER')
 		print(str(datetime.datetime.now()))
-		self.relationsRefinement()
+		self.relations_deep_finder_execution()
 		print()
+
+		self.save_all_data_extracted()
 
 
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
 		self.cleanEntities()
 		print()
+
+
+		
 
 
 		print('# TRIPLES GENERATION')

@@ -55,7 +55,7 @@ class BestLabelFinder:
 			return [wordList[0]]
 
 
-	def make_triples(self):
+	def run(self):
 			model = KeyedVectors.load_word2vec_format('resources/9M[300-5]_skip_gram.bin', binary=True)
 			so2verbs = {}
 			so2openie_verbs = {}
@@ -133,10 +133,6 @@ class BestLabelFinder:
 	def get_triples(self):
 		return self.triples
 
-
-
-	def run(self):
-		self.make_triples()
 
 
 

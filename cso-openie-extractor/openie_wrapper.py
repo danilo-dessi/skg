@@ -6,20 +6,10 @@ import pandas as pd
 
 
 class OPENIE_wrapper:
-	def __init__(self):
-	   
+	def __init__(self, nlp):  
 		self.relations = []
 		self.stanford_path = r'../stanford-corenlp-full-2018-10-05'  
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
-		print(str(datetime.datetime.now()) + ' Openie connection up')
-
-
-	def restart_corenlp(self):
-		self.nlp.close()
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
-
-	def close(self):
-		self.nlp.close()
+		self.nlp = nlp 
 
 	def __build_pos_map(self, tokens):
 		word2pos = {}
@@ -39,7 +29,6 @@ class OPENIE_wrapper:
 		self.relations = []
 		self.corenlp_data = {}
 
-		print(text)
 		props = {'annotators': 'openie,coref', 'pipelineLanguage': 'en', 'outputFormat': 'json'}
 		try:
 			corenlp_out = json.loads(self.nlp.annotate(text, properties=props))
@@ -73,7 +62,7 @@ class OPENIE_wrapper:
 					relation = ''
 					for v in range(relation_span[1] - relation_span[0]):
 						relation += ' ' + token_index2lemma[relation_span[0] + v + 1]
-					relation = 'v-' + relation[1:]
+					relation = 'openie-' + relation[1:]
 
 					if openie_relation['subject'] in entities:
 						ok = True
@@ -85,7 +74,7 @@ class OPENIE_wrapper:
 							subject = openie_relation['subject'] if openie_relation['subject'] not in corefs_map else corefs_map[openie_relation['subject']]
 							object = openie_relation['object'] if openie_relation['object'] not in corefs_map else corefs_map[openie_relation['object']]
 							self.relations += [(subject, relation, object)]
-							print('Final:', (subject, relation, object))
+							#print('Final:', (subject, relation, object))
 					
 					elif openie_relation['object'] in entities:
 						ok = True
@@ -97,39 +86,10 @@ class OPENIE_wrapper:
 							subject = openie_relation['subject'] if openie_relation['subject'] not in corefs_map else corefs_map[openie_relation['subject']]
 							object = openie_relation['object'] if openie_relation['object'] not in corefs_map else corefs_map[openie_relation['object']]
 							self.relations += [(subject, relation, object)]
-							print('Final:', (subject, relation, object))	
+							#print('Final:', (subject, relation, object))	
 
-		self.nlp.close()
 		return self.relations
 
-
-if __name__ == '__main__':
-	corenlp = OPENIE_wrapper()
-	text1 = 'Clients ( human and agent ) can query Linked Data from multiple sources at once and combine it on the fly'
-	entities1 = ['it', 'Linked Data', 'Clients']
-	
-	text2 = 'There are a number of online tools that try to identify named entities in text and link them to linked data resources '
-	entities2 = ['them', 'online tools', 'named entities', 'linked data resources']
-	
-	text3 = 'The semantic web is a web of data that make capable machines to understand the data on web pages and also known as Web 3.0 .'
-	entities3 = ['web pages', 'web of data', 'Web 3.0', 'semantic web']
-
-	text4 = 'There has recently been an upsurge of interest in the possibilities of combining structured data and ad-hoc information retrieval from traditional hypertext'
-	entities4 = ['structured data', 'hypertext', 'ad-hoc information retrieval']
-
-	#definition
-	text5 = 'The Semantic Web is an extension of the World Wide Web in which data is structured and XML-tagged on the basis of its meaning or content, so that computers can process and integrate the information without human intervention:'
-	
-	#definition
-	text6 = 'The Smart Topic Miner (STM) is a novel application, developed in collaboration with Springer Nature, which classifies scholarly publications according to an automatically generated ontology of research areas. '
-	
-	text7 = 'Results show that Semantic Web systems are a good option for complicated problems needing high expressiveness .'
-	entities7 = ['Semantic Web systems']
-
-	text8 = 'According to the characteristics and requirement of the semantic Web , a kind of new description logic , i.e. , fuzzy dynamic description logic FDDL , is presented '
-	entities8 = ['fuzzy dynamic description logic FDDL', 'description logic', 'semantic Web']
-
-	corenlp.run(text7, entities7)
 
 
 

@@ -1,5 +1,11 @@
-#from cso_wrapper import CSO_wrapper
+from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.stem.lancaster import LancasterStemmer
+from stanfordcorenlp import StanfordCoreNLP
 from openie_wrapper import OPENIE_wrapper
+from verb_window_finder import VerbWindowFinder
+from nltk import word_tokenize
+from nltk.tokenize import sent_tokenize
+from nltk import tokenize
 import pandas as pd
 import sklearn as sk
 import time
@@ -8,17 +14,10 @@ import string
 import json
 import numpy as np
 import operator
-from sklearn.feature_extraction.text import TfidfVectorizer
-from stanfordcorenlp import StanfordCoreNLP
 import traceback
 import requests
 import rdflib
-from nltk import word_tokenize
-from nltk.stem.lancaster import LancasterStemmer
 import nltk
-from nltk.tokenize import sent_tokenize
-from nltk import tokenize
-from threading import Thread
 import urllib
 import itertools
 import datetime
@@ -30,16 +29,26 @@ class Analyzer:
 
 	def __init__(self):
 		self.entities = {}
-		self.relations = {}
-		#self.cso = CSO_wrapper()
-		self.openie = OPENIE_wrapper()
+		self.openie_relations = []
+		self.verb_window_relations = []
+		self.stanford_path = r'../stanford-corenlp-full-2018-10-05'  
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		print(str(datetime.datetime.now()) + ' Openie connection up')
 
-	def restart(self):
-		self.openie.restart_corenlp()
+		self.openie = OPENIE_wrapper(self.nlp)
+		self.verb_finder = VerbWindowFinder(self.nlp)
 
+	def restart_nlp(self):
+		self.nlp.close()
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
 
 	def close(self):
-		self.openie.close()
+		self.nlp.close()
+
+
+	def restart(self):
+		self.nlp.restart_corenlp()
+
 
 	def find_str(self, s, char):
 		index = 0
@@ -63,13 +72,6 @@ class Analyzer:
 			start_index = self.find_str(sentence, e)
 			if start_index != -1:
 				entities[e] = {'start' : start_index, 'end' : start_index + len(e)}
-
-		#cso entity preparatiom
-		#try:
-		#	cso_entities = self.cso.apply(sentence.lower())
-		#	entities.update(cso_entities)
-		#except:
-		#	print('cso error on sentence:', sentence.lower())
 		
 		keys = list(entities.keys())
 		entities_copy = dict(entities)
@@ -95,8 +97,10 @@ class Analyzer:
 
 	def analyze(self, text, entities):
 		self.entities = self.prepare_entities(text, entities)
-		self.relations = self.openie.run(text, self.entities)
-		return self.relations
+		self.openie_relations = self.openie.run(text, self.entities)
+		self.verb_window_relations = self.verb_finder.run(text, self.entities) 
+		
+		return self.openie_relations + self.verb_window_relations
 
 
 if __name__ == '__main__':
@@ -145,21 +149,26 @@ if __name__ == '__main__':
 			luanyi_entities = [e for (e, t) in entities_list[n_sentence]]
 			luanyi_relations = relations_list[n_sentence]
 
+			#add a flag to Luan Yi et al detected relationships
+			luanyi_relations = [(s, 'luanyi-' + p, o) for (s,p,o) in luanyi_relations]
+
 			cso_entities = cso_result[str(n_abstract) + '.' + str(n_sentence)]['semantic']
-			print(sentences_list[n_abstract][n_sentence], '\n', cso_entities)
-			openie_relations = analyzer.analyze(sentence, luanyi_entities + cso_entities)
+			other_relations = analyzer.analyze(sentence, luanyi_entities + cso_entities)
 			new_entities_list += [list(set(luanyi_entities + cso_entities))]
-			new_relations_list += [luanyi_relations + openie_relations]
+			new_relations_list += [luanyi_relations + other_relations]
+
+			print('\n\n', sentences_list[n_abstract][n_sentence], '\n', list(set(luanyi_entities + cso_entities)), '\n', luanyi_relations + other_relations)
 			
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
 		if len(r_data) % 1000 == 0:
-			analyzer.restart()
+			analyzer.restart_nlp()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
 
 	df = pd.DataFrame(r_data)
 	df.to_csv(file_out)
+	analyzer.close()
 
 
 
