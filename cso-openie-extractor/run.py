@@ -38,9 +38,9 @@ class Analyzer:
 		self.openie = OPENIE_wrapper(self.nlp)
 		self.verb_finder = VerbWindowFinder(self.nlp)
 
-	def restart_nlp(self):
+	'''def restart_nlp(self):
 		self.nlp.close()
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')'''
 
 	def close(self):
 		self.nlp.close()
@@ -162,7 +162,7 @@ if __name__ == '__main__':
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
 		if len(r_data) % 1000 == 0:
-			analyzer.restart_nlp()
+			#analyzer.restart_nlp()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
 

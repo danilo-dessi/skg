@@ -30,7 +30,7 @@ class Mapper:
 			elif p in self.hold_relations:
 				triple_verb_mapped += [(s, p, o, source, support)]
 			else:
-				print('LOST BECAUSE VERB', (s, p, o, source, support))
+				#print('LOST BECAUSE VERB', (s, p, o, source, support))
 				lost_triples += [(s, p, o, source, support)]
 				lost += 1
 		
@@ -47,16 +47,16 @@ class Mapper:
 		triples_tmp = []
 		for (s, p, o, source, support) in self.triples:
 			if p == 'used-for':
-				print((s,p,o, source, support))
-				print((o, 'uses', s, source, support), '\n')
+				#print((s,p,o, source, support))
+				#print((o, 'uses', s, source, support), '\n')
 				triples_tmp += [(o, 'uses', s, source, support)]
 			elif p == 'feature-of' or p == 'part-of':
-				print((s,p,o, source, support))
-				print((o, 'includes', s, source, support), '\n')
+				#print((s,p,o, source, support))
+				#print((o, 'includes', s, source, support), '\n')
 				triples_tmp += [(o, 'includes', s, source, support)]
 			elif p == 'evaluate-for':
-				print((s,p,o, source, support))
-				print((s, 'evaluates', o, source, support), '\n')
+				#print((s,p,o, source, support))
+				#print((s, 'evaluates', o, source, support), '\n')
 				triples_tmp += [(s, 'evaluates', o, source, support)]
 			else:
 				triples_tmp += [(s, p, o, source, support)]
@@ -166,15 +166,15 @@ class Mapper:
 			if o not in eMap:
 				eMap[o] = o_new
 				
-		for e in eMap:
-			print(e, '->', eMap[e])
+		#for e in eMap:
+		#	print(e, '->', eMap[e])
 		return eMap
 	
 
 
 	def entities_mapper(self):
 
-		print('Building entity mapping with CSO')
+		#print('Building entity mapping with CSO')
 		triples_plain = [(s,p,o) for (s,p,o, source, support) in self.triples]
 		eMap = self.equivalentMap(triples_plain)
 

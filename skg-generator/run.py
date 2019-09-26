@@ -110,7 +110,7 @@ class GraphBuilder:
 
 
 	def cleanEntities(self):
-		entityCleaner = EntityCleaner(self.inputEntities, self.inputRelations, self.validEntities, self.rel2sent, self.id2sent)
+		entityCleaner = EntityCleaner(self.inputEntities, self.inputRelations, self.validEntities)
 		entityCleaner.run()
 		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
 		self.relationsCleaned = entityCleaner.getRelationsCleaned()
@@ -221,7 +221,6 @@ class GraphBuilder:
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
 		self.cleanEntities()
-		print()
 
 
 		print('# TRIPLES GENERATION')
@@ -264,7 +263,7 @@ class GraphBuilder:
 
 
 if __name__ == '__main__':
-	builder = GraphBuilder('csv_e_r_full.csv')
+	builder = GraphBuilder('csv_e_r_full_1000.csv')
 	builder.pipeline()
 
 

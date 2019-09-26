@@ -11,7 +11,6 @@ class BestLabelFinder:
 		self.relations = relationsCleaned
 		self.entities = entitiesCleaned
 		self.texts = inputTexts
-
 		self.triples = None
 
 
@@ -69,6 +68,7 @@ class BestLabelFinder:
 					relations = self.relations[paper_number][sentence_number]
 
 					for (s,p,o) in relations:
+						
 						if p.startswith('openie-'):
 							if (s,o) not in so2openie_verbs:
 								so2openie_verbs[(s,o)] = []

@@ -37,8 +37,8 @@ def precision_recall(triples, gs_triples):
 
 
 if __name__ == "__main__":
-	file = 'selected_sw_triples_20_09_2019_annotated.csv'
-	triples2ann = load_triples_ann(file, 'Danilo')
+	file = 'selected_sw_triples_20_09_2019_annotated_danilo_fra.csv'
+	triples2ann = load_triples_ann(file, 'FRA')
 	triples2source = load_triples_ann(file, 'source')
 	triples2support = load_triples_ann(file, 'support')
 	triples2pipeline = load_triples_ann(file, 'pipeline')
@@ -47,6 +47,7 @@ if __name__ == "__main__":
 	luanyi_triples = [t for t in triples2source if 'luanyi' in triples2source[t] and triples2pipeline[t] == 'yes']
 	openie_triples = [t for t in triples2source if 'openie' in triples2source[t] and triples2pipeline[t] == 'yes']
 	heuristic_triples = [t for t in triples2source if 'heuristic' in triples2source[t] and triples2pipeline[t] == 'yes']
+
 
 	heuristic_triples_high = []
 	for t in heuristic_triples:
@@ -72,6 +73,10 @@ if __name__ == "__main__":
 	print('Heuristic (high support only):', len(heuristic_triples_high))
 	print('Pipeline:\t\t', len(allpipeline_triples))
 	print('NO pipeline:\t\t', len(nopipeline_triples))
+
+	print('Number of relations in common Luan Yi and OpenIE:', len(set(luanyi_triples).intersection(set(openie_triples))))
+	print('Number of relations in common OpenIE and Heuristic:', len(set(openie_triples).intersection(set(heuristic_triples))))
+	print('Number of relations in common Luan Yi and Heuristic:', len(set(luanyi_triples).intersection(set(heuristic_triples))))
 	print()
 
 	p,r,f = precision_recall(luanyi_triples, triples2ann)

@@ -4,8 +4,8 @@ from urllib.parse import unquote
 import pandas as pd
 import re
 import string
-import nltk 
 import regex
+import nltk
 
 class StatisticsRefiner:
 	def __init__(self, entities, inputEntities, inputRelations, thCS, thGD):
@@ -102,6 +102,20 @@ class StatisticsRefiner:
 		alreadySeenEntities = set()
 		data = []
 
+		tokens = nltk.word_tokenize(self.semanticWebAbstracts)
+		tot_target_domain = len(tokens)
+
+		tokens = nltk.word_tokenize(self.computerScienceAbstracts)
+		tot_computer_science_domain = len(tokens)
+
+		tokens = nltk.word_tokenize(self.generalDomainAbstracts)
+		tot_general_domain = len(tokens)
+		
+
+		print(tot_target_domain, tot_computer_science_domain, tot_general_domain)
+		
+
+
 		for e in self.entities:
 			if e not in alreadySeenEntities and e not in self.validEntities:
 				alreadySeenEntities.add(e)
@@ -116,6 +130,19 @@ class StatisticsRefiner:
 
 				self.statistics[e] = {}
 
+				if(computerScienceCount[-1] > 0) and generalDomainCount[-1] > 0:
+					print('\nEntity:', e)
+					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
+					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
+					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)
+					print('SW-CS c:', (semanticWebCount[-1]/tot_target_domain) / (computerScienceCount[-1]/tot_computer_science_domain))
+					print('SW-GE c:', (semanticWebCount[-1]/tot_target_domain) / (generalDomainCount[-1]/tot_computer_science_domain))
+				else:
+					print('\nEntity:', e)
+					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
+					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
+					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)
+				
 				if computerScienceCount[-1] > 0:
 					self.statistics[e]['sw&cs'] = semanticWebCount[-1] / computerScienceCount[-1]
 				else: 

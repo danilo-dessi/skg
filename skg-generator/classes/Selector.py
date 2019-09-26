@@ -106,7 +106,23 @@ class Selector:
 		sentences = [nltk.word_tokenize(s) for s in sentences]
 		model = Word2Vec(sentences=sentences, min_count=1, size=emb_size)
 		model.wv.save_word2vec_format('resources/' + str(emb_size) + 'model.bin', binary=True)
-	
+
+	def remove_conjunction(self):
+		triples = []
+		for (s,p,o,source,support)  in self.input_triples:
+			if p != 'conjunction':
+				triples += [(s,p,o,source,support)]
+		self.input_triples = triples
+
+
+	def remove_equal_s_o(self):
+		triples = []
+		for (s,p,o,source,support)  in self.input_triples:
+			if s != o:
+				triples += [(s,p,o,source,support)]
+		self.input_triples = triples
+
+			
 
 	# Subject and object can have at most 3 predicates coming from the three different methods.
 	# This method chooses pnly one predicate following this order: 1. Luanyi, 2. openie, 3. heuristic
@@ -150,6 +166,9 @@ class Selector:
 				entities.add(s)
 				entities.add(o)	
 			self.build_embeddings(entities, 300)
+
+		self.remove_conjunction()
+		self.remove_equal_s_o()
 
 		for (s,p,o,source,support)  in self.input_triples:
 			if source == 'luanyi' or source == 'openie' or support >= self.trust_th:

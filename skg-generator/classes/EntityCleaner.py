@@ -8,7 +8,7 @@ import spacy
 from spacy.lang.en import LEMMA_INDEX, LEMMA_EXC, LEMMA_RULES
 
 class EntityCleaner:
-	def __init__(self, entities, relations, validEntities, rel2sent, id2sent):
+	def __init__(self, entities, relations, validEntities):
 		self.inputEntities = entities
 		self.inputRelations = relations
 
@@ -17,8 +17,6 @@ class EntityCleaner:
 		self.relationsCleaned = []
 
 		self.validEntities = validEntities
-		self.rel2sent = rel2sent
-		self.id2sent = id2sent
 
 		self.blackList = ['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
 		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'application', 'it']
@@ -37,6 +35,9 @@ class EntityCleaner:
 	'''
 	def updateRelations(self, relationsList, entitiesMap):
 		
+		#print('----------------------------------------------------------------------------------------------------')
+		#print(entitiesMap)
+		#print(relationsList)
 		relations = []
 		for r in relationsList:
 			
@@ -48,15 +49,9 @@ class EntityCleaner:
 			newB = None
 			if A in entitiesMap and B in entitiesMap: 
 				newA = entitiesMap[A]
-				#if B in entitiesMap:
 				newB = entitiesMap[B]
-
-			if newA is not None and newB is not None:
 				relations += [(newA, relationLabel, newB)]
-
-				if r in self.rel2sent:
-					self.rel2sent[(newA, relationLabel, newB)] = self.rel2sent[r]
-					
+		#print(relations, '\n\n')		
 		return relations
 
 
@@ -64,7 +59,7 @@ class EntityCleaner:
 		
 		stopWords = set(stopwords.words('english'))
 		regex_puntuaction_ok = re.compile('[%s]' % re.escape("\"'-_`")) # possible characters
-		puntuaction_reject = list("!#$%*+,./:;<=>?@%=[\\]^{|}~#\\/{}")
+		puntuaction_reject = list("!#$%*+,./:;<=>?@%=[]^{|}~#/{}") + ['\\']
 
 		new_entities = []
 		new_relations = []
@@ -138,11 +133,11 @@ class EntityCleaner:
 
 						if e in self.validEntities:
 							self.validEntities.add(tmpE)
+
 					elif len(tokens) == 1:
 						lemma = sorted(self.lemmatizer(tokens[0], u'NOUN'))[0]
 						new_sentence_entities += [lemma]
 						entitiesMap[e] = lemma
-
 						if e in self.validEntities:
 							self.validEntities.add(lemma)
 
