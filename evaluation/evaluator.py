@@ -37,8 +37,8 @@ def precision_recall(triples, gs_triples):
 
 
 if __name__ == "__main__":
-	file = 'selected_sw_triples_20_09_2019_annotated_danilo_fra.csv'
-	triples2ann = load_triples_ann(file, 'FRA')
+	file = 'gs_sw_triples_01_10.csv'
+	triples2ann = load_triples_ann(file, 'Danilo')
 	triples2source = load_triples_ann(file, 'source')
 	triples2support = load_triples_ann(file, 'support')
 	triples2pipeline = load_triples_ann(file, 'pipeline')
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 		#print(tsupports)
 		support = max([tsupports[i] for i in indices])
 		#print(support)
-		if support >= 20:
+		if support >= 10:
 			heuristic_triples_high += [t]
 
 	#heuristic_triples_high = [t for t in heuristic_triples if ast.literal_eval(triples2support[t])[ast.literal_eval(triples2source[t]).index('heuristic')] >= 20]

@@ -1,0 +1,13 @@
+,s,p,o,source,support
+0,ontology alignment,uses,seals evaluation service,luanyi,1
+1,mapping,uses,meta - learner,luanyi,1
+2,unstructured p2p systems.document,uses,hierarchical interest tree,luanyi,1
+3,semantic search approach,uses,hierarchical interest tree,luanyi,1
+4,it,uses,meta - learner,openie,1
+5,unstructured p2p systems.document,uses,semantic search approach,luanyi,1
+6,it,uses,meta - learner,luanyi,1
+7,ontology matching approach,uses,genetic algorithm (ga),luanyi,1
+8,automated ontology matching methodology,uses,machine learning technique,luanyi,1
+9,seals evaluation service,uses,web service interface,luanyi,1
+10,benchmark ontology,evaluates,methodology,luanyi,1
+11,it,uses,meta - learner,heuristic,1

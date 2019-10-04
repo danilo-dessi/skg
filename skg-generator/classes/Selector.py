@@ -16,7 +16,7 @@ class Selector:
 		self.input_triples = triples
 		self.out_triples = None
 		self.vectors_model = 'resources/300model.bin'
-		self.trust_th = 20
+		self.trust_th = 10
 		self.discarded_triples = None
 
 
@@ -176,12 +176,12 @@ class Selector:
 			else:
 				untrusted_triples += [(s,p,o,source,support)]
 
-
 		trusted_triples_for_classifier = self.unique(trusted_triples)
 		print('Trusted triples:', len(trusted_triples))
 		print('Untrusted triples:', len(untrusted_triples))
 		clf = self.get_classifier(trusted_triples_for_classifier)
 		consistent_triples = self.get_consistent(clf, untrusted_triples)
+
 		print('Consistent triples:', len(consistent_triples))
 		self.out_triples = trusted_triples + consistent_triples
 		self.discarded_triples = [item for item in untrusted_triples if item not in consistent_triples]

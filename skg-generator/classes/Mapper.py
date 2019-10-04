@@ -63,115 +63,6 @@ class Mapper:
 		self.triples = triples_tmp
 
 
-
-	def load_cso_triples(self):
-		triples = []
-		with open('resources/CSO.3.1.csv', 'r', encoding="utf-8") as f:
-			lines = f.readlines()
-			for line in lines:
-
-				try:
-					(s,p,o) = tuple(line.strip().split(','))
-					(s,p,o) = (urllib.parse.unquote(s[1:-1]), urllib.parse.unquote(p[1:-1]), urllib.parse.unquote(o[1:-1]))
-					triples += [ (s,p,o)]
-				except Exception as e:
-					pass
-
-		return triples
-
-
-	def equivalentSet(self, cso_triples, entity):
-
-		entity = entity.replace(' ', '_')
-		equivalent_set = []
-		for triple in cso_triples:
-			
-			if "<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent>" == triple[1] and \
-				"<https://cso.kmi.open.ac.uk/topics/" + entity + ">" == triple[0]:
-				
-				obj = triple[2].split('/')[-1] # last part 
-				obj = obj[:-1] 		   # > remotion
-				equivalent_set += [obj]
-
-		equivalent_set += [entity]
-		equivalent_set = sorted(equivalent_set, key=len, reverse=True)
-		equivalent_set = [e.replace('_', ' ') for e in  equivalent_set]
-
-		return equivalent_set
-	
-
-	def equivalentMap(self, triples_plain):
-		eMap = {'xslt' : 'extensible stylesheet language (xslt)', 
-		        'cbr' : 'content based recommendation (cbr)',
-		        'ehr' : 'electronic health record (ehr)',
-		        'crm' : 'conceptual reference model (crm)',
-		        'cim' : 'computation independent model (cim)',
-		        'cad' : 'computer aided design (cad)',
-		        'vhdl' : 'very high speed integrated circuit description language (vhdl)',
-		        'xml' : 'extensible markup language (xml)',
-		        'sql' : 'structured query language (sql)',
-		        'ict' : 'information communications technology (ict)',
-		        'dicom' : 'digital imaging and communication in medicine (dicom)',
-		        'http' : 'hypertext transfer protocol (http)',
-		        'ssd' : 'semantic service description (ssd)',
-		        'wsn' : 'wireless sensor networks (wsn)',
-		        'html' : 'hypertext markup language (html)',
-		        'pim' : 'product information model (pim)',
-		        'spin' : 'sparql inferencing notation (spin)',
-		        'scorm' : 'sharable content object reference model (scorm)',
-		        'bpmn' : 'business process modeling notation (bpmn)',
-		        'fca' : 'formal concept analysis (fca)',
-		        'vsm' : 'vector space model (vsm)',
-		        'ahp' : 'analytic hierarchy process (ahp)',
-		        'dht' : 'distributed hash tables (dht)',
-		        'ber' : 'bit error rate (ber)',
-		        'bpm' : 'business process modeling (bpm)',
-		        'ogc' : 'open geospatial consortium (ogc)',
-		        'csp' : 'communicating sequential processes (csp)',
-		        'cac' : 'congenial access control (cac)',
-		        'dht' : 'distributed hash table',
-		        'cbir' : 'content based image retrieval (cbir)',
-		        'fso' : 'financial statement ontology (fso)',
-		        'cam' : 'complementary and alternative medicines (cam)',
-		        'etl' : 'extract-transform-load (etl) process',
-		        'soc' : 'service-oriented computing (soc)'
-		        }
-
-		cso_triples = self.load_cso_triples()
-
-		for (s,p,o) in triples_plain:
-
-			s_new = s
-			o_new = o
-			if s.endswith('datum'):
-				s_new = s.replace('datum', 'data')
-
-			if o.endswith('datum'):
-				o_new = o.replace('datum', 'data')
-
-
-			if s not in eMap:
-				equivalent_set = self.equivalentSet(cso_triples, s_new)
-				for e in equivalent_set:
-					eMap[e] = equivalent_set[0]	
-
-			if s not in eMap:
-				eMap[s] = s_new
-
-			if o not in eMap:
-				equivalent_set = self.equivalentSet(cso_triples, o_new)
-				for e in equivalent_set:
-					eMap[e] = equivalent_set[0]
-
-			if o not in eMap:
-				eMap[o] = o_new
-				
-		#for e in eMap:
-		#	print(e, '->', eMap[e])
-		return eMap
-	
-
-
 	def entities_mapper(self):
 
 		#print('Building entity mapping with CSO')
@@ -219,14 +110,26 @@ class Mapper:
 		return self.triples
 
 
+	def map_on_definitive_predicates(self):
+		verb_taxonomy = pd.read_csv('resources/SKG_predicates.csv', sep=';')
+		vMap = {}
+
+		for i, r in verb_taxonomy.iterrows():
+			vMap[r['predicate-simplified']] = r['predicate']
+
+		final_triples = []
+		for (s,p,o,source,support) in self.triples:
+			final_triples += [(s, vMap[p], o, source, support)]
+
+		self.triples = final_triples
+
+
+
 	def run(self):
 		print('Number before mapping:', len(self.triples))
 
 		self.verb_mapper()
 		print('Number after verb mapping:', len(self.triples))
-
-		self.entities_mapper()
-		print('Number after entities mapping:', len(self.triples))
 
 		self.triples = set(self.triples)
 

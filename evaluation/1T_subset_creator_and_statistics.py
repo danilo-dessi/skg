@@ -61,14 +61,14 @@ def select_sw_cso(triple2source, triple2support):
 
 
 #used just once to retrieve old annotations
-def retrieve_old_annotations(filename):
+def retrieve_old_annotations(filename, column):
 	data_triples = pd.read_csv(filename, sep=';')
 	triples = {}
 	for i, row in data_triples.iterrows():
 		s = row['s']
 		p = row['p']
 		o = row['o']
-		annotation = row['Danilo']
+		annotation = row[column]
 		triples[(s,p,o)] = annotation
 	return triples
 
@@ -77,16 +77,21 @@ def retrieve_old_annotations(filename):
 
 def save(triple2source, triple2support, pipeline, filename):
 
-	old_annotations = retrieve_old_annotations('selected_sw_triples_annotated_new.csv')
+	Danilo_old_annotations = retrieve_old_annotations('selected_sw_triples_20_09_2019_annotated_danilo_fra.csv', 'Danilo')
 	for (s,p,o) in triple2source:
-		if (s,p,o) not in old_annotations:
-			old_annotations[(s,p,o)] = ''
+		if (s,p,o) not in Danilo_old_annotations:
+			Danilo_old_annotations[(s,p,o)] = ''
+
+	Fra_old_annotations = retrieve_old_annotations('selected_sw_triples_20_09_2019_annotated_danilo_fra.csv', 'FRA')
+	for (s,p,o) in triple2source:
+		if (s,p,o) not in Fra_old_annotations:
+			Fra_old_annotations[(s,p,o)] = ''
 	
 
 	#print('Annotations: ',len(old_annotations), len(triple2source))
 
-	columns_order = ['s', 'p', 'o', 'source', 'support', 'pipeline', 'Danilo']
-	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)], 'Danilo': old_annotations[(s,p,o)] } for (s,p,o) in triple2source if s != o]
+	columns_order = ['s', 'p', 'o', 'source', 'support', 'pipeline', 'Danilo', 'FRA']
+	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)], 'Danilo': Danilo_old_annotations[(s,p,o)], 'FRA':Fra_old_annotations[(s,p,o)] } for (s,p,o) in triple2source if s != o]
 	df = pd.DataFrame(data, columns=columns_order)
 	df = df[columns_order]
 	df.to_csv(filename, sep=';')
@@ -107,10 +112,10 @@ def load_triples(filename):
 		if p != 'conjunction' and s != o: 
 			if (s,p,o) not in triple2source:
 				triple2source[(s,p,o)] = [source]
-				triple2support[s,p,o] = [support]
+				triple2support[(s,p,o)] = [support]
 			else:
 				triple2source[(s,p,o)] += [source]
-				triple2support[s,p,o] += [support]
+				triple2support[(s,p,o)] += [support]
 	return triple2source, triple2support
 
 
@@ -118,9 +123,9 @@ def load_triples(filename):
 if __name__ == "__main__":
 
 
-	th_support = 20
-	triple2source, triple2support = load_triples('selected_triples_20_09_2019.csv')
-	dis_triple2source, dis_triple2support = load_triples('discarded_triples_20_09_2019.csv')
+	th_support = 10
+	triple2source, triple2support = load_triples('selected_triples_01_10.csv')
+	dis_triple2source, dis_triple2support = load_triples('discarded_triples_01_10.csv')
 
 	print('Number of relations', len(triple2source))
 	print('Number of relations from Luan Yi et al\'s tool', count_source(triple2source, 'luanyi'))
@@ -155,7 +160,7 @@ if __name__ == "__main__":
 	pipeline = {(s,p,o) : 'yes' for (s,p,o) in sw_triple2source}
 
 
-	dis_triple2source, dis_triple2support = load_triples('discarded_triples.csv')
+	#dis_triple2source, dis_triple2support = load_triples('discarded_triples.csv')
 	dis_sw_triple2source, dis_sw_triple2support = select_sw_cso(dis_triple2source, dis_triple2support)
 	tmp = []
 	for (s,p,o) in dis_sw_triple2support:
@@ -190,7 +195,7 @@ if __name__ == "__main__":
 
 
 
-	#save(sw_triple2source, sw_triple2support, pipeline,'selected_sw_triples_20_09_2019test.csv')
+	save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_01_10.csv')
 	
 
 

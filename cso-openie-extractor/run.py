@@ -46,8 +46,11 @@ class Analyzer:
 		self.nlp.close()
 
 
-	def restart(self):
-		self.nlp.restart_corenlp()
+	def restart_nlp(self):
+		self.nlp.close()
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.openie = OPENIE_wrapper(self.nlp)
+		self.verb_finder = VerbWindowFinder(self.nlp)
 
 
 	def find_str(self, s, char):
@@ -162,7 +165,7 @@ if __name__ == '__main__':
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
 		if len(r_data) % 1000 == 0:
-			#analyzer.restart_nlp()
+			analyzer.restart_nlp()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
 

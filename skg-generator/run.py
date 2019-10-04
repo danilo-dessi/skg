@@ -26,28 +26,20 @@ class GraphBuilder:
 	def __init__(self, inputFile):
 		self.inputFile = inputFile
 		self.inputDataFrame = None
-		self.inputEntities = None
-		self.inputRelations = None
 		self.inputTexts = None
-		
-		self.relationsComplete = None
-		self.entitiesCleaned = None
-		self.relationsCleaned = None
-		self.entitiesEmbeddingsMap = {}
-		self.entity2embedding = {}
+		self.entities = None
+		self.relations = None
 		self.g = nx.DiGraph()
 		self.validEntities = set()
-		self.rel2sent = {}
-		self.id2sent = None
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile).head(50)
+		self.inputDataFrame = pd.read_csv(self.inputFile).head(5)
 
 
 	def parse(self):
-		self.inputEntities = [ast.literal_eval(e) for e in self.inputDataFrame['entities_column'].tolist()]
-		self.inputRelations = [ast.literal_eval(r) for r in self.inputDataFrame['relations_column'].tolist()]
+		self.entities = [ast.literal_eval(e) for e in self.inputDataFrame['entities_column'].tolist()]
+		self.relations = [ast.literal_eval(r) for r in self.inputDataFrame['relations_column'].tolist()]
 		self.inputTexts = [ast.literal_eval(t) for t in self.inputDataFrame['sentences'].tolist()]
 
 		tmp_input_texts = []
@@ -60,7 +52,7 @@ class GraphBuilder:
 		self.inputTexts = tmp_input_texts
 
 		newInputEntities = []
-		for eList in self.inputEntities:
+		for eList in self.entities:
 			newEList = []
 			for eSentence in eList:
 				newESentence = []
@@ -68,10 +60,10 @@ class GraphBuilder:
 					newESentence += [e.lower()]
 				newEList += [newESentence]
 			newInputEntities += [newEList]
-		self.inputEntities = newInputEntities
+		self.entities = newInputEntities
 
 		newInputRelations = []
-		for rList in self.inputRelations:
+		for rList in self.relations:
 			newRList = []
 			for rSentence in rList:
 				newRSentence = []
@@ -79,7 +71,7 @@ class GraphBuilder:
 					newRSentence += [(s.lower(), p.lower(), o.lower())]
 				newRList += [newRSentence]
 			newInputRelations += [newRList]
-		self.inputRelations = newInputRelations
+		self.relations = newInputRelations
 
 
 		
@@ -94,61 +86,26 @@ class GraphBuilder:
 
 	def validate(self):
 		allEntities = [] 
-		for i in range(len(self.inputEntities)):
-			for eList in self.inputEntities[i]:
+		for i in range(len(self.entities)):
+			for eList in self.entities[i]:
 				allEntities += [e for e in eList]
 
 		allEntities = set(allEntities)	
-		refiner = StatisticsRefiner(allEntities, self.inputEntities, self.inputRelations, 10, 15)
-		self.validEntities, self.inputEntities,  self.inputRelations = refiner.validate()
+		refiner = StatisticsRefiner(allEntities, self.entities, self.relations, 2, 10)
+		self.validEntities, self.entities,  self.relations = refiner.validate()
 		print('Entities after:', len(self.validEntities))
 
 
-	'''def relations_deep_finder_execution(self):
-		refiner = RelationsDeepFinder(self.inputTexts, self.inputEntities, self.inputRelations, self.rel2sent)
-		self.relationsComplete = refiner.run() '''
-
-
 	def cleanEntities(self):
-		entityCleaner = EntityCleaner(self.inputEntities, self.inputRelations, self.validEntities)
+		entityCleaner = EntityCleaner(self.entities, self.relations, self.validEntities)
 		entityCleaner.run()
-		self.entitiesCleaned = entityCleaner.getEntitiesCleaned()
-		self.relationsCleaned = entityCleaner.getRelationsCleaned()
+		self.entities = entityCleaner.getEntitiesCleaned()
+		self.relations = entityCleaner.getRelationsCleaned()
 	 
-
-	def save_all_data_extracted(self):
-
-		abstract_level_texts = []
-		abstract_level_relations = []
-		abstract_level_entities = []
-		paper_numbers = []
-
-		for paper_number in range(len(self.inputTexts)):
-			paper_numbers += [paper_number]
-			sentence_level_texts = []
-			sentence_level_relations = []
-			sentence_level_entities = []
-
-			for sentence_number in range(len(self.inputTexts[paper_number])):
-				sentence_level_texts += [self.inputTexts[paper_number][sentence_number]]
-				sentence_level_relations += [self.relationsComplete[paper_number][sentence_number]]
-				sentence_level_entities += [self.inputEntities[paper_number][sentence_number]]
-
-			abstract_level_texts += [sentence_level_texts]
-			abstract_level_relations += [sentence_level_relations]
-			abstract_level_entities += [sentence_level_entities]
-
-		data = {'paper_id' : paper_numbers, 'abstract_sentences' : abstract_level_texts, 'relations' : abstract_level_relations, 'entities' : abstract_level_entities}
-		columns_order = ['paper_id', 'abstract_sentences', 'entities', 'relations']
-		df = pd.DataFrame(data, columns=columns_order)
-		df = df[columns_order]
-		df.to_csv('out/all_extracted_data.csv')
-
-
 
 	#BestLabelFinder module execution
 	def build_triples(self):
-		finder = BestLabelFinder(self.inputTexts, self.entitiesCleaned, self.relationsCleaned)
+		finder = BestLabelFinder(self.inputTexts, self.entities, self.relations)
 		finder.run()
 		return finder.get_triples()
 
@@ -158,6 +115,12 @@ class GraphBuilder:
 		m = Mapper(triples)
 		m.run()
 		return m.get_triples()
+
+	def map_on_definitive_triples(self, triples):
+		m = Mapper(triples)
+		m.map_on_definitive_predicates()
+		return m.get_triples()
+
 
 
 	def save_pandas(self, triples, destination):
@@ -209,15 +172,6 @@ class GraphBuilder:
 		self.validate()
 		print()
 
-
-		'''print('# DEEP FINDER')
-		print(str(datetime.datetime.now()))
-		self.relations_deep_finder_execution()
-		print()
-
-		self.save_all_data_extracted()'''
-
-
 		print('# ENTITIES CLEANING')
 		print(str(datetime.datetime.now()))
 		self.cleanEntities()
@@ -242,10 +196,11 @@ class GraphBuilder:
 		s.run()
 		selected_triples = s.get_selected_triples()
 		discarded_triples = s.get_discarded_triples()
-		print('Number of triples:', len(selected_triples))
+		print('Number of selected triples:', len(selected_triples))
+		selected_triples = self.map_on_definitive_triples(selected_triples)
+		discarded_triples = self.map_on_definitive_triples(discarded_triples)
 		self.save_pandas(selected_triples, 'out/selected_triples.csv')
 		self.save_pandas(discarded_triples, 'out/discarded_triples.csv')
-
 
 		print('GRAPH BUILDING')
 		print(str(datetime.datetime.now()))
@@ -263,7 +218,7 @@ class GraphBuilder:
 
 
 if __name__ == '__main__':
-	builder = GraphBuilder('csv_e_r_full_1000.csv')
+	builder = GraphBuilder('csv_e_r_full_28_09_2019.csv')
 	builder.pipeline()
 
 

@@ -4,15 +4,72 @@ import datetime
 import numpy as np
 import collections
 import operator
-
+import urllib
 
 class BestLabelFinder:
 	def __init__(self, inputTexts, entitiesCleaned, relationsCleaned):
 		self.relations = relationsCleaned
 		self.entities = entitiesCleaned
 		self.texts = inputTexts
+		self.cso_triples = None
+		self.cso_map = None
 		self.triples = None
 
+
+	def load_cso_triples_related_equivalent(self):
+		triples = []
+		with open('resources/CSO.3.1.csv', 'r', encoding="utf-8") as f:
+			lines = f.readlines()
+			for line in lines:
+
+				try:
+
+					(s,p,o) = tuple(line.strip().split(','))
+					(s,p,o) = (urllib.parse.unquote(s[1:-1]), urllib.parse.unquote(p[1:-1]), urllib.parse.unquote(o[1:-1]))
+					if "<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent>" == p:
+						triples += [(s,p,o)]
+				except Exception as e:
+					pass
+		
+		self.cso_triples = triples
+
+	def build_cso_map(self):
+
+		self.load_cso_triples_related_equivalent()
+		
+		self.cso_map = {}
+		cso_topics = set()
+
+		for (s,p,o) in self.cso_triples:
+			sub = s.split('/')[-1] # last part 
+			sub = sub[:-1] 		   # '>' remotion
+			obj = o.split('/')[-1] # last part 
+			obj = obj[:-1] 		   # '>' remotion
+			cso_topics.add(sub)
+			cso_topics.add(obj)
+
+
+		for topic in cso_topics:
+
+			if topic not in self.cso_map:
+				equivalent_set = []
+				for (s,p,o) in self.cso_triples:
+			
+					if "<https://cso.kmi.open.ac.uk/topics/" + topic + ">" == s:
+
+						obj = o.split('/')[-1] # last part 
+						obj = obj[:-1] 		   # '>' remotion
+						equivalent_set += [obj]
+
+				equivalent_set += [topic]
+				equivalent_set = sorted(equivalent_set, key=len, reverse=True)
+				equivalent_set = [e.replace('_', ' ') for e in  equivalent_set]
+
+				for i in range(len(equivalent_set)): 
+					self.cso_map[equivalent_set[i]] = equivalent_set[0]
+
+		#for k in sorted(self.cso_map.keys()):
+		#	print(k,'->', self.cso_map[k])
 
 	def flatWordsOnAverage(self, wordList, model):
 		X = []
@@ -55,6 +112,8 @@ class BestLabelFinder:
 
 
 	def run(self):
+
+			self.build_cso_map()
 			model = KeyedVectors.load_word2vec_format('resources/9M[300-5]_skip_gram.bin', binary=True)
 			so2verbs = {}
 			so2luanyi = {}
@@ -67,8 +126,28 @@ class BestLabelFinder:
 				for sentence_number in range(len(self.relations[paper_number])):
 					relations = self.relations[paper_number][sentence_number]
 
-					for (s,p,o) in relations:
-						
+					for (sub,p,obj) in relations:
+
+						#solving datum issue
+						if sub.endswith('datum'):
+							sub = sub.replace('datum', 'data')
+
+						if obj.endswith('datum'):
+							obj = obj.replace('datum', 'data')
+
+						# map to possible longest equal entity using cso
+						if sub in self.cso_map:
+							print(s,'->', self.cso_map[sub]) 
+							s = self.cso_map[sub]
+
+						else:
+							s = sub
+
+						if obj in self.cso_map:
+							o = self.cso_map[obj]
+						else:
+							o = obj
+
 						if p.startswith('openie-'):
 							if (s,o) not in so2openie_verbs:
 								so2openie_verbs[(s,o)] = []

@@ -110,27 +110,22 @@ class StatisticsRefiner:
 
 		tokens = nltk.word_tokenize(self.generalDomainAbstracts)
 		tot_general_domain = len(tokens)
-		
-
-		print(tot_target_domain, tot_computer_science_domain, tot_general_domain)
-		
-
 
 		for e in self.entities:
 			if e not in alreadySeenEntities and e not in self.validEntities:
 				alreadySeenEntities.add(e)
 				c = str(self.semanticWebAbstracts).count( str(e.strip().lower()) )
-				semanticWebCount += [c]
+				semanticWebCount += [c / tot_target_domain]
 
 				c = str(self.computerScienceAbstracts).count(str(e.strip().lower()) )
-				computerScienceCount += [c]
+				computerScienceCount += [c / tot_computer_science_domain]
 
 				c = str(self.generalDomainAbstracts).count( str(e.strip().lower()) )
-				generalDomainCount += [c]
+				generalDomainCount += [c / tot_target_domain]
 
 				self.statistics[e] = {}
 
-				if(computerScienceCount[-1] > 0) and generalDomainCount[-1] > 0:
+				'''if(computerScienceCount[-1] > 0) and generalDomainCount[-1] > 0:
 					print('\nEntity:', e)
 					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
 					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
@@ -141,17 +136,18 @@ class StatisticsRefiner:
 					print('\nEntity:', e)
 					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
 					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
-					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)
+					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)'''
 				
+
 				if computerScienceCount[-1] > 0:
 					self.statistics[e]['sw&cs'] = semanticWebCount[-1] / computerScienceCount[-1]
 				else: 
-					self.statistics[e]['sw&cs'] = semanticWebCount[-1] + 10
+					self.statistics[e]['sw&cs'] = 10
 
 				if generalDomainCount[-1] > 0:
 					self.statistics[e]['sw&gd'] = semanticWebCount[-1] / generalDomainCount[-1]
 				else:
-					self.statistics[e]['sw&gd'] = semanticWebCount[-1] + 15
+					self.statistics[e]['sw&gd'] = 20
 	
 				data += [{ 'entity' : e, 'sw-count': semanticWebCount[-1], 'cs-count': computerScienceCount[-1], 'gd-count':generalDomainCount[-1], 'sw&cs': self.statistics[e]['sw&cs'], 'sw&gd': self.statistics[e]['sw&gd'] }]
 

@@ -1,0 +1,12 @@
+,s,p,o,source,support
+0,genetic algorithm (ga),uses,graph structure of ontology,heuristic,1
+1,seals evaluation service,based-on,web service interface,heuristic,1
+2,hierarchical interest tree,proposes,unstructured p2p systems.document,heuristic,1
+3,semantic search approach,proposes,unstructured p2p systems.document,heuristic,2
+4,machine learning technique,produces,system moto,heuristic,1
+5,ontology alignment,based-on,web service interface,heuristic,1
+6,semantic search approach,based-on,hierarchical interest tree,heuristic,1
+7,ontology matching approach,based-on,genetic algorithm (ga),heuristic,1
+8,automated ontology matching methodology,supports,machine learning technique,heuristic,2
+9,automated ontology matching methodology,produces,system moto,heuristic,4
+10,ontology matching approach,based-on,graph structure of ontology,heuristic,2

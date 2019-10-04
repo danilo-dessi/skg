@@ -1,7 +1,7 @@
 ﻿;s;p;o;source;support;pipeline;Danilo;FRA;;;;;;Danilo-FRA;;;
 624;access control;uses;resource description framework (rdf);['heuristic'];[1];yes;y;y;;;;;;1;;;
 761;access control;uses;web ontology language;['heuristic'];[12];yes;y;y;;;;;;1;;;
-577;access control mechanism;uses;web ontology language;['luanyi', 'heuristic'];[1, 1];yes;y;y;;;;;;1;;Agreement:;0,705572289
+577;access control mechanism;uses;web ontology language;['luanyi', 'heuristic'];[1, 1];yes;y;y;;;;;;1;;Agreement: Danilo - Francesco;0,70490566
 696;activity recognition;uses;resource description framework (rdf);['heuristic'];[1];yes;y;y;;;;;;1;;;
 725;activity recognition;uses;web ontology language;['heuristic'];[1];yes;y;y;;;;;;1;;;
 395;affective computing;uses;semantic description;['luanyi'];[1];yes;y;y;;;;;;1;;;
@@ -96,7 +96,6 @@
 168;data sparsity;uses;linked data;['luanyi'];[1];yes;n;n;;;;;;1;;;
 1152;database systems;includes;resource description framework (rdf);['heuristic'];[3.0];no;y;y;;;;;;1;;;
 584;database systems;includes;semantic description;['luanyi'];[1];yes;y;y;;;;;;1;;;
-282;database systems;includes;semantic descriptions;['luanyi'];[1];yes;y;y;;;;;;1;;;
 481;dbpedia;is;linked data;['luanyi'];[4];yes;y;n;;;;;;0;;;
 267;dbpedia;provides;linked data;['heuristic'];[39];yes;y;y;;;;;;1;;;
 1011;decision procedures;supports;web ontology language;['heuristic'];[4.0];no;n;y;;;;;;0;;;
@@ -366,7 +365,7 @@
 865;machine learning techniques;improves;ontology alignment;['heuristic'];[6.0];no;y;y;;;;;;1;;;
 1196;machine learning techniques;requires;ontology alignment;['heuristic'];[3.0];no;y;n;;;;;;0;;;
 772;machining;uses;web ontology language;['heuristic'];[1];yes;y;y;;;;;;1;;;
-118;manets;includes;semantic descriptions;['luanyi'];[2];yes;y;y;;;;;;1;;;
+118;manets;includes;semantic description;['luanyi'];[2];yes;y;y;;;;;;1;;;
 1197;map-reduce;requires;resource description framework (rdf);['heuristic'];[3.0];no;y;n;;;;;;0;;;
 1037;mashup;publishes;linked data;['heuristic'];[4.0];no;n;y;;;;;;0;;;
 475;mashup;selects;semantic web services;['openie'];[1];yes;y;y;;;;;;1;;;
@@ -400,9 +399,8 @@
 99;ontologies;uses;ontology alignment;['heuristic', 'heuristic', 'luanyi'];[204, 338, 2];yes;n;y;;;;;;0;;;
 322;ontologies;represents;resource description framework (rdf);['heuristic'];[159];yes;n;y;;;;;;0;;;
 438;ontologies;uses;resource description framework (rdf);['openie', 'heuristic'];[2, 91];yes;y;y;;;;;;1;;;
-537;ontologies;produces;semantic description;['heuristic'];[56];yes;y;y;;;;;;1;;;
-451;ontologies;produces;semantic descriptions;['openie'];[1];yes;y;y;;;;;;1;;;
-499;ontologies;provides;semantic descriptions;['heuristic'];[23];yes;y;y;;;;;;1;;;
+537;ontologies;produces;semantic description;['heuristic', 'openie'];[56];yes;y;y;;;;;;1;;;
+499;ontologies;provides;semantic description;['heuristic'];[23];yes;y;y;;;;;;1;;;
 777;ontologies;uses;semantic search engine;['heuristic'];[15];yes;y;y;;;;;;1;;;
 545;ontologies;executes;semantic search engines;['openie'];[2];yes;n;n;;;;;;1;;;
 115;ontologies;provides;semantic search engines;['heuristic'];[151];yes;n;n;;;;;;1;;;
@@ -490,7 +488,7 @@
 403;ontology alignment;uses;relational database systems;['luanyi'];[1];yes;y;y;;;;;;1;;;
 447;ontology alignment;uses;rough sets theory;['luanyi'];[1];yes;y;y;;;;;;1;;;
 950;ontology alignment;provides;semantic data;['heuristic'];[5.0];no;y;y;;;;;;1;;;
-245;ontology alignment;is;semantic descriptions;['luanyi'];[2];yes;n;n;;;;;;1;;;
+245;ontology alignment;is;semantic description;['luanyi'];[2];yes;n;n;;;;;;1;;;
 870;ontology alignment;limits;semantic heterogeneity;['heuristic'];[6.0];no;y;n;;;;;;0;;;
 93;ontology alignment;provides;semantic interoperability;['openie'];[4];yes;y;y;;;;;;1;;;
 570;ontology alignment;supports;semantic interoperability;['openie'];[1];yes;y;y;;;;;;1;;;
@@ -515,13 +513,13 @@
 1054;ontology construction;acquires;ontology alignment;['heuristic'];[4.0];no;n;n;;;;;;1;;;
 1055;ontology construction;supports;resource description framework (rdf);['heuristic'];[4.0];no;y;n;;;;;;0;;;
 709;ontology construction;uses;resource description framework (rdf);['heuristic'];[1];yes;y;y;;;;;;1;;;
-704;ontology construction;uses;semantic descriptions;['heuristic'];[2];yes;y;y;;;;;;1;;;
+704;ontology construction;uses;semantic description;['heuristic'];[2];yes;y;y;;;;;;1;;;
 951;ontology construction;supports;web ontology language;['heuristic'];[5.0];no;n;n;;;;;;1;;;
 310;ontology construction;uses;web ontology language;['luanyi'];[1];yes;y;y;;;;;;1;;;
 621;ontology design;uses;web ontology language;['heuristic'];[1];yes;n;y;;;;;;0;;;
 1056;ontology development;supports;resource description framework (rdf);['heuristic'];[4.0];no;y;n;;;;;;0;;;
 125;ontology development;uses;web ontology language;['luanyi'];[2];yes;y;y;;;;;;1;;;
-121;ontology evolution;is;semantic descriptions;['luanyi'];[1];yes;n;n;;;;;;1;;;
+121;ontology evolution;is;semantic description;['luanyi'];[1];yes;n;n;;;;;;1;;;
 36;ontology integration;includes;ontology alignment;['luanyi'];[1];yes;y;y;;;;;;1;;;
 1220;ontology integration;provides;semantic web services;['heuristic'];[3.0];no;y;n;;;;;;0;;;
 397;ontology language;uses;resource description framework (rdf);['luanyi'];[1];yes;y;y;;;;;;1;;;
@@ -529,7 +527,7 @@
 223;ontology language;proposes;web ontology language;['heuristic'];[82];yes;n;y;;;;;;0;;;
 823;ontology language;provides;web ontology language;['heuristic'];[7.0];no;n;y;;;;;;0;;;
 714;ontology learning;uses;resource description framework (rdf);['heuristic'];[1];yes;y;y;;;;;;1;;;
-534;ontology learning;is;semantic descriptions;['luanyi'];[2];yes;n;n;;;;;;1;;;
+534;ontology learning;is;semantic description;['luanyi'];[2];yes;n;n;;;;;;1;;;
 1221;ontology merging;produces;ontology alignment;['heuristic'];[3.0];no;y;n;;;;;;0;;;
 1057;ontology modeling;matches;web ontology language;['heuristic'];[4.0];no;n;n;;;;;;1;;;
 555;ontology modeling;uses;web ontology language;['luanyi'];[1];yes;y;y;;;;;;1;;;
@@ -538,7 +536,7 @@
 702;organizational memory;uses;resource description framework (rdf);['heuristic'];[1];yes;y;n;;;;;;0;;;
 178;parsing algorithm;uses;linked data;['luanyi'];[1];yes;y;y;;;;;;1;;;
 1222;pattern;produces;linked data;['heuristic'];[3.0];no;n;?;;;;;;0;;;
-1059;pattern;supports;semantic descriptions;['heuristic'];[4.0];no;n;?;;;;;;0;;;
+1059;pattern;supports;semantic description;['heuristic'];[4.0];no;n;?;;;;;;0;;;
 1060;pervasive;combines;semantic web services;['heuristic'];[4.0];no;n;n;;;;;;1;;;
 646;pervasive computing;uses;web ontology language;['heuristic'];[1];yes;y;y;;;;;;1;;;
 289;petri nets;uses;semantic web services;['heuristic'];[23];yes;y;n;;;;;;0;;;
@@ -740,7 +738,6 @@
 686;semantic description;uses;parallel programming;['heuristic'];[2];yes;n;n;;;;;;1;;;
 552;semantic description;supports;reasoning algorithms;['openie'];[1];yes;y;y;;;;;;1;;;
 1084;semantic description;supports;search engines;['heuristic'];[4.0];no;y;y;;;;;;1;;;
-174;semantic description;uses;semantic descriptions;['luanyi'];[1];yes;n;n;;;;;;1;;;
 880;semantic description;extends;semantic distance;['heuristic'];[6.0];no;n;y;;;;;;0;;;
 1256;semantic description;extends;semantic relationships;['heuristic'];[3.0];no;y;n;;;;;;0;;;
 1085;semantic description;provides;semantic relationships;['heuristic'];[4.0];no;n;y;;;;;;0;;;
@@ -753,7 +750,7 @@
 170;semantic description;uses;web ontology language;['openie', 'heuristic'];[1, 3];yes;y;y;;;;;;1;;;
 1259;semantic description;provides;wordnet;['heuristic'];[3.0];no;n;y;;;;;;0;;;
 510;semantic description;uses;wordnet;['luanyi'];[1];yes;n;y;;;;;;0;;;
-159;semantic descriptions;supports;business services;['openie'];[1];yes;y;y;;;;;;1;;;
+159;semantic description;supports;business services;['openie'];[1];yes;y;y;;;;;;1;;;
 364;semantic descriptions;is;component-based software engineering;['openie'];[1];yes;n;n;;;;;;1;;;
 542;semantic descriptions;uses;heterogeneous databases;['luanyi'];[1];yes;n;y;;;;;;0;;;
 1260;semantic descriptions;publishes;linked data;['heuristic'];[3.0];no;n;n;;;;;;1;;;
