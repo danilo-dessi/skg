@@ -34,7 +34,7 @@ class GraphBuilder:
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile).head(5)
+		self.inputDataFrame = pd.read_csv(self.inputFile).head(50)
 
 
 	def parse(self):
@@ -124,8 +124,8 @@ class GraphBuilder:
 
 
 	def save_pandas(self, triples, destination):
-		columns_order = ['s', 'p', 'o', 'source', 'support']
-		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support} for (s,p,o, source, support) in triples]
+		columns_order = ['s', 'p', 'o', 'source', 'support', 'abstracts']
+		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support, 'abstracts' : list(set(abstracts))} for (s,p,o, source, support, abstracts) in triples]
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
 		df.to_csv(destination)
@@ -139,7 +139,7 @@ class GraphBuilder:
 		id2entity = {}
 
 		# a single id to each entity
-		for (s,p,o, source, support) in selected_triples:
+		for (s,p,o, source, support, abstracts) in selected_triples:
 			if s not in entity2id:
 				entity2id[s] = id_gen
 				id2entity[id_gen] = s
@@ -152,7 +152,7 @@ class GraphBuilder:
 				id_gen += 1
 
 		# graph generation
-		for (s,p,o, source, support) in selected_triples:
+		for (s,p,o, source, support, abstracts) in selected_triples:
 			idS = entity2id[s]
 			idO = entity2id[o]
 			self.g.add_edge(idS, idO, label=p, support=support, source=source)
@@ -190,6 +190,7 @@ class GraphBuilder:
 		self.save_pandas(triples, 'out/all_triples.csv')
 
 
+		
 		print('# TRIPLES SELECTION')
 		print(str(datetime.datetime.now()))
 		s = Selector(triples)

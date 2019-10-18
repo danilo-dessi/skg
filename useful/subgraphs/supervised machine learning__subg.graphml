@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="source" attr.type="string" for="edge" id="d3"/>
+<key attr.name="support" attr.type="long" for="edge" id="d2"/>
+<key attr.name="label" attr.type="string" for="edge" id="d1"/>
+<key attr.name="label" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="48574">
+  <data key="d0">background knowledge representation</data>
+</node>
+<node id="357">
+  <data key="d0">resource description framework (rdf)</data>
+</node>
+<node id="21135">
+  <data key="d0">supervised machine learning</data>
+</node>
+<node id="43342">
+  <data key="d0">dl - learner framework</data>
+</node>
+<node id="109">
+  <data key="d0">web ontology language</data>
+</node>
+<node id="7440">
+  <data key="d0">rich semantic</data>
+</node>
+<node id="13452">
+  <data key="d0">structured data model</data>
+</node>
+<edge source="48574" target="21135">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="357" target="7440">
+  <data key="d1">includes</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="21135" target="7440">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="21135" target="43342">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="21135" target="109">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="21135" target="13452">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="21135" target="48574">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="21135" target="357">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="43342" target="109">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="13452" target="7440">
+  <data key="d1">includes</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+</graph></graphml>

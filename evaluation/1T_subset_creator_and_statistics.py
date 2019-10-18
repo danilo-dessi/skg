@@ -195,7 +195,7 @@ if __name__ == "__main__":
 
 
 
-	save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_01_10.csv')
+	#save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_01_10.csv')
 	
 
 

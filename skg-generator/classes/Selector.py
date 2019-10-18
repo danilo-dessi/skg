@@ -45,7 +45,7 @@ class Selector:
 		model = KeyedVectors.load_word2vec_format(self.vectors_model, binary=True)
 		X = []
 		y = []
-		for (s,p,o,suorce,support) in trusted_triples:
+		for (s,p,o,suorce,support,abstracts) in trusted_triples:
 			skey = self.clean_for_embeddings(s).replace(' ', '_')  
 			okey = self.clean_for_embeddings(o).replace(' ', '_') 
 
@@ -65,7 +65,7 @@ class Selector:
 		model = KeyedVectors.load_word2vec_format(self.vectors_model, binary=True)
 		
 		consistent = []
-		for (s,verb,o,suorce,support) in untrusted_triples:
+		for (s,verb,o,suorce,support,abstracts) in untrusted_triples:
 			skey_test = self.clean_for_embeddings(s).replace(' ', '_')  
 			okey_test = self.clean_for_embeddings(o).replace(' ', '_') 
 
@@ -75,15 +75,15 @@ class Selector:
 
 
 				if pred == verb:
-					consistent += [(s,verb,o,suorce,support)]
+					consistent += [(s,verb,o,suorce,support,abstracts)]
 				else:
 					wverb = model[verb]
 					wpred = model[pred]
 					sim = 1 - spatial.distance.cosine(wverb, wpred)
 					sim_wn = wup_sim(verb, pred)
 					if (sim + sim_wn) / 2 >= 0.5:
-						consistent += [(s,verb,o,suorce,support)]
-						print((s,verb,o,suorce,support), pred)
+						consistent += [(s,verb,o,suorce,support,abstracts)]
+						print((s,verb,o,suorce,support,abstracts), pred)
 			except Exception as e:
 				continue
 
@@ -109,17 +109,17 @@ class Selector:
 
 	def remove_conjunction(self):
 		triples = []
-		for (s,p,o,source,support)  in self.input_triples:
+		for (s,p,o,source,support, abstracts)  in self.input_triples:
 			if p != 'conjunction':
-				triples += [(s,p,o,source,support)]
+				triples += [(s,p,o,source,support, abstracts)]
 		self.input_triples = triples
 
 
 	def remove_equal_s_o(self):
 		triples = []
-		for (s,p,o,source,support)  in self.input_triples:
+		for (s,p,o,source,support, abstracts)  in self.input_triples:
 			if s != o:
-				triples += [(s,p,o,source,support)]
+				triples += [(s,p,o,source,support, abstracts)]
 		self.input_triples = triples
 
 			
@@ -130,19 +130,19 @@ class Selector:
 		unique_triples = set()
 		seen = set()
 
-		for (s,p,o,source,support) in triples:
+		for (s,p,o,source,support,abstracts) in triples:
 			if (s,o) not in seen and source == 'luanyi':
-				unique_triples.add((s,p,o,source,support))
+				unique_triples.add((s,p,o,source,support,abstracts))
 				seen.add((s,o))
 
-		for (s,p,o,source,support) in triples:
+		for (s,p,o,source,support,abstracts) in triples:
 			if (s,o) not in seen and source == 'openie':
-				unique_triples.add((s,p,o,source,support))
+				unique_triples.add((s,p,o,source,support,abstracts))
 				seen.add((s,o))
 
-		for (s,p,o,source,support) in triples:
+		for (s,p,o,source,support,abstracts) in triples:
 			if (s,o) not in seen and source == 'heuristic':
-				unique_triples.add((s,p,o,source,support))
+				unique_triples.add((s,p,o,source,support,abstracts))
 				seen.add((s,o))
 		return list(unique_triples)
 		
@@ -162,7 +162,7 @@ class Selector:
 		if not os.path.isfile(self.vectors_model):
 			print('300model.bin does not exist -> Generation of new embeddings')
 			entities = set()
-			for (s,p,o,source,support)  in self.input_triples:
+			for (s,p,o,source,support,abstracts)  in self.input_triples:
 				entities.add(s)
 				entities.add(o)	
 			self.build_embeddings(entities, 300)
@@ -170,11 +170,11 @@ class Selector:
 		self.remove_conjunction()
 		self.remove_equal_s_o()
 
-		for (s,p,o,source,support)  in self.input_triples:
+		for (s,p,o,source,support,abstracts)  in self.input_triples:
 			if source == 'luanyi' or source == 'openie' or support >= self.trust_th:
-				trusted_triples += [(s,p,o,source,support)]
+				trusted_triples += [(s,p,o,source,support,abstracts)]
 			else:
-				untrusted_triples += [(s,p,o,source,support)]
+				untrusted_triples += [(s,p,o,source,support,abstracts)]
 
 		trusted_triples_for_classifier = self.unique(trusted_triples)
 		print('Trusted triples:', len(trusted_triples))

@@ -16,10 +16,11 @@ class EntityCleaner:
 		self.entitiesCleaned = []
 		self.relationsCleaned = []
 
-		self.validEntities = validEntities
-
 		self.blackList = ['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
-		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'application', 'it', 'IT']
+		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'application', \
+		'it', 'IT', 'activity']
+
+		self.validEntities = validEntities.difference(set(self.blackList))
 
 		self.nlp = spacy.load('en_core_web_sm')
 		self.lemmatizer = spacy.lemmatizer.Lemmatizer(LEMMA_INDEX, LEMMA_EXC, LEMMA_RULES)
@@ -87,7 +88,7 @@ class EntityCleaner:
 						tmpE = regex_puntuaction_ok.sub(' ', e)
 						tmpE = tmpE.lower()
 				
-						if tmpE not in stopWords and tmpE not in self.blackList:
+						if tmpE not in stopWords:
 							new_sentence_entities += [tmpE]
 							entitiesMap[e] = tmpE
 

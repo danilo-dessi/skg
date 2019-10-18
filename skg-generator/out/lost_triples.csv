@@ -2,4 +2,178 @@
 0,it,elicit,mapping,heuristic,2
 1,meta - learner,elicit,mapping,heuristic,1
 2,benchmark ontology,demonstrate,methodology,heuristic,1
-3,it,elicit,mapping,openie,1
+3,barrier,satisfy,user information need,heuristic,2
+4,semantic search technology,acces,barrier,heuristic,2
+5,structured data,satisfy,user information need,heuristic,2
+6,semantic search technology,acces,structured data,heuristic,2
+7,semantic relationships,relate,retrieval of the annotation,heuristic,1
+8,retrieval of the annotation,relate,semantic relationships,heuristic,1
+9,mpeg-7 based semantic annotation,prove,regular expression,heuristic,2
+10,regular expression,relate,query expansion,heuristic,1
+11,query expansion,relate,regular expression,heuristic,1
+12,retrieval proces,prove,regular expression,heuristic,3
+13,mpeg-7 based semantic annotation,prove,information retrieval technique,heuristic,2
+14,mpeg-7 based semantic annotation,prove,query expansion,heuristic,2
+15,retrieval proces,prove,information retrieval technique,heuristic,3
+16,retrieval proces,prove,query expansion,heuristic,3
+17,concept,relate,ontologies,heuristic,1
+18,ontologies,relate,concept,heuristic,1
+19,concept similarity,locate,semantic peer,heuristic,2
+20,semantic distance,locate,semantic peer,heuristic,1
+21,concept relevance overlay,locate,semantic peer,heuristic,2
+22,concept relevance overlay,search,semantic relevance resource,heuristic,2
+23,search request,search,semantic relevance resource,heuristic,2
+24,semantic peer,search,semantic relevance resource,heuristic,1
+25,search request,search,network traffic,heuristic,2
+26,semantic peer,search,network traffic,heuristic,1
+27,concept relevance overlay,relate,search request,heuristic,1
+28,search request,relate,concept relevance overlay,heuristic,1
+29,search request,rout,semantic peer,heuristic,1
+30,metametadata,encapsulate,learning objects,heuristic,4
+31,metametadata,encapsulate,ontologies,heuristic,3
+32,metametadata,relate,ontological approach,heuristic,1
+33,ontological approach,relate,metametadata,heuristic,2
+34,video,relate,image,heuristic,1
+35,image,relate,video,heuristic,1
+36,image,relate,document,heuristic,1
+37,document,relate,image,heuristic,1
+38,keyword - based search,relate,internet search,heuristic,1
+39,internet search,relate,keyword - based search,heuristic,1
+40,similarity measure,search,video,heuristic,1
+41,similarity measure,search,image,heuristic,1
+42,content metadata,accompany,digitised item,heuristic,1
+43,semantic search methodology,meet,semantic,heuristic,3
+44,local ( surf ),relate,global ( mpeg-7 ) visual feature,heuristic,1
+45,global ( mpeg-7 ) visual feature,relate,local ( surf ),heuristic,1
+46,global ( mpeg-7 ) visual feature,relate,descriptors,heuristic,1
+47,descriptors,relate,global ( mpeg-7 ) visual feature,heuristic,1
+48,query answering mechanism,meet,semantic,heuristic,1
+49,europeana digital library,illustrate,content search,heuristic,3
+50,visual analysis of cultural image,relate,thematic knowledge,heuristic,1
+51,thematic knowledge,relate,visual analysis of cultural image,heuristic,1
+52,visual analysis of cultural image,illustrate,content search,heuristic,2
+53,thematic knowledge,illustrate,content search,heuristic,2
+54,concept architecture,demonstrate,inference engine,heuristic,4
+55,code verification.the concept architecture,mention,inference engine,heuristic,2
+56,logical reasoning,fee,concept architecture,heuristic,2
+57,logical reasoning,fee,semantic search engines,heuristic,3
+58,web contents,carry,logical reasoning,heuristic,1
+59,web contents,fee,concept architecture,heuristic,3
+60,semantic search engines,fulfil,it,heuristic,2
+61,user - defined information,meet,similarity sorting,heuristic,2
+62,wsdl document,form,service description tree,heuristic,1
+63,service description tree,accord,semantic relationships,heuristic,2
+64,semantic relationships,form,web service semantic description document,heuristic,1
+65,wsdl document,form,wordnet ontology tree,heuristic,1
+66,wordnet ontology tree,accord,semantic relationships,heuristic,2
+67,w3c,know,prism,heuristic,1
+68,w3c,know,dcmi,heuristic,1
+69,schema,know,prism,heuristic,2
+70,rdf / xml,know,prism,heuristic,3
+71,prism,relate,dcmi,heuristic,1
+72,dcmi,relate,prism,heuristic,1
+73,schema,know,dcmi,heuristic,2
+74,rdf / xml,know,dcmi,heuristic,3
+75,filtering time,relate,category,heuristic,1
+76,category,relate,filtering time,heuristic,1
+77,engine,run,keyword,heuristic,4
+78,recall,stem,keyword,heuristic,1
+79,virtual urban fire fighting,manifest,design,heuristic,1
+80,execution scenario,relate,dynamic test case generation,heuristic,1
+81,dynamic test case generation,relate,execution scenario,heuristic,1
+82,heterogeneous source,overcome,technological boundary,heuristic,2
+83,mobility of resource,necessitate,test - friendly description capability,heuristic,1
+84,dynamicity of the environment,necessitate,test - friendly description capability,heuristic,1
+85,inte- grating service oriented computing mechanism,relate,semantic web technologies,heuristic,1
+86,semantic web technologies,relate,inte- grating service oriented computing mechanism,heuristic,1
+87,software engineering,relate,knowledge processing,heuristic,1
+88,knowledge processing,relate,software engineering,heuristic,1
+89,knowledge processing,relate,ontology construction,heuristic,1
+90,ontology construction,relate,knowledge processing,heuristic,1
+91,cicero tool,accelerate,convergence,heuristic,2
+92,it,relate,ontology editor,heuristic,1
+93,ontology editor,relate,it,heuristic,1
+94,ontologies,take,ontology alignment proces,heuristic,1
+95,similarity measuring method,exist,discrete entity,heuristic,2
+96,similarity measuring method,exist,ontologies,heuristic,2
+97,objectives precision,relate,recall,heuristic,1
+98,recall,relate,objectives precision,heuristic,1
+99,precision,relate,recall metric,heuristic,1
+100,recall metric,relate,precision,heuristic,1
+101,resource description framework permitira,relate,num futuro bem proximo,heuristic,1
+102,num futuro bem proximo,relate,resource description framework permitira,heuristic,1
+103,gnutella,relate,napster,heuristic,1
+104,napster,relate,gnutella,heuristic,1
+105,reference service model,close,phenomenically contradictory service annotation paradigm,heuristic,1
+106,reference service model,close,semantic service framework,heuristic,1
+107,rsm,aim,semantic interlinking,heuristic,2
+108,semantic model,accommodate,bottom - up social annotation of service,heuristic,1
+109,semantic interlinking,accommodate,bottom - up social annotation of service,heuristic,2
+110,rsm,follow,design science research methodology,heuristic,1
+111,rsm,exist,semantic service model,heuristic,2
+112,rsm,exist,soa service model,heuristic,2
+113,semantic service model,relate,soa service model,heuristic,1
+114,soa service model,relate,semantic service model,heuristic,1
+115,service output,relate,service input,heuristic,1
+116,service input,relate,service output,heuristic,1
+117,service logic,relate,service provider,heuristic,1
+118,service provider,relate,service logic,heuristic,1
+119,service provider,relate,service client,heuristic,1
+120,service client,relate,service provider,heuristic,1
+121,service client,relate,service feedback,heuristic,1
+122,service feedback,relate,service client,heuristic,1
+123,wiki - based resource,aim,collective annotation of the zebrafish gene,heuristic,2
+124,semantic web reasoning,relate,argument - based reasoning,heuristic,1
+125,argument - based reasoning,relate,semantic web reasoning,heuristic,1
+126,argument - based recommender system,schedule,semantic web reasoning,heuristic,1
+127,argument - based recommender system,schedule,argument - based reasoning,heuristic,1
+128,ontologys construction,display,knowledge model,heuristic,1
+129,semantic web technologies,exist,manually constructed ontology,heuristic,1
+130,manually constructed ontology,relate,it,heuristic,1
+131,it,relate,manually constructed ontology,heuristic,1
+132,ontologies,play,manually constructed ontology,heuristic,2
+133,semantic web technologies,exist,it,heuristic,2
+134,ontologies,play,semantic web technologies,heuristic,2
+135,ontologies,play,it,heuristic,3
+136,interoperation,relate,composition,heuristic,1
+137,composition,relate,interoperation,heuristic,1
+138,execution,relate,composition,heuristic,1
+139,composition,relate,execution,heuristic,1
+140,execution,relate,automated web service discovery,heuristic,1
+141,automated web service discovery,relate,execution,heuristic,1
+142,terminology,relate,data standard,heuristic,1
+143,data standard,relate,terminology,heuristic,1
+144,terminology,exist,semantic web solution,heuristic,1
+145,terminology,relate,ontologies,heuristic,1
+146,ontologies,relate,terminology,heuristic,1
+147,data standard,exist,semantic web solution,heuristic,1
+148,data standard,relate,data structure,heuristic,1
+149,data structure,relate,data standard,heuristic,1
+150,data structure,exist,semantic web solution,heuristic,1
+151,ontologies,exist,semantic web solution,heuristic,1
+152,deep web characteristics.then,meet,deep web information,heuristic,3
+153,text retrieval,lift,retrieval efficiency,heuristic,1
+154,information systems,relate,semantic web technologies,heuristic,1
+155,semantic web technologies,relate,information systems,heuristic,1
+156,semantic web technologies,relate,ontologies,heuristic,1
+157,dolce foundational ontology,cast,communication,heuristic,1
+158,ontologies,cast,communication,heuristic,1
+159,dolce foundational ontology,cast,ontologies,heuristic,2
+160,ontology - based service product modeling approach,configuration.formaliz,ontology language,heuristic,1
+161,ontology - based service product modeling approach,configuration.formaliz,semantic web technologies,heuristic,1
+162,ontology - based service product modeling approach,configuration.formaliz,feature - based service model,heuristic,1
+163,mass customization ( mc ) paradigm,state,mass customization,heuristic,2
+164,service customization,configure,china mobile.the approach,heuristic,2
+165,engine,run,search query,heuristic,2
+166,semantic web vocabulary,relate,named entity extraction,heuristic,1
+167,named entity extraction,relate,semantic web vocabulary,heuristic,1
+168,semantic web vocabulary,relate,ontologies,heuristic,1
+169,ontologies,relate,semantic web vocabulary,heuristic,1
+170,external data source,relate,ontologies,heuristic,1
+171,ontologies,relate,external data source,heuristic,1
+172,it,elicit,mapping,openie,1
+173,concept similarity,locate,semantic peer,openie,1
+174,similarity measure,search,image,openie,1
+175,similarity measure,search,video,openie,1
+176,rsm,develop follow,design science research methodology,openie,1
+177,multimedia,compare,automatic visual analysi,luanyi,1
