@@ -6,7 +6,7 @@ This repository contains the source code developed for wrapping tools and perfor
 
 If you use our work please cite us with:
 ```
- BLA BLA BLA
+A Natural Language Pipeline Powered by Machine Learning for Modelling Scientific Knowledge into Knowledge Graphs
 ```
 
 
