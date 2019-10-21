@@ -1,0 +1,3 @@
+### Toward the SKG
+This directory contains the source code that performs all operations to produce the scientific knowledge graph.
+At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).

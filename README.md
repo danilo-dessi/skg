@@ -19,11 +19,13 @@ If you use our work please cite us with:
 
 - **luanyi-extractor/** contains the scripts we have changed from the original project for adapting the Luan Yi et al. tool to our data. (**ATTENTION**: they have to be copied into the Luan Yi et al. project after that it works and its models have been built.)
 
-- **cso-openie-extractor/** contains the scripts that have been used to enrich the Luan Yi et al. result wirh CSO topics and OpenIE relations.
+- **cso-openie-extractor/** contains the scripts that have been used to enrich the Luan Yi et al. result wirh CSO topics and Stanford Core NLP relations (i.e., OpenIE and verbs detected by the PoS tagger).
 
-- **skg-generator/** contains the scripts for performing the verb window heuristic, the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our output.
+- **skg-generator/** contains the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our scientific knowledge graph.
 
 - **evaluation/** contains the scripts we used to generate the sample of triples about the semantic web and evaluate our approach.
+
+Some files have been removed form the repository for github limitations on big files. Send an email to danilo_dessi@unica.it (Danilo Dessì) to get a copy of them.
 
 
 ## Usage
@@ -84,7 +86,7 @@ python generate_elmo.py
 
 9. Run
 ```
-python3 run.py
+python3 run_luanyi.py
 ```
 
 The execution will produce a csv file called *luanyi_output.csv* under the luanyi-extractor/ directory.
@@ -99,7 +101,7 @@ We suggest to run above commands in background since they are very time consumin
 2. Copy here the *luanyi_output.csv* previously generated in the directory luanyi-extractor/
 3. Run
 ```
-python3 run.py
+python3 run_extractors.py
 ```
 
 4. The result is a csv file called *csv_e_r_full.csv* which contains all entities and relations extracted by the used tools

@@ -14,11 +14,11 @@ python generate_elmo.py
 
 5. Run
 ```
-python3 run.py
+python3 run_luanyi.py
 ```
 
 Please note that our project has been developed in Python 3.6 while the Luan Yi et al. tool uses Python 2.7.
 
-The execution will produce the directory **csv_e_r** that contains files where for each sentence a list of entities and a list of relations are associated.  We suggest to run above command in background since they are very time consuming.
+The execution will produce the directory **csv_e_r** that contains files where for each sentence a list of entities and a list of relations are associated.  We suggest to run all the above commands in background since they are very time consuming.
 
 
