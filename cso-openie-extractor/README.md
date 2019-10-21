@@ -1,2 +1,2 @@
 ### Extraction of CSO entities and Stanford Core NLP relations
-This directory contains the pythons scripts used to extract CSO entities and Stanford Core NLP relations.  At the end of its execution a files called **csv_e_r_full.csv** is generated. This file contains for each sentence of input text a list of entities and a list of relations extracted by using all employed tools.
+This directory contains the pythons script used to extract CSO entities and Stanford Core NLP relations.  At the end of its execution a files called **csv_e_r_full.csv** is generated. This file contains for each sentence of input text a list of entities and a list of relations extracted by using all employed tools.
