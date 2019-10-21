@@ -34,7 +34,7 @@ class GraphBuilder:
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile).head(50)
+		self.inputDataFrame = pd.read_csv(self.inputFile).head(10)
 
 
 	def parse(self):

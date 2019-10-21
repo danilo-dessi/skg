@@ -35,12 +35,11 @@ class EntityCleaner:
 		- relationsList: the list of relations containing the old entities strings that need to be updated to the new ones
 	'''
 	def updateRelations(self, relationsList, entitiesMap):
-		
-		#print('----------------------------------------------------------------------------------------------------')
-		#print(entitiesMap)
-		#print(relationsList)
+	
 		relations = []
+		#print(entitiesMap)
 		for r in relationsList:
+			#print(r)
 			
 			A = r[0]
 			relationLabel = r[1]
@@ -52,7 +51,10 @@ class EntityCleaner:
 				newA = entitiesMap[A]
 				newB = entitiesMap[B]
 				relations += [(newA, relationLabel, newB)]
-		#print(relations, '\n\n')		
+				#print((newA, relationLabel, newB))
+			#print('-----------------------')
+		#print(relations)
+		#print('\n\n\n')
 		return relations
 
 
@@ -60,7 +62,7 @@ class EntityCleaner:
 		
 		stopWords = set(stopwords.words('english'))
 		regex_puntuaction_ok = re.compile('[%s]' % re.escape("\"'-_`")) # possible characters
-		puntuaction_reject = list("!#$%*+,./:;<=>?@%=[]^{|}~#/{}") + ['\\']
+		puntuaction_reject = list("!#$%*+,./:;<=>?@%=[]^{|}~/{}") + ['\\']
 
 		new_entities = []
 		new_relations = []
@@ -88,12 +90,10 @@ class EntityCleaner:
 						tmpE = regex_puntuaction_ok.sub(' ', e)
 						tmpE = tmpE.lower()
 				
-						if tmpE not in stopWords:
+						if tmpE not in stopWords and e in self.validEntities:
 							new_sentence_entities += [tmpE]
 							entitiesMap[e] = tmpE
-
-							if e in self.validEntities:
-								self.validEntities.add(tmpE)
+							self.validEntities.add(tmpE)
 
 				new_paper_entities += [new_sentence_entities]
 				new_paper_relations += [self.updateRelations(relations, entitiesMap)]
@@ -125,21 +125,21 @@ class EntityCleaner:
 				new_sentence_relations = []
 
 				for e in entities:
-					tokens = self.spacy_tokenize(e)
-					if len(tokens) > 1:
-						lemma = sorted(self.lemmatizer(tokens[-1], u'NOUN'))[0]
-						tmpE = ' '.join(tokens[:-1] + [lemma])
-						new_sentence_entities += [tmpE]
-						entitiesMap[e] = tmpE
 
-						if e in self.validEntities:
+					if e in self.validEntities:
+						tokens = self.spacy_tokenize(e)
+
+						if len(tokens) > 1:
+							lemma = sorted(self.lemmatizer(tokens[-1], u'NOUN'))[0]
+							tmpE = ' '.join(tokens[:-1] + [lemma])
+							new_sentence_entities += [tmpE]
+							entitiesMap[e] = tmpE
 							self.validEntities.add(tmpE)
 
-					elif len(tokens) == 1:
-						lemma = sorted(self.lemmatizer(tokens[0], u'NOUN'))[0]
-						new_sentence_entities += [lemma]
-						entitiesMap[e] = lemma
-						if e in self.validEntities:
+						elif len(tokens) == 1:
+							lemma = sorted(self.lemmatizer(tokens[0], u'NOUN'))[0]
+							new_sentence_entities += [lemma]
+							entitiesMap[e] = lemma
 							self.validEntities.add(lemma)
 
 				new_paper_entities += [new_sentence_entities]
