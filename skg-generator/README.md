@@ -1,4 +1,4 @@
-### Toward the SKG
+### SKG Generator
 This directory contains the source code that performs all operations to produce the scientific knowledge graph.
 At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).
 
@@ -19,4 +19,5 @@ The file *selected_triples.csv* contains the following columns:
 * **o** &rarr; the object of the relationships
 * **source** &rarr; the source method that has detected that relationship (possible values are: luanyi, openie, heuristic)
 * **support** &rarr; the support of relationships
-* **abstracts** &rarr; a list of abstracts where the relationship has been inferred
+* **abstracts** &rarr; a list of abstracts where the relationship has been inferred from
+
