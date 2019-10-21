@@ -2,7 +2,7 @@ from classes.EntityCleaner import EntityCleaner
 from classes.StatisticsRefiner import StatisticsRefiner
 from classes.Mapper import Mapper
 from classes.Selector import Selector
-from classes.RelationsBuilder import RelationsBuilder
+from classes.CSORelationshipsBuilder import RelationsBuilder
 from classes.BestLabelFinder import BestLabelFinder
 
 from gensim.models.keyedvectors import KeyedVectors

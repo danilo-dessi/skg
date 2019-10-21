@@ -2,6 +2,16 @@
 This directory contains the source code that performs all operations to produce the scientific knowledge graph.
 At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).
 
+The directory **classes** contains the develoepd python classes. There is almost an overlap between these classes and some modules of the pipeline. More precisely:
+* **BestLabelFinder.py** &rarr; Best Label Finder
+* **EntityCleaner.py** &rarr; EntitiesRefiner (in combination with StatisticsRefiner.py)
+* **Mapper.py** &rarr; Mapper
+* **CSORelationshipsBuilder.py** &rarr; CSO Relationships Integrator
+* **Selector.py** &rarr; Relationships Selector
+* **StatisticsRefiner.py** &rarr; EntitiesRefiner (in combination with EntityCleaner.py)
+
+
+
 The file *selected_triples.csv* contains the following columns:
 
 * **s** &rarr; the subject of the relationship

@@ -62,26 +62,6 @@ class Mapper:
 		self.triples = triples_tmp
 
 
-	'''def entities_mapper(self):
-
-		#print('Building entity mapping with CSO')
-		triples_plain = [(s,p,o) for (s,p,o, source, support, abstracts) in self.triples]
-		eMap = self.equivalentMap(triples_plain)
-
-		#print('COUNT:', len(self.triples))
-		triples_mapped = []
-		for (s,p,o, source, support, abstracts) in self.triples:
-			new_s = s
-			new_o = o 
-
-			if s in eMap:
-				new_s = eMap[s]
-			if o in eMap:
-				new_o = eMap[o]
-			triples_mapped += [(new_s, p, new_o, source, support, abstracts)]
-
-		self.triples =  triples_mapped'''
-
 
 	def solve_auxiliar_verbs(self, p):
 		
@@ -116,17 +96,9 @@ class Mapper:
 		for i, r in verb_taxonomy.iterrows():
 			vMap[r['predicate-simplified']] = r['predicate']
 
-
 		final_triples = []
-		'''print(self.triples[0])
-		print(len(self.triples[0]))
-		for i in range(len(self.triples)):
-			print(len(self.triples[i]))
-			if len(self.triples[i]) < 6:
-				print(self.triples[i])'''
 		for (s,p,o,source,support, abstracts) in self.triples:
 			final_triples += [(s, vMap[p], o, source, support, abstracts)]
-		#exit(1)
 		self.triples = final_triples
 
 
