@@ -123,7 +123,7 @@ def load_triples(filename):
 if __name__ == "__main__":
 
 
-	th_support = 10
+	th_support = 5
 	triple2source, triple2support = load_triples('selected_triples_01_10.csv')
 	dis_triple2source, dis_triple2support = load_triples('discarded_triples_01_10.csv')
 
@@ -195,7 +195,7 @@ if __name__ == "__main__":
 
 
 
-	#save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_01_10.csv')
+	#save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_to_annotate.csv')
 	
 
 

@@ -77,6 +77,7 @@ if __name__ == "__main__":
 	print('Number of relations in common Luan Yi and OpenIE:', len(set(luanyi_triples).intersection(set(openie_triples))))
 	print('Number of relations in common OpenIE and Heuristic:', len(set(openie_triples).intersection(set(heuristic_triples))))
 	print('Number of relations in common Luan Yi and Heuristic:', len(set(luanyi_triples).intersection(set(heuristic_triples))))
+	print('Number of relations in common between all:', len(set(luanyi_triples).intersection(set(heuristic_triples)).intersection(set(openie_triples))))
 	print()
 
 	p,r,f = precision_recall(luanyi_triples, triples2ann)
