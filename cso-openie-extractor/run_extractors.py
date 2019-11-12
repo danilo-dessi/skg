@@ -40,7 +40,7 @@ class Analyzer:
 
 	'''def restart_nlp(self):
 		self.nlp.close()
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')'''
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')''' 
 
 	def close(self):
 		self.nlp.close()
@@ -106,6 +106,10 @@ class Analyzer:
 		return self.openie_relations + self.verb_window_relations
 
 
+def merge_dict(dict1, dict2): 
+		dict1.update(dict2)
+
+
 if __name__ == '__main__':
 	
 	analyzer = Analyzer()
@@ -115,7 +119,7 @@ if __name__ == '__main__':
 
 	file = 'luanyi_output.csv'
 	print('start processing', file,  str(datetime.datetime.now()))
-	data = pd.read_csv(file)
+	data = pd.read_csv(file)#.head(100)
 	print(data.describe())
 
 	sentences_list = [ast.literal_eval(x) for x in data['sentences'].tolist()]
@@ -136,7 +140,18 @@ if __name__ == '__main__':
 			}
 			papers[str(n_abstract) + '.' + str(n_sentence)] = paper
 
-	cso_result = CSO.run_cso_classifier_batch_mode(papers, workers = 2, modules = "both", enhancement = "first")
+	cso_result = {}
+	papers_keys = list(papers.keys())
+	chunks_size = 2500
+	keys_chunks = [papers_keys[x:x+chunks_size] for x in range(0, len(papers_keys), chunks_size)]
+
+	
+	for chunk in keys_chunks:
+		chunk_papers= { key: papers[key] for key in chunk }
+		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 2, modules = "both", enhancement = "first")
+		#print(type(cso_result), type(chunk_cso_result))
+		merge_dict(cso_result, chunk_cso_result)
+
 
 
 	for n_abstract in range(len(sentences_list)):
