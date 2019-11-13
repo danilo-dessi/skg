@@ -31,7 +31,7 @@ class StatisticsRefiner:
 		self.statistics = {}
 		self.validEntities = set()
 		self.blackList = set(['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
-		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software'])
+		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'component', 'it'])
 
 
 
@@ -186,6 +186,8 @@ class StatisticsRefiner:
 
 	def validate(self):
 
+		print('Entities to validate:', len(self.entities))
+
 		self.loadCSOTopics()
 		validatedCSO = self.csoValidation()
 		self.validEntities = self.validEntities | validatedCSO
@@ -208,7 +210,7 @@ class StatisticsRefiner:
 		self.validEntities = self.validEntities.difference(self.blackList)
 		finalEntities, finalRelations = self.keepOnlyValid()
 
-		return self.validEntities.difference(self.blackList), finalEntities, finalRelations
+		return self.validEntities, finalEntities, finalRelations
 
 		
 
