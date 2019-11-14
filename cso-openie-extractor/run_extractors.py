@@ -24,6 +24,7 @@ import datetime
 import os
 import datetime
 import classifier.classifier as CSO
+import gc
 
 class Analyzer:
 
@@ -48,7 +49,7 @@ class Analyzer:
 
 	def restart_nlp(self):
 		self.nlp.close()
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='4g')
 		self.openie = OPENIE_wrapper(self.nlp)
 		self.verb_finder = VerbWindowFinder(self.nlp)
 
@@ -112,14 +113,14 @@ def merge_dict(dict1, dict2):
 
 if __name__ == '__main__':
 	
-	analyzer = Analyzer()
+	
 
 	file_out = 'csv_e_r_full.csv'
 	r_data = []
 
 	file = 'luanyi_output.csv'
 	print('start processing', file,  str(datetime.datetime.now()))
-	data = pd.read_csv(file)#.head(100)
+	data = pd.read_csv(file)#.head(50)
 	print(data.describe())
 
 	sentences_list = [ast.literal_eval(x) for x in data['sentences'].tolist()]
@@ -148,11 +149,15 @@ if __name__ == '__main__':
 	
 	for chunk in keys_chunks:
 		chunk_papers= { key: papers[key] for key in chunk }
-		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 2, modules = "both", enhancement = "first")
+		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 3, modules = "both", enhancement = "first")
 		#print(type(cso_result), type(chunk_cso_result))
 		merge_dict(cso_result, chunk_cso_result)
 
-
+	chunk_cso_result = None
+	keys_chunks = None
+	gc.collect()
+	analyzer = Analyzer()
+	
 
 	for n_abstract in range(len(sentences_list)):
 		print('\n# Analyzing abstract', n_abstract, '/', len(sentences_list))
@@ -181,6 +186,7 @@ if __name__ == '__main__':
 
 		if len(r_data) % 1000 == 0:
 			analyzer.restart_nlp()
+			gc.collect()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
 

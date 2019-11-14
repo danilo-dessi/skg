@@ -155,7 +155,7 @@ class EntityCleaner:
 		last_character = improved_entity_string[-1]
 
 		while(True):
-			if first_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`' ") + ['\\']:
+			if first_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`'() ") + ['\\']:
 				improved_entity_string = improved_entity_string[1:]
 				first_character = improved_entity_string[0]
 				#print(e, '->', improved_entity_string)
@@ -163,7 +163,7 @@ class EntityCleaner:
 				break
 
 		while(True):
-			if last_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`' ") + ['\\']:
+			if last_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`'() ") + ['\\']:
 				improved_entity_string = improved_entity_string[:-1]
 				last_character = improved_entity_string[-1]
 				#print(e, '->', improved_entity_string)
@@ -219,7 +219,7 @@ class EntityCleaner:
 
 
 
-		all_entities = []
+		'''all_entities = []
 		all_relations = []
 		for paper_number in range(len(self.entities)):
 			new_paper_entities = []
@@ -236,7 +236,7 @@ class EntityCleaner:
 		for r in sorted(set(all_relations)):
 			print(r)
 
-		exit(1)
+		exit(1)'''
 
 
 

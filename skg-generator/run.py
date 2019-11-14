@@ -6,7 +6,6 @@ from classes.CSORelationshipsBuilder import RelationsBuilder
 from classes.BestLabelFinder import BestLabelFinder
 
 from gensim.models.keyedvectors import KeyedVectors
-
 import sys
 import pandas as pd
 import ast
@@ -219,7 +218,7 @@ class GraphBuilder:
 
 
 if __name__ == '__main__':
-	builder = GraphBuilder('csv_e_r_full_28_09_2019.csv')
+	builder = GraphBuilder('csv_e_r_full.csv')
 	builder.pipeline()
 
 
