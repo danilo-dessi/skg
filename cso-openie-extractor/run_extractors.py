@@ -25,6 +25,7 @@ import os
 import datetime
 import classifier.classifier as CSO
 import gc
+import time
 
 class Analyzer:
 
@@ -180,12 +181,14 @@ if __name__ == '__main__':
 			new_entities_list += [list(set(luanyi_entities + cso_entities))]
 			new_relations_list += [luanyi_relations + other_relations]
 
-			print('\n\n', sentences_list[n_abstract][n_sentence], '\n', list(set(luanyi_entities + cso_entities)), '\n', luanyi_relations + other_relations)
+			#print('\n\n', sentences_list[n_abstract][n_sentence], '\n', list(set(luanyi_entities + cso_entities)), '\n', luanyi_relations + other_relations)
 			
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
-		if len(r_data) % 1000 == 0:
+		if len(r_data) % 2000 == 0:
+			
 			analyzer.restart_nlp()
+			time.sleep(5)
 			gc.collect()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
