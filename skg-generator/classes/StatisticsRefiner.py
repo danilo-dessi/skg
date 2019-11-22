@@ -32,7 +32,7 @@ class StatisticsRefiner:
 		self.validEntities = set()
 		self.blackList = set(['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
 		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'component', 'it', \
-		'activity', 'agent', 'application', 'architecture', 'context', 'keyword', 'set', 'workflow'])
+		'activity', 'agent', 'application', 'architecture', 'context', 'keyword', 'set', 'workflow', 'prototype'])
 
 
 

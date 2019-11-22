@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="long" for="edge" id="d4"/>
+<key attr.name="source" attr.type="string" for="edge" id="d3"/>
+<key attr.name="support" attr.type="long" for="edge" id="d2"/>
+<key attr.name="label" attr.type="string" for="edge" id="d1"/>
+<key attr.name="label" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="62888">
+  <data key="d0">information asset knowledgebase system</data>
+</node>
+<node id="5753">
+  <data key="d0">ontology language standard</data>
+</node>
+<node id="7">
+  <data key="d0">resource description framework (rdf)</data>
+</node>
+<node id="171">
+  <data key="d0">ontology editor</data>
+</node>
+<node id="47771">
+  <data key="d0">ontologies editor tool</data>
+</node>
+<node id="950">
+  <data key="d0">semantic web platform</data>
+</node>
+<node id="15779">
+  <data key="d0">constructing ontology</data>
+</node>
+<node id="323">
+  <data key="d0">ontology development</data>
+</node>
+<node id="5532">
+  <data key="d0">flexible knowledge model</data>
+</node>
+<node id="6299">
+  <data key="d0">web servers</data>
+</node>
+<node id="108">
+  <data key="d0">ontology model</data>
+</node>
+<node id="23572">
+  <data key="d0">modeling and reasoning</data>
+</node>
+<node id="14767">
+  <data key="d0">ontology editing tool</data>
+</node>
+<node id="5968">
+  <data key="d0">ontology building methodology</data>
+</node>
+<node id="82">
+  <data key="d0">tool</data>
+</node>
+<node id="5531">
+  <data key="d0">extensible plug in architecture</data>
+</node>
+<node id="60101">
+  <data key="d0">application development environment</data>
+</node>
+<node id="12704">
+  <data key="d0">proof of concept</data>
+</node>
+<node id="31535">
+  <data key="d0">open source ontology editor</data>
+</node>
+<node id="20225">
+  <data key="d0">ontological engineering tool</data>
+</node>
+<node id="22540">
+  <data key="d0">ontological modelling environment</data>
+</node>
+<node id="45648">
+  <data key="d0">semantic portal architecture</data>
+</node>
+<node id="27">
+  <data key="d0">web ontology language</data>
+</node>
+<node id="581">
+  <data key="d0">semantic web tool</data>
+</node>
+<node id="25605">
+  <data key="d0">fuzzyowl2 plug in</data>
+</node>
+<node id="48761">
+  <data key="d0">open source ontology editing tool</data>
+</node>
+<node id="6547">
+  <data key="d0">menu recommendation ontology</data>
+</node>
+<node id="152">
+  <data key="d0">owl ontology</data>
+</node>
+<node id="431">
+  <data key="d0">ontological model</data>
+</node>
+<node id="33597">
+  <data key="d0">ontology related technology</data>
+</node>
+<node id="211">
+  <data key="d0">protege</data>
+</node>
+<node id="1">
+  <data key="d0">ontologies</data>
+</node>
+<node id="40539">
+  <data key="d0">ontology editing</data>
+</node>
+<node id="8278">
+  <data key="d0">ontology tool</data>
+</node>
+<node id="86">
+  <data key="d0">software tool</data>
+</node>
+<node id="64">
+  <data key="d0">semantic search engines</data>
+</node>
+<node id="389">
+  <data key="d0">e learning system</data>
+</node>
+<node id="18217">
+  <data key="d0">knowledge modeling tool</data>
+</node>
+<node id="92">
+  <data key="d0">reasoning algorithms</data>
+</node>
+<node id="13">
+  <data key="d0">ontology construction</data>
+</node>
+<node id="31034">
+  <data key="d0">ontology development tool</data>
+</node>
+<node id="58">
+  <data key="d0">prototype</data>
+</node>
+<node id="4660">
+  <data key="d0">killer app</data>
+</node>
+<node id="16226">
+  <data key="d0">open source ontology design software</data>
+</node>
+<node id="26">
+  <data key="d0">domain-specific ontologies</data>
+</node>
+<edge source="5753" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="5753" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="7" target="1">
+  <data key="d1">defines</data>
+  <data key="d2">3</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="7" target="92">
+  <data key="d1">provides</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="7" target="581">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="171" target="86">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="950" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="323" target="13">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="323" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">4</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="323" target="171">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="323" target="1">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="108" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="108" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">4</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="108" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="108" target="26">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="108" target="58">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="108" target="171">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="108" target="1">
+  <data key="d1">uses</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="23572" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="14767" target="82">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="82" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">4</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="12704" target="82">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="27" target="1">
+  <data key="d1">defines</data>
+  <data key="d2">17</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="27" target="92">
+  <data key="d1">supports</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="27" target="26">
+  <data key="d1">includes</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="27" target="13">
+  <data key="d1">includes</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="27" target="5753">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="27" target="152">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="27" target="581">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="581" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="6547" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="6547" target="16226">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="152" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="152" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="431" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="431" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="431" target="13">
+  <data key="d1">supports</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="431" target="1">
+  <data key="d1">supports</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="211" target="1">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="108">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="26">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="5531">
+  <data key="d1">provides</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="5532">
+  <data key="d1">provides</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="6547">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="58">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="389">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="7">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="27">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="211" target="12704">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="14767">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="16226">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="82">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">5</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="18217">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="20225">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="8278">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="86">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="22540">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="23572">
+  <data key="d1">includes</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="25605">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="581">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="31535">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="33597">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="171">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="4660">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="5753">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="45648">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="47771">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="48761">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="6299">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="31034">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="5968">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="950">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="60101">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="62888">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="211" target="92">
+  <data key="d1">produces</data>
+  <data key="d2">7</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="13">
+  <data key="d1">produces</data>
+  <data key="d2">6</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="64">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="323">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="431">
+  <data key="d1">produces</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="40539">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="152">
+  <data key="d1">produces</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="211" target="15779">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="1" target="13">
+  <data key="d1">uses</data>
+  <data key="d2">7</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">33</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="64">
+  <data key="d1">executes</data>
+  <data key="d2">2</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="1" target="92">
+  <data key="d1">supports</data>
+  <data key="d2">7</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="1" target="26">
+  <data key="d1">converts-to</data>
+  <data key="d2">2</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="1" target="171">
+  <data key="d1">uses</data>
+  <data key="d2">3</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">6</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="108">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="1" target="5753">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="1" target="323">
+  <data key="d1">proposes</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="1" target="86">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="82">
+  <data key="d1">uses</data>
+  <data key="d2">6</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="8278">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="58">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="1" target="152">
+  <data key="d1">uses</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="1" target="431">
+  <data key="d1">uses</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="1" target="581">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="40539" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="8278" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="86" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">21</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="64" target="58">
+  <data key="d1">uses</data>
+  <data key="d2">3</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="26">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="152">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="431">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="64" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">4</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="64" target="108">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="389" target="26">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="389" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">3</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="389" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="389" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="18217" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="92" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="92" target="152">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="92" target="86">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="92" target="581">
+  <data key="d1">skos:broader/is/hyponym-of</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="92" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="92" target="26">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="92" target="1">
+  <data key="d1">uses</data>
+  <data key="d4">100</data>
+</edge>
+<edge source="13" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="13" target="86">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="13" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="13" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">3</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="13" target="82">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="31034" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="58" target="1">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="58" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="58" target="171">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="58" target="82">
+  <data key="d1">uses</data>
+  <data key="d2">1</data>
+  <data key="d3">heuristic</data>
+</edge>
+<edge source="26" target="27">
+  <data key="d1">uses</data>
+  <data key="d2">5</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="26" target="1">
+  <data key="d1">provides</data>
+  <data key="d2">1</data>
+  <data key="d3">openie</data>
+</edge>
+<edge source="26" target="13">
+  <data key="d1">uses</data>
+  <data key="d2">3</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="26" target="58">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="26" target="211">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">luanyi</data>
+</edge>
+<edge source="26" target="7">
+  <data key="d1">uses</data>
+  <data key="d2">2</data>
+  <data key="d3">heuristic</data>
+</edge>
+</graph></graphml>

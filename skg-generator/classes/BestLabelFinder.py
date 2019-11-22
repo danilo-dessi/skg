@@ -117,6 +117,10 @@ class BestLabelFinder:
 			so2verbs = {}
 			so2luanyi = {}
 			so2openie_verbs = {}
+
+			so2verbs_papers = {}
+			so2luanyi_papers = {}
+			so2openie_verbs_papers = {}
 			
 			so2texts_openie = {}
 			so2texts_luanyi = {}
@@ -160,6 +164,7 @@ class BestLabelFinder:
 						if p.startswith('openie-'):
 							if (s,o) not in so2openie_verbs:
 								so2openie_verbs[(s,o)] = []
+								so2openie_verbs_papers[(s,o)] = []
 							so2openie_verbs[(s,o)] += [p[7:]]
 
 							if (s,o) not in so2texts_openie:
@@ -167,9 +172,15 @@ class BestLabelFinder:
 							else:
 								so2texts_openie[(s,o)] += [abstract_string]
 
+							#support
+							if paper_number not in so2openie_verbs_papers[(s,o)]:
+								so2openie_verbs_papers[(s,o)] += [paper_number]
+
+
 						elif p.startswith('luanyi-'):
 							if (s,o) not in so2luanyi:
 								so2luanyi[(s,o)] = []
+								so2luanyi_papers[(s,o)] = []
 							so2luanyi[(s,o)] += [p[7:]]
 
 							if (s,o) not in so2texts_luanyi:
@@ -177,9 +188,14 @@ class BestLabelFinder:
 							else:
 								so2texts_luanyi[(s,o)] += [abstract_string]
 
+							#support
+							if paper_number not in so2luanyi_papers[(s,o)]:
+								so2luanyi_papers[(s,o)] += [paper_number]
+
 						elif p.startswith('verb_window-'):
 							if (s,o) not in so2verbs:
 								so2verbs[(s,o)] = []
+								so2verbs_papers[(s,o)] = []
 							so2verbs[(s,o)] += [p[12:]]
 
 							if (s,o) not in so2texts_verbs:
@@ -187,11 +203,15 @@ class BestLabelFinder:
 							else:
 								so2texts_verbs[(s,o)] += [abstract_string]
 
+							#support
+							if paper_number not in so2verbs_papers:
+								so2verbs_papers[(s,o)] += [paper_number]
+
 			for (s,o) in so2verbs:
 				verbs = so2verbs[(s,o)]
 				labels = self.flatWordsOnAverage(verbs, model)			
 				best_label = labels[0]
-				support = len(verbs)
+				support = len(so2verbs_papers[(s,o)])
 				abstracts = so2texts_verbs[(s,o)]
 				triples += [(s, best_label, o, 'heuristic', support, abstracts)]
 
@@ -200,13 +220,13 @@ class BestLabelFinder:
 				verbs = so2openie_verbs[(s,o)]
 				labels = self.flatWordsOnAverage(verbs, model)			
 				best_label = labels[0]
-				support = len(verbs)
+				support = len(so2openie_verbs[(s,o)] )
 				abstracts = so2texts_openie[(s,o)]
 				triples += [(s, best_label, o, 'openie', support, abstracts)]
 
 			for (s,o) in so2luanyi:
 				labels = so2luanyi[(s,o)]
-				support = len(labels)
+				support = len(so2luanyi_papers[(s,o)])
 				counter = collections.Counter(labels)
 				frequencies = sorted(counter.items(), key=operator.itemgetter(1), reverse=True)
 				most_frequent_label = frequencies[0][0]

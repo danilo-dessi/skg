@@ -50,7 +50,9 @@ class Analyzer:
 
 	def restart_nlp(self):
 		self.nlp.close()
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='4g')
+		time.sleep(60)
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		time.sleep(60)
 		self.openie = OPENIE_wrapper(self.nlp)
 		self.verb_finder = VerbWindowFinder(self.nlp)
 
@@ -150,7 +152,7 @@ if __name__ == '__main__':
 	
 	for chunk in keys_chunks:
 		chunk_papers= { key: papers[key] for key in chunk }
-		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 3, modules = "both", enhancement = "first")
+		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 4, modules = "both", enhancement = "first")
 		#print(type(cso_result), type(chunk_cso_result))
 		merge_dict(cso_result, chunk_cso_result)
 
@@ -185,10 +187,9 @@ if __name__ == '__main__':
 			
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
-		if len(r_data) % 2000 == 0:
+		if len(r_data) % 5000 == 0:
 			
 			analyzer.restart_nlp()
-			time.sleep(5)
 			gc.collect()
 			df = pd.DataFrame(r_data)
 			df.to_csv(file_out)
