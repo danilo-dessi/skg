@@ -157,7 +157,10 @@ class EntityCleaner:
 		while(True):
 			if first_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`'() ") + ['\\']:
 				improved_entity_string = improved_entity_string[1:]
-				first_character = improved_entity_string[0]
+				if len(improved_entity_string) >= 1:
+					first_character = improved_entity_string[0]
+				else:
+					break
 				#print(e, '->', improved_entity_string)
 			else:
 				break
@@ -165,7 +168,10 @@ class EntityCleaner:
 		while(True):
 			if last_character in list("!#$%*+,./:;<=>?@%=[]^{|}~/{}`'() ") + ['\\']:
 				improved_entity_string = improved_entity_string[:-1]
-				last_character = improved_entity_string[-1]
+				if len(improved_entity_string) >= 1:
+					last_character = improved_entity_string[-1]
+				else:
+					break
 				#print(e, '->', improved_entity_string)
 			else:
 				break

@@ -6,6 +6,8 @@ import re
 import string
 import regex
 import nltk
+import pickle
+import os
 
 class StatisticsRefiner:
 	def __init__(self, entities, inputEntities, inputRelations, thCS, thGD):
@@ -18,7 +20,7 @@ class StatisticsRefiner:
 
 		self.csoResourcePath = 'resources/CSO.3.1.csv'
 		self.keywordsPath  = 'resources/semantic_web_keywords.txt'
-		self.semanticWebAbstractsPath = 'resources/semantic_web_28k_abstracts.txt'
+		self.targetDomainAbstracts = 'resources/all_abstracts.txt'
 		self.computerScienceAbstractsPath = 'resources/computer_science_28k_abstracts.txt'
 		self.generalDomainAbstractsPath = 'resources/general_domain_28k_abstracts.txt'
 		
@@ -32,7 +34,7 @@ class StatisticsRefiner:
 		self.validEntities = set()
 		self.blackList = set(['method', 'approach', 'tool', 'schema', 'model', 'framework', 'technology', 'term', \
 		'document', 'algorithm', 'search', 'technique', 'system', 'paper', 'problem', 'software', 'component', 'it', \
-		'activity', 'agent', 'application', 'architecture', 'context', 'keyword', 'set', 'workflow', 'prototype'])
+		'activity', 'agent', 'application', 'architecture', 'context', 'keyword', 'set', 'workflow', 'prototype', 'action'])
 
 
 
@@ -86,7 +88,7 @@ class StatisticsRefiner:
 
 	def loadAbstracts(self):
 		
-		with open(self.semanticWebAbstractsPath, 'r', encoding='utf-8') as f:
+		with open(self.targetDomainAbstracts, 'r', encoding='utf-8') as f:
 			self.semanticWebAbstracts = f.read().lower()
 
 		with open(self.computerScienceAbstractsPath, 'r', encoding='utf-8') as f:
@@ -103,59 +105,56 @@ class StatisticsRefiner:
 		alreadySeenEntities = set()
 		data = []
 
-		tokens = nltk.word_tokenize(self.semanticWebAbstracts)
-		tot_target_domain = len(tokens)
+		if os.path.isfile('resources/statistics.pickle'):
+			 with open('resources/statistics.pickle', 'rb') as handle:
+				self.statistics = pickle.load(handle)
 
-		tokens = nltk.word_tokenize(self.computerScienceAbstracts)
-		tot_computer_science_domain = len(tokens)
+		else:
+			tokens = nltk.word_tokenize(self.semanticWebAbstracts)
+			tot_target_domain = len(tokens)
 
-		tokens = nltk.word_tokenize(self.generalDomainAbstracts)
-		tot_general_domain = len(tokens)
+			tokens = nltk.word_tokenize(self.computerScienceAbstracts)
+			tot_computer_science_domain = len(tokens)
 
-		for e in self.entities:
-			if e not in alreadySeenEntities and e not in self.validEntities:
-				alreadySeenEntities.add(e)
-				c = str(self.semanticWebAbstracts).count( str(e.strip().lower()) )
-				semanticWebCount += [c / tot_target_domain]
+			tokens = nltk.word_tokenize(self.generalDomainAbstracts)
+			tot_general_domain = len(tokens)
 
-				c = str(self.computerScienceAbstracts).count(str(e.strip().lower()) )
-				computerScienceCount += [c / tot_computer_science_domain]
+			c = 1
+			for e in self.entities:
+				print(c, '/', len(self.entities))
+				c += 1
+				if e not in alreadySeenEntities and e not in self.validEntities:
+					alreadySeenEntities.add(e)
+					c = str(self.semanticWebAbstracts).count( str(e.strip().lower()) )
+					semanticWebCount += [c / tot_target_domain]
 
-				c = str(self.generalDomainAbstracts).count( str(e.strip().lower()) )
-				generalDomainCount += [c / tot_target_domain]
+					c = str(self.computerScienceAbstracts).count(str(e.strip().lower()) )
+					computerScienceCount += [c / tot_computer_science_domain]
 
-				self.statistics[e] = {}
+					c = str(self.generalDomainAbstracts).count( str(e.strip().lower()) )
+					generalDomainCount += [c / tot_target_domain]
 
-				'''if(computerScienceCount[-1] > 0) and generalDomainCount[-1] > 0:
-					print('\nEntity:', e)
-					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
-					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
-					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)
-					print('SW-CS c:', (semanticWebCount[-1]/tot_target_domain) / (computerScienceCount[-1]/tot_computer_science_domain))
-					print('SW-GE c:', (semanticWebCount[-1]/tot_target_domain) / (generalDomainCount[-1]/tot_computer_science_domain))
-				else:
-					print('\nEntity:', e)
-					print('SW c:', semanticWebCount[-1], semanticWebCount[-1]/tot_target_domain)
-					print('CS c:', computerScienceCount[-1], computerScienceCount[-1]/tot_computer_science_domain)
-					print('GE c:', generalDomainCount[-1], generalDomainCount[-1]/tot_computer_science_domain)'''
-				
+					self.statistics[e] = {}
 
-				if computerScienceCount[-1] > 0:
-					self.statistics[e]['sw&cs'] = semanticWebCount[-1] / computerScienceCount[-1]
-				else: 
-					self.statistics[e]['sw&cs'] = 10
+					if computerScienceCount[-1] > 0:
+						self.statistics[e]['sw&cs'] = semanticWebCount[-1] / computerScienceCount[-1]
+					else: 
+						self.statistics[e]['sw&cs'] = 10
 
-				if generalDomainCount[-1] > 0:
-					self.statistics[e]['sw&gd'] = semanticWebCount[-1] / generalDomainCount[-1]
-				else:
-					self.statistics[e]['sw&gd'] = 20
-	
-				data += [{ 'entity' : e, 'sw-count': semanticWebCount[-1], 'cs-count': computerScienceCount[-1], 'gd-count':generalDomainCount[-1], 'sw&cs': self.statistics[e]['sw&cs'], 'sw&gd': self.statistics[e]['sw&gd'] }]
+					if generalDomainCount[-1] > 0:
+						self.statistics[e]['sw&gd'] = semanticWebCount[-1] / generalDomainCount[-1]
+					else:
+						self.statistics[e]['sw&gd'] = 20
+		
+					data += [{ 'entity' : e, 'sw-count': semanticWebCount[-1], 'cs-count': computerScienceCount[-1], 'gd-count':generalDomainCount[-1], 'sw&cs': self.statistics[e]['sw&cs'], 'sw&gd': self.statistics[e]['sw&gd'] }]
 
-		column_order = ['entity', 'sw-count', 'cs-count', 'gd-count', 'sw&cs', 'sw&gd' ]
-		df = pd.DataFrame(data, columns=column_order)
-		df = df[column_order]
-		df.to_csv('out/entities-statistics.csv')
+			with open('resources/statistics.pickle', 'wb') as handle:
+				pickle.dump(self.statistics, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+			#column_order = ['entity', 'sw-count', 'cs-count', 'gd-count', 'sw&cs', 'sw&gd' ]
+			#df = pd.DataFrame(data, columns=column_order)
+			#df = df[column_order]
+			#df.to_csv('out/entities-statistics.csv')
 
 	def statsValidation(self):
 		validEntities = []

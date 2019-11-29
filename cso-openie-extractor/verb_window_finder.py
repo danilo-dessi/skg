@@ -24,6 +24,13 @@ class VerbWindowFinder:
 		self.lemmatizer = spacy.lemmatizer.Lemmatizer(LEMMA_INDEX, LEMMA_EXC, LEMMA_RULES) 
 		self.corenlp = nlp
 
+
+	def restart_nlp(self):
+		self.nlp.close()
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='6g')
+		self.openie = OPENIE_wrapper(self.nlp)
+		self.verb_finder = VerbWindowFinder(self.nlp)
+
 		
 	def findSubList(self, sl,l):
 	    results = []
@@ -79,14 +86,23 @@ class VerbWindowFinder:
 
 
 	def runCoreNLP(self, text):
-		corenlp_out = None
+		corenlp_out = []
 		props = {'annotators': 'tokenize,pos,lemma,depparse', 'pipelineLanguage': 'en', 'outputFormat': 'json'}
-		try:
-			corenlp_out = json.loads(self.corenlp.annotate(text, properties=props))
-		except Exception as e:
-			print('Stanford Core NLP is not responding. Please try later')
-			print(e)
-			exit(1)
+		
+		# number of automatic restart of Stanford Core NLP in case of crashes (3 tentatives)
+		try_restart_exception_raised = 3
+		while(try_restart_exception_raised > 0):
+			
+			try:
+				corenlp_out = json.loads(self.corenlp.annotate(text, properties=props))
+				try_restart_exception_raised = -1
+			except Exception as e:
+				try_restart_exception_raised -= 1
+				self.restart_nlp()
+
+		if try_restart_exception_raised == 0:
+			print('Error on the text:', text)
+
 		return corenlp_out
 
 
@@ -116,6 +132,11 @@ class VerbWindowFinder:
 		sentence_text = text
 		sentence_entities = entities
 		coreNLPparsing = self.runCoreNLP(sentence_text)
+
+		#error in parsing this string
+		if coreNLPparsing == []:
+			return []
+
 		textTokens = self.getCoreNLPTokens(coreNLPparsing)
 		textTags = self.getCoreNLPTags(coreNLPparsing)
 

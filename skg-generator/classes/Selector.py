@@ -92,13 +92,13 @@ class Selector:
 
 	def build_embeddings(self, keys, emb_size):
 		text = None
-		with open('resources/semantic_web_28k_abstracts.txt', 'r') as f:
+		with open('resources/all_abstracts.txt', 'r') as f:
 			text = f.read().lower()
-			text = clean_for_embeddings(text)
+			text = self.clean_for_embeddings(text)
 		keys = sorted(set(keys), key=len, reverse=True) 
 
 		for e in keys:
-			e_tmp = clean_for_embeddings(e)
+			e_tmp = self.clean_for_embeddings(e)
 			if e_tmp in text:
 				text = text.replace(e_tmp, e_tmp.replace(' ', '_'))
 

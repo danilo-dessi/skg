@@ -23,20 +23,34 @@ class OPENIE_wrapper:
 			token_index2lemma[token['index']] = token['lemma']
 		return token_index2lemma
 
+	def restart_nlp(self):
+		self.nlp.close()
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='6g')
+		self.openie = OPENIE_wrapper(self.nlp)
+		self.verb_finder = VerbWindowFinder(self.nlp)
+
 
 
 	def run(self, text, entities):
 		self.relations = []
 		self.corenlp_data = {}
 
-		props = {'annotators': 'openie,coref', 'pipelineLanguage': 'en', 'outputFormat': 'json'}
-		try:
-			corenlp_out = json.loads(self.nlp.annotate(text, properties=props))
-		except:
-			self.nlp.close()
-			print('Stanford Core NLP is not responding. Please try later')
-			exit(1)
-		
+		try_restart_exception_raised = 3
+		while(try_restart_exception_raised > 0):
+
+			props = {'annotators': 'openie,coref', 'pipelineLanguage': 'en', 'outputFormat': 'json'}
+			try:
+				corenlp_out = json.loads(self.nlp.annotate(text, properties=props))
+				try_restart_exception_raised = -1
+			except:
+				try_restart_exception_raised -= 1
+				self.restart_nlp()
+
+
+		if try_restart_exception_raised == 0:
+			print('Error on the text:', text)
+			return []
+			
 		corefs_map = {}
 		for coref_number in corenlp_out['corefs']:
 			representative_coref = corenlp_out['corefs'][coref_number][0]
@@ -88,7 +102,7 @@ class OPENIE_wrapper:
 							self.relations += [(subject, relation, object)]
 							#print('Final:', (subject, relation, object))	
 
-		return self.relations
+			return self.relations
 
 
 

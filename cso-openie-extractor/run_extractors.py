@@ -26,6 +26,15 @@ import datetime
 import classifier.classifier as CSO
 import gc
 import time
+import pickle
+
+def save_obj(obj, name ):
+    with open(name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
+def load_obj(name ):
+    with open(name + '.pkl', 'rb') as f:
+        return pickle.load(f)
 
 class Analyzer:
 
@@ -34,7 +43,7 @@ class Analyzer:
 		self.openie_relations = []
 		self.verb_window_relations = []
 		self.stanford_path = r'../stanford-corenlp-full-2018-10-05'  
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='6g')
 		print(str(datetime.datetime.now()) + ' Openie connection up')
 
 		self.openie = OPENIE_wrapper(self.nlp)
@@ -51,7 +60,7 @@ class Analyzer:
 	def restart_nlp(self):
 		self.nlp.close()
 		time.sleep(60)
-		self.nlp = StanfordCoreNLP(self.stanford_path, memory='8g')
+		self.nlp = StanfordCoreNLP(self.stanford_path, memory='6g')
 		time.sleep(60)
 		self.openie = OPENIE_wrapper(self.nlp)
 		self.verb_finder = VerbWindowFinder(self.nlp)
@@ -116,8 +125,6 @@ def merge_dict(dict1, dict2):
 
 if __name__ == '__main__':
 	
-	
-
 	file_out = 'csv_e_r_full.csv'
 	r_data = []
 
@@ -130,37 +137,48 @@ if __name__ == '__main__':
 	sentences_entities_list = [ast.literal_eval(x) for x in data['entities'].tolist()]
 	sentences_relations_list = [ast.literal_eval(x) for x in data['relations'].tolist()]
 
-
-	#Extraction with CSO in batch mode
-	papers = {}
-	for n_abstract in range(len(sentences_list)):
-		sentences = sentences_list[n_abstract]
-		for n_sentence in range(len(sentences)):
-			sentence = sentences_list[n_abstract][n_sentence]
-			paper = {
-				"title": "",
-				"abstract": sentence,
-				"keywords": ""
-			}
-			papers[str(n_abstract) + '.' + str(n_sentence)] = paper
-
 	cso_result = {}
-	papers_keys = list(papers.keys())
-	chunks_size = 2500
-	keys_chunks = [papers_keys[x:x+chunks_size] for x in range(0, len(papers_keys), chunks_size)]
 
+	if not os.path.exists('cso_result.pkl'):
+		#Extraction with CSO in batch mode
+		papers = {}
+		for n_abstract in range(len(sentences_list)):
+			sentences = sentences_list[n_abstract]
+			for n_sentence in range(len(sentences)):
+				sentence = sentences_list[n_abstract][n_sentence]
+				paper = {
+					"title": "",
+					"abstract": sentence,
+					"keywords": ""
+				}
+				papers[str(n_abstract) + '.' + str(n_sentence)] = paper
+
+		
+		papers_keys = list(papers.keys())
+		chunks_size = 2500
+		keys_chunks = [papers_keys[x:x+chunks_size] for x in range(0, len(papers_keys), chunks_size)]
+
+		
+		for chunk in keys_chunks:
+			chunk_papers= { key: papers[key] for key in chunk }
+			chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 4, modules = "both", enhancement = "first")
+			#print(type(cso_result), type(chunk_cso_result))
+			merge_dict(cso_result, chunk_cso_result)
+
+		chunk_cso_result = None
+		keys_chunks = None
+		gc.collect()
+		save_obj(cso_result, 'cso_result')
+	else:
+		cso_result = load_obj('cso_result')
 	
-	for chunk in keys_chunks:
-		chunk_papers= { key: papers[key] for key in chunk }
-		chunk_cso_result = CSO.run_cso_classifier_batch_mode(chunk_papers, workers = 4, modules = "both", enhancement = "first")
-		#print(type(cso_result), type(chunk_cso_result))
-		merge_dict(cso_result, chunk_cso_result)
 
-	chunk_cso_result = None
-	keys_chunks = None
-	gc.collect()
 	analyzer = Analyzer()
 	
+
+	df_saved = None
+	if os.path.exists(file_out):
+		df_saved = pd.read_csv(file_out)
 
 	for n_abstract in range(len(sentences_list)):
 		print('\n# Analyzing abstract', n_abstract, '/', len(sentences_list))
@@ -187,14 +205,17 @@ if __name__ == '__main__':
 			
 		r_data += [{'sentences':sentences, 'entities_column':new_entities_list, 'relations_column':new_relations_list}]
 
-		if len(r_data) % 5000 == 0:
-			
-			analyzer.restart_nlp()
-			gc.collect()
+		# every 100 abstracts it saves the extraction until that moment
+		if len(r_data) % 100 == 0:
+			#analyzer.restart_nlp()
+			#gc.collect()
 			df = pd.DataFrame(r_data)
+			df = pd.concat([df_saved, df])
 			df.to_csv(file_out)
 
 	df = pd.DataFrame(r_data)
+	df = pd.concat([df_saved, df])
+	df.to_csv(file_out)
 	df.to_csv(file_out)
 	analyzer.close()
 
