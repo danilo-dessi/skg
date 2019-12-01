@@ -4,7 +4,7 @@
 
 This repository contains the source code developed to build a hybrid architecture generates a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
 
-This work has described in:
+This work has been described in:
 ```
 Generating Knowledge Graphs by Employing Natural Language Processing and Machine Learning Techniques within the Scholarly Domain. (2019). Authored by Danilo Dessi', Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta.
 ```
@@ -12,7 +12,7 @@ Generating Knowledge Graphs by Employing Natural Language Processing and Machine
 Further details will be added in case of acceptance.
 
 
-![Scientific Knowledge Graph Generator Schema](https://github.com/danilo-dessi/skg/blob/master/skg_schema.pdf)
+![Scientific Knowledge Graph Generator Schema](https://github.com/danilo-dessi/skg/blob/master/skg_schema.png)
 **Figure 1**: Scientific Knowledge Graph Generator Schema
 
 ## Repository Description
