@@ -107,7 +107,7 @@ class StatisticsRefiner:
 
 		if os.path.isfile('resources/statistics.pickle'):
 			 with open('resources/statistics.pickle', 'rb') as handle:
-				self.statistics = pickle.load(handle)
+			 	self.statistics = pickle.load(handle)
 
 		else:
 			tokens = nltk.word_tokenize(self.semanticWebAbstracts)
@@ -119,10 +119,10 @@ class StatisticsRefiner:
 			tokens = nltk.word_tokenize(self.generalDomainAbstracts)
 			tot_general_domain = len(tokens)
 
-			c = 1
+			counter = 1
 			for e in self.entities:
-				print(c, '/', len(self.entities))
-				c += 1
+				print(counter, '/', len(self.entities))
+				counter += 1
 				if e not in alreadySeenEntities and e not in self.validEntities:
 					alreadySeenEntities.add(e)
 					c = str(self.semanticWebAbstracts).count( str(e.strip().lower()) )

@@ -2,12 +2,14 @@
 
 
 
-This repository contains the source code developed for wrapping tools and perform our pipeline that builds a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
+This repository contains the source code developed to build a hybrid architecture generates a Scientific Knowledge Graph about the Semantic Web domain. The results of this research work have been published in: 
 
-If you use our work please cite us with:
+This work has described in:
 ```
-A Natural Language Pipeline Powered by Machine Learning for Modelling Scientific Knowledge into Knowledge Graphs
+Generating Knowledge Graphs by Employing Natural Language Processing and Machine Learning Techniques within the Scholarly Domain. (2019). Authored by Danilo Dessi', Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta.
 ```
+
+Further details will be added in case of acceptance.
 
 
 ![Scientific Knowledge Graph Generator Schema](https://github.com/danilo-dessi/skg/blob/master/skg_schema.pdf)
@@ -21,7 +23,7 @@ A Natural Language Pipeline Powered by Machine Learning for Modelling Scientific
 
 - **cso-openie-extractor/** contains the scripts that have been used to enrich the Luan Yi et al. result wirh CSO topics and Stanford Core NLP relations (i.e., OpenIE and verbs detected by the PoS tagger).
 
-- **skg-generator/** contains the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our scientific knowledge graph.
+- **skg-generator/** contains the scripts for performing all operations to clean entities and relations and making triples. Its final step is the generation of our scientific knowledge graph triples.
 
 - **evaluation/** contains the scripts we used to generate the sample of triples about the semantic web and evaluate our approach.
 
@@ -29,7 +31,7 @@ Some files have been removed form the repository for github limitations on big f
 
 
 ## Usage
-Please follow this guide to run the code and reproduce our results. 
+Please follow this guide to run the code and reproduce our results. Please contact us because we need to provide extra files that cannot be pushed into the github reporsitory for files limit of 100 MB.
 
 ### Environments
 Our project uses both Python 2.7 and Python 3.6 (ensure you have Python 3.6 or above installed.). Python2.7 is used to run the Luan Yi et al. tool.
@@ -111,18 +113,18 @@ python3 run_extractors.py
 This code generates heristic based relations through the window of verbs, and validates entities based on CSO topics, Semantic Web Keywords and statistics. Finally it maps all relations following the taxonomy "SKG_predicates" we defined. 
 
 1. Go to skg-generator
-2. Download and unzip this [archive]() in this directory.
+2. Download and unzip the archive we provided in this directory.
 3. Copy the *csv_e_r_full.csv* in this directory
 4. Run
 ```
 python3 run.py
 ```
-5. At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples generated with our method. The file *kg.graphml* is a file that can be read by common graph visualizer like [cytoscape](https://cytoscape.org).
+5. At the end the files *selected_triples.csv* and *kg.graphml* will be generated.  The file *selected_triples.csv* contains all triples with other information generated with our method. The file *triples.csv* contains all triples generated without details. The script *to_rdf.py* can be used to generate the rdf and nt files.
 
 
 ### Evaluation
 
-The directory evalution contains the scripts we used for performing our evaluation.
+The directory evalution contains the scripts we used for performing our evaluation and the manually annotated gold standard.
 
 ### Other info
 
@@ -131,6 +133,8 @@ All the code has been developed on a server which mounts Ubuntu 17.10. Physical 
 - 1 TB HDD
 - TITAN X GPU
 - Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz
+
+The execution of all modules required about 2 days.
 
 
 

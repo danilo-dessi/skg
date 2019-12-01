@@ -37,7 +37,7 @@ def precision_recall(triples, gs_triples):
 
 
 if __name__ == "__main__":
-	file = 'gs_sw_triples_01_10.csv'
+	file = 'gs_annotations.csv'
 	triples2ann = load_triples_ann(file, 'Majority-vote')
 	triples2source = load_triples_ann(file, 'source')
 	triples2support = load_triples_ann(file, 'support')
@@ -87,20 +87,19 @@ if __name__ == "__main__":
 	print('OpenIE \t\t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(heuristic_triples_high, triples2ann)
-	print('Heuristic High \t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Tpos \t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(heuristic_triples, triples2ann)
-	print('Heuristic High + classifier - \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Tpos + Const. Triples - \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(set(luanyi_triples + openie_triples), triples2ann)
 	print('Luanyi + OpenIE  \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(set(luanyi_triples + heuristic_triples), triples2ann)
-	print('Luanyi + Heuristic  \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
+	print('Luanyi + Tpos + Const. Triples   \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(set(openie_triples + heuristic_triples), triples2ann)
-	print('OpenIE + Heuristic  \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
-
+	print('OpenIE + Tpos + Const. Triples   \t- \tPrecision:', p, 'Recall:', r, 'F1:', f)
 
 	p,r,f = precision_recall(allpipeline_triples, triples2ann)
 	print('Union \t\t\t- \tPrecision:', p, 'Recall:', r, 'F1:', f)

@@ -8,6 +8,7 @@ class RelationsBuilder:
 
 	def __init__(self, g):
 		self.g = g
+		self.new_triples = []
 		self.label2node = {}
 		self.node2label = {}
 		self.relations = {}
@@ -83,12 +84,14 @@ class RelationsBuilder:
 			if (neighborNode, upEntityNode) not in self.g.edges():
 				newEdges[(neighborNode, upEntityNode)] = self.g.edges[edge]['label']
 				print('neighbor -> supertopic',(self.node2label[neighborNode], self.g.edges[edge]['label'], upEntity))
+				self.new_triples += [(self.node2label[neighborNode], self.g.edges[edge]['label'], upEntity)]
 			
 		for edge in outEdges:
 			neighborNode = edge[1]
 			if (upEntityNode, neighborNode) not in self.g.edges():
 				newEdges[(upEntityNode, neighborNode)] = self.g.edges[edge]['label']
 				print('supertopic -> neighbor',(upEntity, self.g.edges[edge]['label'], self.node2label[neighborNode]))
+				self.new_triples += [(upEntity, self.g.edges[edge]['label'], self.node2label[neighborNode])]
 			
 		for edge in newEdges:
 			if edge not in self.g.edges():
@@ -108,6 +111,9 @@ class RelationsBuilder:
 	
 	def get_g(self):
 		return self.g
+
+	def get_triples(self):
+		return self.new_triples
 
 
 	def run(self):

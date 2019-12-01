@@ -33,7 +33,7 @@ class GraphBuilder:
 
 
 	def loadData(self):
-		self.inputDataFrame = pd.read_csv(self.inputFile).head(1000)
+		self.inputDataFrame = pd.read_csv(self.inputFile)#.head(1000)
 
 
 	def parse(self):
@@ -127,7 +127,14 @@ class GraphBuilder:
 		data = [{'s' : s, 'p' : p, 'o' : o, 'source' : source, 'support' : support, 'abstracts' : list(set(abstracts))} for (s,p,o, source, support, abstracts) in triples]
 		df = pd.DataFrame(data, columns=columns_order)
 		df = df[columns_order]
-		df.to_csv(destination)
+		df.to_csv(destination, sep=';')
+
+	def save_kg(self, triples, destination):
+		columns_order = ['s', 'p', 'o']
+		data = [{'s' : s, 'p' : p, 'o' : o} for (s,p,o) in triples]
+		df = pd.DataFrame(data, columns=columns_order)
+		df = df[columns_order]
+		df.to_csv(destination, sep=';')
 
 
 
@@ -207,12 +214,20 @@ class GraphBuilder:
 		self.build_g(selected_triples)
 		rb = RelationsBuilder(self.g)
 		rb.run()
-		self.g = rb.get_g()
 
-		self.removeNoConnectedNodes()
-		self.removeSelfEdges()
-		nx.write_graphml(self.g, 'kg.graphml')
-		print('Saved Knowledge Graph with nodes:', len(self.g.nodes()), 'and edges:', len(self.g.edges()))
+		new_triples_from_CSO = rb.get_triples()
+
+
+		# select only subjet, predicte, and object information for the kg
+		kg_triples = [(s,p,o) for (s,p,o,support, source, abstracts) in selected_triples]
+		kg_triples += new_triples_from_CSO
+		kg_triples = set(kg_triples)
+		print('### KG Triples:', len(kg_triples), '###')
+		self.save_kg(kg_triples, 'triples.csv')
+
+		#self.removeNoConnectedNodes()
+		#self.removeSelfEdges()
+		#nx.write_graphml(self.g, 'kg.graphml')
 
 		
 

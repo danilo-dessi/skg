@@ -77,21 +77,8 @@ def retrieve_old_annotations(filename, column):
 
 def save(triple2source, triple2support, pipeline, filename):
 
-	Danilo_old_annotations = retrieve_old_annotations('selected_sw_triples_20_09_2019_annotated_danilo_fra.csv', 'Danilo')
-	for (s,p,o) in triple2source:
-		if (s,p,o) not in Danilo_old_annotations:
-			Danilo_old_annotations[(s,p,o)] = ''
-
-	Fra_old_annotations = retrieve_old_annotations('selected_sw_triples_20_09_2019_annotated_danilo_fra.csv', 'FRA')
-	for (s,p,o) in triple2source:
-		if (s,p,o) not in Fra_old_annotations:
-			Fra_old_annotations[(s,p,o)] = ''
-	
-
-	#print('Annotations: ',len(old_annotations), len(triple2source))
-
-	columns_order = ['s', 'p', 'o', 'source', 'support', 'pipeline', 'Danilo', 'FRA']
-	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)], 'Danilo': Danilo_old_annotations[(s,p,o)], 'FRA':Fra_old_annotations[(s,p,o)] } for (s,p,o) in triple2source if s != o]
+	columns_order = ['s', 'p', 'o', 'source', 'support', 'pipeline']
+	data = [{'s' : s, 'p' : p, 'o' : o, 'source' : triple2source[(s,p,o)], 'support' : triple2support[(s,p,o)], 'pipeline' : pipeline[(s,p,o)] } for (s,p,o) in triple2source if s != o]
 	df = pd.DataFrame(data, columns=columns_order)
 	df = df[columns_order]
 	df.to_csv(filename, sep=';')
@@ -124,8 +111,8 @@ if __name__ == "__main__":
 
 
 	th_support = 5
-	triple2source, triple2support = load_triples('selected_triples_01_10.csv')
-	dis_triple2source, dis_triple2support = load_triples('discarded_triples_01_10.csv')
+	triple2source, triple2support = load_triples('selected_triples.csv')
+	dis_triple2source, dis_triple2support = load_triples('discarded_triples.csv')
 
 	print('Number of relations', len(triple2source))
 	print('Number of relations from Luan Yi et al\'s tool', count_source(triple2source, 'luanyi'))
@@ -194,8 +181,8 @@ if __name__ == "__main__":
 	print('Number of relations from our Heuristic with high support', count_source(sw_triples2source_high, 'heuristic'))
 
 
-
-	#save(sw_triple2source, sw_triple2support, pipeline,'gs_sw_triples_to_annotate.csv')
+	# Please removee this comment if you want overwrite the annotations files
+	#save(sw_triple2source, sw_triple2support, pipeline,'gs_annotations.csv')
 	
 
 
