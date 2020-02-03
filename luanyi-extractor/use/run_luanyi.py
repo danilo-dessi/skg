@@ -7,13 +7,26 @@ if not os.path.exists('./csv_e_r'):
 
 
 seed = 'miachiave'
-for file in os.listdir('./data/processed_data/elmo/luanyi_input/'):
+for file in os.listdir('./data/processed_data/json/luanyi_input/'):
 	print(file)
-	#exit(1)
 	
+	fi = open('generate_elmo.py', 'r')
+	generate_elmo_string = fi.read()
+	generate_elmo_string = generate_elmo_string.replace(seed, file.replace('.json',''))
+	fi.close()
+	fo = open('generate_elmo.py', 'w')
+	fo.write(generate_elmo_string)
+	fo.flush()
+	fo.close()
+
+	command = ['python', 'generate_elmo.py']
+	p = subprocess.Popen(command)
+	out, err = p.communicate()
+	p.wait()
+
 	fi = open('experiments.conf', 'r')
 	experiments_string = fi.read()
-	experiments_string = experiments_string.replace(seed, file.replace('.hdf5',''))
+	experiments_string = experiments_string.replace(seed, file.replace('.json',''))
 	fi.close()
 	fo = open('experiments.conf', 'w')
 	fo.write(experiments_string)
@@ -23,7 +36,7 @@ for file in os.listdir('./data/processed_data/elmo/luanyi_input/'):
 
 	fi = open('lsgn_evaluator.py', 'r')
 	lsgn = fi.read()
-	lsgn = lsgn.replace(seed, file.replace('.hdf5',''))
+	lsgn = lsgn.replace(seed, file.replace('.json',''))
 	fi.close()
 	fo = open('lsgn_evaluator.py', 'w')
 	fo.write(lsgn)
@@ -35,9 +48,25 @@ for file in os.listdir('./data/processed_data/elmo/luanyi_input/'):
 	out, err = p.communicate()
 	p.wait()
 
+
+	command = ['rm data/processed_data/elmo/luanyi_input/*']
+	p = subprocess.Popen(command)
+	out, err = p.communicate()
+	p.wait()
+
 	
 	seed = file.replace('.hdf5','')
 	print(seed)
+
+
+fi = open('generate_elmo.py', 'r')
+generate_elmo_string = fi.read()
+generate_elmo_string = generate_elmo_string.replace(seed, 'miachiave')
+fi.close()
+fo = open('generate_elmo.py', 'w')
+fo.write(generate_elmo_string)
+fo.flush()
+fo.close()
 
 fi = open('experiments.conf', 'r')
 experiments_string = fi.read()
