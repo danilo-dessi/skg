@@ -6,10 +6,31 @@ This repository contains the source code developed to build a hybrid architectur
 
 This work has been described in:
 ```
-Generating Knowledge Graphs by Employing Natural Language Processing and Machine Learning Techniques within the Scholarly Domain. (2019). Authored by Danilo Dessi', Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta.
+Dessì, D., Osborne, F., Recupero, D. R., Buscaldi, D., & Motta, E. (2021). Generating knowledge graphs by employing 
+Natural Language Processing and Machine Learning techniques within the scholarly domain. Future Generation Computer Systems, 116, 253-264.
 ```
+ 
+ If you use this work please cite:
+ ```
+ @article{dessi2021generating,
+  title={Generating knowledge graphs by employing Natural Language Processing and Machine Learning techniques within the scholarly domain},
+  author={Dess{\`\i}, Danilo and Osborne, Francesco and Recupero, Diego Reforgiato and Buscaldi, Davide and Motta, Enrico},
+  journal={Future Generation Computer Systems},
+  volume={116},
+  pages={253--264},
+  year={2021},
+  publisher={Elsevier}
+}
 
-Further details will be added in case of acceptance.
+@inproceedings{dessi2020ai,
+  title={Ai-kg: an automatically generated knowledge graph of artificial intelligence},
+  author={Dess{\`\i}, Danilo and Osborne, Francesco and Reforgiato Recupero, Diego and Buscaldi, Davide and Motta, Enrico and Sack, Harald},
+  booktitle={International Semantic Web Conference},
+  pages={127--143},
+  year={2020},
+  organization={Springer}
+}
+ ```
 
 
 ![Scientific Knowledge Graph Generator Schema](https://github.com/danilo-dessi/skg/blob/master/skg_schema.png)
